@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>pbdesk-web</title>
- <link href="pbdesk.io/atom.xml" rel="self"/>
- <link href="pbdesk.io/"/>
- <updated>2015-05-22T13:38:44-04:00</updated>
- <id>pbdesk.io</id>
+ <link href="http://www.pbdesk.io/atom.xml" rel="self"/>
+ <link href="http://www.pbdesk.io/"/>
+ <updated>2015-05-22T16:46:36-04:00</updated>
+ <id>http://www.pbdesk.io</id>
  <author>
    <name>Pinal Bhatt</name>
    <email>self@pbdesk.io</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Welcome to Jekyll!</title>
-   <link href="pbdesk.io/jekyll/welcome-to-jekyll.html"/>
+   <link href="http://www.pbdesk.io/jekyll/welcome-to-jekyll.html"/>
    <updated>2014-03-03T00:00:00-05:00</updated>
-   <id>pbdesk.io/jekyll/welcome-to-jekyll</id>
+   <id>http://www.pbdesk.io/jekyll/welcome-to-jekyll</id>
    <content type="html">&lt;p&gt;You&amp;rsquo;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build
 (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes! To add new posts, simply add
 a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention:
@@ -58,9 +58,9 @@ Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/mo
  
  <entry>
    <title>Introducing Poole</title>
-   <link href="pbdesk.io/jekyll/poole/introducing-poole.html"/>
+   <link href="http://www.pbdesk.io/jekyll/poole/introducing-poole.html"/>
    <updated>2014-03-02T00:00:00-05:00</updated>
-   <id>pbdesk.io/jekyll/poole/introducing-poole</id>
+   <id>http://www.pbdesk.io/jekyll/poole/introducing-poole</id>
    <content type="html">&lt;p&gt;&lt;em&gt;The Strange Case of Dr. Jeykll and Mr. Hyde&lt;/em&gt; tells the story of a lawyer
 investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward
 Hyde. Chief among the novel&amp;rsquo;s supporting cast is a man by the name of Mr. Poole,

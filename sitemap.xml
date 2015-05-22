@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>pbdesk.io/</loc>
-    <lastmod>2015-05-22T13:38:44-04:00</lastmod>
+    <loc>http://www.pbdesk.io/</loc>
+    <lastmod>2015-05-22T16:46:36-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
     <url>
-      <loc>pbdesk.io/jekyll/welcome-to-jekyll.html</loc>
+      <loc>http://www.pbdesk.io/jekyll/welcome-to-jekyll.html</loc>
       
         <lastmod>2014-03-03T00:00:00-05:00</lastmod>
       
@@ -21,7 +21,7 @@
     </url>
   
     <url>
-      <loc>pbdesk.io/jekyll/poole/introducing-poole.html</loc>
+      <loc>http://www.pbdesk.io/jekyll/poole/introducing-poole.html</loc>
       
         <lastmod>2014-03-02T00:00:00-05:00</lastmod>
       
@@ -35,22 +35,9 @@
   
   
   <url>
-    <loc>pbdesk.io/404.html</loc>
+    <loc>http://www.pbdesk.io/404.html</loc>
     
-      <lastmod>2015-05-22T13:38:44-04:00</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
-  </url>
-  
-  <url>
-    <loc>pbdesk.io/about.html</loc>
-    
-      <lastmod>2015-05-22T13:38:44-04:00</lastmod>
+      <lastmod>2015-05-22T16:46:36-04:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -61,22 +48,9 @@
   </url>
   
   <url>
-    <loc>pbdesk.io/atom.xml</loc>
+    <loc>http://www.pbdesk.io/about.html</loc>
     
-      <lastmod>2015-05-22T13:38:44-04:00</lastmod>
-    
-    
-      <changefreq>monthly</changefreq>
-    
-    
-      <priority>0.3</priority>
-    
-  </url>
-  
-  <url>
-    <loc>pbdesk.io/index.html</loc>
-    
-      <lastmod>2015-05-22T13:38:44-04:00</lastmod>
+      <lastmod>2015-05-22T16:46:36-04:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -87,9 +61,204 @@
   </url>
   
   <url>
-    <loc>pbdesk.io/sitemap.xml</loc>
+    <loc>http://www.pbdesk.io/atom.xml</loc>
     
-      <lastmod>2015-05-22T13:38:44-04:00</lastmod>
+      <lastmod>2015-05-22T16:46:36-04:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.pbdesk.io/index.html</loc>
+    
+      <lastmod>2015-05-22T16:46:36-04:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.pbdesk.io/sitemap.xml</loc>
+    
+      <lastmod>2015-05-22T16:46:36-04:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.pbdesk.io/TechNews/Index.html</loc>
+    
+      <lastmod>2015-05-22T16:46:36-04:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.pbdesk.io/TechNews/Google_Sci_Tech_News.html</loc>
+    
+      <lastmod>2015-05-22T16:46:36-04:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.pbdesk.io/TechNews/Yahoo_Science_News.html</loc>
+    
+      <lastmod>2015-05-22T16:46:36-04:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.pbdesk.io/TechNews/Yahoo_Technology_News.html</loc>
+    
+      <lastmod>2015-05-22T16:46:36-04:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.pbdesk.io/TechNews/CNET_News.html</loc>
+    
+      <lastmod>2015-05-22T16:46:36-04:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.pbdesk.io/TechNews/ASPNet.html</loc>
+    
+      <lastmod>2015-05-22T16:46:36-04:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.pbdesk.io/TechNews/C_News.html</loc>
+    
+      <lastmod>2015-05-22T16:46:36-04:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.pbdesk.io/TechNews/VBNet_News.html</loc>
+    
+      <lastmod>2015-05-22T16:46:36-04:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.pbdesk.io/TechNews/F_News.html</loc>
+    
+      <lastmod>2015-05-22T16:46:36-04:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.pbdesk.io/TechNews/VC_Updates.html</loc>
+    
+      <lastmod>2015-05-22T16:46:36-04:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.pbdesk.io/TechNews/Channel_9.html</loc>
+    
+      <lastmod>2015-05-22T16:46:36-04:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.pbdesk.io/TechNews/ASPNet_Community_Events.html</loc>
+    
+      <lastmod>2015-05-22T16:46:36-04:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.pbdesk.io/TechNews/ASPNet_Community_News.html</loc>
+    
+      <lastmod>2015-05-22T16:46:36-04:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
