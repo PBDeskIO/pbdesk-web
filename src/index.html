@@ -2,38 +2,36 @@
 layout: default
 title: Home
 ---
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.excerpt }}
-
-    <a href="{{ post.url }}">Read more &raquo;</a>
+<div class="row">
+  <div class="col-md-6">
+    <blockquote>
+      <p style="text-align:justify">
+        Hi Everyone! I'm Pinal Bhatt and Welcome to My Desk! On this site you'll find interesting posts, articles,
+        tutorials, news updates and links on Microsoft.Net, ASP.NET, MVC, WebAPIs, C#, VB.Net, Silverlight, WPF,
+        Windows8, Metro Apps, WCF, XAML, JavaScript, jQuery, AngularJS, NodeJS, MongoDB, Mocha,Design Patterns,
+        Social Media, Mobiles, Science & Technology and other random thoughts and opinions.
+        More about me and this site can be found here.
+      </p><small>
+      <cite title="Source Title">from the desk of Pinal Bhatt</cite></small>
+    </blockquote>
   </div>
-  {% endfor %}
+  <div class="col-md-6">
+    <blockquote class="pull-right">
+      <p style="text-align:justify">
+        I created this site to narrate my coding and technology learning experiences.
+        I like sharing my experiments, ideas and experience with everyone by writing articles on
+        latest technological trends. I feel pleased and pride by sharing my knowledge and
+        information that I have gained via Internet. And this site is my heartily attempt towards this.
+      </p>
+    </blockquote>
+  </div>
+</div>
+<div class="alert alert-info">
+  <h4><strong>PBDesk.IO ... Coming Soon...</strong></h4>
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<script>
+  $(document).ready(function() {
+    //alert('ready');
+  });
+</script>
