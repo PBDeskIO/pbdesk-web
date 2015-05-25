@@ -1,3 +1,6 @@
 #content-header h1 {
   font-weight: bold;
 }
+.breadcrumb > li {
+  margin-left: 0;
+}

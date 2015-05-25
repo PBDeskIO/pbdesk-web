@@ -48,6 +48,6 @@ theme: theme-red fixed-header fixed-footer
 
 page_gen:
   - data: 'technews'
-    template: 'technews'
-    name: 'Title'
+    template: 'Gateways/TechNews/TechNewsHome'
+    name: 'pageTitle'
     dir: 'TechNews'

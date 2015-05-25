@@ -24,5 +24,18 @@
 
     </div>
     {% include scripts.html %}
+    <script>
+      $(document).ready(function() {
+        if("{{page.activeNav}}".length > 1) {
+          $("#{{ page.activeNav }}").addClass('active');
+        }
+        else
+        {
+          $("#sideNavHome").addClass('active');
+        }
+
+      });
+    </script>
+
   </body>
 </html>
