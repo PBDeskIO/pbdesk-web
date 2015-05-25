@@ -9,6 +9,6 @@ layout: default
 <span>News:</span>
 <ul>
     {% for item in site.data.technews %}
-    <li>Title: {{ item.pageTitle }}</li>
+    <li>Title: <a href="/TechNews/{{item.sanitizedName}}">{{ item.pageTitle }}</a></li>
     {% endfor %}
 </ul>

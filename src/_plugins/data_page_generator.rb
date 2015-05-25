@@ -23,7 +23,7 @@ module Jekyll
     def sanitize_filename(name)
       name = name.gsub(/[^\w\s_-]+/, '')
       name = name.gsub(/(^|\b\s)\s+($|\s?\b)/, '\\1\\2')
-      name = name.gsub(/\s+/, '_')
+      name = name.gsub(/\s+/, '-')
     end
   end
 
@@ -66,7 +66,7 @@ module Jekyll
     def sanitize_filename(name)
       name = name.gsub(/[^\w\s_-]+/, '')
       name = name.gsub(/(^|\b\s)\s+($|\s?\b)/, '\\1\\2')
-      name = name.gsub(/\s+/, '_')
+      name = name.gsub(/\s+/, '-')
     end
   end
 

@@ -1,12 +1,12 @@
 [
   {
     pageTitle: "Google Sci & Tech News",
+    sanitizedName: "Google-Sci-Tech-News",
     SubTitle: "Science & Technology news from Google News.",
     RssLink: "https://news.google.com/news/feeds?pz=1&ned=us&hl=en&topic=t&output=rss",
     SourceUrl: "https://ssl.gstatic.com/news-static/img/logo/en_us/news.gif",
     ItemCount: 20,
-    FeedType: "135",
-    NodeId: 0
+    FeedType: "135"
   },
   {
     pageTitle: "Yahoo! Science News",
@@ -14,8 +14,7 @@
     RssLink: "http://news.yahoo.com/rss/science",
     SourceUrl: "http://l.yimg.com/rz/d/yahoo_news_en-US_s_f_p_168x21_news.png",
     ItemCount: 20,
-    FeedType: "134",
-    NodeId: 0
+    FeedType: "134"
   },
   {
     pageTitle: "Yahoo! Technology News",
@@ -23,8 +22,7 @@
     RssLink: "http://news.yahoo.com/rss/tech",
     SourceUrl: "http://l.yimg.com/rz/d/yahoo_news_en-US_s_f_p_168x21_news.png",
     ItemCount: 20,
-    FeedType: "134",
-    NodeId: 0
+    FeedType: "134"
   },
   {
     pageTitle: "CNET News",
@@ -32,20 +30,17 @@
     RssLink: "http://www.cnet.com/rss/news/",
     SourceUrl: "http://i.i.cbsi.com/cnwk.1d/i/ne/gr/prtnr/CNET_Logo_150.gif",
     ItemCount: 20,
-    FeedType: "133",
-    NodeId: 0
+    FeedType: "133"
   },
   {
     pageTitle: "ASP.Net",
-    pageHeaderStyle: "breadcrumbL1",
+    sanitizedName: "ASPNet",
     pageHeader: "ASP.Net",
     pageSubHeader: "ASP.Net & MVC News Updates - Aggregated by PBDesk.com.",
     RssLink: "http://pipes.yahoo.com/pipes/pipe.run?_id=52e840be9deda37107df2310ce287c29&_render=rss",
     SourceUrl: "",
     ItemCount: 25,
-    FeedType: "5",
-    layout: "technews",
-    activeNav: "ACTIVE2"
+    FeedType: "5"
   },
   {
     pageTitle: "C# News",
@@ -53,8 +48,7 @@
     RssLink: "http://sxp.microsoft.com/feeds/3.0/msdntn/CSharpHeadlines",
     SourceUrl: "http://msdn.microsoft.com/en-us/vstudio/hh341490.aspx",
     ItemCount: 20,
-    FeedType: "10",
-    NodeId: 0
+    FeedType: "10"
   },
   {
     pageTitle: "VB.Net News",
@@ -62,8 +56,7 @@
     RssLink: "http://sxp.microsoft.com/feeds/3.0/msdntn/VB_featured_resources",
     SourceUrl: "",
     ItemCount: 20,
-    FeedType: "10",
-    NodeId: 0
+    FeedType: "10"
   },
   {
     pageTitle: "F# News",
@@ -71,8 +64,7 @@
     RssLink: "http://sxp.microsoft.com/feeds/3.0/msdntn/FSharpDevCenterFeaturedContent",
     SourceUrl: "",
     ItemCount: 20,
-    FeedType: "10",
-    NodeId: 0
+    FeedType: "10"
   },
   {
     pageTitle: "VC++ Updates",
@@ -80,8 +72,7 @@
     RssLink: "http://sxp.microsoft.com/feeds/3.0/msdntn/visualcdevcenter",
     SourceUrl: "",
     ItemCount: 20,
-    FeedType: "10",
-    NodeId: 0
+    FeedType: "10"
   },
   {
     pageTitle: "Channel 9",
@@ -89,8 +80,7 @@
     RssLink: "http://channel9.msdn.com/Feeds/RSS",
     SourceUrl: "http://channel9.msdn.com/",
     ItemCount: 20,
-    FeedType: "11",
-    NodeId: 0
+    FeedType: "11"
   },
   {
     pageTitle: "ASP.Net Community Events",
@@ -98,8 +88,7 @@
     RssLink: "http://www.asp.net/rss/events",
     SourceUrl: "",
     ItemCount: 20,
-    FeedType: "7",
-    NodeId: 0
+    FeedType: "7"
   },
   {
     pageTitle: "ASP.Net Community News",
@@ -107,7 +96,6 @@
     RssLink: "http://www.asp.net/rss/news",
     SourceUrl: "",
     ItemCount: 20,
-    FeedType: "7",
-    NodeId: 0
+    FeedType: "7"
   }
 ]
