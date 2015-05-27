@@ -1,41 +1,43 @@
 [
   {
-    pageTitle: "Google Sci & Tech News",
+    pageHeader: "Google Sci & Tech News",
     sanitizedName: "Google-Sci-Tech-News",
-    SubTitle: "Science & Technology news from Google News.",
+    pageSubHeader: "Science & Technology news from Google News.",
     RssLink: "https://news.google.com/news/feeds?pz=1&ned=us&hl=en&topic=t&output=rss",
     SourceUrl: "https://ssl.gstatic.com/news-static/img/logo/en_us/news.gif",
     ItemCount: 20,
     FeedType: "135"
   },
   {
-    pageTitle: "Yahoo! Science News",
-    SubTitle: "Get the latest Science news headlines from Yahoo News. Find breaking Science news, including analysis and opinion on top Science stories.",
+    pageHeader: "Yahoo! Science News",
+    sanitizedName: "Yahoo-Science-News",
+    pageSubHeader: "Get the latest Science news headlines from Yahoo News. Find breaking Science news, including analysis and opinion on top Science stories.",
     RssLink: "http://news.yahoo.com/rss/science",
     SourceUrl: "http://l.yimg.com/rz/d/yahoo_news_en-US_s_f_p_168x21_news.png",
     ItemCount: 20,
     FeedType: "134"
   },
   {
-    pageTitle: "Yahoo! Technology News",
-    SubTitle: "Get the latest Tech news headlines from Yahoo News. Find breaking Tech news, including analysis and opinion on top Tech stories.",
+    pageHeader: "Yahoo! Technology News",
+    sanitizedName: "Yahoo-Technology-News",
+    pageSubHeader: "Get the latest Tech news headlines from Yahoo News. Find breaking Tech news, including analysis and opinion on top Tech stories.",
     RssLink: "http://news.yahoo.com/rss/tech",
     SourceUrl: "http://l.yimg.com/rz/d/yahoo_news_en-US_s_f_p_168x21_news.png",
     ItemCount: 20,
     FeedType: "134"
   },
   {
-    pageTitle: "CNET News",
-    SubTitle: "The latest tech news, product reviews, videos, and how tos from CNET. CNET news editors and reporters provide top technology news, with investigative reporting and in-depth coverage of tech issues and events.",
+    pageHeader: "CNET News",
+    sanitizedName: "CNET-News",
+    pageSubHeader: "The latest tech news, product reviews, videos, and how tos from CNET. CNET news editors and reporters provide top technology news, with investigative reporting and in-depth coverage of tech issues and events.",
     RssLink: "http://www.cnet.com/rss/news/",
     SourceUrl: "http://i.i.cbsi.com/cnwk.1d/i/ne/gr/prtnr/CNET_Logo_150.gif",
     ItemCount: 20,
     FeedType: "133"
   },
   {
-    pageTitle: "ASP.Net",
-    sanitizedName: "ASPNet",
     pageHeader: "ASP.Net",
+    sanitizedName: "ASPNet",
     pageSubHeader: "ASP.Net & MVC News Updates - Aggregated by PBDesk.com.",
     RssLink: "http://pipes.yahoo.com/pipes/pipe.run?_id=52e840be9deda37107df2310ce287c29&_render=rss",
     SourceUrl: "",
@@ -43,56 +45,63 @@
     FeedType: "5"
   },
   {
-    pageTitle: "C# News",
-    SubTitle: "A list of Visual C# headlines.",
+    pageHeader: "C# News",
+    sanitizedName: "C-News",
+    pageSubHeader: "A list of Visual C# headlines.",
     RssLink: "http://sxp.microsoft.com/feeds/3.0/msdntn/CSharpHeadlines",
     SourceUrl: "http://msdn.microsoft.com/en-us/vstudio/hh341490.aspx",
     ItemCount: 20,
     FeedType: "10"
   },
   {
-    pageTitle: "VB.Net News",
-    SubTitle: "Visual Basic Globalized Headline Feed",
+    pageHeader: "VB.Net News",
+    sanitizedName: "VBNet-News",
+    pageSubHeader: "Visual Basic Globalized Headline Feed",
     RssLink: "http://sxp.microsoft.com/feeds/3.0/msdntn/VB_featured_resources",
     SourceUrl: "",
     ItemCount: 20,
     FeedType: "10"
   },
   {
-    pageTitle: "F# News",
-    SubTitle: "Great resources & news for F# developers",
+    pageHeader: "F# News",
+    sanitizedName: "F-News",
+    pageSubHeader: "Great resources & news for F# developers",
     RssLink: "http://sxp.microsoft.com/feeds/3.0/msdntn/FSharpDevCenterFeaturedContent",
     SourceUrl: "",
     ItemCount: 20,
     FeedType: "10"
   },
   {
-    pageTitle: "VC++ Updates",
-    SubTitle: "Featured Headlines on the Visual C++ Developer Center",
+    pageHeader: "VC++ Updates",
+    sanitizedName: "VC-Updates",
+    pageSubHeader: "Featured Headlines on the Visual C++ Developer Center",
     RssLink: "http://sxp.microsoft.com/feeds/3.0/msdntn/visualcdevcenter",
     SourceUrl: "",
     ItemCount: 20,
     FeedType: "10"
   },
   {
-    pageTitle: "Channel 9",
-    SubTitle: "Channel 9 keeps you up to date with the latest news and behind the scenes info from Microsoft that developers love to keep up with. From LINQ to SilverLight – Watch videos and hear about all the cool technologies coming and the people behind them.",
+    pageHeader: "Channel 9",
+    sanitizedName: "Channel-9",
+    pageSubHeader: "Channel 9 keeps you up to date with the latest news and behind the scenes info from Microsoft that developers love to keep up with. From LINQ to SilverLight – Watch videos and hear about all the cool technologies coming and the people behind them.",
     RssLink: "http://channel9.msdn.com/Feeds/RSS",
     SourceUrl: "http://channel9.msdn.com/",
     ItemCount: 20,
     FeedType: "11"
   },
   {
-    pageTitle: "ASP.Net Community Events",
-    SubTitle: "Learn about upcoming events of relevance to the ASP.NET community.",
+    pageHeader: "ASP.Net Community Events",
+    sanitizedName: "ASPNet-Community-Events",
+    pageSubHeader: "Learn about upcoming events of relevance to the ASP.NET community.",
     RssLink: "http://www.asp.net/rss/events",
     SourceUrl: "",
     ItemCount: 20,
     FeedType: "7"
   },
   {
-    pageTitle: "ASP.Net Community News",
-    SubTitle: "Learn what's happening in the ASP.NET community.",
+    pageHeader: "ASP.Net Community News",
+    sanitizedName: "ASPNet-Community-News",
+    pageSubHeader: "Learn what's happening in the ASP.NET community.",
     RssLink: "http://www.asp.net/rss/news",
     SourceUrl: "",
     ItemCount: 20,

@@ -12,6 +12,6 @@ sections:
 <span>News:</span>
 <ul>
     {% for item in site.data.technews %}
-    <li>Title: <a href="/TechNews/{{item.sanitizedName}}">{{ item.pageTitle }}</a></li>
+    <li> <a href="/TechNews/{{item.sanitizedName}}">{{ item.pageHeader }}</a></li>
     {% endfor %}
 </ul>

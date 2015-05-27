@@ -6,12 +6,38 @@ breadcrumbL1Url: /TechNews
 sitemap.changefreq: daily
 activeNav: "sideNavTechNews"
 ---
-<Div>
-    {{ page.pageSubHeader }}
-</Div>
-<div>
-    <br/>
-    {{ page.subTitle }} <br/>
-    {{ page.RssLink }} <br/>
+<div class="row">
+    <div class="col-lg-8">
+        <div class="main-box clearfix">
+            <header class="main-box-header clearfix">
+                <h2 class="pull-left">{{ page.pageSubHeader }}</h2>
+            </header>
+
+            <div>
+                <br/>
+                {{ page.subTitle }} <br/>
+                {{ page.RssLink }} <br/>
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="main-box clearfix">
+            <header class="main-box-header clearfix">
+                <h2 class="pull-left">TechNews</h2>
+
+
+            </header>
+
+            <div class="main-box-body clearfix">
+                <ul>
+                    {% for item in site.data.technews %}
+                    <li><a href="/TechNews/{{item.sanitizedName}}">{{ item.pageHeader }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>
-<div>item page</div>

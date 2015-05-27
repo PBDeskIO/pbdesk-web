@@ -49,5 +49,5 @@ theme: fixed-header fixed-footer
 page_gen:
   - data: 'technews'
     template: 'technews'
-    name: 'pageTitle'
+    name: 'pageHeader'
     dir: 'TechNews'
