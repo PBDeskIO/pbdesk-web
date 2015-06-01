@@ -1,0 +1,93 @@
+---
+layout: post
+title: Razor support in Umbraco 4.7
+date: 2011-03-07 11:49:00.000000000 -05:00
+categories:
+- Asp.Net
+- CMS
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  blogger_blog: blog.pbdesk.com
+  blogger_author: Pinal Bhatt
+  blogger_permalink: /2011/03/razor-support-in-umbraco-47.html
+  blogger_internal: /feeds/8858083230500505227/posts/default/783908417123595758
+  _jetpack_related_posts_cache: a:1:{s:32:"8f6677c9d6b0f903e98ad32ec61f8deb";a:2:{s:7:"expires";i:1407312411;s:7:"payload";a:3:{i:0;a:1:{s:2:"id";i:19;}i:1;a:1:{s:2:"id";i:21;}i:2;a:1:{s:2:"id";i:20;}}}}
+author:
+  login: pbadmin
+  email: pinalbhatt@gmail.com
+  display_name: PBDesk Admin
+  first_name: Pinal
+  last_name: Bhatt
+
+
+---
+<p align="justify">With Umbraco 4.6.1 in Jan,2011, they brought in one of the great feature to Umbraco CMS - <strong>Razor</strong>. And with Umbraco 4.7 in March, 2011 they have matured the made it more usable, reliable and stable. </p>
+<p align="justify">Razor is the view engine introduced by Microsoft team with ASP.Net MVC 3.0. It is optimized around HTML generation using a code-focused templating approach. And now Umbraco 4.7 provides excellent support for writing Razor scripts to create macros in umbraco. For those guys, including me, who dislike XSLTs, this is a great alternate for them.&#160; Now we can write the logic in C# or VB rather then in XSLT. Thanks Umbraco Team!!!. </p>
+<p align="justify">In one of my pervious <a href="http://blog.pbdesk.com/2011/01/razor-support-in-umbraco.html">post</a>, I mentioned about using Razor scripts in Umbraco 4.6.1. You can consider this as an extension to that. In this post I have tried to describe what has changed from 4.6.1 to 4.7 and how to use Razors in Umbraco 4.7. </p>
+<h2>Upgrading from 4.6.1 to 4.7</h2>
+<p> 
+<p><em>(Please note that 4.7 requires .Net Frameowork 4.0)</em></p>
+<ol>
+<li>Copy following folders from 4.7RC download: /bin, /umbraco and /umbraco_client. </li>
+<li>Take care of web.config changes: Mainly there are 4 changes and they're clearly marked in the web.config in 4.7 as &lt;!-- Added in Umbraco 4.6.2 –&gt;. </li>
+<li>Delete following .dll files from old installation under /bin folder      <br /><em>IronPython.dll          <br />IronPython.Modules.dll           <br />IronRuby.dll           <br />IronRuby.Libraries.dll           <br />IronRuby.Libraries.Yaml.dll           <br />Microsoft.Dynamic.dll           <br />Microsoft.Scripting.dll           <br />Microsoft.Scripting.Debugging.dll           <br /></em>Also delete following files if they exist. (in case if you have 4.7 beta)       <br /><em>RazorEngine.Core.dll          <br />RazorEngine.Templates.dll           <br />umbraco.MacroEngines.Legacy.dll           <br /></em></li>
+<li>In 4.6.1, by default Razor scripts were saved in ~/python folder, where as in 4.7 default folder has changed to <strong>~/macroScripts</strong>. So if you have any .razor files under ~/python, you need to <u>move them to ~/macroScripts folder.</u> </li>
+</ol>
+<p>For general upgrade information follow the guide found at <a href="http://our.umbraco.org/wiki/install-and-setup/upgrading-an-umbraco-installation" target="_blank">http://our.umbraco.org/wiki/install-and-setup/upgrading-an-umbraco-installation</a>     <br />And here is one important thread from Umbraco Installation Forum which might be helpful: <a href="http://our.umbraco.org/forum/getting-started/installing-umbraco/17890-XSLT-macros-not-getting-rendered-after-upgrading-to-47-RC" target="_blank">http://our.umbraco.org/forum/getting-started/installing-umbraco/17890-XSLT-macros-not-getting-rendered-after-upgrading-to-47-RC</a></p>
+<li>
+<h2>Changes in Umbraco 4.7 </h2>
+<ol>
+<li>As mentioned above, now with 4.7 all razor scripts are to be saved in <strong>~/macroScripts</strong> folder. </li>
+<li>Now the new razor script files will have extension of .cshtml or .vbhtml. In 4.6.1 razor script files were having .razor extension and only C# was supported. <u>Old .razor files will still work in 4.7</u> as far as they are in ~/macroScripts. But now new script files created will have extension .cshtml (for C#) and .vbhtml (for VB) </li>
+<li>Now you cannot use single-statement in control-flow statements without&#160; {} block. ie. Any thing under control flow statements like if, for, while, foreach need to be in between&#160;&#160; {}&#160; block.&#160; For example, the following <u>is not</u> allowed: </li>
+</ol>
+<div style="border-bottom: silver 1px solid; text-align: left; border-left: silver 1px solid; padding-bottom: 4px; line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; padding-left: 4px; width: 97.5%; padding-right: 4px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; max-height: 200px; font-size: 8pt; overflow: auto; border-top: silver 1px solid; cursor: text; border-right: silver 1px solid; padding-top: 4px">
+<div style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">@<span style="color: #0000ff">if</span>(isLoggedIn) </pre>
+<p><!--CRLF--></p>
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">Hello, @user </pre>
+<p><!--CRLF--></div>
+</p></div>
+<blockquote>
+<p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Instead, wrap the contents of the block in &quot;{}&quot;: </p>
+</blockquote>
+<div style="border-bottom: silver 1px solid; text-align: left; border-left: silver 1px solid; padding-bottom: 4px; line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; padding-left: 4px; width: 97.5%; padding-right: 4px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; max-height: 200px; font-size: 8pt; overflow: auto; border-top: silver 1px solid; cursor: text; border-right: silver 1px solid; padding-top: 4px">
+<div style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">@<span style="color: #0000ff">if</span>(isLoggedIn) { </pre>
+<p><!--CRLF--></p>
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">Hello, @user</pre>
+<p><!--CRLF--></p>
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">} </pre>
+<p><!--CRLF--></div>
+</p></div>
+<h2>New Features in Umbraco 4.7 </h2>
+<ol>
+<li>
+<div align="justify">One of the Major new feature in 4.7 is support for Macro Parameters in razor scripts. Yes now razor script can read parameters passed by macros using <strong>@Parameter.nameOfParameter</strong> syntax. </p>
+<p></div>
+</li>
+<li>
+<div align="justify">For proper randering, document type properties with html contents in them needs to be wrapped in Html.Raw() ie. @Html.Raw(Model.bodyText). Leaving this wrapper off will cause HTML to be encoded and render to the screen.<br />
+        </div>
+</li>
+<li>
+<div align="justify">IronPython and IronRuby is now not a part of the distribution and needs to be installed by unzipping the contents of the separate macroengine download. So if you are not using these Iron* scripts, you can remove ~/python folder.<br />
+        </div>
+</li>
+<li>
+<div align="justify">For technical changes (Programmers perspective) please refer to the serise of blogs at umbraco.com: </div>
+</li>
+</ol>
+<ul>
+    </ul>
+<ul>
+<li><a href="http://umbraco.com/follow-us/blog-archive/2011/2/23/umbraco-47-razor-feature-walkthrough-%E2%80%93-part-1" target="_blank">Umbraco 4.7 Razor Feature Walkthrough – Part 1</a> </li>
+<li><a href="http://umbraco.com/follow-us/blog-archive/2011/2/24/umbraco-47-razor-feature-walkthrough-%E2%80%93-part-2" target="_blank">Umbraco 4.7 Razor Feature Walkthrough – Part 2</a> </li>
+<li><a href="http://umbraco.com/follow-us/blog-archive/2011/2/28/umbraco-razor-feature-walkthrough-%E2%80%93-part-3" target="_blank">Umbraco Razor Feature Walkthrough – Part 3</a> </li>
+<li><a href="http://umbraco.com/follow-us/blog-archive/2011/3/1/umbraco-razor-feature-walkthrough-%E2%80%93-part-4" target="_blank">Umbraco Razor Feature Walkthrough – Part 4</a> </li>
+</ul></p>
+</li>

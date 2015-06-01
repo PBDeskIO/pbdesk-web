@@ -1,0 +1,58 @@
+---
+layout: default
+---
+<div class="whity content">
+    <!-- Content should be encloased inside div with the class "posts" -->
+    <div class="posts">
+        <!-- Each entry should be enclosed inside div with the class "entry" -->
+        <div class="entry">
+            <div class="padd">
+                <!-- Portfolio title -->
+                <h2>Category Archives</h2>
+                <!-- Portfolio para -->
+                <!-- Add class "alignleft" to image to align left. -->
+                <p>Select category:</p>
+                <div class="img-portfolio">
+
+                        <!-- Add filter names inside "data-filter". For example ".web-design", ".seo", etc., Filter names are used to filter the below images. -->
+                    <ul id="filters">
+                        <li><a href="#" data-filter="*" class="btn btn-primary">All</a></li>
+                        {% for cat in site.categories %}
+                        <li><a href="#" data-filter=".cus{{cat[0]}}" class="btn btn-primary capitalize">{{ cat[0] }}</a></li>
+                        {% endfor %}
+                    </ul>
+
+                    <hr/>
+
+                    <div id="portfolio-big" class="row" >
+                        <!-- Add the above used filter names inside div tag. You can add more than one filter names. For image lightbox you need to include "a" tag pointing to image link, along with the class "prettyphoto". -->
+                        {% for post in site.posts %}
+                        <div class="col-md-6 col-sm-6 element cus{{ post.categories[0] }}">
+
+                            <div class="features-item">
+                                <h4><a href="{{post.url}}">{{post.title}}</a></h4>
+                                <p>
+                                    <i class="fa fa-calendar"></i>&nbsp; {{ post.date | date: "%b %-d, %Y" }} &nbsp;&nbsp;&nbsp;
+                                    <span>
+                                        <i class="fa fa-folder-open"></i>
+                                        {% for cat in post.categories %}
+                                         <a href="/{{cat}}" style="text-transform: capitalize">{{cat}}</a>
+                                        {% endfor %}
+                                    </span>
+                                </p>
+                                <p>{{ post.content | strip_html | truncatewords:30}}<a href="{{post.url}}">more</a></p>
+                                <p><i class="fa fa-tags"></i>
+                                    {% for tag in post.tags %}
+                                    <span class="label"> <a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a> </span>
+                                    {% endfor %}
+                                </p>
+                            </div>
+                        </div>
+                        {% endfor %}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

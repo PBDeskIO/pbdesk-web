@@ -1,0 +1,11 @@
+<!-- Use image size of 650x380. -->
+<div class="flexslider">
+    <ul class="slides">
+        {% for item in include.sliderData %}
+        <li>
+            <img src="{{item.image}}" alt="{{item.caption}}">
+            <p class="flex-caption">{{ item.caption }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

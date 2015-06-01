@@ -1,0 +1,68 @@
+---
+layout: post
+title: Uploading files to FTP server using ASP.Net
+date: 2009-03-28 15:45:00.000000000 -04:00
+categories:
+- Asp.Net
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  blogger_blog: blog.pbdesk.com
+  blogger_author: Pinal Bhatt
+  blogger_permalink: /2009/03/uploading-files-to-ftp-server-using.html
+  blogger_internal: /feeds/8858083230500505227/posts/default/6153359638737999497
+author:
+  login: pbadmin
+  email: pinalbhatt@gmail.com
+  display_name: PBDesk Admin
+  first_name: Pinal
+  last_name: Bhatt
+
+
+---
+<p>Uploading files using <a href="http://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.fileupload.aspx" target="_blank">FileUpload</a> server control is very common and easy with ASP.Net. But normally in this method files are uploaded to the hard disk of the web server. Here are few articles on this:</p>
+<ul>
+<li>ASP.NET Technical Articles : <a href="http://msdn.microsoft.com/en-us/library/aa479405.aspx" target="_blank">Uploading Files in ASP.NET 2.0</a> </li>
+<li>Wrox : <a href="http://www.wrox.com/WileyCDA/Section/id-292158.html" target="_blank">ASP.NET 2.0 FileUpload Server Control</a> </li>
+<li>CodeGuru : <a href="http://www.codeguru.com/csharp/sample_chapter/article.php/c12593" target="_blank">ASP.NET 2.0 FileUpload Server Control</a> </li>
+</ul>
+<p>But what if we want to upload the files directly to some FTP server instead of web server. This article show how to use same FileUpload server control of ASP.Net to upload files directly to some other FTP server.</p>
+<p>Below is the function written in C# which takes HttpPostedFile object as parameters and uploads the associated file to FTP server ftp://demo.myFtpServer.com/UploadFles</p>
+<div>&#160;</div>
+<p>&#160;</p>
+<pre><span style="color: blue">private bool </span>UploadToFTP(<span style="color: #2b91af">HttpPostedFile </span>fileToUpload)
+       {
+
+           <span style="color: blue">try
+           </span>{
+               <span style="color: blue">string </span>uploadUrl = <span style="color: #a31515">@&quot;ftp://demo.myFtpServer.com/UploadFles&quot;</span>;
+               <span style="color: blue">string </span>uploadFileName = fileToUpload.FileName;
+
+               <span style="color: #2b91af">Stream </span>streamObj = fileToUpload.InputStream;
+               <span style="color: #2b91af">Byte</span>[] buffer = <span style="color: blue">new </span><span style="color: #2b91af">Byte</span>[fileToUpload.ContentLength];
+               streamObj.Read(buffer, 0, buffer.Length);
+               streamObj.Close();
+               streamObj = <span style="color: blue">null</span>;
+
+               <span style="color: blue">string </span>ftpUrl = <span style="color: blue">string</span>.Format(<span style="color: #a31515">&quot;{0}/{1}&quot;</span>, uploadUrl, uploadFileName);
+               <span style="color: #2b91af">FtpWebRequest </span>requestObj = <span style="color: #2b91af">FtpWebRequest</span>.Create(ftpUrl) <span style="color: blue">as </span><span style="color: #2b91af">FtpWebRequest</span>;
+               requestObj.Method = <span style="color: #2b91af">WebRequestMethods</span>.<span style="color: #2b91af">Ftp</span>.UploadFile;
+               requestObj.Credentials = <span style="color: blue">new </span><span style="color: #2b91af">NetworkCredential</span>(<span style="color: #a31515">&quot;userid&quot;</span>, <span style="color: #a31515">&quot;password&quot;</span>);
+               <span style="color: #2b91af">Stream </span>requestStream = requestObj.GetRequestStream();
+               requestStream.Write(buffer, 0, buffer.Length);
+               requestStream.Flush();
+               requestStream.Close();
+               requestObj = <span style="color: blue">null</span>;
+
+               <span style="color: blue">return true</span>;
+           }
+           <span style="color: blue">catch
+           </span>{
+               <span style="color: blue">return false</span>;
+           }
+       }</pre>
+<p><a href="http://11011.net/software/vspaste"></a></p>
+<p>Additional links:</p>

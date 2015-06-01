@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="main">
+        <div class="container">
+            <div class="row">
+
+                <div class="visible-lg">
+                    <div class="col-md-3 sidey">
+                        <!-- Sidebar Starts Here -->
+                        <div class="padd sidebar">
+                            <!-- Each sidebar should be enclosed inside "widget class" -->
+                            <!-- 1st widget -->
+                            <div class="widget">
+                                <!-- Sidebar heading enclosed inside h3. Don't forget to add the class "matopen". -->
+                                <h3 class="matopen">Search</h3>
+                                <!-- Sidebar content should be enclosed inside div with the class "matter". -->
+                                <div class="matter">
+                                    <!-- Search form -->
+                                    <form class="form-inline">
+                                        <input type="text" class="form-control" placeholder="Type to Search...">
+                                    </form>
+                                </div>
+                            </div>
+                            <!--Ad -->
+                            <div class="widget" >
+                                {% include Ad/180x150.html %}
+                            </div>
+                            {% include sidebarItems.html %}
+                            <div class="widget">
+                                <a class="twitter-timeline" href="https://twitter.com/pbdesk" data-widget-id="492329952142823424">Tweets by @pbdesk</a>
+                            </div>
+                        </div>
+
+                        <!-- Sidebar Ends Here -->
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    {{ content }}
+                    <div class="row">
+                        {% include responsiveAd.html %}
+                    </div>
+                </div>
+                <div class="mobily hidden-lg">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% include footer.html %}
+    {% include scripts.html %}
+    {% include social_inserts.html %}
+
+  </body>
+
+</html>

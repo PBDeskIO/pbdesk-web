@@ -1,0 +1,138 @@
+---
+layout: post
+title: Abstract Class vs Interface
+date: 2008-11-15 00:00:00.000000000 -05:00
+categories:
+- Programming
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  blogger_blog: blog.pbdesk.com
+  blogger_author: Pinal Bhatt
+  blogger_permalink: /2008/11/abstract-class-vs-interface.html
+  blogger_internal: /feeds/8858083230500505227/posts/default/9092740669241660303
+author:
+  login: pbadmin
+  email: pinalbhatt@gmail.com
+  display_name: PBDesk Admin
+  first_name: Pinal
+  last_name: Bhatt
+
+
+---
+<p><strong>Introduction</strong></p></p>
+<p>In this article I am going to compare &amp; contrast Abstract Class and Interface in radiance of .Net programming languages - VB and C#.&#160; In OOPS, these concepts are often confusing but are very important from system architecture point of view. And ofcourse, from &quot;Interviews&quot; point of view.</p>
+<p>Here I am trying to discuss the theoretical aspects of these terms and the practical usage of the same.</p>
+<p><span style="font-size: 13px; font-family: verdana"></span></p>
+<h3 style="font-weight: bold; font-size: 12pt; color: rgb(255,153,0); font-family: verdana, helvetica, arial, sans-serif; letter-spacing: -1px">What is an Abstract Class?</h3></p>
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">An abstract class is a special kind of class that cannot be instantiated. So the question is why we need a class that cannot be instantiated? An abstract class is only to be sub-classed (inherited from). In other words, it only allows other classes to inherit from it but cannot be instantiated. The advantage is that it enforces certain hierarchies for all the subclasses. In simple words, it is a kind of contract that forces all the subclasses to carry on the same hierarchies or standards.</p>
+<h3 style="font-weight: bold; font-size: 12pt; color: rgb(255,153,0); font-family: verdana, helvetica, arial, sans-serif; letter-spacing: -1px">What is an Interface?</h3>
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">An interface is not a class. It is an entity that is defined by the word Interface. An interface has no implementation; it only has the signature or in other words, just the definition of the methods without the body. As one of the similarities to Abstract class, it is a contract that is used to define hierarchies for all subclasses or it defines specific set of methods and their arguments. The main difference between them is that a class can implement more than one interface but can only inherit from one abstract class. Since C# doesn&#8217;t support multiple inheritance, interfaces are used to implement multiple inheritance.</p>
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">
+<h3 style="font-weight: bold; font-size: 12pt; color: rgb(255,153,0); font-family: verdana, helvetica, arial, sans-serif; letter-spacing: -1px">Both Together</h3>
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">When we create an interface, we are basically creating a set of methods without any implementation that must be overridden by the implemented classes. The advantage is that it provides a way for a class to be a part of two classes: one from inheritance hierarchy and one from the interface.</p>
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">When we create an abstract class, we are creating a base class that might have one or more completed methods but at least one or more methods are left uncompleted and declared <code style="font-size: 11pt; color: rgb(153,0,0); font-family: &#39;Courier New&#39;, courier, mono"><span style="color: blue">abstract</span></code>. If all the methods of an abstract class are uncompleted then it is same as an interface. The purpose of an abstract class is to provide a base class definition for how a set of derived classes will work and then allow the programmers to fill the implementation in the derived classes.</p>
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">There are some similarities and differences between an interface and an abstract class that I have arranged in a table for easier comparison:</p>
+<table style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; border-collapse: collapse" cellspacing="0" cellpadding="7" width="568">
+<thead style="font-weight: bold; background-color: rgb(235,246,255)">
+<tr style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">Feature</p>
+</td>
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">Interface</p>
+</td>
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">Abstract class</p>
+</td>
+</tr>
+</thead>
+<tbody>
+<tr style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">Multiple inheritance</p>
+</td>
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">A class may inherit several interfaces.</p>
+</td>
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">A class may inherit only one abstract class.</p>
+</td>
+</tr>
+<tr style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">Default implementation</p>
+</td>
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">An interface cannot provide any code, just the signature.</p>
+</td>
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">An abstract class can provide complete, default code and/or just the details that have to be overridden.</p>
+</td>
+</tr>
+<tr style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">Access Modfiers</td>
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">An interface cannot have access modifiers for the subs, functions, properties etc everything is assumed as public</td>
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">An abstract class can contain access modifiers for the subs, functions, properties</td>
+</tr>
+<tr style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">Core VS Peripheral</p>
+</td>
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">Interfaces are used to define the peripheral abilities of a class. In other words both Human and Vehicle can inherit from a IMovable interface.</p>
+</td>
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">An abstract class defines the core identity of a class and there it is used for objects of the same type.</p>
+</td>
+</tr>
+<tr style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">Homogeneity</p>
+</td>
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">If various implementations only share method signatures then it is better to use Interfaces.</p>
+</td>
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">If various implementations are of the same kind and use common behaviour or status then abstract class is better to use.</p>
+</td>
+</tr>
+<tr style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">Speed</p>
+</td>
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">Requires more time to find the actual method in the corresponding classes.</p>
+</td>
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">Fast</p>
+</td>
+</tr>
+<tr style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">Adding functionality (Versioning)</p>
+</td>
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">If we add a new method to an Interface then we have to track down all the implementations of the interface and define implementation for the new method.</p>
+</td>
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">If we add a new method to an abstract class then we have the option of providing default implementation and therefore all the existing code might work properly.</p>
+</td>
+</tr>
+<tr style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">Fields and Constants</td>
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">No fields can be defined in interfaces</td>
+<td style="border-right: rgb(204,204,204) 1px solid; padding-right: 5px; border-top: rgb(204,204,204) 1px solid; padding-left: 5px; font-size: 10pt; padding-bottom: 5px; border-left: rgb(204,204,204) 1px solid; color: black; padding-top: 5px; border-bottom: rgb(204,204,204) 1px solid; font-family: verdana, helvetica, arial, sans-serif" valign="top" width="33%">An abstract class can have fields and constrants defined </td>
+</tr>
+</tbody>
+</table>
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">References :</p>
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif"><a href="http://www.codeproject.com/KB/cs/abstractsvsinterfaces.aspx">http://www.codeproject.com/KB/cs/abstractsvsinterfaces.aspx</a> </p>
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif"><a href="http://msdn.microsoft.com/en-us/library/scsyfw1d(VS.71).aspx">http://msdn.microsoft.com/en-us/library/scsyfw1d(VS.71).aspx</a> </p>
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">
+<p style="font-size: 10pt; color: black; font-family: verdana, helvetica, arial, sans-serif">

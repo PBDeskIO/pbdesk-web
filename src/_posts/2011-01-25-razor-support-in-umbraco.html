@@ -1,0 +1,86 @@
+---
+layout: post
+title: Razor support in Umbraco
+date: 2011-01-25 12:51:00.000000000 -05:00
+categories:
+- CMS
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  blogger_blog: blog.pbdesk.com
+  blogger_author: Pinal Bhatt
+  blogger_permalink: /2011/01/razor-support-in-umbraco.html
+  blogger_internal: /feeds/8858083230500505227/posts/default/1931042105919066266
+author:
+  login: pbadmin
+  email: pinalbhatt@gmail.com
+  display_name: PBDesk Admin
+  first_name: Pinal
+  last_name: Bhatt
+
+
+---
+<div>
+<div>Important Note!!!</div>
+<div>
+<p>This post was written for Umbraco 4.6.1. Now new version 4.7 is available and there are certain notable changes in terms of Razor in Umbraco 4.7. Please refer to my another post “<a href="http://blog.pbdesk.com/2011/03/razor-support-in-umbraco-47.html" target="_blank">Razor support in Umbraco 4.7</a>” for changes and new features in Umbraco 4.7 </p>
+</p></div>
+</p></div>
+<p align="justify">On Jan 12, 2011, Umbraco team released new version 4.6.1 for Umbraco CMS engine and one of the great feature they added was the support for Razor syntax.&#160; Yes, Umbraco now supports Razor syntax. And for those guys, including me, who dislike XSLTs, this is a great alternate for them.&#160; Now we can write the logic in C# rather then in XSLT. Thanks Umbraco Team!!!. </p>
+<p align="justify">Razor is tbe view engine introduced by Microsoft team with ASP.Net MVC 3.0. It is optimized around HTML generation using a code-focused templating approach. To know more about Razor, following links may be useful: </p>
+<ul>
+<li><a href="http://weblogs.asp.net/scottgu/archive/2010/07/02/introducing-razor.aspx" target="_blank">ScottGu's Blog Post: Introducing “Razor” – a new view engine for ASP.NET</a> </li>
+<li><a href="http://www.asp.net/webmatrix/tutorials/2-introduction-to-asp-net-web-programming-using-the-razor-syntax" target="_blank">Introduction to ASP.NET Web Programming Using the Razor Syntax</a> </li>
+</ul>
+<p align="justify">With Umbraco 4.6, developers can use Razor syntax in Umbraco components. So now Umbraco CMS engine allows <strong><em>Razor scripts</em></strong> to be used in the same way we have been using Iron* languages, XSLT or .NET controls... as a macro. This means that you can use Razor just as you would any other language option. In short, now we can write razor scripts and associate them with Macros. </p>
+<p align="justify">&#160;</p>
+<h2>Creating Razor scripts in Umbraco </h2>
+<p>These script files will have extension &quot;.razor&quot; and by default will live in /python folder besides Iron* files. Razor scripts can be created just like you create any other DLR script file in the Umbraco back office. <img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; margin-left: 0px; border-left-width: 0px; margin-right: 0px" title="Razor1" border="0" alt="Razor1" align="right" src="assets/Razor1-5B7-5D.jpg" width="244" height="203" /></p>
+<ul>
+<li>Go to &quot;Developers&quot; section </li>
+</ul>
+<p>&#160;</p>
+<ul>
+<li>Right click at &quot;Scripting Files&quot;, select &quot;Create&quot; </li>
+</ul>
+<p>&#160;</p>
+<ul>
+<li>In Create dialog box, select language as &quot;Razor by Razor Engine&quot; from the dropdown.      <br />&#160; <a href="http://blog.pbdesk.com/wp-content/uploads/2011/01/Razor2_thumb-5B4-5D.jpg"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="Razor2" border="0" alt="Razor2" src="assets/Razor2_thumb-5B4-5D-300x272.jpg" width="376" height="342" /></a>&#160; </li>
+<li>Fill in other fields appropriately and click &quot;Create&quot;&#160;&#160; button </li>
+<li>This will bring up the editor for script. </li>
+</ul>
+<h2>First Razor For Umbraco : Hello, World!</h2>
+<p> 
+<div style="border-bottom: silver 1px solid; text-align: left; border-left: silver 1px solid; padding-bottom: 4px; line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; padding-left: 4px; width: 97.5%; padding-right: 4px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; max-height: 200px; font-size: 8pt; overflow: auto; border-top: silver 1px solid; cursor: text; border-right: silver 1px solid; padding-top: 4px">
+<div style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #0000ff">&lt;</span><span style="color: #800000">div</span><span style="color: #0000ff">&gt;</span></pre>
+<p><!--CRLF--></p>
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">  <span style="color: #0000ff">&lt;</span><span style="color: #800000">p</span><span style="color: #0000ff">&gt;</span>Hello, World!<span style="color: #0000ff">&lt;/</span><span style="color: #800000">p</span><span style="color: #0000ff">&gt;</span></pre>
+<p><!--CRLF--></p>
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">  <span style="color: #0000ff">&lt;</span><span style="color: #800000">p</span><span style="color: #0000ff">&gt;</span>Current Page: @Model.Name<span style="color: #0000ff">&lt;</span><span style="color: #800000">p</span><span style="color: #0000ff">&gt;</span></pre>
+<p><!--CRLF--></p>
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">  <span style="color: #0000ff">&lt;</span><span style="color: #800000">p</span><span style="color: #0000ff">&gt;</span>@Model.bodyText<span style="color: #0000ff">&lt;/</span><span style="color: #800000">p</span><span style="color: #0000ff">&gt;</span></pre>
+<p><!--CRLF--></p>
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #0000ff">&lt;/</span><span style="color: #800000">div</span><span style="color: #0000ff">&gt;</span></pre>
+<p><!--CRLF--></div>
+</div>
+<p><em>[Assuming&#160; &quot;bodyText&quot; is a property in associated document type.]</em> </p>
+<p>Rest is simple, as usual, create an Macor and associate it with the above created script file.<br />
+  <br /><a href="http://blog.pbdesk.com/wp-content/uploads/2011/01/image_thumb-5B11-5D.png"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" src="assets/image_thumb-5B11-5D-300x166.png" width="482" height="269" /></a>&#160;&#160;&#160;&#160; </p>
+<h2>Model object</h2>
+<p></p>
+<p>Just like Iron* scripts, Razor scripts also have a &quot;<strong><em>Model</em></strong>&quot;&#160;&#160;&#160; object available in them which is equivelent to the &quot;<strong><em>currentPage</em></strong>&quot; parameter available in XSLT. Its of the type umbraco.MacroEngines.DynamicNode and can be used in the script to access currentPage node and data associated with it. </p>
+<h2>Important Links:</h2>
+<ul>
+<li><a href="http://www.aaron-powell.com/umbraco-4-and-razor" target="_blank">LINQ to Fail: Using Razor in Umbraco 4</a> </li>
+<li><a href="http://umbraco.org/help-and-support/video-tutorials/getting-started/working-with-webmatrix" target="_blank">Umbraco from WebMatrix</a> </li>
+<li><a href="http://blog.pbdesk.com/umbraco-razor-syntax-for-breadcrumb.html">Umbraco Razor Syntax for Breadcrumb</a> </li>
+<li><a href="http://blog.pbdesk.com/canonical-url-for-umbraco-using-razor.html">Canonical Url For Umbraco Using Razor Syntax</a> </li>
+<li>Umbraco Razor Syntax : Code Snippets </li>
+<li>Umbraco Downloads </li>
+<li><a href="http://joeriks.wordpress.com/2011/01/04/playing-with-razor-in-umbraco-an-old-skool-contact-form/" target="_blank">Playing with Razor in Umbraco</a>
+<p></li>
+</ul>

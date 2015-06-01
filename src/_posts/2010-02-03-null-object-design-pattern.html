@@ -1,0 +1,71 @@
+---
+layout: post
+title: Null Object Design Pattern
+date: 2010-02-03 14:35:00.000000000 -05:00
+categories:
+- DotNet
+- Design Patterns
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  blogger_blog: blog.pbdesk.com
+  blogger_author: Pinal Bhatt
+  blogger_permalink: /2010/02/null-object-design-pattern.html
+  blogger_internal: /feeds/8858083230500505227/posts/default/8699108988634527313
+author:
+  login: pbadmin
+  email: pinalbhatt@gmail.com
+  display_name: PBDesk Admin
+  first_name: Pinal
+  last_name: Bhatt
+
+
+---
+<p align="justify">Null Object design pattern – alternatively returning <em><strong>null object</strong></em> instead of ‘<em><strong>Null</strong>’</em> to avoid repeatedly checking for null values within code.</p>
+<p align="justify">In the object oriented programming realm it's very common to create or use methods and properties that return null. And this resulting in NullReferenceException if the programmer forget to assert for null.</p>
+<p align="justify">Null Object design pattern suggests to always return a valid instance instead of null. Rather returning null, you would return an object with a &quot;null&quot; or default behavior/state. This is the same approach as returning an default object instead of null. When you return null, the callers need to check for null. When you return an default object, the callers can access it without a problem - even if they forget to check for null.</p>
+<p><a href="http://blog.pbdesk.com/wp-content/uploads/2010/02/image_thumb-5B2-5D.png"><img style="border-bottom: 0px; border-left: 0px; display: inline; margin-left: 0px; border-top: 0px; margin-right: 0px; border-right: 0px" title="image" border="0" alt="image" align="left" src="assets/image_thumb-5B2-5D.png" width="163" height="140" /></a> Consider a case of <em>Member</em> class which has <em>Plan</em> property and <em>GetMember</em>(id) method.<a href="http://blog.pbdesk.com/wp-content/uploads/2010/02/image_thumb-5B5-5D.png"><img style="border-bottom: 0px; border-left: 0px; display: inline; margin-left: 0px; border-top: 0px; margin-right: 0px; border-right: 0px" title="image" border="0" alt="image" align="right" src="assets/image_thumb-5B5-5D.png" width="163" height="181" /></a> Now to access membership plan for current member our code goes somewhat like this:</p></p>
+<p>&#160;</p>
+<div>
+<pre>member = GetMember(id);<br />currentMemberPlan = (member != <span>null</span>)<br />                 ? member.Plan : PlanType.General;</pre>
+<p></div>
+<p>But by implementing Null Object design pattern our code can become like this:</p>
+<div>
+<pre>currentMemberPlan = GetMember(id).Plan</pre>
+</div>
+<div>&#160;</div>
+<h2>Implementation<br />
+  <br /></h2>
+<ol>
+<li>
+<div align="justify">Create a subclass of the source class to act as a null version of the class. Create an isNull operation on the source class and the null class. For the source class it should return false, for the null class it should return true. </div>
+</li>
+<li>
+<div align="justify">Find all places that can give out a null when asked for a source object. Replace them to give out a null object instead. </div>
+</li>
+<li>
+<div align="justify">Look for cases in the parent class and override those behaviour in the null version of the class to do some alternative/default behavior. </div>
+</li>
+</ol>
+<p><a href="http://blog.pbdesk.com/wp-content/uploads/2010/02/image_thumb-5B13-5D.png"><img style="border-bottom: 0px; border-left: 0px; display: inline; margin-left: 0px; border-top: 0px; margin-right: 0px; border-right: 0px" title="image" border="0" alt="image" align="left" src="assets/image_thumb-5B13-5D-132x300.png" width="133" height="301" /></a> </p>
+<p>In .Net(C# or VB) we can do this by implementing <strong><em>INullable</em></strong> interface.</p>
+<p>Also we need to modify our <em>GetMember</em>(id) method of <em>Member</em> class to return null object(instance of <em>NullMember</em> class) instead of null value.</p>
+<p>Also we should override members of <em><strong>Member</strong></em> class in <em><strong>NullMember</strong></em> class for some default behavior.</p>
+<p>In this example, <em>GetMember</em>() never returns <i>null</i>, but instead an instance of <strong>NullMember</strong> (or DefaultCustomer or MissingCustomer), which is a sub-class of the <strong>Member</strong> class and whose Plan property is defined as follows:</p>
+<p>&#160;</p>
+<div>
+<pre><span>       public</span> <span>override</span> PlanType Plan<br />       {<br />           get<br />           {<br />              return PlanType.General;<br />           }<br />           set<br />           {<br />                <span>//todo</span><br />           }<br />       }</pre>
+<p></div>
+<p>The essence of this is that instead of checking an object for null and then invoking some behavior based on the answer, you just invoke the behavior. The object, depending on its type, does the right thing. </p>
+<p align="justify">In .Net Framework, String.Empty is one of the most common, simple and best example to understand Null Object design pattern.</p>
+<p><strong>One more example:</strong></p>
+<p>Let's consider a call to a method that returns a Tool. Sometimes, the result will be a Hammer, sometimes a Wrench, or a ScrewDriver, etc. When you call the Use() method on each of these tools, you get a different result. </p>
+<p>Now, if the method returns a NullTool, calling the Use() method would result in no action done at all. All this without having to test for null before the call to Use() and everywhere else when you pass the Tool around in the code.</p>
+<h2>Additional Links</h2>
+<ul>
+<li><a title="http://weblogs.asp.net/fmarguerie/archive/2009/02/12/null-object-design-pattern.aspx" href="http://weblogs.asp.net/fmarguerie/archive/2009/02/12/null-object-design-pattern.aspx">http://weblogs.asp.net/fmarguerie/archive/2009/02/12/null-object-design-pattern.aspx</a></li>
+<li><a title="http://sourcemaking.com/refactoring/introduce-null-object" href="http://sourcemaking.com/refactoring/introduce-null-object">http://sourcemaking.com/refactoring/introduce-null-object</a></li>
+</ul>

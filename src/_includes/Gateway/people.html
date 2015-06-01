@@ -1,0 +1,32 @@
+<div class="whity">
+    <!-- Main Content Starts Here -->
+    <!-- Content should be encloased inside div with the class "posts" -->
+    <div class="posts">
+        <!-- Each entry should be enclosed inside div with the class "entry" -->
+        <ul class="breadcrumb">
+            <li>Tech Guys</li>
+        </ul>
+
+        <div class="entry padd-zero">
+            <div class="padd">
+                <!-- Page title -->
+                <h2>People</h2>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="row">
+        {% for post in site.categories.people %}
+        {{ post.title }}
+        {% endfor %}
+    </div>
+
+    <ul id="filters1">
+        <li><a href="/categories" data-filter="*" class="btn btn-default">All</a></li>
+        {% for cat in site.categories %}
+        <li><a href="/{{cat[0]}}"  class="btn btn-default">{{ cat[0] }}</a></li>
+        {% endfor %}
+    </ul>
+</div>

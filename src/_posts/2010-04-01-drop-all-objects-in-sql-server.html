@@ -1,0 +1,46 @@
+---
+layout: post
+title: Drop All Objects in SQL Server
+date: 2010-04-01 16:58:00.000000000 -04:00
+categories:
+- Programming
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  blogger_blog: blog.pbdesk.com
+  blogger_author: Pinal Bhatt
+  blogger_permalink: /2010/04/drop-all-objects-in-sql-server.html
+  blogger_internal: /feeds/8858083230500505227/posts/default/4495837561871824063
+author:
+  login: pbadmin
+  email: pinalbhatt@gmail.com
+  display_name: PBDesk Admin
+  first_name: Pinal
+  last_name: Bhatt
+
+
+---
+<p>Below is the T-SQL script for dropping all the objects from a database in SQL Server. This script in particular drops Procedures, Functions, Tables, Views and Types. For other database objects please create similar script.</p>
+<div>
+<div>Drop All Objects in SQL Server</div>
+<div>
+<p>declare @n char(1)<br />set @n = char(10)  </p>
+<p>declare @stmt nvarchar(max)  </p>
+<p>-- procedures<br />select @stmt = isnull( @stmt + @n, '' ) +<br />&nbsp;&nbsp;&nbsp; 'drop procedure [' + name + ']'<br />from sys.procedures  </p>
+<p>-- check constraints<br />select @stmt = isnull( @stmt + @n, '' ) +<br />&nbsp;&nbsp;&nbsp; 'alter table [' + object_name( parent_object_id ) + '] drop constraint [' + name + ']'<br />from sys.check_constraints  </p>
+<p>-- functions<br />select @stmt = isnull( @stmt + @n, '' ) +<br />&nbsp;&nbsp;&nbsp; 'drop function [' + name + ']'<br />from sys.objects<br />where type in ( 'FN', 'IF', 'TF' )  </p>
+<p>-- views<br />select @stmt = isnull( @stmt + @n, '' ) +<br />&nbsp;&nbsp;&nbsp; 'drop view [' + name + ']'<br />from sys.views  </p>
+<p>-- foreign keys<br />select @stmt = isnull( @stmt + @n, '' ) +<br />&nbsp;&nbsp;&nbsp; 'alter table [' + object_name( parent_object_id ) + '] drop constraint [' + name + ']'<br />from sys.foreign_keys  </p>
+<p>-- tables<br />select @stmt = isnull( @stmt + @n, '' ) +<br />&nbsp;&nbsp;&nbsp; 'drop table [' + name + ']'<br />from sys.tables  </p>
+<p>-- user defined types<br />select @stmt = isnull( @stmt + @n, '' ) +<br />&nbsp;&nbsp;&nbsp; 'drop type [' + name + ']'<br />from sys.types<br />where is_user_defined = 1  </p>
+<p>exec sp_executesql @stmt</p>
+</div>
+</div>
+<div>
+<pre>&nbsp;</pre>
+</div>
+<h2>Courtesy </h2>
+<p><a title="http://blog.falafel.com/2009/01/06/TSQLDropAllObjectsInASQLServerDatabase.aspx" href="http://blog.falafel.com/2009/01/06/TSQLDropAllObjectsInASQLServerDatabase.aspx">http://blog.falafel.com/2009/01/06/TSQLDropAllObjectsInASQLServerDatabase.aspx</a></p>

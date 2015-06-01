@@ -1,0 +1,49 @@
+---
+layout: post
+title: Code for Strip Html Tags
+date: 2009-01-22 07:37:00.000000000 -05:00
+categories:
+- Programming
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  blogger_blog: blog.pbdesk.com
+  blogger_author: Pinal Bhatt
+  blogger_permalink: /2009/01/code-for-strip-html-tags.html
+  blogger_internal: /feeds/8858083230500505227/posts/default/2726811803267736474
+author:
+  login: pbadmin
+  email: pinalbhatt@gmail.com
+  display_name: PBDesk Admin
+  first_name: Pinal
+  last_name: Bhatt
+
+
+---
+<h2>Javascript Code to Strip HTML tags from string</h2>
+<div>
+<div>
+<pre><span>   1:</span> <span>function</span> StripHTMLAndTrim(text) </pre>
+<p><!--CRLF--></p>
+<pre><span>   2:</span>   {</pre>
+<p><!--CRLF--></p>
+<pre><span>   3:</span>     <span>var</span> htmlStriper = /&lt;(?:.|s)*?&gt;/g;</pre>
+<p><!--CRLF--></p>
+<pre><span>   4:</span>     text = text.replace(htmlStriper, <span>&quot; &quot;</span>);</pre>
+<p><!--CRLF--></p>
+<pre><span>   5:</span>     <span>while</span> (text.indexOf(<span>&quot;  &quot;</span>) &gt;= 0) </pre>
+<p><!--CRLF--></p>
+<pre><span>   6:</span>         {</pre>
+<p><!--CRLF--></p>
+<pre><span>   7:</span>             text = text.replace(<span>&quot;  &quot;</span>, <span>&quot; &quot;</span>);</pre>
+<p><!--CRLF--></p>
+<pre><span>   8:</span>         }</pre>
+<p><!--CRLF--></p>
+<pre><span>   9:</span>     <span>return</span> text.replace(/^s+|s+$/g, <span>&quot;&quot;</span>);</pre>
+<p><!--CRLF--></p>
+<pre><span>  10:</span>   }</pre>
+<p><!--CRLF--></div>
+</div>

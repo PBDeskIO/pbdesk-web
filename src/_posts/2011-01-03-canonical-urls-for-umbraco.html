@@ -1,0 +1,88 @@
+---
+layout: post
+title: Canonical URLs for Umbraco
+date: 2011-01-03 17:50:00.000000000 -05:00
+categories:
+- SEO
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  blogger_blog: blog.pbdesk.com
+  blogger_author: Pinal Bhatt
+  blogger_permalink: /2011/01/canonical-urls-for-umbraco.html
+  blogger_internal: /feeds/8858083230500505227/posts/default/8938695511192466969
+author:
+  login: pbadmin
+  email: pinalbhatt@gmail.com
+  display_name: PBDesk Admin
+  first_name: Pinal
+  last_name: Bhatt
+
+
+---
+<p>In my previous post, i have discussed about <a href="http://blog.pbdesk.com/2011/01/canonical-url.html">Canonical URLs</a> and its importance in SEO. In this post we will see how to implement Canonical Urls in an Umbraco based site using XSLT Macro. </p>
+<p>Umbraco sites have multiple ways of accessing content - either by friendly URL or by direct URL. In such cases to have a proper SEO page ranking, we need to implement Canonical URLs. To achive this in Umbraco based site, we can create an XSLT macro and insert that macro into the &lt;Head&gt; secton while creating templates.</p>
+<h2>CanonicalUrls.xslt</h2>
+<pre style="border-bottom: #cecece 1px solid; border-left: #cecece 1px solid; padding-bottom: 5px; background-color: #fbfbfb; min-height: 40px; padding-left: 5px; width: 550px; padding-right: 5px; overflow: auto; border-top: #cecece 1px solid; border-right: #cecece 1px solid; padding-top: 5px"><pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">&lt;?xml version=&quot;<span style="color: #8b0000">1.0</span>&quot; encoding=&quot;<span style="color: #8b0000">UTF-8</span>&quot;?&gt;
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">&lt;!DOCTYPE xsl:Stylesheet [ &lt;!ENTITY nbsp &quot;<span style="color: #8b0000">&amp;#x00A0;</span>&quot;&gt; ]&gt;
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">&lt;xsl:stylesheet         
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">  version=&quot;<span style="color: #8b0000">1.0</span>&quot;         
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">  xmlns:xsl=&quot;<span style="color: #8b0000">http://www.w3.org/1999/XSL/Transform</span>&quot;         
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">  xmlns:msxml=&quot;<span style="color: #8b0000">urn:schemas-microsoft-com:xslt</span>&quot;
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">  xmlns:umbraco.library=&quot;<span style="color: #8b0000">urn:umbraco.library</span>&quot;
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">  exclude-result-prefixes=&quot;<span style="color: #8b0000">msxml umbraco.library</span>&quot;&gt;
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">  
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">  &lt;xsl:output method=&quot;<span style="color: #8b0000">xml</span>&quot; omit-xml-declaration=&quot;<span style="color: #8b0000">yes</span>&quot;/&gt;
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">  &lt;xsl:param <span style="color: #0000ff">name</span>=&quot;<span style="color: #8b0000">currentPage</span>&quot;/&gt;
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">  &lt;xsl:template match=&quot;<span style="color: #8b0000">/</span>&quot;&gt;
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">    &lt;xsl:choose&gt;
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">      &lt;xsl:when test=&quot;<span style="color: #8b0000">starts-with(umbraco.library:RequestServerVariables('HTTP_HOST'),'www')</span>&quot;&gt;
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        &lt;xsl:variable <span style="color: #0000ff">name</span>=&quot;<span style="color: #8b0000">url</span>&quot; select=&quot;<span style="color: #8b0000">concat('http://',umbraco.library:RequestServerVariables('HTTP_HOST'))</span>&quot; /&gt;
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        &lt;link rel=&quot;<span style="color: #8b0000">canonical</span>&quot; href=&quot;<span style="color: #8b0000">{$url}{umbraco.library:NiceUrl($currentPage/@id)}</span>&quot; /&gt;
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">      &lt;/xsl:when&gt;
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">      &lt;xsl:otherwise&gt;
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        &lt;xsl:variable <span style="color: #0000ff">name</span>=&quot;<span style="color: #8b0000">url</span>&quot; select=&quot;<span style="color: #8b0000">concat('http://www.',umbraco.library:RequestServerVariables('HTTP_HOST'))</span>&quot; /&gt;
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        &lt;link rel=&quot;<span style="color: #8b0000">canonical</span>&quot; href=&quot;<span style="color: #8b0000">{$url}{umbraco.library:NiceUrl($currentPage/@id)}</span>&quot; /&gt;
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">      &lt;/xsl:otherwise&gt;
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">    &lt;/xsl:choose&gt;
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">  &lt;/xsl:template&gt;
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">&lt;/xsl:stylesheet&gt;</pre>
+<h2>Macro : CanonicalUrls</h2>
+<p><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="canonical" border="0" alt="canonical" src="assets/canonical-5B5-5D-300x261.jpg" width="534" height="466" /> </p>
+<h2>Usage</h2>
+<p>This macro can now be inserted into the &lt;Head&gt; section in the template:</p>
+<div style="border-bottom: silver 1px solid; text-align: left; border-left: silver 1px solid; padding-bottom: 4px; line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; padding-left: 4px; width: 97.5%; padding-right: 4px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; max-height: 200px; font-size: 8pt; overflow: auto; border-top: silver 1px solid; cursor: text; border-right: silver 1px solid; padding-top: 4px">
+<div style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #0000ff">&lt;</span><span style="color: #800000">umbraco:Macro</span> <span style="color: #ff0000">Alias</span><span style="color: #0000ff">=&quot;CanonicalUrls&quot;</span> <span style="color: #ff0000">runat</span><span style="color: #0000ff">=&quot;server&quot;</span><span style="color: #0000ff">&gt;&lt;/</span><span style="color: #800000">umbraco:Macro</span><span style="color: #0000ff">&gt;</span></pre>
+<p><!--CRLF--></div>
+</div>
+<h2>Related Links:</h2>
+<ul>
+<li><a href="http://our.umbraco.org/wiki/how-tos/create-canonical-urls-using-an-xslt-macro" target="_blank">Create canonical URLs using an XSLT macro</a> </li>
+</ul>

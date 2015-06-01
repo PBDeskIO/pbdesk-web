@@ -1,0 +1,53 @@
+---
+layout: post
+title: Canonical URL
+date: 2011-01-03 17:29:00.000000000 -05:00
+categories:
+- SEO
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  blogger_blog: blog.pbdesk.com
+  blogger_author: Pinal Bhatt
+  blogger_permalink: /2011/01/canonical-url.html
+  blogger_internal: /feeds/8858083230500505227/posts/default/8431062867257700957
+author:
+  login: pbadmin
+  email: pinalbhatt@gmail.com
+  display_name: PBDesk Admin
+  first_name: Pinal
+  last_name: Bhatt
+
+
+---
+<p>URL Canonicalization (also refered as URL Normalization) is the process of picking the best url when there are several choices.&#160; It is a process to determine if two syntactically different URLs are equivalent. It is one the important chapter in SEO. </p>
+<p>For a layman following urls are same</p>
+<ul>
+<li>www.example.com </li>
+<li>example.com/ </li>
+<li>www.example.com/index.html </li>
+</ul>
+<p>Though they may be rendering same contents, technically all of these urls are different. From a search engine perspective, this can cause a bit of an issue.&#160; It is not always possible (or easy) to control how a search engine like Google, Yahoo or Bing indexes your site, so you never know what version of the URL they have indexed. In some cases both URLs have been indexed resulting in the Page rank being split between the two URLs. The easiest way to avoid this is to let the Search engines and the users know which is your “preferred URL” a.k.a canonical URL. </p>
+<p>Canonical URL help out the search bots which version of the URL you prefer. And this can he achived by addming &lt;link rel=&quot;canonical&quot;&gt; tag into the &lt;head&gt; section of the Html with appropriate value for &quot;href&quot; attribute. </p>
+<p>For example, if all the above three URLs refer to the same /index.html, we can use following </p>
+<div style="border-bottom: silver 1px solid; text-align: left; border-left: silver 1px solid; padding-bottom: 4px; line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; padding-left: 4px; width: 97.5%; padding-right: 4px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; max-height: 200px; font-size: 8pt; overflow: auto; border-top: silver 1px solid; cursor: text; border-right: silver 1px solid; padding-top: 4px">
+<div style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #0000ff">&lt;</span><span style="color: #800000">link</span> <span style="color: #ff0000">rel</span><span style="color: #0000ff">=&quot;canonical&quot;</span> <span style="color: #ff0000">href</span><span style="color: #0000ff">=&quot;http://www.example.com/&quot;</span> <span style="color: #0000ff">/&gt;</span> </pre>
+<p><!--CRLF--></div>
+</div>
+<p>With this page ranking for all the three urls will be added to one single url &quot;http://www.example.com/&quot;. In short using &lt;link rel=&quot;canonical&quot;&gt; tag we tell search engine, which url to be used for indexing purpose. </p>
+<p>Now a days, most of all search giants (including Google &amp; Bing) support canonical tags.</p>
+<h2>Related Links:</h2>
+<ul>
+<li>Links at google
+<ul>
+<li><a href="http://googlewebmastercentral.blogspot.com/2009/02/specify-your-canonical.html" target="_blank">Specify your canonical | Google webmaster central Blog</a> </li>
+<li><a title="http://www.google.com/support/webmasters/bin/answer.py?hl=en&amp;answer=139394" href="http://www.google.com/support/webmasters/bin/answer.py?hl=en&amp;answer=139394" target="_blank">http://www.google.com/support/webmasters/bin/answer.py?hl=en&amp;answer=139394</a> </li>
+</ul>
+</li>
+<li><a href="http://www.how-to-asp.net/how-to-canonical-urls-asp-net.aspx" target="_blank">How-to Implement Canonical Url's on a .NET Website</a> </li>
+<li><a href="http://www.4guysfromrolla.com/articles/072810-1.aspx" target="_blank">Techniques for Preventing Duplicate URLs in Your Website</a> </li>
+</ul>

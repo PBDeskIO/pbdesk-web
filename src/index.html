@@ -1,0 +1,67 @@
+---
+layout: default
+title: Learning endeavor for ever...
+description: Pinal Bhatt's Blog
+---
+
+
+<div class="whity content">
+  <!-- Content should be encloased inside div with the class "posts" -->
+  <div class="posts">
+
+
+    <!-- Features -->
+    <div class="features">
+      <!-- Default block header -->
+      <div class="default-header">
+        <!-- Heading -->
+        <h2>Featured Posts</h2>
+        <hr /><!-- Small border -->
+      </div>
+      <div class="row">
+        {% for post in site.posts %}
+        {% if post.featured == true  %}
+        {% include postPagelet.html %}
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Staffs -->
+    <div class="about-new">
+      <!-- Default block header -->
+      <div class="default-header">
+        <!-- Heading -->
+        <h2>About Me</h2>
+        <hr /><!-- Small border -->
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-4">
+          &nbsp;
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <!-- Staff #1 -->
+          <div class="staff">
+            <!-- Staff Picture -->
+            <div class="author"><img src="/img/logo/pbdesk/PBDesk.png" alt="" /></div>
+            <!-- Staff name and designation -->
+            <p class="name">Pinal Bhatt <span>Software Engineer</span></p>
+            <!-- Small para about staff -->
+            <p>Always on the learning ramp.</p>
+            <!-- Staff social profiles. Replace # with profile link. -->
+            <div class="social">
+              <a target="_blank" class="twitter" href="http://twitter.com/PBDesk" ><i class="fa fa-twitter"></i></a>
+              <a target="_blank" class="facebook" href="https://www.facebook.com/Go.PBDesk"><i class="fa fa-facebook"></i></a>
+              <a target="_blank" class="google-plus" href="https://plus.google.com/+Pbdesk" ><i class="fa fa-google-plus"></i></a>
+              <a target="_blank" class="linkedin" href="http://www.linkedin.com/in/pinalbhatt" ><i class="fa fa-linkedin"></i></a>
+              <a target="_blank" class="pinterest" href="https://github.com/PBDesk" ><i class="fa fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          &nbsp;
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

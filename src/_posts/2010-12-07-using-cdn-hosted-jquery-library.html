@@ -1,0 +1,53 @@
+---
+layout: post
+title: Using CDN hosted jQuery Library
+date: 2010-12-07 15:00:00.000000000 -05:00
+categories:
+- Google
+- JavaScript
+- Microsoft
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  blogger_blog: blog.pbdesk.com
+  blogger_author: Pinal Bhatt
+  blogger_permalink: /2010/12/using-cdn-hosted-jquery-library.html
+  blogger_internal: /feeds/8858083230500505227/posts/default/5009415123983686831
+author:
+  login: pbadmin
+  email: pinalbhatt@gmail.com
+  display_name: PBDesk Admin
+  first_name: Pinal
+  last_name: Bhatt
+
+
+---
+<p align="justify">Very often, to use jQuery, jQueryUI and Themes we need to add reference(&lt;script&gt; tag) to these javascript libraries in our HTML and normally we host these .js files along with our other web files. But now Microsoft and Google have hosted various versions of these javascript libraries on their CDN servers. So we can easily access them and use them in our sites. In short now we don't need to host these .js files on our servers. </p>
+<h2>Using scripts from Microsoft</h2>
+<p align="justify">jQuery, jQueryUI files(including themes) are hosted at Microsoft Ajax Content Delivery Network(ajax.aspnetcdn.com) . Microsoft Ajax CDN includes jQuery ,jQuery UI, jQuery Validation, jQuery Cycle, Ajax Control Toolkit, ASP.NET Ajax, ASP.NET MVC JavaScript Files. For detail list of files available and versions supported please visit this <a href="http://www.asp.net/ajaxlibrary/cdn.ashx" target="_blank">link</a>.</p>
+<p>For usage details <strong><a href="http://www.p-bhatt.com/2010/12/using-jquery-scripts-hosted-microsoft.html">Click here</a></strong></p>
+<p>&#160;</p>
+<h2>Using Scripts from Google</h2>
+<p>Google hosts following popular, open-source JavaScript libraries at its API's library (ajax.googleapis.com): Chrome Frame, Dojo, Ext Core, jQuery, jQuery UI, MooTools, Prototype, script.aculo.us,SWFObject, Yahoo! User Interface Library (YUI),WebFont Loader. For more details visit this <a href="http://code.google.com/apis/libraries/devguide.html" target="_blank">link</a>. </p>
+<p>You can access there libraries directly via url, you don't need API key if you are not using Google Libraries's APIs.    <br />For usage details <strong><a href="http://www.p-bhatt.com/2010/12/using-jquery-scripts-hosted-google.html">Click here</a></strong> </p>
+<p>&#160;</p>
+<h2>Why use library hosted at Microsoft or Google?</h2>
+<p>There are several advantages of using hosted jQuery&#160; on Microsoft or Google over your servers:</p>
+<h4>Decreased Latency</h4>
+<p>When a content is hosted on a CDN (CDN — Content Delivery Network — distributes your static content across servers in various, diverse physical locations). and when a user’s browser resolves the URL for these contents, their download will automatically target the closest available server in the network. What this means is that any users not physically near your server will be able to download jQuery faster than if you force them to download it from your arbitrarily located server. </p>
+<h4>Increased parallelism</h4>
+<p align="justify">To avoid overloading on servers, browsers limit the number of connections that can be made simultaneously. For some browsers, this limit is as low as two connections per hostname. Using the CDN hosted Libraries, eliminates one request to your site, allowing more of your local content to downloaded in parallel. </p>
+<h4>Better caching</h4>
+<p align="justify">Greatest benefit of using the CDN hosted Libraries is that your users may not need to download jQuery at all. Even if you have your own caching,&#160; if you’re hosting jQuery locally then your users must download it at least once. A user may very well have dozens of identical copies of jQuery-1.3.2.min.js in their browser’s cache, but those duplicate files will be ignored when they visit your site for the first time.    </p>
+<p>On the other hand, when a browser sees multiple subsequent requests for the same Google hosted version of jQuery, it understands that these requests are for the same file. Not only the CDN servers return a 304 “Not Modified” response if the file is requested again, but also instructs the browser to cache the file for up to one year. This means that even if someone visits hundreds of sites using the same Google hosted version of jQuery, they will only have to download it once.</p>
+<h2>Other Links:</h2>
+<ul>
+<li><a href="http://www.p-bhatt.com/2010/12/using-jquery-scripts-hosted-microsoft.html">Using jQuery Scripts hosted @ Microsoft</a></li>
+<li><a href="http://www.p-bhatt.com/2010/12/using-jquery-scripts-hosted-google.html">Using jQuery Scripts hosted @ Google</a></li>
+<li><a href="http://www.asp.net/ajaxlibrary/cdn.ashx" target="_blank">Microsoft Ajax Content Delivery Network</a></li>
+<li><a href="http://code.google.com/apis/libraries/devguide.html" target="_blank">Google Libraries API - Developer's Guide</a> </li>
+<li><a href="http://scriptsrc.net/">http://scriptsrc.net/</a></li>
+</ul>

@@ -1,0 +1,109 @@
+---
+layout: post
+title: Re-Usable jQuery Accordion for Umbraco
+date: 2011-02-03 14:05:00.000000000 -05:00
+categories:
+- eLearning
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  blogger_blog: blog.pbdesk.com
+  blogger_author: Pinal Bhatt
+  blogger_permalink: /2011/02/re-usable-jquery-accordion-for-umbraco.html
+  blogger_internal: /feeds/8858083230500505227/posts/default/5472822463772070760
+author:
+  login: pbadmin
+  email: pinalbhatt@gmail.com
+  display_name: PBDesk Admin
+  first_name: Pinal
+  last_name: Bhatt
+
+
+---
+<p align="justify">As a part of my umbraco based website <a href="http://www.pbdesk.com/" target="_blank">www.PBDesk.com</a>, I was developing learning interactions components which can be re-used in the <a href="http://www.pbdesk.com/elearning.aspx" target="_blank">eLearning</a> section of the website. Accordion &amp; Tabs are good examples of UI components which can be used as learning interactions. I was already implementing jQuery &amp; jQuery UI in my site, so thought why not get these functionalities form jQuery? </p>
+<p align="justify">Did some research and found one very interesting and helpful package for Umbraco, which can help me build my Accordion and Tab controls very easily. This package is <strong><a href="http://our.umbraco.org/projects/backoffice-extensions/repeatable-custom-content" target="_blank">Repeatable Custom Content</a></strong> by <a href="http://our.umbraco.org/member/5260" target="_blank">Masood Afzal</a>. This package provides a datatype which allows adding repeatable custom contents/child nodes. That's what we need to Accordion &amp; Tabs. Thanks to Masood Afzal!! </p>
+<p>Live Demo at <a href="http://www.pbdesk.com/elearning/csharp/test-chapter/accordiontest.aspx" target="_blank">here</a>.</p>
+<p align="justify">Now lets start on how to create&#160; Accordion for Umbraco site using jQuery UI and Repeatable Custom Content package. My work was based on Umbraco 4.5.2 and 4.6.1, jQuery 1.5, jQuery UI 1.8.9, Repeatable Custom Content package V2 (dated 10/7/2009) </p>
+<p align="justify">First of all, you need to add proper reference to jQuery, jQuery UI &amp; jQuery UI Theme files(.js and .css). Then I installed Repeatable Custom Content package V2. Once all this is in place we need to create new Datatype under umbraco Developer section.    </p>
+<h2>Datatype : eLO Accordion</h2>
+<p align="justify">In my case I have given &quot;eLO Accordion&quot; as the name to the data type as it was one of my eLearning Object. Its just a name, you can give whatever is suitable to you.<a href="http://blog.pbdesk.com/wp-content/uploads/2011/02/umbraco1_thumb-5B4-5D.jpg"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; margin-left: 0px; border-left-width: 0px; margin-right: 0px" title="umbraco1" border="0" alt="umbraco1" align="right" src="assets/umbraco1_thumb-5B4-5D.jpg" width="206" height="244" /></a></p>
+<ol>
+<li>
+<div>Go to Umbraco backend, Developer section, Data Types. Right click on &quot;Data Types&quot; and select &quot;create&quot;.&#160; </div>
+</li>
+<li>
+<div>In the create dialog box, give appropriate name and click &quot;create&quot; button.</div>
+</li>
+<li>
+<div>In the &quot;Render control&quot; dropdown list select &quot;Repeatable Custom Content V2&quot;.</div>
+</li>
+<li>
+<div>Now in the settings section we need to add two properties&#160; <em>eLOAccordionHeader</em> &amp; <em>eLOAccordionContent</em>. (Again decide names at your ease). These properties will represent the text for the header and the body of the individual accordion.         <br /><strong>eLOAccordionHeader: Type - Simple Editor            <br />eLOAccordionContent: Type - Repeatable Custom Content             <br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Richtext&#160; Editor             <br />Set Max repeatable items to 0             <br /></strong>&#160;&#160;&#160;&#160;&#160;&#160;&#160; <img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="umbraco2" border="0" alt="umbraco2" src="assets/umbraco2-5B7-5D-300x239.jpg" width="526" height="419" /> </div>
+</li>
+<li>
+<div>Save the data type. </div>
+</li>
+</ol>
+<h2>Document Type Property&#160; </h2>
+<p>Now to use this data type, we need to create appropriate property in the &quot;document types&quot; under &quot;settings&quot; section of Umbraco backend.    <br />&#160;&#160;&#160; <a href="http://blog.pbdesk.com/wp-content/uploads/2011/02/umbraco3_thumb-5B3-5D.jpg"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="umbraco3" border="0" alt="umbraco3" src="assets/umbraco3_thumb-5B3-5D-300x181.jpg" width="410" height="249" /></a> </p>
+<p align="justify">Make sure about the &quot;Type&quot;. It should be set to the new data type that we just created above. And also this should be available in the dropdown list.    <br />In my case, property alias for this property is &quot;eLOAccordion&quot;.</p>
+<h2>XSLT to Render Accordion</h2>
+<p align="justify">Now is the time to create XSLT file and a macro associated with it to render the Accordion. Below is the sample code snippet based on the naming convensions used by my code. [Please visit <a href="http://umbraco.masoodafzal.com/">http://umbraco.masoodafzal.com</a> for more on xslt for Repeatable Custom Content]</p>
+<pre style="border-bottom: #cecece 1px solid; border-left: #cecece 1px solid; padding-bottom: 5px; background-color: #fbfbfb; min-height: 40px; padding-left: 5px; width: 550px; padding-right: 5px; overflow: auto; border-top: #cecece 1px solid; border-right: #cecece 1px solid; padding-top: 5px"><pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"><span style="color: #0000ff">&lt;</span><span style="color: #c71585">xsl</span>:<span style="color: #800000">output</span> <span style="color: #ff0000">method</span>=<span style="color: #0000ff">&quot;xml&quot;</span> <span style="color: #ff0000">omit</span>-<span style="color: #ff0000">xml</span>-<span style="color: #ff0000">declaration</span>=<span style="color: #0000ff">&quot;yes&quot;</span><span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"><span style="color: #0000ff">&lt;</span><span style="color: #c71585">xsl</span>:<span style="color: #800000">param</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;currentPage&quot;</span><span style="color: #0000ff">/&gt;</span>
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"><span style="color: #0000ff">&lt;</span><span style="color: #c71585">xsl</span>:<span style="color: #800000">variable</span> <span style="color: #ff0000">name</span>=<span style="color: #0000ff">&quot;propertyAlias&quot;</span> <span style="color: #ff0000">select</span>=<span style="color: #0000ff">&quot;string('eLOAccordion')&quot;</span> <span style="color: #0000ff">/&gt;</span> 
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"></pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"><span style="color: #0000ff">&lt;</span><span style="color: #c71585">xsl</span>:<span style="color: #800000">template</span> <span style="color: #ff0000">match</span>=<span style="color: #0000ff">&quot;/&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"><span style="color: #0000ff">&lt;</span><span style="color: #c71585">xsl</span>:<span style="color: #800000">if</span> <span style="color: #ff0000">test</span>=<span style="color: #0000ff">&quot;$currentPage/eLOAccordion/items/item&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">  <span style="color: #0000ff">&lt;</span><span style="color: #800000">div</span> <span style="color: #ff0000">id</span>=<span style="color: #0000ff">&quot;eLOPageAccordianDiv&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">    <span style="color: #0000ff">&lt;</span><span style="color: #c71585">xsl</span>:<span style="color: #800000">for</span>-<span style="color: #ff0000">each</span> <span style="color: #ff0000">select</span>=<span style="color: #0000ff">&quot;$currentPage/eLOAccordion/items/item&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">      <span style="color: #0000ff">&lt;</span><span style="color: #800000">h3</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        <span style="color: #0000ff">&lt;</span><span style="color: #800000">a</span> <span style="color: #ff0000">href</span>=<span style="color: #0000ff">&quot;#&quot;</span><span style="color: #0000ff">&gt;</span><span style="color: #0000ff">&lt;</span><span style="color: #c71585">xsl</span>:<span style="color: #800000">value</span>-<span style="color: #ff0000">of</span> <span style="color: #ff0000">select</span>=<span style="color: #0000ff">&quot;./data [@alias = 'eLOAccordionHeader']&quot;</span> <span style="color: #ff0000">disable</span>-<span style="color: #ff0000">output</span>-<span style="color: #ff0000">escaping</span>=<span style="color: #0000ff">&quot;yes&quot;</span> <span style="color: #0000ff">/&gt;</span><span style="color: #0000ff">&lt;/</span><span style="color: #800000">a</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">      <span style="color: #0000ff">&lt;/</span><span style="color: #800000">h3</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">      <span style="color: #0000ff">&lt;</span><span style="color: #800000">div</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">        <span style="color: #0000ff">&lt;</span><span style="color: #c71585">xsl</span>:<span style="color: #800000">value</span>-<span style="color: #ff0000">of</span> <span style="color: #ff0000">select</span>=<span style="color: #0000ff">&quot;./data [@alias = 'eLOAccordionContent']&quot;</span> <span style="color: #ff0000">disable</span>-<span style="color: #ff0000">output</span>-<span style="color: #ff0000">escaping</span>=<span style="color: #0000ff">&quot;yes&quot;</span> <span style="color: #0000ff">/&gt;</span> 
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">      <span style="color: #0000ff">&lt;/</span><span style="color: #800000">div</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">    <span style="color: #0000ff">&lt;/</span><span style="color: #c71585">xsl</span>:<span style="color: #800000">for</span>-each<span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">  <span style="color: #0000ff">&lt;/</span><span style="color: #800000">div</span><span style="color: #0000ff">&gt;</span> <span style="color: #008000">&lt;!-- end of eLOPageAccordianDiv div--&gt;</span>
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">  <span style="color: #0000ff">&lt;</span><span style="color: #800000">script</span> <span style="color: #ff0000">type</span>=<span style="color: #0000ff">&quot;text/javascript&quot;</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">	  <span style="color: #0000ff">&lt;</span>![CDATA[
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">	  $(function() {
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">		$( &quot;#eLOPageAccordianDiv&quot; ).accordion({active: false, autoHeight: false	});
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">	  });
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">	  ]]<span style="color: #0000ff">&gt;</span>  
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">  <span style="color: #0000ff">&lt;/</span><span style="color: #800000">script</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"><span style="color: #0000ff">&lt;/</span><span style="color: #c71585">xsl</span>:<span style="color: #800000">if</span><span style="color: #0000ff">&gt;</span>
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"></pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"><span style="color: #0000ff">&lt;/</span><span style="color: #c71585">xsl</span>:<span style="color: #800000">template</span><span style="color: #0000ff">&gt;</span></pre>
+<p>You can download the complete XSLT file from here. <a href="http://pbdeskcdn.appspot.com%5Cdownloads%5Cumbraco%5Cxslts%5Caccordionviewer.xslt/">AccordionViewer.xslt</a></p>
+<p align="justify">Once your xslt is ready, if not automatically created, you need to create a Macro and associate it with this xslt file.</p>
+<p align="justify">Now insert this macro into the template or the content wherever you need an accordion. </p>
+<p align="justify">On the content page wherever you have a property of Accordion type, you will get interface like below to enter the contents:<br />
+  <br /><a href="http://blog.pbdesk.com/wp-content/uploads/2011/02/umbraco4_thumb-5B2-5D.jpg"><img style="border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="umbraco4" border="0" alt="umbraco4" src="assets/umbraco4_thumb-5B2-5D-300x231.jpg" width="536" height="414" /></a> </p>
+<p>You can see the live demo for the Accordion created by this way at <a title="http://www.pbdesk.com/elearning/csharp/test-chapter/accordiontest.aspx" href="http://www.pbdesk.com/elearning/csharp/test-chapter/accordiontest.aspx">http://www.pbdesk.com/elearning/csharp/test-chapter/accordiontest.aspx</a></p>

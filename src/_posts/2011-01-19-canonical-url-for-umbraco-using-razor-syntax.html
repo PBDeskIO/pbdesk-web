@@ -1,0 +1,46 @@
+---
+layout: post
+title: Canonical Url For Umbraco Using Razor Syntax
+date: 2011-01-19 14:48:00.000000000 -05:00
+categories:
+- SEO
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  blogger_blog: blog.pbdesk.com
+  blogger_author: Pinal Bhatt
+  blogger_permalink: /2011/01/canonical-url-for-umbraco-using-razor.html
+  blogger_internal: /feeds/8858083230500505227/posts/default/1212949223408222128
+author:
+  login: pbadmin
+  email: pinalbhatt@gmail.com
+  display_name: PBDesk Admin
+  first_name: Pinal
+  last_name: Bhatt
+
+
+---
+<p align="justify">Sometime back I wrote post about <a href="http://blog.pbdesk.com/2011/01/canonical-url.html">Canonical Urls</a>. Indeed Canonical URLs is one of the important chapter of SEO and a way to avoid getting page rank getting distributed among different Url formats with same targets. </p>
+<p align="justify">Along with Canoncial Urls I also wrote about <a href="http://blog.pbdesk.com/2011/01/canonical-urls-for-umbraco.html">implementing them in Umbraco site</a>.&#160; In that post I used XSLT approach of Umbraco to generate Canoncial url for the pages. Recently Umbraco team released new version 4.6.1 for Umbraco CMS engine and one of the great feature they added was the support for Razor syntax.&#160; <strong>Yes, Umbraco now supports Razor syntax</strong>. And for those guys, including me, who dislike XSLTs, this is a great alternate for them.&#160; Now we can write the logic in C# rather then in XSLT. <em>Thanks Umbraco Team!!!. </em></p>
+<p>Here is a piece of code for generating canonical url for Umbraco based site using Razor syntax. </p>
+<pre style="border-bottom: #cecece 1px solid; border-left: #cecece 1px solid; padding-bottom: 5px; background-color: #fbfbfb; min-height: 40px; padding-left: 5px; width: 550px; padding-right: 5px; overflow: auto; border-top: #cecece 1px solid; border-right: #cecece 1px solid; padding-top: 5px"><pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">@using umbraco
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">@using System
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"></pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">@{ <span style="color: #0000ff">var</span> cononicalUrl= <span style="color: #0000ff">String</span>.Empty; }
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">@<span style="color: #0000ff">if</span>(umbraco.library.RequestServerVariables(&quot;<span style="color: #8b0000">HTTP_HOST</span>&quot;).ToLower().StartsWith(&quot;<span style="color: #8b0000">www</span>&quot;))
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">	cononicalUrl = string.Concat(&quot;<span style="color: #8b0000">http://</span>&quot;,   umbraco.library.RequestServerVariables(&quot;<span style="color: #8b0000">HTTP_HOST</span>&quot;), Model.Url);
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"><span style="color: #0000ff">else</span>
+</pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">	cononicalUrl = string.Concat(&quot;<span style="color: #8b0000">http://www.</span>&quot;,   umbraco.library.RequestServerVariables(&quot;<span style="color: #8b0000">HTTP_HOST</span>&quot;), Model.Url);
+</pre>
+<pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"></pre>
+<pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px">&lt;link rel=&quot;<span style="color: #8b0000">canonical</span>&quot; href=&quot;<span style="color: #8b0000">@cononicalUrl</span>&quot; /&gt;</pre>
+<p>See how easy and simple it looks compared to XSLT one at {<a href="http://blog.pbdesk.com/2011/01/canonical-urls-for-umbraco.html">Link</a>}</p>
