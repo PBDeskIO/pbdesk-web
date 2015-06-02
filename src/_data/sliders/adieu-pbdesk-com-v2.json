@@ -1,0 +1,43 @@
+[
+    {
+        image: "/img/2014/08/2013_homepage_1-520x245.png",
+        caption: "PBDesk.com Homepage1"
+    },
+    {
+        image: "/img/2014/08/2013_homepage_2-520x245.png",
+        caption: "PBDesk.com Homepage2"
+    },
+    {
+        image: "/img/2014/08/2013_homepage-520x245.png",
+        caption: "PBDesk.com Homepage"
+    },
+    {
+        image: "/img/2014/08/2013_footer-520x245.png",
+        caption: "PBDesk.com Footer"
+    },
+    {
+        image: "/img/2014/08/2013_blogs-520x245.png",
+        caption: "PBDesk.com Blogs Gateway"
+    },
+    {
+        image: "/img/2014/08/2013_eBooks_1-520x245.png",
+        caption: "PBDesk.com eBooks Gateway"
+    },
+    {
+        image: "/img/2014/08/2013_eBooks_2-520x245.png",
+        caption: "PBDesk.com eBooks"
+    },
+    {
+        image: "/img/2014/08/2013_eLEarnings-520x245.png",
+        caption: "PBDesk.com eLearnings"
+    },
+    {
+        image: "/img/2014/08/2013_Technews-520x245.png",
+        caption: "PBDesk.com TechNews"
+    },
+    {
+        image: "/img/2014/08/2013_Tutorials-520x245.png",
+        caption: "PBDesk.com Tutorials"
+    }
+
+]

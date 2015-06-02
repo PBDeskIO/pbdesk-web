@@ -1,0 +1,82 @@
+---
+layout: default
+---
+
+  <div class="padd whity content blog">
+    <!-- Main Content Starts Here -->
+    <!-- Content should be encloased inside div with the class "posts" -->
+    <div class="posts">
+      <!-- Breadcrumbs -->
+      <ul class="breadcrumb">
+
+          {% for cat in page.categories %}
+          {% if cat != 'featured' %}
+          <li><a href="/{{cat}}" class="catNameStyle">{{ cat }}</a></li>
+          {% endif %}
+          {% endfor %}
+
+      </ul>
+      <!-- Each entry should be enclosed inside div with the class "entry" -->
+      <div class="entry">
+        <!-- Entry title -->
+        <h2><a href="#">{{ page.title }}</a></h2>
+        <!-- Entry meta information. Calender, User, Category, Tags. Font awesome icons used -->
+        <p class="meta">
+            <i class="fa fa-calendar"></i>&nbsp; {{ page.date | date: "%b %-d, %Y" }} &nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa fa-tags"></i>&nbsp;
+                {% for tag in page.tags %}<span><a href="/tag/{{tag}}">{{tag}}</a></span>{% endfor %}
+        </p>
+          <!-- Thumbnail here -->
+          {% if page.banner %}
+            <p class="thumbnail"><img src="{{page.banner}}" alt="" /></p>
+          {% endif %}
+          {% if page.bannerRight %}
+          <div style="float: right; padding-left: 5px; padding-bottom: 5px">
+              <img src="{{page.bannerRight}}" alt="{{page.title}}"  />
+          </div>
+          {% endif %}
+          {% if page.bannerLeft %}
+          <div style="float: right; padding-right: 5px; padding-bottom: 5px">
+              <img src="{{page.bannerLeft}}" alt="{{page.title}}"  />
+          </div>
+          {% endif %}
+
+        <!-- Entry para -->
+        <div class="jtxt">
+          {{ content }}
+        </div>
+
+      </div>
+        {% include social_share.html %}
+        {% include disqus.html %}
+        {% include responsiveAd.html %}
+        <!-- Navigation links -->
+      <ul class="pager">
+        <li class="previous">
+          <a href="#">&larr; Previous Post</a>
+        </li>
+        <li class="next">
+          <a href="#">New Post &rarr;</a>
+        </li>
+      </ul>
+      {% include relatedPosts.html %}
+    </div>
+    <!-- Main Content Ends Here -->
+  </div>
+
+
+<!--
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.tags. %} • {{ page.tags }}{% endif %}</p>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+</div>
+-->

@@ -1,0 +1,30 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="9-QraChwe87dbsB7Z9mUPhsr7x8p3-Th81YdZnvMHnI" />
+    <title>{% if page.title %}{{ page.title }} - {{ site.pgTitleSufix }}{% else %}{{ site.pgTitleSufix }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncatewords:25 }} - {{ site.pgTitleSufix }}{% else %}{{page.description}} - {{ site.description }}{% endif %}" />
+    <meta name="keywords" content="{{ site.metaKeywords }}, {% for tag in page.tags %}{{ tag }}, {% endfor %}" />
+    <meta name="author" content="Pinal Bhatt" />
+
+    <meta property="fb:admins" content="731775365" />
+    <meta property="fb:app_id" content="150800278297282"/>
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:url" content="{{page.url | prepend: site.baseurl | prepend: site.url}}" />
+    <link type="text/plain" rel="author" href="http://blog.pbdesk.io/humans.txt" />
+    <link href="https://plus.google.com/104802217330869674552" rel="publisher" />
+    <link href="https://plus.google.com/116495447274977757345?rel=author" rel="author" />
+
+    {% if page.url == "/404.html" %}
+    <meta http-equiv="refresh" content="5; url=/">
+    {% endif %}
+
+    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href='{{ "/css/bundle.css" | prepend: site.baseurl }}'>
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href='{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}' />
+
+</head>

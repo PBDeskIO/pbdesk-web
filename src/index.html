@@ -1,0 +1,87 @@
+---
+layout: default
+title: Learning endeavor for ever...
+description: Pinal Bhatt's Blog
+---
+
+
+<div class="whity content">
+  <!-- Content should be encloased inside div with the class "posts" -->
+  <div class="posts">
+    <div class="entry">
+      <div class="padd">
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <p class="jtxt">Hi Everyone! I'm Pinal Bhatt and Welcome to My Desk! On this site you'll find interesting posts, articles, tutorials, news updates and links on Microsoft.Net, ASP.NET, MVC, WebAPIs, C#, VB.Net, Silverlight, WPF, Windows8, Metro Apps, WCF, XAML, JavaScript, jQuery, AngularJS, NodeJS, MongoDB, Mocha,Design Patterns, Social Media, Mobiles, Science & Technology and other random thoughts and opinions.</p>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <p class="jtxt">I created this site to narrate my coding and technology learning experiences. I like sharing my experiments, ideas and experience with everyone by writing articles on latest technological trends. I feel pleased and pride by sharing my knowledge and information that I have gained via Internet. And this site is my heartily attempt towards this.</p>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <div class="service">
+      <!-- Default block header -->
+      <div class="default-header">
+        <!-- Heading -->
+        <h2>On This Site</h2>
+        <hr /><!-- Small border -->
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-4">
+          <div class="service-item">
+            <!-- Icon -->
+            <a href="/ebooks"><i class="fa fa-book"></i></a>
+            <!-- Heading -->
+            <h3>eBooks</h3>
+            <!-- Paragraph -->
+            <p>one of the basic source of Knowledge in digital format</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="service-item">
+            <!-- Flat Icon Image -->
+            <a href="/Tutorials"><i class="fa fa-laptop"></i></a>
+            <!-- Heading -->
+            <h3>Tutorials</h3>
+            <!-- Paragraph -->
+            <p>free online tutorials and videos for self learning</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="service-item">
+            <!-- Flat Icon Image -->
+            <a href="/TechNews"><i class="fa fa-info"></i></a>
+            <!-- Heading -->
+            <h3>TechNews</h3>
+            <!-- Paragraph -->
+            <p>science & technology new updates</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features -->
+    <div class="features">
+      <!-- Default block header -->
+      <div class="default-header">
+        <!-- Heading -->
+        <h2>Featured Posts</h2>
+        <hr /><!-- Small border -->
+      </div>
+      <div class="row">
+        {% for post in site.posts %}
+        {% if post.featured == true  %}
+        {% include postPagelet.html %}
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
+
+  </div>
+</div>

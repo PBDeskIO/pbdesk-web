@@ -1,0 +1,97 @@
+---
+layout: post
+title: C# Extension Methods – I Love Them!!!!
+date: 2012-02-10 12:08:00.000000000 -05:00
+categories:
+- DotNet
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  blogger_blog: blog.pbdesk.com
+  blogger_author: Pinal Bhatt
+  blogger_permalink: /2012/02/c-extension-methods-i-love-them.html
+  blogger_internal: /feeds/8858083230500505227/posts/default/1597464148081581906
+  _jetpack_related_posts_cache: a:1:{s:32:"8f6677c9d6b0f903e98ad32ec61f8deb";a:2:{s:7:"expires";i:1407283701;s:7:"payload";a:3:{i:0;a:1:{s:2:"id";i:66;}i:1;a:1:{s:2:"id";i:114;}i:2;a:1:{s:2:"id";i:102;}}}}
+author:
+  login: pbadmin
+  email: pinalbhatt@gmail.com
+  display_name: PBDesk Admin
+  first_name: Pinal
+  last_name: Bhatt
+
+
+---
+<p align="justify">Extension Methods - Yet another cool feature brought into .Net realm with C# 3 and VB.Net 9. Extension methods allow you to &quot;add&quot; methods to existing types without creating a new derived type, recompiling, or otherwise modifying the original type. In a way it allows you to extend an existing type with new functionality, without having to sub-class or recompile the old type. </p>
+<h4>The Need:</h4>
+<p>While programming, many time situations arise where it is necessary to add functionality to an existing class—for instance by adding a new method. Normally we can do this by modifying the existing class's source code, but this forces to recompile all binaries with these new changes and more important, requires that the programmer have access to the source code, which is not always possible, for example when using classes from a third-party assembly or out-of-box .Net base class libraries. This can be typically worked around in one of following ways:</p>
+<ul>
+<li>
+<div align="justify"> Inherit the class and then implement the functionality in an instance method in the derived class. [What if that class is sealed or final, restricting inheritance]</div>
+</li>
+<li>
+<div align="justify">Implement the functionality in a static method added to a helper class. [Less intuitive - as it requires a reference to a separate class instead of using the methods of the class in question directly.]</div>
+</li>
+<li>
+<div align="justify">Use aggregation instead of inheritance.</div>
+</li>
+</ul>
+<h4>Extension Methods - An Handy rescue </h4>
+<p align="justify">Extension Methods allows you to extend an existing type with new functionality, without having to sub-class or recompile the old type. Extension methods are a special kind of static method, but they are called as if they were instance methods on the extended type.</p>
+<p align="justify">For instance, you might like to know whether a certain string was a number or not (IsNumeric functionality). The usual approach would be to define a static function and then call it each time passing corresponding string as input. </p>
+<pre>MyUtils.IsNumeric(inputString)</pre>
+<p>But now with concept of <strong>extension methods</strong> - you can actually extend the String class to support this directly. And your call would look like this:</p>
+<pre>inputString.IsNumeric()</pre>
+<p>You do it by defining a static class, with a static method in it.</p>
+<div>
+<pre><span>public</span> <span>static</span> <span>class</span> MyExtensionMethods</pre>
+<pre>{</pre>
+<pre>    <span>public</span> <span>static</span> <span>bool</span> IsNumeric(<span>this</span> <span>string</span> s)</pre>
+<pre>    {</pre>
+<pre>        <span>float</span> output;</pre>
+<pre>        <span>return</span> <span>float</span>.TryParse(s, <span>out</span> output);</pre>
+<pre>    }</pre>
+<pre>}</pre>
+</div>
+<p align="justify">Note the first parameter preceded by the <strong>'this'</strong> modifier, it specifies which type the method operates on or rather which type or class it is extending. The only thing that separates this from any other static method, is the &quot;this&quot; keyword in the parameter section of the method. It tells the compiler that this is an extension method for that particular type. And that's actually all you need to create an extension method. </p>
+<p>Now you can call the IsNumeric() method directly on strings, like this: someString.IsNumeric()</p>
+<p align="justify">The most common extension methods are the LINQ standard query operators that add query functionality to the existing <a href="http://msdn.microsoft.com/en-us/library/system.collections.ienumerable.aspx" target="_blank">System.Collections.IEnumerable</a> and <a href="http://msdn.microsoft.com/en-us/library/9eekhta0.aspx" target="_blank">System.Collections.Generic.IEnumerable(Of T)</a> types.</p>
+<h4>To defining and call the extension method</h4>
+<ul>
+<li>
+<div align="justify">Define a static class to contain the extension method.</div>
+</li>
+<li>
+<div align="justify">The class must be visible to client code. Extension methods are only in scope when you explicitly import the namespace into your source code with a using directive. For more information about accessibility rules, see <a href="http://msdn.microsoft.com/en-us/library/ms173121.aspx" target="_blank">Access Modifiers (C# Programming Guide)</a>. </div>
+</li>
+<li>
+<div align="justify">Implement the extension method as a static method with at least the same visibility as the containing class.</div>
+</li>
+<li>
+<div align="justify">The first parameter of the method specifies the type that the method operates on; it must be preceded with the this modifier.</div>
+</li>
+<li>
+<div align="justify">In the calling code, add a using directive to specify the namespace that contains the extension method class.</div>
+</li>
+<li>
+<div align="justify">Call the methods as if they were instance methods on the type.</div>
+</li>
+</ul>
+<p align="justify"><strong><em>Note</em></strong> that the first parameter is not specified by calling code because it represents the type on which the operator is being applied, and the compiler already knows the type of your object. You only have to provide arguments for parameters 2 through n.</p>
+<p align="justify"><strong><em>Naming Conflicts in Extension methods and Instance methods:</em></strong>&#160; In C# 3.0, both an instance method and an extension method with the same signature can exist for a class. In such a scenario, <u>the instance method takes precedence over the extension method</u>. <em>Note that neither the compiler nor the Microsoft Visual Studio IDE warns about the naming conflict. </em></p>
+<p><strong>A good extension method should:</strong></p>
+<ul>
+<li>Apply to any possible instance of the type it extends.</li>
+<li>Simplify logic and improve readability/maintainability.</li>
+<li>Apply to the most specific type or interface applicable.</li>
+<li>Be isolated in a namespace so that it does not pollute IntelliSense.</li>
+</ul>
+<h4>More Related links</h4>
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Extension_method" target="_blank">Extension Methods Explained on Wikipedia</a></li>
+<li><a href="http://msdn.microsoft.com/en-us/library/bb311042.aspx" target="_blank">MSDN: How to: Implement and Call a Custom Extension Method (C# Programming Guide)</a></li>
+<li><a href="http://msdn.microsoft.com/en-us/library/bb383977.aspx" target="_blank">MSDN: C# Programming Guide - Extension Methods</a>&#160; </li>
+</ul>
+<p align="justify">Final words : Extension Methods are a lot like sugar, they taste so nice and sweet, but they'll rot your teeth if you eat them too much. </p>

@@ -1,0 +1,28 @@
+---
+layout: null 
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{{ site.url }}/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  {% for post in site.posts %}
+    <url>
+      <loc>{{ site.url }}{{ post.url }}</loc>
+      <lastmod>{% if post.sitemapLastmod %}{{ post.sitemapLastmod | date: "%Y-%m-%d" }}{% else %}{{ site.buildDate | date_to_xmlschema }}{% endif %}</lastmod>
+      <changefreq>{% if post.sitemapChangeFreq %}{{ post.sitemapChangeFreq }}{% else %}monthly{% endif %}</changefreq>
+      <priority>{% if post.sitemapPriority %}{{ post.sitemapPriority }}{% else %}0.6{% endif %}</priority>
+    </url>
+  {% endfor %}
+  {% for page in site.pages %}
+  <url>
+    <loc>{{ site.url }}{{ page.url }}</loc>
+    <lastmod>{% if page.sitemapLastmod %}{{ page.sitemapLastmod | date: "%Y-%m-%d" }}{% else %}{{ site.buildDate | date_to_xmlschema }}{% endif %}</lastmod>
+    <changefreq>{% if page.sitemapChangeFreq %}{{ page.sitemapChangeFreq }}{% else %}monthly{% endif %}</changefreq>
+    <priority>{% if page.sitemapPriority %}{{ page.sitemapPriority }}{% else %}0.6{% endif %}</priority>
+  </url>
+  {% endfor %}
+</urlset>

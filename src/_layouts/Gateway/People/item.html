@@ -1,0 +1,97 @@
+---
+layout: default
+---
+
+<div class="padd whity content blog">
+    <!-- Main Content Starts Here -->
+    <!-- Content should be encloased inside div with the class "posts" -->
+    <div class="posts">
+        <!-- Breadcrumbs -->
+        <ul class="breadcrumb">
+
+            {% for cat in page.categories %}
+            {% if cat != 'featured' %}
+            <li><a href="/{{cat}}" class="catNameStyle">{{ cat }}</a></li>
+            {% endif %}
+            {% endfor %}
+
+        </ul>
+        <!-- Each entry should be enclosed inside div with the class "entry" -->
+        <div class="entry">
+            <!-- Entry title -->
+            <h2><a href="#">{{ page.title }}</a></h2>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <!-- Staff #1 -->
+                    <div class="staff">
+                        <!-- Staff Picture -->
+                        <div class="author"><img src="{{page.imageUlr}}" alt="{{page.title}}" /></div>
+                        <!-- Staff name and designation -->
+                        <p class="name">{{page.title}}<span>{{page.intro1}}</span></p>
+                        <!-- Small para about staff -->
+                        <p>{{page.intro2}}</p>
+                        <!-- Staff social profiles. Replace # with profile link. -->
+                        <div class="social">
+                            {% if page.facebook %}
+                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                            {% endif %}
+                            {% if page.twitter %}
+                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                            {% endif %}
+                            {% if page.linkedIn %}
+                            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                            {% endif %}
+                            {% if page.googlePlus %}
+                            <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                            {% endif %}
+                            {% if page.gitHub %}
+                                <a href="#" class="pinterest"><i class="fa fa-github"></i></a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <!-- Staff #1 -->
+                    <div class="staff">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item disabled">
+                                Links
+                            </a>
+                            {% if page.website %}
+                            <a href="{{ page.website }}" target="_blank" class="list-group-item"><i class=""></i> Website</a>
+                            {% endif %}
+                            {% if page.blog %}
+                            <a href="{{ page.blog }}" target="_blank" class="list-group-item"><i class="fa fa-bold"></i> Website</a>
+                            {% endif %}
+                            {% if page.aboutUs %}
+                            <a href="{{ page.aboutUs }}" target="_blank" class="list-group-item"><i class="fa"></i> Website</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <!-- Staff #1 -->
+                    <div class="staff">
+
+
+                        <p class="name">About <span>{{ page.title }}</span></p>
+                        <!-- Small para about staff -->
+                        <p>{{ content }}</p>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+        {% include social_share.html %}
+
+        {% include responsiveAd.html %}
+
+    </div>
+    <!-- Main Content Ends Here -->
+</div>
+

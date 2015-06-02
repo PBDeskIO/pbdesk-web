@@ -1,0 +1,94 @@
+---
+layout: post
+title: Facebook Membership Provider
+date: 2009-11-13 12:27:00.000000000 -05:00
+categories:
+- DotNet
+- Asp.Net
+- Facebook
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  blogger_blog: blog.pbdesk.com
+  blogger_author: Pinal Bhatt
+  blogger_permalink: /2009/10/facebook-membership-provider.html
+  blogger_internal: /feeds/8858083230500505227/posts/default/7920470366269443677
+author:
+  login: pbadmin
+  email: pinalbhatt@gmail.com
+  display_name: PBDesk Admin
+  first_name: Pinal
+  last_name: Bhatt
+
+
+---
+<h2>Introduction</h2>
+<p align="justify">One of the great new features introduced in ASP.NET 2.0 was the use of the &quot;<em>Provider Model</em>&quot; which provides flexibility and extensibility to your Web applications. Using the provider model, we can easily extend the capabilities provided by the ASP.NET. We can extend the provider model to work with the membership &amp; role information for the Web site users in a custom way, rather than the default SQL Server Express 2005 database. In this project we are trying to demonstrate how to use Facebook Connect featues as Membership Provider for an ASP.Net web application.</p>
+<p align="justify">Facebook is no doubt, #1 social networking site. <strong>Facebook Connect</strong> provides Authentication service and also provides powerful set of APIs by which we can bring user's identity and connections to our web applications. Using Facebook connect can access a user's Idnetity(name, photos etc), Social Graph(friends and connections) and Stream(ctivity, distribution, and integration points within Facebook, like stream stories and Publishers)</p>
+<h2>Important Links</h2>
+<p>Live Demo : <a href="http://pinalbhatt.cloudapp.net:8081/" target="_blank">http://pinalbhatt.cloudapp.net:8081/</a></p>
+<p>Source Code :&#160; You can download the source code from <a href="http://code.google.com/p/fbmembership/" target="_blank">Google Code</a> or <a href="http://fbmembership.codeplex.com/" target="_blank">CodePlex</a>.</p>
+<p>To run the downloaded project you need to create facebook developer application and set its appropriate connect and callback urls. And copy the API key and the secret key to web.config files.</p>
+<p>In this project we are using Facebook Connect as a Membership Provider for ASP.Net Web Application. This project is based on <a href="http://www.microsoft.com/facebooksdk" target="_blank">Microsoft's SDK for Facebook</a>, available at <a href="http://facebooktoolkit.codeplex.com/" target="_blank">Facebook Developer Toolkit Version 3.0</a></p>
+<h2>Facebook Membership Provider</h2>
+<p>As usual to create a custom membership provider, we need to inherit from <em><u>MembershipProvider</u></em> class and override methods from there.</p>
+<p><img style="border-right-width: 0px; margin: 0px 15px 0px 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="FBMembership01" border="0" alt="FBMembership01" align="left" src="assets/FBMembership01-5B9-5D-136x300.jpg" width="218" height="480" /> </p>
+<p>I have created class “<strong>FBMembershipProvider</strong>”.</p>
+<p align="justify">We don’t need to implement following methods and properties of <em><u>MembershipProvider</u></em>&#160;&#160; in our facebook membership provider as these functionalities are taken care by Facebook itself and we dont have direct access over there, hence we in our code we are just throwing NotSupportedException or returning appropriate values.</p>
+<ul>
+<li>ChangePassword()      <br />ChangePasswordQuestionAndAnswer() </li>
+<li>CreateUser() </li>
+<li>DeleteUser() </li>
+<li>FindUsersByEmail() </li>
+<li>FindUsersByName() </li>
+<li>GetAllUsers() </li>
+<li>GetNumberOfUsersOnline() </li>
+<li>GetPassword() </li>
+<li>GetUserNameByEmail() </li>
+<li>ResetPassword() </li>
+<li>UnlockUser() </li>
+<li>UpdateUser() </li>
+<li>EnablePasswordReset : set to false </li>
+<li>EnablePasswordRetrieval : set to false </li>
+<li>MaxInvalidPasswordAttempts : set to&#160; -1 </li>
+<li>MinRequiredNonAlphanumericCharacters : set to&#160; -1 </li>
+<li>MinRequiredPasswordLength : set to&#160; -1 </li>
+<li>PasswordAttemptWindow : set to&#160; -1 </li>
+<li>PasswordFormat </li>
+<li>PasswordStrengthRegularExpression </li>
+<li>RequiresQuestionAndAnswer : set to false </li>
+<li>RequiresUniqueEmail : set to false </li>
+</ul>
+<p>I implemented only following methods:</p>
+<ul>
+<li>GetUser(string username, bool userIsOnline) </li>
+<li>GetUser(object providerUserKey, bool userIsOnline) </li>
+<li>ValidateUser(string username, string password) </li>
+<li>Initialize(string name, NameValueCollection config) </li>
+</ul>
+<p>Another important class i created is “<strong>FBUser</strong>”, which inherits “MembershipUser” class <a href="http://blog.pbdesk.com/wp-content/uploads/2009/11/image_thumb-5B7-5D.png"><img style="border-right-width: 0px; margin: 0px 20px 0px 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px" title="image" border="0" alt="image" align="left" src="assets/image_thumb-5B7-5D.png" width="187" height="161" /></a>and has</p>
+<ul>
+<li>one property FacebookUser of Facebbook.Schema.user type </li>
+<li>a constructor to create FBUser from Facebbook.Schema.user. </li>
+</ul>
+<p>&#160;</p>
+<div style="border-bottom: silver 1px solid; text-align: left; border-left: silver 1px solid; padding-bottom: 4px; line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; padding-left: 4px; width: 97.5%; padding-right: 4px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; max-height: 200px; font-size: 8pt; overflow: auto; border-top: silver 1px solid; cursor: text; border-right: silver 1px solid; padding-top: 4px">
+<div style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px">
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060">   1:</span> <span style="color: #0000ff">public</span> FBUser(Facebook.Schema.user fbsUser)</pre>
+<p><!--CRLF--></p>
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060">   2:</span>     : <span style="color: #0000ff">base</span>(Membership.Provider.Name, fbsUser.uid.ToString(), fbsUser.uid.Value,</pre>
+<p><!--CRLF--></p>
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060">   3:</span>                             <span style="color: #0000ff">string</span>.Empty, <span style="color: #0000ff">string</span>.Empty, <span style="color: #0000ff">string</span>.Empty, <span style="color: #0000ff">true</span>, <span style="color: #0000ff">false</span>,</pre>
+<p><!--CRLF--></p>
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060">   4:</span>                             <span style="color: #0000ff">new</span> DateTime(), <span style="color: #0000ff">new</span> DateTime(), <span style="color: #0000ff">new</span> DateTime(), <span style="color: #0000ff">new</span> DateTime(), <span style="color: #0000ff">new</span> DateTime())</pre>
+<p><!--CRLF--></p>
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060">   5:</span> {</pre>
+<p><!--CRLF--></p>
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060">   6:</span>     <span style="color: #0000ff">this</span>.FacebookUser = fbsUser;</pre>
+<p><!--CRLF--></p>
+<pre style="border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: white; margin: 0em; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &#39;Courier New&#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px"><span style="color: #606060">   7:</span> }</pre>
+<p><!--CRLF--></div>
+</div>

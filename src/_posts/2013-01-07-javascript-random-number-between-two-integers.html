@@ -1,0 +1,64 @@
+---
+layout: post
+title: 'Javascript: Random Number between two integers'
+date: 2013-01-07 18:11:00.000000000 -05:00
+categories:
+- JavaScript
+tags:
+- code snippet
+- gist
+- JavaScript
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  blogger_blog: blog.pbdesk.com
+  blogger_author: Pinal Bhatt
+  blogger_permalink: /2013/01/javascript-random-number-between-two.html
+  blogger_internal: /feeds/8858083230500505227/posts/default/718231011997796604
+  _edit_last: '1'
+  _wpas_skip_8068524: '1'
+  _wpas_skip_8068547: '1'
+  _wpas_skip_8068555: '1'
+  _wpas_skip_8068559: '1'
+  switch_like_status: '1'
+  _yoast_wpseo_focuskw: javascript
+  _yoast_wpseo_metadesc: JavaScript code snippet to generate Random Number between
+    two integers
+  _yoast_wpseo_linkdex: '75'
+  _jetpack_related_posts_cache: a:1:{s:32:"8f6677c9d6b0f903e98ad32ec61f8deb";a:2:{s:7:"expires";i:1407391203;s:7:"payload";a:3:{i:0;a:1:{s:2:"id";i:66;}i:1;a:1:{s:2:"id";i:30;}i:2;a:1:{s:2:"id";i:131;}}}}
+  _thumbnail_id: '16038'
+  _layout: inherit
+  dsq_thread_id: '3691727312'
+author:
+  login: pbadmin
+  email: pinalbhatt@gmail.com
+  display_name: PBDesk Admin
+  first_name: Pinal
+  last_name: Bhatt
+
+
+---
+<p align="justify">Javascript does has built-in function Math.random() to generate a random number, however the so generated random number is always a floating value between 0 and 1. This may be fine for some requirements but most likely you will end up with a requirement where you will need a random number between two integers. Many other programming languages do have utility for this but in case of Javascript we need to write our own simple  utility function. Below is the simple function which will generate a random number between two numbers ‘form’ and ‘to’:</p>
+<div>
+<pre class="toolbar:1 lang:js decode:true">function randomFromTo(from, to){
+       return Math.floor(Math.random() * (to - from + 1) + from);
+    }</pre>
+</div>
+<div>
+<p>And if want to extended your Math Library with this new functionality here is your prototype extension code:</p>
+</div>
+<div>
+<pre class="toolbar:1 lang:js decode:true">if(!Math.prototype.randomFromTo){
+       Math.prototype.randomFromTo = function(from, to){
+           return Math.floor(Math.random() * (to - from + 1) + from);
+      };
+}</pre>
+<p>&nbsp;</p>
+</div>
+<p>With this piece of code we can call the method from the Math Object like this:</p>
+<pre>Math.randomFromTo(5,25)</pre>
+<p align="justify">Some of you may be curious as to why Math.floor(), instead of Math.round(), is used in the above code. While both successfully round off its containing parameter to an integer within the designated range, Math.floor does so more "evenly", so the resulting integer isn't lopsided towards either end of the number spectrum. In other words, a more random number is returned using Math.floor().</p>
+<p>[emc2alert type="info" style="normal" position="bottom" visible="visible" closebtn="0" title="Gist" ]Find this code on my Gist[/emc2alert]</p>
+<p>[gist id = "151d0b62501d3413647e" file = "RandomNumber" ]</p>

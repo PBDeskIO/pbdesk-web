@@ -1,0 +1,66 @@
+<!-- Foot -->
+
+<!-- Three column footer -->
+
+<div class="foot">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="padd">
+          <!-- Add class "widget" -->
+          <div class="widget">
+            <!-- Title -->
+            <h3>Learning endeavor for ever…</h3>
+            <!-- Content -->
+            <!-- Below is the blockquote -->
+            <blockquote>
+              <p class="jtxt">Welcome to My Blog! On this site you'll find interesting posts, articles, tutorials, news updates and links on Microsoft.Net, ASP.NET, MVC, WebAPIs, C#, Windows8, Metro Apps, WCF, XAML, JavaScript, jQuery, AngularJS, NodeJS, Social Media, Mobiles, Science & Technology and other random thoughts and opinions. </p>
+              <!-- Author information -->
+              <small>Pinal Bhatt</small>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="padd">
+          <div class="widget">
+            <h3>Recent Posts</h3>
+            <ul>
+                {% for post in site.posts limit:5 %}
+                <li><a href="{{post.url}}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="padd">
+          <div class="widget">
+            <h3>My Sites</h3>
+            <ul>
+              <li><a href="/">Blog Home</a></li>
+              <li><a href="/feed.xml">Subscribe RSS</a></li>
+              <li><a href="http://www.pbdesk.io" target="_blank">PBDesk.IO</a></li>
+              <li><a href="/Disclaimer">Disclaimer</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <!-- Copyright information -->
+        <div class="fpadd">Pinal Bhatt's Blog &copy; 2015 </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</footer>
+<!-- Scroll to top -->
+<span class="totop"><a href="#"><i class="fa fa-angle-up"></i></a></span>

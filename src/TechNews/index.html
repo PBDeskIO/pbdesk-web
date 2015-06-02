@@ -1,0 +1,14 @@
+---
+layout: default
+pageTitle: "TechNews"
+pageHeaderStyle: "simple"
+pageHeader: "TechNews"
+pageSubHeader: "Science & Technology News Updates"
+activeNav: "sideNavTechNews"
+---
+<div>Technews/index</div>
+<ul>
+    {% for item in site.data.technews %}
+    <li> <a href="/TechNews/{{item.sanitizedName}}">{{ item.pageHeader }}</a></li>
+    {% endfor %}
+</ul>
