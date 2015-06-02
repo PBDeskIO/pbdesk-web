@@ -21,6 +21,9 @@
 .meta {
     text-transform: none !important;
 }
+.author img{
+    border-radius: 0;
+}
 
 .flex-caption a{
     padding-left: 10px;
