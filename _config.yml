@@ -3,7 +3,7 @@
 title: Pinal Bhatt's Blog
 description: Learning endeavor for ever...from the desk of Pinal Bhatt | blog.PBDesk.io
 tagline: Learning endeavor for ever...
-url: localhost:4000
+url: http://pbdesk.io
 pgTitleSufix: Pinal Bhatt's Blog
 metaKeywords: Pinal, Pinal Bhatt, Pinal Bhatt's Blog, PBDesk, PBDesk.io,PBDesk.com
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
