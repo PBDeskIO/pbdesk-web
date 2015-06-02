@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Pinal Bhatt's Blog</title>
- <link href="localhost:4000/atom.xml" rel="self"/>
- <link href="localhost:4000/"/>
- <updated>2015-06-02T12:00:53-04:00</updated>
- <id>localhost:4000</id>
+ <link href="http://pbdesk.io/atom.xml" rel="self"/>
+ <link href="http://pbdesk.io/"/>
+ <updated>2015-06-02T12:22:04-04:00</updated>
+ <id>http://pbdesk.io</id>
  <author>
    <name>Pinal Bhatt</name>
    <email>self@PBDesk.io</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Jade Video Tutorial</title>
-   <link href="localhost:4000/tutorial/jade-video-tuotrial"/>
+   <link href="http://pbdesk.io/tutorial/jade-video-tuotrial"/>
    <updated>2015-04-22T17:30:08-04:00</updated>
-   <id>localhost:4000/tutorial/jade-video-tuotrial</id>
+   <id>http://pbdesk.io/tutorial/jade-video-tuotrial</id>
    <content type="html">&lt;p&gt;
     Jade - Template Engine for NodeJS. Jade is a cool, elegant, high-performance (and probably the most used) templating
     language for Node focused on enabling quick HTML coding. It has been influenced by &lt;a href=&quot;http://haml-lang.com/&quot; target=&quot;_blank&quot;&gt;HAML&lt;/a&gt;.
@@ -40,9 +40,9 @@
  
  <entry>
    <title>Template for creating post</title>
-   <link href="localhost:4000/archives/post-template"/>
+   <link href="http://pbdesk.io/archives/post-template"/>
    <updated>2015-04-21T12:16:08-04:00</updated>
-   <id>localhost:4000/archives/post-template</id>
+   <id>http://pbdesk.io/archives/post-template</id>
    <content type="html">&lt;p&gt;Fusce imperdiet, risus eget viverra faucibus, diam mi vestibulum libero, ut vestibulum tellus magna nec enim. Nunc dapibus varius interdum. Phasellus at lorem ut lectus fermentum convallis. Sed diam nisi, pulvinar vitae molestie hendrerit, venenatis eget mauris. Integer porta erat ac eros porta ultrices. Proin porttitor eros a ante molestie gravida commodo dui adipiscing. &lt;a href=&quot;#&quot;&gt;Morbi dictum nibh gravida&lt;/a&gt; mi pretium dapibus. Nullam in est urna. In vitae adipiscing enim. Curabitur rhoncus condimentum lorem, non convallis dolor faucibus eget. In ut nulla est. Sed a interdum mauris. Duis eget risus ac orci vulputate vestibulum sit amet id orci. Etiam ac ante at lorem ultrices elementum. Vestibulum quis elit odio, id hendrerit ipsum. Fusce consequat leo vitae velit interdum at laoreet justo ullamcorper.&lt;/p&gt;
 &lt;p&gt;Nulla facilisi. Sed justo dui, scelerisque ut consectetur vel, eleifend id erat. Morbi auctor adipiscing tempor. Phasellus condimentum rutrum aliquet. Quisque eu consectetur erat. Proin rutrum, erat eget posuere semper, arcu mauris posuere tortor, in commodo enim magna id massa. Suspendisse potenti. Aliquam erat volutpat. Maecenas quis tristique turpis. Nulla facilisi. Duis sed velit at &lt;a href=&quot;#&quot;&gt;magna sollicitudin cursus&lt;/a&gt; ac ultrices magna. Aliquam consequat, purus vitae auctor ullamcorper, sem velit convallis quam, a pharetra justo nunc et mauris. Vivamus diam diam, fermentum sed dapibus eget, egestas sed eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
 &lt;p&gt;Suspendisse potenti. Morbi ac felis nec mauris imperdiet fermentum. Aenean sodales augue ac lacus hendrerit sed rhoncus erat hendrerit. Vivamus vel ultricies elit. Aliquam ut feugiat ante. Curabitur lacinia nulla vel tellus elementum non mollis justo aliquam. Maecenas turpis urna, eleifend et venenatis eget, ultricies quis urna. Aliquam fringilla mauris lectus, in laoreet justo. Aliquam ut pharetra erat. Nulla semper odio et turpis hendrerit tempor.&lt;/p&gt;
@@ -86,9 +86,9 @@
  
  <entry>
    <title>Moving my blog to Jekyll!</title>
-   <link href="localhost:4000/jekyll/Moving-My-Blog-To-Jekyll"/>
+   <link href="http://pbdesk.io/jekyll/Moving-My-Blog-To-Jekyll"/>
    <updated>2015-04-20T04:21:46-04:00</updated>
-   <id>localhost:4000/jekyll/Moving-My-Blog-To-Jekyll</id>
+   <id>http://pbdesk.io/jekyll/Moving-My-Blog-To-Jekyll</id>
    <content type="html">&lt;p&gt;Yes I am moving my blog(blog.PBDesk.com) from WordPress to Jekyll and host it at Github pages at &lt;a href=&quot;http://blog.pbdesk.io&quot;&gt;http://blog.pbdesk.io&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -113,9 +113,9 @@ who know me very well know that I am always on learning ramp.&lt;/p&gt;
  
  <entry>
    <title>Welcome to Jekyll!</title>
-   <link href="localhost:4000/jekyll/welcome-to-jekyll"/>
+   <link href="http://pbdesk.io/jekyll/welcome-to-jekyll"/>
    <updated>2015-04-18T04:21:46-04:00</updated>
-   <id>localhost:4000/jekyll/welcome-to-jekyll</id>
+   <id>http://pbdesk.io/jekyll/welcome-to-jekyll</id>
    <content type="html">&lt;blockquote&gt;
 &lt;p&gt;This was the default post created when I created Jekyll project. Keeping this post as is to show my liking for Jekyll.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -138,9 +138,9 @@ print_hi(&amp;#39;Tom&amp;#39;)
  
  <entry>
    <title>ASP.Net vNext MVC 6 Videos</title>
-   <link href="localhost:4000/mvc6/asp-net-vnext-mvc-6-videos"/>
+   <link href="http://pbdesk.io/mvc6/asp-net-vnext-mvc-6-videos"/>
    <updated>2014-11-11T11:16:08-05:00</updated>
-   <id>localhost:4000/mvc6/asp-net-vnext-mvc-6-videos</id>
+   <id>http://pbdesk.io/mvc6/asp-net-vnext-mvc-6-videos</id>
    <content type="html">&lt;p style=&quot;text-align: justify;&quot;&gt;Recently, in Summer 2014, Microsoft announced the preview availability of its new &lt;a href=&quot;http://www.asp.net/vnext&quot; target=&quot;_blank&quot;&gt;ASP.Net vNext&lt;/a&gt;, that is MVC 6.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p style=&quot;text-align: justify;&quot;&gt;ASP.NET vNext is a lean and composable framework for building web and cloud applications. MVC, Web API, and Web Pages are merged into one framework, called MVC 6&lt;/p&gt;
@@ -166,9 +166,9 @@ print_hi(&amp;#39;Tom&amp;#39;)
  
  <entry>
    <title>ASP.Net MVC 6 - Whats New?</title>
-   <link href="localhost:4000/programming/asp-net-mvc-6-whats-new"/>
+   <link href="http://pbdesk.io/programming/asp-net-mvc-6-whats-new"/>
    <updated>2014-11-05T10:35:50-05:00</updated>
-   <id>localhost:4000/programming/asp-net-mvc-6-whats-new</id>
+   <id>http://pbdesk.io/programming/asp-net-mvc-6-whats-new</id>
    <content type="html">&lt;p style=&quot;text-align: justify;&quot;&gt;Asp.Net vNext (http://asp.net/vNext) is the official place where we learn about next generation of Microsoft&#39;s ASP.Net framework. As of 2014 vNext is MVC 6! Yes MVC 6 is the new cool major overhaul over previous ASP.Net. Recently, Microsoft announced the preview availability of this product.&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;ASP.NET vNext is a lean and composable framework for building web and cloud applications. ASP.NET vNext is fully open source and available on &lt;a href=&quot;http://github.com/aspnet/home&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p style=&quot;text-align: justify;&quot;&gt;MVC 6  has been redesigned from the ground up. The goal is to create a lean and composable .NET stack for building modern web/cloud-based apps. Microsoft has chosen a new direction, where the Web API, MVC and Web Pages framework are merged into one framework. This allows to remove a lot of the overlap between the three frameworks. And result of this change means that MVC can be self-hosting just like Web API.&lt;/p&gt;
@@ -223,9 +223,9 @@ print_hi(&amp;#39;Tom&amp;#39;)
  
  <entry>
    <title>C# Code Snippet to Send Email</title>
-   <link href="localhost:4000/programming/c-code-snippet-send-email"/>
+   <link href="http://pbdesk.io/programming/c-code-snippet-send-email"/>
    <updated>2014-09-20T10:46:58-04:00</updated>
-   <id>localhost:4000/programming/c-code-snippet-send-email</id>
+   <id>http://pbdesk.io/programming/c-code-snippet-send-email</id>
    <content type="html">&lt;p&gt;Microsoft.Net framework provides &lt;a title=&quot;System.Net.Mail Namespace&quot; href=&quot;http://msdn.microsoft.com/en-us/library/System.Net.Mail.aspx&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;System.Net.Mail&lt;/strong&gt; Namespace&lt;/a&gt; for handling SMTP and email related utilities. &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/system.net.mail.smtpclient.aspx&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;SmtpClient&lt;/strong&gt; class&lt;/a&gt; allows applications to send e-mail by using the Simple Mail Transfer Protocol (SMTP) where as &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/system.net.mail.mailmessage.aspx&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;MailMessage&lt;/strong&gt; class&lt;/a&gt; represents an e-mail message that can be sent using the SmtpClient class.&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;Please note that &lt;strong&gt;System.Web.Mail&lt;/strong&gt; namespace should not be used any more as most of the functionalist in this namespace are now &lt;strong&gt;obsolete&lt;/strong&gt;.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;Here are few code snippets to send email in C# using SMTP:&lt;/p&gt;
@@ -238,9 +238,9 @@ print_hi(&amp;#39;Tom&amp;#39;)
  
  <entry>
    <title>Unit Testing Node.JS With Mocha</title>
-   <link href="localhost:4000/nodejs/unit-testing-node-js-with-mocha"/>
+   <link href="http://pbdesk.io/nodejs/unit-testing-node-js-with-mocha"/>
    <updated>2014-08-24T21:53:52-04:00</updated>
-   <id>localhost:4000/nodejs/unit-testing-node-js-with-mocha</id>
+   <id>http://pbdesk.io/nodejs/unit-testing-node-js-with-mocha</id>
    <content type="html">&lt;p&gt;My google research for &quot;node js mocha tutorial&quot;&lt;/p&gt;
 &lt;h2&gt;1. &lt;a href=&quot;http://visionmedia.github.io/mocha/&quot; target=&quot;_blank&quot;&gt;Official web site for Mocha&lt;/a&gt;&lt;/h2&gt;
 &lt;address&gt;&lt;strong&gt;simple, flexible, fun&lt;/strong&gt;. &lt;span style=&quot;color: #2c2c2c;&quot;&gt;Mocha is a feature-rich JavaScript test framework running on &lt;/span&gt;&lt;a style=&quot;font-weight: bold; color: #8a6343;&quot; href=&quot;http://nodejs.org/&quot; target=&quot;_blank&quot;&gt;node.js&lt;/a&gt;&lt;span style=&quot;color: #2c2c2c;&quot;&gt;&lt;span style=&quot;color: #2c2c2c;&quot;&gt; and the browser, making&lt;/span&gt;&lt;/span&gt;&lt;img class=&quot;alignright wp-image-16058&quot; src=&quot;assets/Mocha-thumb.png&quot; alt=&quot;Mocha Thumbnail&quot; width=&quot;80&quot; height=&quot;55&quot; /&gt;&lt;span style=&quot;color: #2c2c2c;&quot;&gt;asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases. Hosted on &lt;/span&gt;&lt;a style=&quot;font-weight: bold; color: #8a6343;&quot; href=&quot;https://github.com/visionmedia/mocha&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;&lt;span style=&quot;color: #2c2c2c;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
@@ -260,9 +260,9 @@ print_hi(&amp;#39;Tom&amp;#39;)
  
  <entry>
    <title>Realm of Package Managers</title>
-   <link href="localhost:4000/programming/realm-package-managers"/>
+   <link href="http://pbdesk.io/programming/realm-package-managers"/>
    <updated>2014-08-15T15:43:56-04:00</updated>
-   <id>localhost:4000/programming/realm-package-managers</id>
+   <id>http://pbdesk.io/programming/realm-package-managers</id>
    <content type="html">Realm of Package Managers
 
 </content>
@@ -270,9 +270,9 @@ print_hi(&amp;#39;Tom&amp;#39;)
  
  <entry>
    <title>Getting started: Website in Node.JS With Express, Jade & Stylus using Node.js Tools for Visual Studio</title>
-   <link href="localhost:4000/nodejs/getting-started-website-node-js-express-jade-stylus-using-node-js-tools-visual-studio"/>
+   <link href="http://pbdesk.io/nodejs/getting-started-website-node-js-express-jade-stylus-using-node-js-tools-visual-studio"/>
    <updated>2014-08-08T10:00:37-04:00</updated>
-   <id>localhost:4000/nodejs/getting-started-website-node-js-express-jade-stylus-using-node-js-tools-visual-studio</id>
+   <id>http://pbdesk.io/nodejs/getting-started-website-node-js-express-jade-stylus-using-node-js-tools-visual-studio</id>
    <content type="html">&lt;p&gt;Since last few days I am trying my hands with NodeJS. I came across very nice article &quot;&lt;a href=&quot;http://clock.co.uk/blog/a-simple-website-in-nodejs-with-express-jade-and-stylus&quot; target=&quot;_blank&quot;&gt;A SIMPLE WEBSITE IN NODE.JS WITH EXPRESS, JADE AND STYLUS&lt;/a&gt;&quot; by Ben Gourley. Really simple and easy startup.&lt;/p&gt;
 &lt;p&gt;https://twitter.com/pbdesk/status/496729892328071170&lt;/p&gt;
 &lt;p&gt;Taking this article as base, I implemented same using #NTVS (Node.js Tools for Visual Studio) using #VS2013. &lt;span style=&quot;color: #333333;&quot;&gt;Modified code to use latest versions of dependencies for express, jade &amp;amp; stylus. Like with Express 4.0, all middleware (except static) have been removed and will need to be called separately, &#39;logger&#39; needs to be exchanged with &#39;morgan&#39;. Here is nice post on &lt;a href=&quot;http://scotch.io/bar-talk/expressjs-4-0-new-features-and-upgrading-from-3-0&quot; target=&quot;_blank&quot;&gt;ExpressJS 4.0: New Features and Upgrading from 3.0&lt;/a&gt;. &lt;/span&gt;&lt;/p&gt;
@@ -287,9 +287,9 @@ print_hi(&amp;#39;Tom&amp;#39;)
  
  <entry>
    <title>Adieu PBDesk.com V2</title>
-   <link href="localhost:4000/featured/myprojects/adieu-pbdesk-com-v2"/>
+   <link href="http://pbdesk.io/featured/myprojects/adieu-pbdesk-com-v2"/>
    <updated>2014-08-06T15:07:20-04:00</updated>
-   <id>localhost:4000/featured/myprojects/adieu-pbdesk-com-v2</id>
+   <id>http://pbdesk.io/featured/myprojects/adieu-pbdesk-com-v2</id>
    <content type="html">&lt;p style=&quot;text-align: justify;&quot;&gt;Long back posted that i want to &lt;a title=&quot;ReWriting PBDesk.com&quot; href=&quot;http://blogs.pbdesk.com/rewriting-pbdesk-com/&quot; target=&quot;_blank&quot;&gt;rewrite my site &lt;/a&gt;with all new ASP.Net MVC, WebAPI, Umbaco7, AngularJS &amp;amp; Twitter Bootstrap.  It took lot of time for me to rewrite my site but finally New PBDesk.com V3 is almost ready now so its time to say good bye to existing site what I call V2.  But i have archived this old site at http://2013.PBDesk.com.[stextbox id=&quot;info&quot;]Old site archived at &lt;a title=&quot;PBDesk.com V2&quot; href=&quot;http://2013.PBDesk.com&quot; target=&quot;_blank&quot;&gt;http://2013.PBDesk.com&lt;/a&gt;.[/stextbox]&lt;/p&gt;
 &lt;div class=&quot;entry&quot; style=&quot;padding-bottom: 0;margin-bottom: -21px;&quot;&gt;
   &lt;div class=&quot;padd&quot; style=&quot;padding-bottom: 0&quot;&gt;
@@ -431,9 +431,9 @@ print_hi(&amp;#39;Tom&amp;#39;)
  
  <entry>
    <title>Node.JS: Tutorials & Resources</title>
-   <link href="localhost:4000/nodejs/nodejs-news-update"/>
+   <link href="http://pbdesk.io/nodejs/nodejs-news-update"/>
    <updated>2014-07-05T08:11:00-04:00</updated>
-   <id>localhost:4000/nodejs/nodejs-news-update</id>
+   <id>http://pbdesk.io/nodejs/nodejs-news-update</id>
    <content type="html">&lt;p&gt;Node.JS is getting very popular now a days and i have also started enjoying this new breeze.&lt;/p&gt;
 &lt;p&gt;Here are my recent tweets regarding NodeJS.&lt;/p&gt;
 &lt;a class=&quot;twitter-timeline&quot; href=&quot;https://twitter.com/search?q=%23NodeJS%20from%3APBDesk&quot; data-widget-id=&quot;594221529363263488&quot;&gt;Tweets about #NodeJS from:PBDesk&lt;/a&gt;
@@ -442,17 +442,17 @@ print_hi(&amp;#39;Tom&amp;#39;)
  
  <entry>
    <title>Objective-C Succinctly</title>
-   <link href="localhost:4000/ebooks/programming/Succinctly-Objective-C"/>
+   <link href="http://pbdesk.io/ebooks/programming/Succinctly-Objective-C"/>
    <updated>2014-03-03T00:00:00-05:00</updated>
-   <id>localhost:4000/ebooks/programming/Succinctly-Objective-C</id>
+   <id>http://pbdesk.io/ebooks/programming/Succinctly-Objective-C</id>
    <content type="html">&lt;div&gt;test&lt;/div&gt;</content>
  </entry>
  
  <entry>
    <title>Pinal Bhatt</title>
-   <link href="localhost:4000/people/Pinal-Bhatt"/>
+   <link href="http://pbdesk.io/people/Pinal-Bhatt"/>
    <updated>2014-03-03T00:00:00-05:00</updated>
-   <id>localhost:4000/people/Pinal-Bhatt</id>
+   <id>http://pbdesk.io/people/Pinal-Bhatt</id>
    <content type="html">&lt;div&gt;People page test&lt;/div&gt;
 
 Pinal Bhatt
@@ -461,9 +461,9 @@ Pinal Bhatt
  
  <entry>
    <title>John Papa</title>
-   <link href="localhost:4000/people/John-Papa"/>
+   <link href="http://pbdesk.io/people/John-Papa"/>
    <updated>2014-03-03T00:00:00-05:00</updated>
-   <id>localhost:4000/people/John-Papa</id>
+   <id>http://pbdesk.io/people/John-Papa</id>
    <content type="html">&lt;div&gt;People page test&lt;/div&gt;
 
 </content>
@@ -471,17 +471,17 @@ Pinal Bhatt
  
  <entry>
    <title>Test Book</title>
-   <link href="localhost:4000/ebooks/test-book"/>
+   <link href="http://pbdesk.io/ebooks/test-book"/>
    <updated>2014-03-02T00:00:00-05:00</updated>
-   <id>localhost:4000/ebooks/test-book</id>
+   <id>http://pbdesk.io/ebooks/test-book</id>
    <content type="html">&lt;div&gt;Test Book&lt;/div&gt;</content>
  </entry>
  
  <entry>
    <title>Introducing Poole</title>
-   <link href="localhost:4000/ebooks/jekyll/poole/introducing-poole"/>
+   <link href="http://pbdesk.io/ebooks/jekyll/poole/introducing-poole"/>
    <updated>2014-03-02T00:00:00-05:00</updated>
-   <id>localhost:4000/ebooks/jekyll/poole/introducing-poole</id>
+   <id>http://pbdesk.io/ebooks/jekyll/poole/introducing-poole</id>
    <content type="html">&lt;p&gt;&lt;em&gt;The Strange Case of Dr. Jeykll and Mr. Hyde&lt;/em&gt; tells the story of a lawyer
 investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward
 Hyde. Chief among the novel&amp;rsquo;s supporting cast is a man by the name of Mr. Poole,
@@ -540,148 +540,10 @@ reports, and features requests.&lt;/p&gt;
  </entry>
  
  <entry>
-   <title>Example content</title>
-   <link href="localhost:4000/jekyll/example/2014-03-01-example-content"/>
-   <updated>2014-03-01T00:00:00-05:00</updated>
-   <id>localhost:4000/jekyll/example/2014-03-01-example-content</id>
-   <content type="html">&lt;div class=&quot;message&quot;&gt;
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
-&lt;/div&gt;
-
-&lt;p&gt;Cum sociis natoque penatibus et magnis &lt;a href=&quot;#&quot;&gt;dis parturient montes&lt;/a&gt;, nascetur ridiculus mus. &lt;em&gt;Aenean eu leo quam.&lt;/em&gt; Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Etiam porta &lt;strong&gt;sem malesuada magna&lt;/strong&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
-
-&lt;h2&gt;Inline HTML elements&lt;/h2&gt;
-
-&lt;p&gt;HTML defines a long list of available inline tags, a complete list of which can be found on the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&quot;&gt;Mozilla Developer Network&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;To bold text&lt;/strong&gt;, use &lt;code&gt;&amp;lt;strong&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;To italicize text&lt;/em&gt;, use &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Abbreviations, like &lt;abbr title=&quot;HyperText Markup Langage&quot;&gt;HTML&lt;/abbr&gt; should use &lt;code&gt;&amp;lt;abbr&amp;gt;&lt;/code&gt;, with an optional &lt;code&gt;title&lt;/code&gt; attribute for the full phrase.&lt;/li&gt;
-&lt;li&gt;Citations, like &lt;cite&gt;&amp;mdash; Mark otto&lt;/cite&gt;, should use &lt;code&gt;&amp;lt;cite&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;del&gt;Deleted&lt;/del&gt; text should use &lt;code&gt;&amp;lt;del&amp;gt;&lt;/code&gt; and &lt;ins&gt;inserted&lt;/ins&gt; text should use &lt;code&gt;&amp;lt;ins&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Superscript &lt;sup&gt;text&lt;/sup&gt; uses &lt;code&gt;&amp;lt;sup&amp;gt;&lt;/code&gt; and subscript &lt;sub&gt;text&lt;/sub&gt; uses &lt;code&gt;&amp;lt;sub&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Most of these elements are styled by browsers with few modifications on our part.&lt;/p&gt;
-
-&lt;h2&gt;Heading&lt;/h2&gt;
-
-&lt;p&gt;Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt;
-
-&lt;h3&gt;Code&lt;/h3&gt;
-
-&lt;p&gt;Cum sociis natoque penatibus et magnis dis &lt;code&gt;code element&lt;/code&gt; montes, nascetur ridiculus mus.&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function(&amp;quot;a&amp;quot;, &amp;quot;b&amp;quot;, &amp;quot;return a + b&amp;quot;);
-
-// Call the function
-adder(2, 6);
-// &amp;gt; 8&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;/p&gt;
-
-&lt;h3&gt;Gists via GitHub Pages&lt;/h3&gt;
-
-&lt;p&gt;Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.&lt;/p&gt;
-
-&lt;script src=&quot;https://gist.github.com/5555251.js?file=gist.md&quot;&gt; &lt;/script&gt;
-
-&lt;p&gt;Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.&lt;/p&gt;
-
-&lt;h3&gt;Lists&lt;/h3&gt;
-
-&lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Praesent commodo cursus magna, vel scelerisque nisl consectetur et.&lt;/li&gt;
-&lt;li&gt;Donec id elit non mi porta gravida at eget metus.&lt;/li&gt;
-&lt;li&gt;Nulla vitae elit libero, a pharetra augue.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Vestibulum id ligula porta felis euismod semper.&lt;/li&gt;
-&lt;li&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/li&gt;
-&lt;li&gt;Maecenas sed diam eget risus varius blandit sit amet non magna.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.&lt;/p&gt;
-
-&lt;dl&gt;
-  &lt;dt&gt;HyperText Markup Language (HTML)&lt;/dt&gt;
-  &lt;dd&gt;The language used to describe and define the content of a Web page&lt;/dd&gt;
-
-  &lt;dt&gt;Cascading Style Sheets (CSS)&lt;/dt&gt;
-  &lt;dd&gt;Used to describe the appearance of Web content&lt;/dd&gt;
-
-  &lt;dt&gt;JavaScript (JS)&lt;/dt&gt;
-  &lt;dd&gt;The programming language used to build advanced Web sites and applications&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;p&gt;Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
-
-&lt;h3&gt;Tables&lt;/h3&gt;
-
-&lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Name&lt;/th&gt;
-      &lt;th&gt;Upvotes&lt;/th&gt;
-      &lt;th&gt;Downvotes&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tfoot&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Totals&lt;/td&gt;
-      &lt;td&gt;21&lt;/td&gt;
-      &lt;td&gt;23&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tfoot&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Alice&lt;/td&gt;
-      &lt;td&gt;10&lt;/td&gt;
-      &lt;td&gt;11&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Bob&lt;/td&gt;
-      &lt;td&gt;4&lt;/td&gt;
-      &lt;td&gt;3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Charlie&lt;/td&gt;
-      &lt;td&gt;7&lt;/td&gt;
-      &lt;td&gt;9&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Want to see something else added? &lt;a href=&quot;https://github.com/poole/poole/issues/new&quot;&gt;Open an issue.&lt;/a&gt;&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
    <title>ReWriting PBDesk.com</title>
-   <link href="localhost:4000/myprojects/rewriting-pbdesk-com"/>
+   <link href="http://pbdesk.io/myprojects/rewriting-pbdesk-com"/>
    <updated>2013-12-24T04:12:02-05:00</updated>
-   <id>localhost:4000/myprojects/rewriting-pbdesk-com</id>
+   <id>http://pbdesk.io/myprojects/rewriting-pbdesk-com</id>
    <content type="html">&lt;p&gt;[caption id=&quot;attachment_242&quot; align=&quot;alignright&quot; width=&quot;300&quot;]&lt;a href=&quot;http://2013.PBDesk.com&quot;&gt;&lt;img class=&quot;wp-image-242 size-medium&quot; src=&quot;assets/2013-300x235.png&quot; alt=&quot;2013.PBDesk.com&quot; width=&quot;300&quot; height=&quot;235&quot; /&gt;&lt;/a&gt; 2013.PBDesk.com[/caption]&lt;/p&gt;
 &lt;p&gt;[caption id=&quot;attachment_243&quot; align=&quot;alignleft&quot; width=&quot;300&quot;]&lt;a href=&quot;http://www.PBDesk.com&quot;&gt;&lt;img class=&quot;wp-image-243 size-medium&quot; src=&quot;assets/2014-300x237.png&quot; alt=&quot;2014.PBDesk.com&quot; width=&quot;300&quot; height=&quot;237&quot; /&gt;&lt;/a&gt; 2014.PBDesk.com[/caption]&lt;/p&gt;
 &lt;p&gt;&lt;a title=&quot;PBDesk.com&quot; href=&quot;http://www.PBDesk.com&quot; target=&quot;_blank&quot;&gt;PBDesk.com&lt;/a&gt; - My Site, My Desk! Its now more then an year with same look, not sure of others ;) but i am bored of same looks. Thinking of re-writing the site!!!!&lt;/p&gt;
@@ -696,9 +558,9 @@ adder(2, 6);
  
  <entry>
    <title>AngularJS – Really SuperHeroic JavaScipt</title>
-   <link href="localhost:4000/angularjs/angularjs-really-superheroic-javascipt"/>
+   <link href="http://pbdesk.io/angularjs/angularjs-really-superheroic-javascipt"/>
    <updated>2013-05-10T10:15:00-04:00</updated>
-   <id>localhost:4000/angularjs/angularjs-really-superheroic-javascipt</id>
+   <id>http://pbdesk.io/angularjs/angularjs-really-superheroic-javascipt</id>
    <content type="html">&lt;blockquote&gt;
 &lt;p style=&quot;text-align: justify;&quot;&gt;Updated on 30th Aug, 2014 - AngularJS 1.3.0-rc.0 is Out.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -721,9 +583,9 @@ adder(2, 6);
  
  <entry>
    <title>Javascript: Random Number between two integers</title>
-   <link href="localhost:4000/javascript/javascript-random-number-between-two-integers"/>
+   <link href="http://pbdesk.io/javascript/javascript-random-number-between-two-integers"/>
    <updated>2013-01-07T18:11:00-05:00</updated>
-   <id>localhost:4000/javascript/javascript-random-number-between-two-integers</id>
+   <id>http://pbdesk.io/javascript/javascript-random-number-between-two-integers</id>
    <content type="html">&lt;p align=&quot;justify&quot;&gt;Javascript does has built-in function Math.random() to generate a random number, however the so generated random number is always a floating value between 0 and 1. This may be fine for some requirements but most likely you will end up with a requirement where you will need a random number between two integers. Many other programming languages do have utility for this but in case of Javascript we need to write our own simple  utility function. Below is the simple function which will generate a random number between two numbers ‘form’ and ‘to’:&lt;/p&gt;
 &lt;div&gt;
 &lt;pre class=&quot;toolbar:1 lang:js decode:true&quot;&gt;function randomFromTo(from, to){
@@ -751,9 +613,9 @@ adder(2, 6);
  
  <entry>
    <title>.Net 4.5, VS2012 & Windows 8 Released</title>
-   <link href="localhost:4000/microsoft/net-4-5-vs2012-windows-8-released"/>
+   <link href="http://pbdesk.io/microsoft/net-4-5-vs2012-windows-8-released"/>
    <updated>2012-08-23T09:10:00-04:00</updated>
-   <id>localhost:4000/microsoft/net-4-5-vs2012-windows-8-released</id>
+   <id>http://pbdesk.io/microsoft/net-4-5-vs2012-windows-8-released</id>
    <content type="html">&lt;p style=&quot;text-align: justify;&quot;&gt;WOW….. Looks like a release season a Microsoft. Many new products and technologies getting released in this month and and in near future.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://blog.pbdesk.com/wp-content/uploads/2012/08/dotnet_thumb-25255B9-25255D.jpg&quot;&gt;&lt;img style=&quot;background-image: none; margin: 0px 56px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border: 0px;&quot; title=&quot;dotnet&quot; src=&quot;assets/dotnet_thumb-25255B9-25255D.jpg&quot; alt=&quot;dotnet&quot; width=&quot;240&quot; height=&quot;160&quot; align=&quot;left&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -781,9 +643,9 @@ adder(2, 6);
  
  <entry>
    <title>SQLite Browsers, Explorers, Admin GUI Tools</title>
-   <link href="localhost:4000/featured/sqlite-browsers-explorers-admin-gui-tools"/>
+   <link href="http://pbdesk.io/featured/sqlite-browsers-explorers-admin-gui-tools"/>
    <updated>2012-08-10T16:56:00-04:00</updated>
-   <id>localhost:4000/featured/sqlite-browsers-explorers-admin-gui-tools</id>
+   <id>http://pbdesk.io/featured/sqlite-browsers-explorers-admin-gui-tools</id>
    <content type="html">&lt;p style=&quot;text-align: justify;&quot;&gt;&lt;a href=&quot;http://www.sqlite.org/&quot; target=&quot;_blank&quot;&gt;&lt;img style=&quot;background-image: none; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border: 0px;&quot; title=&quot;sqlite370&quot; src=&quot;assets/sqlite370-25255B3-25255D.gif&quot; alt=&quot;sqlite370&quot; width=&quot;220&quot; height=&quot;101&quot; align=&quot;left&quot; border=&quot;0&quot; /&gt;SQLite&lt;/a&gt; is a software library that implements a self-contained, server less, zero-configuration, transactional SQL database engine. SQLite is the most widely deployed SQL database engine in the world. The source code for SQLite is in the public domain.&lt;/p&gt;
 &lt;p&gt;Here are few links for SQLite Browsers, Explorers &amp;amp; Admin GUI Tools:&lt;/p&gt;
 &lt;h4&gt;SQlite3Explorer&lt;/h4&gt;
@@ -811,9 +673,9 @@ adder(2, 6);
  
  <entry>
    <title>Using SQLite With  WinRT, Metro, Windows 8 Mobile</title>
-   <link href="localhost:4000/windows8/using-sqlite-with-winrt-metro-windows-8-mobile"/>
+   <link href="http://pbdesk.io/windows8/using-sqlite-with-winrt-metro-windows-8-mobile"/>
    <updated>2012-08-10T10:50:00-04:00</updated>
-   <id>localhost:4000/windows8/using-sqlite-with-winrt-metro-windows-8-mobile</id>
+   <id>http://pbdesk.io/windows8/using-sqlite-with-winrt-metro-windows-8-mobile</id>
    <content type="html">&lt;p&gt;As pre recent news at &lt;a title=&quot;http://www.sqlite.org/news.html&quot; href=&quot;http://www.sqlite.org/news.html&quot; target=&quot;_blank&quot;&gt;http://www.sqlite.org/news.html&lt;/a&gt; on 2012-June-11 - Release 3.7.13&lt;/p&gt;
 &lt;p align=&quot;justify&quot;&gt;&lt;a href=&quot;http://blog.pbdesk.com/wp-content/uploads/2012/08/sqlite370_thumb-25255B12-25255D.gif&quot;&gt;&lt;img style=&quot;background-image: none; padding-left: 0px; padding-right: 0px; display: inline; float: left; padding-top: 0px; border: 0px;&quot; title=&quot;sqlite370&quot; src=&quot;assets/sqlite370_thumb-25255B12-25255D.gif&quot; alt=&quot;sqlite370&quot; width=&quot;220&quot; height=&quot;135&quot; align=&quot;left&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;“SQLite &lt;a href=&quot;http://www.sqlite.org/releaselog/3_7_13.html&quot;&gt;version 3.7.13&lt;/a&gt; adds support for WinRT and metro style applications for Microsoft Windows 8. The 3.7.13 release is coming sooner than is usual after the previous release in order to get this new capability into the hands of developers. To use SQLite in a metro style application, compile with the -DSQLITE_OS_WINRT flag. Because of the increased application security and safety requirements of WinRT, all database filenames should be full pathnames. Note that SQLite is not capable of accessing databases outside the installation directory and application data directory. This restriction is another security and safety feature of WinRT. Apart from these restrictions, SQLite should work exactly the same on WinRT as it does on every other system. “&lt;/p&gt;
 &lt;p align=&quot;justify&quot;&gt;Below are few links on tutorials regarding how SQLite can be used with metro apps.:&lt;/p&gt;
@@ -841,9 +703,9 @@ adder(2, 6);
  
  <entry>
    <title>INotifyPropertyChanged - The .NET 4.5 Way. CallerMemberName</title>
-   <link href="localhost:4000/dotnet/inotifypropertychanged-the-net-4-5-way-callermembername"/>
+   <link href="http://pbdesk.io/dotnet/inotifypropertychanged-the-net-4-5-way-callermembername"/>
    <updated>2012-08-07T09:43:00-04:00</updated>
-   <id>localhost:4000/dotnet/inotifypropertychanged-the-net-4-5-way-callermembername</id>
+   <id>http://pbdesk.io/dotnet/inotifypropertychanged-the-net-4-5-way-callermembername</id>
    <content type="html">&lt;p&gt;&amp;nbsp;&lt;/p&gt;
 &lt;p&gt;Here are few links describing how to use INotifyPropertyChanged interface in .Net Framework 4.5 using new “&lt;a href=&quot;http://msdn.microsoft.com/en-us/library/hh534540(v=vs.110).aspx&quot; target=&quot;_blank&quot;&gt;Caller Information&lt;/a&gt;” Attributes: &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/system.runtime.compilerservices.callerfilepathattribute(v=vs.110).aspx&quot; target=&quot;_blank&quot;&gt;CallerFilePathAttribute&lt;/a&gt;, &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/system.runtime.compilerservices.callerlinenumberattribute(v=vs.110).aspx&quot; target=&quot;_blank&quot;&gt;CallerLineNumberAttribute&lt;/a&gt;, and &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/system.runtime.compilerservices.callermembernameattribute(v=vs.110).aspx#Y0&quot; target=&quot;_blank&quot;&gt;CallerMemberNameAttribute&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -859,9 +721,9 @@ adder(2, 6);
  
  <entry>
    <title>Route Constraints With ASP.Net MVC & WebAPI</title>
-   <link href="localhost:4000/asp.net/route-constraints-with-asp-net-mvc-webapi"/>
+   <link href="http://pbdesk.io/asp.net/route-constraints-with-asp-net-mvc-webapi"/>
    <updated>2012-07-17T09:08:00-04:00</updated>
-   <id>localhost:4000/asp.net/route-constraints-with-asp-net-mvc-webapi</id>
+   <id>http://pbdesk.io/asp.net/route-constraints-with-asp-net-mvc-webapi</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;ASP.Net MVC&lt;/strong&gt; has a powerful &lt;strong&gt;Routing&lt;/strong&gt; &lt;strong&gt;Engine&lt;/strong&gt; that allows mapping between URL Routes and Controller Actions. Below are few links regarding how you can control how browser requests match routes by creating route constraints. You use route constraints to restrict the browser requests that match a particular route.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Creating a Route Constraint @ www.ASP.Net/MVC
@@ -891,9 +753,9 @@ adder(2, 6);
  
  <entry>
    <title>Free eBooks: jQuery & Metro Apps</title>
-   <link href="localhost:4000/ebook/free-ebooks-jquery-metro-apps"/>
+   <link href="http://pbdesk.io/ebook/free-ebooks-jquery-metro-apps"/>
    <updated>2012-06-15T16:17:00-04:00</updated>
-   <id>localhost:4000/ebook/free-ebooks-jquery-metro-apps</id>
+   <id>http://pbdesk.io/ebook/free-ebooks-jquery-metro-apps</id>
    <content type="html">&lt;h2&gt;&lt;a href=&quot;http://www.syncfusion.com/resources/techportal/ebooks/jquery&quot; target=&quot;_blank&quot;&gt;jQuery Succinctly&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt; &lt;a href=&quot;http://www.syncfusion.com/resources/techportal/ebooks/jquery&quot; target=&quot;_blank&quot;&gt;&lt;img style=&quot;background-image: none; border-right-width: 0px; margin: 0px 10px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px&quot; title=&quot;jquery_img&quot; border=&quot;0&quot; alt=&quot;jquery_img&quot; align=&quot;left&quot; src=&quot;assets/jquery_img-25255B3-25255D.png&quot; width=&quot;160&quot; height=&quot;211&quot; /&gt;&lt;/a&gt;  &lt;br /&gt;By &lt;strong&gt;Cody Lindley&lt;/strong&gt; At&amp;#160; &lt;a href=&quot;http://www.syncfusion.com/resources/techportal/ebooks&quot; target=&quot;_blank&quot;&gt;Syncfusion&lt;/a&gt;
 &lt;div align=&quot;justify&quot;&gt;&lt;i&gt;jQuery Succinctly&lt;/i&gt; was written to express, in short-order, the concepts essential to intermediate and advanced jQuery development. Its purpose is to instill in you, the reader, practices that jQuery developers take as common knowledge. Each chapter contains concepts essential to becoming a seasoned jQuery developer.&lt;/div&gt;
@@ -909,9 +771,9 @@ adder(2, 6);
  
  <entry>
    <title>C# Extension Methods – I Love Them!!!!</title>
-   <link href="localhost:4000/dotnet/c-extension-methods-i-love-them"/>
+   <link href="http://pbdesk.io/dotnet/c-extension-methods-i-love-them"/>
    <updated>2012-02-10T12:08:00-05:00</updated>
-   <id>localhost:4000/dotnet/c-extension-methods-i-love-them</id>
+   <id>http://pbdesk.io/dotnet/c-extension-methods-i-love-them</id>
    <content type="html">&lt;p align=&quot;justify&quot;&gt;Extension Methods - Yet another cool feature brought into .Net realm with C# 3 and VB.Net 9. Extension methods allow you to &amp;quot;add&amp;quot; methods to existing types without creating a new derived type, recompiling, or otherwise modifying the original type. In a way it allows you to extend an existing type with new functionality, without having to sub-class or recompile the old type. &lt;/p&gt;
 &lt;h4&gt;The Need:&lt;/h4&gt;
 &lt;p&gt;While programming, many time situations arise where it is necessary to add functionality to an existing class—for instance by adding a new method. Normally we can do this by modifying the existing class&#39;s source code, but this forces to recompile all binaries with these new changes and more important, requires that the programmer have access to the source code, which is not always possible, for example when using classes from a third-party assembly or out-of-box .Net base class libraries. This can be typically worked around in one of following ways:&lt;/p&gt;
@@ -988,9 +850,9 @@ adder(2, 6);
  
  <entry>
    <title>C# Generic String Parser Extension Method</title>
-   <link href="localhost:4000/dotnet/programming/c-generic-string-parser-extension-method"/>
+   <link href="http://pbdesk.io/dotnet/programming/c-generic-string-parser-extension-method"/>
    <updated>2012-02-01T21:50:00-05:00</updated>
-   <id>localhost:4000/dotnet/programming/c-generic-string-parser-extension-method</id>
+   <id>http://pbdesk.io/dotnet/programming/c-generic-string-parser-extension-method</id>
    <content type="html">&lt;p&gt;Here is an extension method for strings in C# for parsing stings to other types.&lt;/p&gt;
 &lt;p&gt;Code at Gist&lt;br /&gt;
 [gist id = &quot;af652fbca4e543bc3c23&quot; file = &quot;GenericStringParserExtensionMethod.cs&quot; ]&lt;/p&gt;
@@ -1001,9 +863,9 @@ adder(2, 6);
  
  <entry>
    <title>Whats coming up new with .Net 4.5 ?</title>
-   <link href="localhost:4000/dotnet/microsoft/whats-coming-up-new-with-net-4-5"/>
+   <link href="http://pbdesk.io/dotnet/microsoft/whats-coming-up-new-with-net-4-5"/>
    <updated>2011-11-29T11:30:00-05:00</updated>
-   <id>localhost:4000/dotnet/microsoft/whats-coming-up-new-with-net-4-5</id>
+   <id>http://pbdesk.io/dotnet/microsoft/whats-coming-up-new-with-net-4-5</id>
    <content type="html">&lt;p&gt;Microsoft has already announced developer preview for .Net Framework 4.5 which is expected to come with ASP.Net 4.5, ASP.Net MVC 4, ASP.NET Web Pages 2,Visual Studio 11 and lot more for Windows 8 development.   &lt;/p&gt;
 &lt;p&gt;Below are few important and informative links regarding what&#39;s coming new under .Net 4.5 umbrella:   &lt;/p&gt;
 &lt;h5&gt;&lt;a href=&quot;http://weblogs.asp.net/jgalloway/archive/2011/09/14/get-the-scoop-on-the-asp-net-4-5-asp-net-mvc-4-asp-net-web-pages-2-and-visual-studio-11-developer-previews.aspx&quot; target=&quot;_blank&quot;&gt;Get the Scoop on the ASP.NET 4.5, ASP.NET MVC 4, ASP.NET Web Pages 2, and Visual Studio 11 Developer Previews&lt;/a&gt;&lt;/h5&gt;
@@ -1025,9 +887,9 @@ adder(2, 6);
  
  <entry>
    <title>ScottGu's : ASP.NET vNext Series</title>
-   <link href="localhost:4000/programming/scottgus-asp-net-vnext-series"/>
+   <link href="http://pbdesk.io/programming/scottgus-asp-net-vnext-series"/>
    <updated>2011-09-01T08:55:00-04:00</updated>
-   <id>localhost:4000/programming/scottgus-asp-net-vnext-series</id>
+   <id>http://pbdesk.io/programming/scottgus-asp-net-vnext-series</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://weblogs.asp.net/scottgu/archive/2011/08/31/asp-net-vnext-series.aspx&quot;&gt;ScottGu&#39;s :  ASP.NET vNext Series&lt;/a&gt;: &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://weblogs.asp.net/scottgu/archive/2011/08/31/html-editor-smart-tasks-and-event-handler-generation-asp-net-vnext-series.aspx&quot;&gt;HTML Editor Support for Smart Tasks and Event Handler Generation&lt;/a&gt; (Aug 31st) &lt;/li&gt;
@@ -1038,9 +900,9 @@ adder(2, 6);
  
  <entry>
    <title>Google's Blogger gets a refresh new look</title>
-   <link href="localhost:4000/programming/googles-blogger-gets-a-refresh-new-look"/>
+   <link href="http://pbdesk.io/programming/googles-blogger-gets-a-refresh-new-look"/>
    <updated>2011-09-01T08:52:00-04:00</updated>
-   <id>localhost:4000/programming/googles-blogger-gets-a-refresh-new-look</id>
+   <id>http://pbdesk.io/programming/googles-blogger-gets-a-refresh-new-look</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://twitter.com/cnet/statuses/109042801626464256&quot;&gt;cnet: Google&#39;s Blogger gets a refresh: http://t.co/N3ZRzKi&lt;/a&gt;: cnet: Google&#39;s Blogger gets a refresh: &lt;a href=&quot;http://t.co/N3ZRzKi&quot;&gt;http://t.co/N3ZRzKi&lt;/a&gt;
 &lt;div&gt;
 &lt;/div&gt;
@@ -1050,9 +912,9 @@ adder(2, 6);
  
  <entry>
    <title>Razor support in Umbraco 4.7</title>
-   <link href="localhost:4000/asp.net/cms/razor-support-in-umbraco-4-7"/>
+   <link href="http://pbdesk.io/asp.net/cms/razor-support-in-umbraco-4-7"/>
    <updated>2011-03-07T11:49:00-05:00</updated>
-   <id>localhost:4000/asp.net/cms/razor-support-in-umbraco-4-7</id>
+   <id>http://pbdesk.io/asp.net/cms/razor-support-in-umbraco-4-7</id>
    <content type="html">&lt;p align=&quot;justify&quot;&gt;With Umbraco 4.6.1 in Jan,2011, they brought in one of the great feature to Umbraco CMS - &lt;strong&gt;Razor&lt;/strong&gt;. And with Umbraco 4.7 in March, 2011 they have matured the made it more usable, reliable and stable. &lt;/p&gt;
 &lt;p align=&quot;justify&quot;&gt;Razor is the view engine introduced by Microsoft team with ASP.Net MVC 3.0. It is optimized around HTML generation using a code-focused templating approach. And now Umbraco 4.7 provides excellent support for writing Razor scripts to create macros in umbraco. For those guys, including me, who dislike XSLTs, this is a great alternate for them.&amp;#160; Now we can write the logic in C# or VB rather then in XSLT. Thanks Umbraco Team!!!. &lt;/p&gt;
 &lt;p align=&quot;justify&quot;&gt;In one of my pervious &lt;a href=&quot;http://blog.pbdesk.com/2011/01/razor-support-in-umbraco.html&quot;&gt;post&lt;/a&gt;, I mentioned about using Razor scripts in Umbraco 4.6.1. You can consider this as an extension to that. In this post I have tried to describe what has changed from 4.6.1 to 4.7 and how to use Razors in Umbraco 4.7. &lt;/p&gt;
@@ -1124,9 +986,9 @@ adder(2, 6);
  
  <entry>
    <title>Re-Usable jQuery Accordion for Umbraco</title>
-   <link href="localhost:4000/elearning/re-usable-jquery-accordion-for-umbraco"/>
+   <link href="http://pbdesk.io/elearning/re-usable-jquery-accordion-for-umbraco"/>
    <updated>2011-02-03T14:05:00-05:00</updated>
-   <id>localhost:4000/elearning/re-usable-jquery-accordion-for-umbraco</id>
+   <id>http://pbdesk.io/elearning/re-usable-jquery-accordion-for-umbraco</id>
    <content type="html">&lt;p align=&quot;justify&quot;&gt;As a part of my umbraco based website &lt;a href=&quot;http://www.pbdesk.com/&quot; target=&quot;_blank&quot;&gt;www.PBDesk.com&lt;/a&gt;, I was developing learning interactions components which can be re-used in the &lt;a href=&quot;http://www.pbdesk.com/elearning.aspx&quot; target=&quot;_blank&quot;&gt;eLearning&lt;/a&gt; section of the website. Accordion &amp;amp; Tabs are good examples of UI components which can be used as learning interactions. I was already implementing jQuery &amp;amp; jQuery UI in my site, so thought why not get these functionalities form jQuery? &lt;/p&gt;
 &lt;p align=&quot;justify&quot;&gt;Did some research and found one very interesting and helpful package for Umbraco, which can help me build my Accordion and Tab controls very easily. This package is &lt;strong&gt;&lt;a href=&quot;http://our.umbraco.org/projects/backoffice-extensions/repeatable-custom-content&quot; target=&quot;_blank&quot;&gt;Repeatable Custom Content&lt;/a&gt;&lt;/strong&gt; by &lt;a href=&quot;http://our.umbraco.org/member/5260&quot; target=&quot;_blank&quot;&gt;Masood Afzal&lt;/a&gt;. This package provides a datatype which allows adding repeatable custom contents/child nodes. That&#39;s what we need to Accordion &amp;amp; Tabs. Thanks to Masood Afzal!! &lt;/p&gt;
 &lt;p&gt;Live Demo at &lt;a href=&quot;http://www.pbdesk.com/elearning/csharp/test-chapter/accordiontest.aspx&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
@@ -1216,9 +1078,9 @@ adder(2, 6);
  
  <entry>
    <title>Razor support in Umbraco</title>
-   <link href="localhost:4000/cms/razor-support-in-umbraco"/>
+   <link href="http://pbdesk.io/cms/razor-support-in-umbraco"/>
    <updated>2011-01-25T12:51:00-05:00</updated>
-   <id>localhost:4000/cms/razor-support-in-umbraco</id>
+   <id>http://pbdesk.io/cms/razor-support-in-umbraco</id>
    <content type="html">&lt;div&gt;
 &lt;div&gt;Important Note!!!&lt;/div&gt;
 &lt;div&gt;
@@ -1285,9 +1147,9 @@ adder(2, 6);
  
  <entry>
    <title>Umbraco Razor Syntax for Breadcrumb</title>
-   <link href="localhost:4000/cms/umbraco-razor-syntax-for-breadcrumb"/>
+   <link href="http://pbdesk.io/cms/umbraco-razor-syntax-for-breadcrumb"/>
    <updated>2011-01-21T14:58:00-05:00</updated>
-   <id>localhost:4000/cms/umbraco-razor-syntax-for-breadcrumb</id>
+   <id>http://pbdesk.io/cms/umbraco-razor-syntax-for-breadcrumb</id>
    <content type="html">&lt;p&gt;Recently Umbraco team released new version 4.6.1 for Umbraco CMS engine and one of the great feature they added was the support for Razor syntax.&amp;#160; Yes, Umbraco now supports Razor syntax. And for those guys, including me, who dislike XSLTs, this is a great alternate for them.&amp;#160; Now we can write the logic in C# rather then in XSLT. Thanks Umbraco Team!!!.&lt;/p&gt;
 &lt;p&gt;Below is the code snipped for generating Breadcrumb from current page to Home page with node level=1&lt;/p&gt;
 &lt;pre style=&quot;border-bottom: #cecece 1px solid; border-left: #cecece 1px solid; padding-bottom: 5px; background-color: #fbfbfb; min-height: 40px; padding-left: 5px; width: 550px; padding-right: 5px; overflow: auto; border-top: #cecece 1px solid; border-right: #cecece 1px solid; padding-top: 5px&quot;&gt;&lt;pre style=&quot;background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&amp;#39;Courier New&amp;#39;,courier,monospace; font-size: 12px&quot;&gt;@using System
@@ -1399,9 +1261,9 @@ adder(2, 6);
  
  <entry>
    <title>Canonical Url For Umbraco Using Razor Syntax</title>
-   <link href="localhost:4000/seo/canonical-url-for-umbraco-using-razor-syntax"/>
+   <link href="http://pbdesk.io/seo/canonical-url-for-umbraco-using-razor-syntax"/>
    <updated>2011-01-19T14:48:00-05:00</updated>
-   <id>localhost:4000/seo/canonical-url-for-umbraco-using-razor-syntax</id>
+   <id>http://pbdesk.io/seo/canonical-url-for-umbraco-using-razor-syntax</id>
    <content type="html">&lt;p align=&quot;justify&quot;&gt;Sometime back I wrote post about &lt;a href=&quot;http://blog.pbdesk.com/2011/01/canonical-url.html&quot;&gt;Canonical Urls&lt;/a&gt;. Indeed Canonical URLs is one of the important chapter of SEO and a way to avoid getting page rank getting distributed among different Url formats with same targets. &lt;/p&gt;
 &lt;p align=&quot;justify&quot;&gt;Along with Canoncial Urls I also wrote about &lt;a href=&quot;http://blog.pbdesk.com/2011/01/canonical-urls-for-umbraco.html&quot;&gt;implementing them in Umbraco site&lt;/a&gt;.&amp;#160; In that post I used XSLT approach of Umbraco to generate Canoncial url for the pages. Recently Umbraco team released new version 4.6.1 for Umbraco CMS engine and one of the great feature they added was the support for Razor syntax.&amp;#160; &lt;strong&gt;Yes, Umbraco now supports Razor syntax&lt;/strong&gt;. And for those guys, including me, who dislike XSLTs, this is a great alternate for them.&amp;#160; Now we can write the logic in C# rather then in XSLT. &lt;em&gt;Thanks Umbraco Team!!!. &lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Here is a piece of code for generating canonical url for Umbraco based site using Razor syntax. &lt;/p&gt;
@@ -1428,9 +1290,9 @@ adder(2, 6);
  
  <entry>
    <title>ASP.Net Open Source CMS</title>
-   <link href="localhost:4000/dotnet/asp.net/cms/asp-net-open-source-cms"/>
+   <link href="http://pbdesk.io/dotnet/asp.net/cms/asp-net-open-source-cms"/>
    <updated>2011-01-18T14:27:00-05:00</updated>
-   <id>localhost:4000/dotnet/asp.net/cms/asp-net-open-source-cms</id>
+   <id>http://pbdesk.io/dotnet/asp.net/cms/asp-net-open-source-cms</id>
    <content type="html">&lt;h3 align=&quot;center&quot;&gt;Umbraco Rocks!!!&lt;/h3&gt;
 &lt;p align=&quot;justify&quot;&gt;Since long I was thinking of writhing this post. I have been blogging since 2007 at &lt;a href=&quot;http://blog.pbdesk.com/&quot; target=&quot;_blank&quot;&gt;blog.PBDesk.com&lt;/a&gt; powered by Google Blogger. But blogs have there own limitations, I was looking for my own full website wherein I can do whatever I want.&amp;#160; Being a .Net developer, initially i started writing whole website from scratch using ASP.Net, but that was taking up big deal of time. Lot of things to do - creating UI, business, framework, data access components and many more things.... &lt;/p&gt;
 &lt;p align=&quot;justify&quot;&gt;So then I started looking for some open source CMS frameworks, which I can use as base for my website and build all my imaginations over it. In this way I can get some basic functionalities (basic framework and data access components) ready available. when I googled for &amp;quot;Opensource CMS&amp;quot;, i found many of them in the ocean. Shortlisted few of them based on their popularity: Joomla, Drupal, DotNetNuke, MojoPortal, Kooboo, Umbraco, N2CMS, Moodle, Kentico. (&lt;em&gt;Has anybody ever wondered why open source CMS systems have typical fuzzy names like this&lt;/em&gt;?) &lt;/p&gt;
@@ -1452,9 +1314,9 @@ adder(2, 6);
  
  <entry>
    <title>Canonical URLs for Umbraco</title>
-   <link href="localhost:4000/seo/canonical-urls-for-umbraco"/>
+   <link href="http://pbdesk.io/seo/canonical-urls-for-umbraco"/>
    <updated>2011-01-03T17:50:00-05:00</updated>
-   <id>localhost:4000/seo/canonical-urls-for-umbraco</id>
+   <id>http://pbdesk.io/seo/canonical-urls-for-umbraco</id>
    <content type="html">&lt;p&gt;In my previous post, i have discussed about &lt;a href=&quot;http://blog.pbdesk.com/2011/01/canonical-url.html&quot;&gt;Canonical URLs&lt;/a&gt; and its importance in SEO. In this post we will see how to implement Canonical Urls in an Umbraco based site using XSLT Macro. &lt;/p&gt;
 &lt;p&gt;Umbraco sites have multiple ways of accessing content - either by friendly URL or by direct URL. In such cases to have a proper SEO page ranking, we need to implement Canonical URLs. To achive this in Umbraco based site, we can create an XSLT macro and insert that macro into the &amp;lt;Head&amp;gt; secton while creating templates.&lt;/p&gt;
 &lt;h2&gt;CanonicalUrls.xslt&lt;/h2&gt;
@@ -1523,9 +1385,9 @@ adder(2, 6);
  
  <entry>
    <title>Canonical URL</title>
-   <link href="localhost:4000/seo/canonical-url"/>
+   <link href="http://pbdesk.io/seo/canonical-url"/>
    <updated>2011-01-03T17:29:00-05:00</updated>
-   <id>localhost:4000/seo/canonical-url</id>
+   <id>http://pbdesk.io/seo/canonical-url</id>
    <content type="html">&lt;p&gt;URL Canonicalization (also refered as URL Normalization) is the process of picking the best url when there are several choices.&amp;#160; It is a process to determine if two syntactically different URLs are equivalent. It is one the important chapter in SEO. &lt;/p&gt;
 &lt;p&gt;For a layman following urls are same&lt;/p&gt;
 &lt;ul&gt;
@@ -1559,9 +1421,9 @@ adder(2, 6);
  
  <entry>
    <title>Free CDN Service – That too from Google!</title>
-   <link href="localhost:4000/google/free-cdn-service-that-too-from-google"/>
+   <link href="http://pbdesk.io/google/free-cdn-service-that-too-from-google"/>
    <updated>2010-12-22T18:22:00-05:00</updated>
-   <id>localhost:4000/google/free-cdn-service-that-too-from-google</id>
+   <id>http://pbdesk.io/google/free-cdn-service-that-too-from-google</id>
    <content type="html">&lt;p&gt;CDN - Content Delivery Network or Content Distribution Network &lt;/p&gt;
 &lt;h2&gt;What is CDN?&lt;/h2&gt;
 &lt;p align=&quot;justify&quot;&gt;As defined at &lt;a href=&quot;http://en.wikipedia.org/wiki/Content_delivery_network&quot; target=&quot;_blank&quot;&gt;wikipedia&lt;/a&gt;:    &lt;/p&gt;
@@ -1583,9 +1445,9 @@ adder(2, 6);
  
  <entry>
    <title>Using CDN hosted jQuery Library</title>
-   <link href="localhost:4000/google/javascript/microsoft/using-cdn-hosted-jquery-library"/>
+   <link href="http://pbdesk.io/google/javascript/microsoft/using-cdn-hosted-jquery-library"/>
    <updated>2010-12-07T15:00:00-05:00</updated>
-   <id>localhost:4000/google/javascript/microsoft/using-cdn-hosted-jquery-library</id>
+   <id>http://pbdesk.io/google/javascript/microsoft/using-cdn-hosted-jquery-library</id>
    <content type="html">&lt;p align=&quot;justify&quot;&gt;Very often, to use jQuery, jQueryUI and Themes we need to add reference(&amp;lt;script&amp;gt; tag) to these javascript libraries in our HTML and normally we host these .js files along with our other web files. But now Microsoft and Google have hosted various versions of these javascript libraries on their CDN servers. So we can easily access them and use them in our sites. In short now we don&#39;t need to host these .js files on our servers. &lt;/p&gt;
 &lt;h2&gt;Using scripts from Microsoft&lt;/h2&gt;
 &lt;p align=&quot;justify&quot;&gt;jQuery, jQueryUI files(including themes) are hosted at Microsoft Ajax Content Delivery Network(ajax.aspnetcdn.com) . Microsoft Ajax CDN includes jQuery ,jQuery UI, jQuery Validation, jQuery Cycle, Ajax Control Toolkit, ASP.NET Ajax, ASP.NET MVC JavaScript Files. For detail list of files available and versions supported please visit this &lt;a href=&quot;http://www.asp.net/ajaxlibrary/cdn.ashx&quot; target=&quot;_blank&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
@@ -1617,9 +1479,9 @@ adder(2, 6);
  
  <entry>
    <title>Using jQuery Scripts hosted @ Google</title>
-   <link href="localhost:4000/google/javascript/using-jquery-scripts-hosted-google"/>
+   <link href="http://pbdesk.io/google/javascript/using-jquery-scripts-hosted-google"/>
    <updated>2010-12-07T14:54:00-05:00</updated>
-   <id>localhost:4000/google/javascript/using-jquery-scripts-hosted-google</id>
+   <id>http://pbdesk.io/google/javascript/using-jquery-scripts-hosted-google</id>
    <content type="html">&lt;p&gt;As mentioned in my previous &lt;a href=&quot;http://blog.pbdesk.com/2010/12/using-cdn-hosted-jquery-library.html&quot;&gt;post&lt;/a&gt;, rather then hosting jQuery libraries on our sever we can directly use them from CDN services available from Microsoft &amp;amp; Google. And there are various advantages of using this. In this article we will see on how to use jQuery library hosted at Google. &lt;/p&gt;
 &lt;p&gt;Google hosts following popular, open-source JavaScript libraries at its API&#39;s library (ajax.googleapis.com): Chrome Frame, Dojo, Ext Core, jQuery, jQuery UI, MooTools, Prototype, script.aculo.us,SWFObject, Yahoo! User Interface Library (YUI),WebFont Loader. For more details about the usage and the versions available please visit:&lt;/p&gt;
 &lt;p&gt;&amp;#160; &lt;a href=&quot;http://code.google.com/apis/libraries/devguide.html&quot;&gt;http://code.google.com/apis/libraries/devguide.html&lt;/a&gt;&lt;/p&gt;
@@ -1637,9 +1499,9 @@ adder(2, 6);
  
  <entry>
    <title>Using jQuery Scripts hosted @ Microsoft</title>
-   <link href="localhost:4000/javascript/microsoft/using-jquery-scripts-hosted-microsoft"/>
+   <link href="http://pbdesk.io/javascript/microsoft/using-jquery-scripts-hosted-microsoft"/>
    <updated>2010-12-07T14:53:00-05:00</updated>
-   <id>localhost:4000/javascript/microsoft/using-jquery-scripts-hosted-microsoft</id>
+   <id>http://pbdesk.io/javascript/microsoft/using-jquery-scripts-hosted-microsoft</id>
    <content type="html">&lt;p align=&quot;justify&quot;&gt;As mentioned in my &lt;a href=&quot;http://www.p-bhatt.com/2010/12/using-cdn-hosted-jquery-library.html&quot; target=&quot;_blank&quot;&gt;previous post&lt;/a&gt;, rather then hosting jQuery libraries on our sever we can directly use them from CDN services available from Microsoft &amp;amp; Google. And there are various advantages of using this. In this article we will see on how to use jQuery library hosted at Microsoft Ajax Content Delivery Network(ajax.aspnetcdn.com) &lt;/p&gt;
 &lt;p align=&quot;justify&quot;&gt;Microsoft Ajax CDN includes jQuery ,jQuery UI, jQuery Validation, jQuery Cycle, Ajax Control Toolkit, ASP.NET Ajax, ASP.NET MVC JavaScript Files. For detail list of files available and versions supported please visit this &lt;a href=&quot;http://www.asp.net/ajaxlibrary/cdn.ashx&quot; target=&quot;_blank&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
 &lt;p align=&quot;justify&quot;&gt;The Microsoft Ajax Content Delivery Network (CDN) enables you to easily add jQuery to your Web applications. For example, you can start using jQuery simply by adding a &amp;lt;script&amp;gt; tag to your page that points to ajax.aspnetcdn.com.    &lt;/p&gt;
@@ -1765,9 +1627,9 @@ adder(2, 6);
  
  <entry>
    <title>Trim() functionality in JavaScript</title>
-   <link href="localhost:4000/javascript/trim-functionality-in-javascript"/>
+   <link href="http://pbdesk.io/javascript/trim-functionality-in-javascript"/>
    <updated>2010-11-30T11:38:00-05:00</updated>
-   <id>localhost:4000/javascript/trim-functionality-in-javascript</id>
+   <id>http://pbdesk.io/javascript/trim-functionality-in-javascript</id>
    <content type="html">&lt;p&gt;Below is are the trim(), ltrim() and rtrim() functionality for strings in Javascript:&lt;/p&gt;
 &lt;pre style=&quot;border-bottom: #cecece 1px solid; border-left: #cecece 1px solid; padding-bottom: 5px; background-color: #fbfbfb; min-height: 40px; padding-left: 5px; width: 550px; padding-right: 5px; overflow: auto; border-top: #cecece 1px solid; border-right: #cecece 1px solid; padding-top: 5px&quot;&gt;&lt;pre style=&quot;background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&amp;#39;Courier New&amp;#39;,courier,monospace; font-size: 12px&quot;&gt;&lt;span style=&quot;color: #008000&quot;&gt;/********** String Trim Utilites *********************/&lt;/span&gt;
 &lt;/pre&gt;
@@ -1794,9 +1656,9 @@ adder(2, 6);
  
  <entry>
    <title>String.Format() for JavaScript</title>
-   <link href="localhost:4000/javascript/string-format-for-javascript"/>
+   <link href="http://pbdesk.io/javascript/string-format-for-javascript"/>
    <updated>2010-11-30T11:33:00-05:00</updated>
-   <id>localhost:4000/javascript/string-format-for-javascript</id>
+   <id>http://pbdesk.io/javascript/string-format-for-javascript</id>
    <content type="html">&lt;p align=&quot;justify&quot;&gt;.Net&#39;s &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/system.string.format(v=VS.100).aspx&quot; target=&quot;_blank&quot;&gt;String.Format&lt;/a&gt; is a very powerful method for working with strings and is one of my favorite utility which I have been using in C# &amp;amp; VB.net since long. And while working with javascript, lot many times I thought if we had something equivelent to .Net&#39;s&amp;#160; String.Format in javascript. Finally after goggling and taking help form few blogs I finally wrote following String.Format function into my javascript library. &lt;/p&gt;
 &lt;pre style=&quot;border-bottom: #cecece 1px solid; border-left: #cecece 1px solid; padding-bottom: 5px; background-color: #fbfbfb; min-height: 40px; padding-left: 5px; width: 500px; padding-right: 5px; overflow: auto; border-top: #cecece 1px solid; border-right: #cecece 1px solid; padding-top: 5px&quot;&gt;&lt;pre style=&quot;background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&amp;#39;Courier New&amp;#39;,courier,monospace; font-size: 12px&quot;&gt;&lt;span style=&quot;color: #0000ff&quot;&gt;String&lt;/span&gt;.format = &lt;span style=&quot;color: #0000ff&quot;&gt;function&lt;/span&gt; (text) {
 &lt;/pre&gt;
@@ -1876,9 +1738,9 @@ adder(2, 6);
  
  <entry>
    <title>Mind Reader : This program probes your mind. Try it.</title>
-   <link href="localhost:4000/programming/mind-reader-this-program-probes-your-mind-try-it"/>
+   <link href="http://pbdesk.io/programming/mind-reader-this-program-probes-your-mind-try-it"/>
    <updated>2010-05-07T16:41:00-04:00</updated>
-   <id>localhost:4000/programming/mind-reader-this-program-probes-your-mind-try-it</id>
+   <id>http://pbdesk.io/programming/mind-reader-this-program-probes-your-mind-try-it</id>
    <content type="html">&lt;table cellspacing=&quot;1&quot; cellpadding=&quot;1&quot; width=&quot;500&quot; border=&quot;0&quot;&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
@@ -1912,9 +1774,9 @@ adder(2, 6);
  
  <entry>
    <title>Drop All Objects in SQL Server</title>
-   <link href="localhost:4000/programming/drop-all-objects-in-sql-server"/>
+   <link href="http://pbdesk.io/programming/drop-all-objects-in-sql-server"/>
    <updated>2010-04-01T16:58:00-04:00</updated>
-   <id>localhost:4000/programming/drop-all-objects-in-sql-server</id>
+   <id>http://pbdesk.io/programming/drop-all-objects-in-sql-server</id>
    <content type="html">&lt;p&gt;Below is the T-SQL script for dropping all the objects from a database in SQL Server. This script in particular drops Procedures, Functions, Tables, Views and Types. For other database objects please create similar script.&lt;/p&gt;
 &lt;div&gt;
 &lt;div&gt;Drop All Objects in SQL Server&lt;/div&gt;
@@ -1941,9 +1803,9 @@ adder(2, 6);
  
  <entry>
    <title>Visual Studio 2010 RC is now available</title>
-   <link href="localhost:4000/dotnet/asp.net/visual-studio-2010-rc-is-now-available"/>
+   <link href="http://pbdesk.io/dotnet/asp.net/visual-studio-2010-rc-is-now-available"/>
    <updated>2010-02-11T23:45:00-05:00</updated>
-   <id>localhost:4000/dotnet/asp.net/visual-studio-2010-rc-is-now-available</id>
+   <id>http://pbdesk.io/dotnet/asp.net/visual-studio-2010-rc-is-now-available</id>
    <content type="html">&lt;p align=&quot;justify&quot;&gt;Finally, long awaited Microsoft Visual Studio 2010 Release Candidate with .Net Framework 4.0 and ASP.Net 4.0 was made publically available on 10th Feb, 2010.&lt;/p&gt;
 &lt;p align=&quot;justify&quot;&gt;I downloaded and installed it successfully, and only thing I can say it is far far batter then its previous beta releases. Still i feel it is slow compared it to VS2008, but new features and new look are worth it. It took about 4 hours to uninstall Beta2, download .ISO file of about 2.5 gb and install VS2010, but process was smooth.&lt;/p&gt;
 &lt;p align=&quot;justify&quot;&gt;It has an awesome, new sober look and feel with WPF-based UI and improved focus on writing, understanding, navigating, debugging and publishing the code.&lt;/p&gt;
@@ -1977,9 +1839,9 @@ adder(2, 6);
  
  <entry>
    <title>Null Object Design Pattern</title>
-   <link href="localhost:4000/dotnet/design%20patterns/null-object-design-pattern"/>
+   <link href="http://pbdesk.io/dotnet/design%20patterns/null-object-design-pattern"/>
    <updated>2010-02-03T14:35:00-05:00</updated>
-   <id>localhost:4000/dotnet/design%20patterns/null-object-design-pattern</id>
+   <id>http://pbdesk.io/dotnet/design%20patterns/null-object-design-pattern</id>
    <content type="html">&lt;p align=&quot;justify&quot;&gt;Null Object design pattern – alternatively returning &lt;em&gt;&lt;strong&gt;null object&lt;/strong&gt;&lt;/em&gt; instead of ‘&lt;em&gt;&lt;strong&gt;Null&lt;/strong&gt;’&lt;/em&gt; to avoid repeatedly checking for null values within code.&lt;/p&gt;
 &lt;p align=&quot;justify&quot;&gt;In the object oriented programming realm it&#39;s very common to create or use methods and properties that return null. And this resulting in NullReferenceException if the programmer forget to assert for null.&lt;/p&gt;
 &lt;p align=&quot;justify&quot;&gt;Null Object design pattern suggests to always return a valid instance instead of null. Rather returning null, you would return an object with a &amp;quot;null&amp;quot; or default behavior/state. This is the same approach as returning an default object instead of null. When you return null, the callers need to check for null. When you return an default object, the callers can access it without a problem - even if they forget to check for null.&lt;/p&gt;
@@ -2030,18 +1892,18 @@ adder(2, 6);
  
  <entry>
    <title>C# : News Updates</title>
-   <link href="localhost:4000/dotnet/csharp/c-news-updates"/>
+   <link href="http://pbdesk.io/dotnet/csharp/c-news-updates"/>
    <updated>2009-11-13T17:39:00-05:00</updated>
-   <id>localhost:4000/dotnet/csharp/c-news-updates</id>
+   <id>http://pbdesk.io/dotnet/csharp/c-news-updates</id>
    <content type="html">&lt;p&gt;&lt;span style=&quot;color: #444444;&quot;&gt;[wp_rss_multi_importer category=&quot;5&quot;]&lt;/span&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Facebook Membership Provider</title>
-   <link href="localhost:4000/dotnet/asp.net/facebook/facebook-membership-provider"/>
+   <link href="http://pbdesk.io/dotnet/asp.net/facebook/facebook-membership-provider"/>
    <updated>2009-11-13T12:27:00-05:00</updated>
-   <id>localhost:4000/dotnet/asp.net/facebook/facebook-membership-provider</id>
+   <id>http://pbdesk.io/dotnet/asp.net/facebook/facebook-membership-provider</id>
    <content type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p align=&quot;justify&quot;&gt;One of the great new features introduced in ASP.NET 2.0 was the use of the &amp;quot;&lt;em&gt;Provider Model&lt;/em&gt;&amp;quot; which provides flexibility and extensibility to your Web applications. Using the provider model, we can easily extend the capabilities provided by the ASP.NET. We can extend the provider model to work with the membership &amp;amp; role information for the Web site users in a custom way, rather than the default SQL Server Express 2005 database. In this project we are trying to demonstrate how to use Facebook Connect featues as Membership Provider for an ASP.Net web application.&lt;/p&gt;
 &lt;p align=&quot;justify&quot;&gt;Facebook is no doubt, #1 social networking site. &lt;strong&gt;Facebook Connect&lt;/strong&gt; provides Authentication service and also provides powerful set of APIs by which we can bring user&#39;s identity and connections to our web applications. Using Facebook connect can access a user&#39;s Idnetity(name, photos etc), Social Graph(friends and connections) and Stream(ctivity, distribution, and integration points within Facebook, like stream stories and Publishers)&lt;/p&gt;
@@ -2114,9 +1976,9 @@ adder(2, 6);
  
  <entry>
    <title>At last I am on the Google Wave :)</title>
-   <link href="localhost:4000/programming/at-last-i-am-on-the-google-wave"/>
+   <link href="http://pbdesk.io/programming/at-last-i-am-on-the-google-wave"/>
    <updated>2009-10-13T15:07:00-04:00</updated>
-   <id>localhost:4000/programming/at-last-i-am-on-the-google-wave</id>
+   <id>http://pbdesk.io/programming/at-last-i-am-on-the-google-wave</id>
    <content type="html">&lt;p&gt;Yes at last i am on the wave with sandbox access account &lt;a href=&quot;mailto:pinal.bhatt@wavesandbox.com&quot;&gt;pinal.bhatt@wavesandbox.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Below is my first wave embedded&amp;#160; into my blog using&amp;#160; Google Wave Embed APIs. Those with wave access can see it below. One without access will see Google Wave developer preview logo with message to log in.&lt;/p&gt;
 &lt;div style=&quot;width: 500px; height: 1000px&quot;&gt;&lt;/div&gt;
@@ -2127,9 +1989,9 @@ adder(2, 6);
  
  <entry>
    <title>Reading Query String with JavaScript</title>
-   <link href="localhost:4000/javascript/reading-query-string-with-javascript"/>
+   <link href="http://pbdesk.io/javascript/reading-query-string-with-javascript"/>
    <updated>2009-10-07T11:40:00-04:00</updated>
-   <id>localhost:4000/javascript/reading-query-string-with-javascript</id>
+   <id>http://pbdesk.io/javascript/reading-query-string-with-javascript</id>
    <content type="html">&lt;p&gt;When you google on this topic you will find many ways to get Query String parameters &amp;amp; its values using JavaScript. Below is one of the smallest, easiest and a clean code for the same purpose. I found this code from &lt;a href=&quot;http://www.bennadel.com/&quot; target=&quot;_blank&quot;&gt;Ben Nadel&lt;/a&gt;’s Blog post mentioned below.&lt;/p&gt;
 &lt;div style=&quot;border-bottom: silver 1px solid; text-align: left; border-left: silver 1px solid; padding-bottom: 4px; line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; padding-left: 4px; width: 97.5%; padding-right: 4px; font-family: &amp;#39;Courier New&amp;#39;, courier, monospace; direction: ltr; max-height: 200px; font-size: 8pt; overflow: auto; border-top: silver 1px solid; cursor: text; border-right: silver 1px solid; padding-top: 4px&quot;&gt;
 &lt;div style=&quot;border-bottom-style: none; text-align: left; padding-bottom: 0px; line-height: 12pt; border-right-style: none; background-color: #f4f4f4; padding-left: 0px; width: 100%; padding-right: 0px; font-family: &amp;#39;Courier New&amp;#39;, courier, monospace; direction: ltr; border-top-style: none; color: black; font-size: 8pt; border-left-style: none; overflow: visible; padding-top: 0px&quot;&gt;
@@ -2168,9 +2030,9 @@ adder(2, 6);
  
  <entry>
    <title>Google - I am falling in love</title>
-   <link href="localhost:4000/programming/google-i-am-falling-in-love"/>
+   <link href="http://pbdesk.io/programming/google-i-am-falling-in-love"/>
    <updated>2009-09-23T16:49:00-04:00</updated>
-   <id>localhost:4000/programming/google-i-am-falling-in-love</id>
+   <id>http://pbdesk.io/programming/google-i-am-falling-in-love</id>
    <content type="html">&lt;p align=&quot;justify&quot;&gt;Google is simply getting awesome day by day. Though I am a Microsoft guy and still a Microsoft lover, slowly i have started developing fondness for Google.&lt;/p&gt;
 &lt;p align=&quot;justify&quot;&gt;Google - synonym for search - is not only a search engine now,&amp;#160; it is much beyond search. &lt;em&gt;GMail&lt;/em&gt;, &lt;em&gt;Google Talk&lt;/em&gt;, &lt;em&gt;iGoogle&lt;/em&gt;, &lt;em&gt;Google Maps&lt;/em&gt;, &lt;em&gt;Google&amp;#160; Earth&lt;/em&gt;, &lt;em&gt;Google Toolbar&lt;/em&gt;, &lt;em&gt;Google Docs&lt;/em&gt;, &lt;em&gt;Blogger&lt;/em&gt; are already there which have become common and have facilitated us since long. But still&amp;#160; slowly and gradually Google is bringing tools to engage us. &lt;/p&gt;
 &lt;p align=&quot;justify&quot;&gt;Other Google apps that have fascinated me are &lt;em&gt;Google Reader&lt;/em&gt;, &lt;em&gt;Google Calendar&lt;/em&gt; &amp;amp; &lt;em&gt;Google Notebook&lt;/em&gt;. I will simply say awesome for these tools and now they are part and parcel of my daily life. And now the newer one&amp;#160; “&lt;em&gt;SideWiki&lt;/em&gt;”&amp;#160; is goint to hit&amp;#160; us.&amp;#160; Also I am eagerly waiting for Google Waves. &lt;/p&gt;
@@ -2185,18 +2047,18 @@ adder(2, 6);
  
  <entry>
    <title>Pinal Bhatt Online – My aggregated web activities</title>
-   <link href="localhost:4000/programming/pinal-bhatt-online-my-aggregated-web-activities"/>
+   <link href="http://pbdesk.io/programming/pinal-bhatt-online-my-aggregated-web-activities"/>
    <updated>2009-09-22T12:31:00-04:00</updated>
-   <id>localhost:4000/programming/pinal-bhatt-online-my-aggregated-web-activities</id>
+   <id>http://pbdesk.io/programming/pinal-bhatt-online-my-aggregated-web-activities</id>
    <content type="html">&lt;p&gt;&lt;iframe height=&quot;1800&quot; src=&quot;http://www.Learning-Leisure.com/AF/Default.aspx&quot; frameborder=&quot;0&quot; width=&quot;100%&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Chat with Author(Pinal Bhatt)</title>
-   <link href="localhost:4000/programming/chat-with-authorpinal-bhatt"/>
+   <link href="http://pbdesk.io/programming/chat-with-authorpinal-bhatt"/>
    <updated>2009-09-14T13:41:00-04:00</updated>
-   <id>localhost:4000/programming/chat-with-authorpinal-bhatt</id>
+   <id>http://pbdesk.io/programming/chat-with-authorpinal-bhatt</id>
    <content type="html">&lt;p&gt;Welcome, you can have private chat with me here.  &lt;center&gt; &lt;object type=&quot;application/x-shockwave-flash&quot; data=&quot;http://wgweb.msg.yahoo.com/badge/Pingbox.swf&quot; width=&quot;500&quot; height=&quot;420&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://wgweb.msg.yahoo.com/badge/Pingbox.swf&quot; /&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;param name=&quot;flashvars&quot; value=&quot;wid=Nfo3Q92rSmwPpQ_ZLD4C1P9gUDo-&quot; /&gt;&lt;/object&gt; &lt;/center&gt;
 &lt;p&gt; Alternatively you can also use this link to have a chat with me.&lt;br /&gt; &lt;a href=&quot;http://www.google.com/talk/service/badge/Start?tk=z01q6amlq2htmbt2kebe5o46cnbqcefleit9em4enqlenrvqukatagnifo6nlt1bj3qvl3gl3mp7t06n6vmrrm1f3s8d2ji8udf4cguh1huf6s0480k2vv2a5l22k6kft3maue3g7qepoifpbb3t5eq8roc5n92mue8oni020&quot; target=&quot;_blank&quot; title=&quot;Click here to chat with Pinal Bhatt&quot;&gt;Chat with Pinal Bhatt&lt;/a&gt; &lt;img alt=&quot;&quot; class=&quot;chat-badges&quot; height=&quot;9&quot; src=&quot;assets/Show?tk=z01q6amlq2htmbt2kebe5o46cnbqcefleit9em4enqlenrvqukatagnifo6nlt1bj3qvl3gl3mp7t06n6vmrrm1f3s8d2ji8udf4cguh1huf6s0480k2vv2a5l22k6kft3maue3g7qepoifpbb3t5eq8roc5n92mue8oni020&amp;amp;w=9&amp;amp;h=9&quot; width=&quot;9&quot; /&gt; &lt;img alt=&quot;&quot; class=&quot;chat-badges&quot; height=&quot;14&quot; src=&quot;assets/chaticon.gif&quot; width=&quot;16&quot; /&gt; &lt;/p&gt;
 &lt;p&gt; Thanks for visiting www.P-Bhatt.com. &lt;/p&gt;&lt;/p&gt;
@@ -2205,9 +2067,9 @@ adder(2, 6);
  
  <entry>
    <title>Social Bookmarking : Links/Urls</title>
-   <link href="localhost:4000/programming/social-bookmarking-linksurls"/>
+   <link href="http://pbdesk.io/programming/social-bookmarking-linksurls"/>
    <updated>2009-07-29T11:10:00-04:00</updated>
-   <id>localhost:4000/programming/social-bookmarking-linksurls</id>
+   <id>http://pbdesk.io/programming/social-bookmarking-linksurls</id>
    <content type="html">&lt;p align=&quot;justify&quot;&gt;“&lt;strong&gt;Social Bookmarking&lt;/strong&gt;” - An another buzz word parallel to “&lt;strong&gt;Social Networking&lt;/strong&gt;”. Lets see what it is and how to provide links on your WebPages/Websites for social bookmarking.&lt;/p&gt;
 &lt;h2&gt;What is Social Bookmarking?&lt;/h2&gt;
 &lt;p align=&quot;justify&quot;&gt;It is like bookmarking a website or a webpage and saving it for later but instead of saving them to your local web browser, you are saving them to the web. And, because your bookmarks are online, you can easily access them from anywhere and share them with friends. &lt;/p&gt;
@@ -2273,9 +2135,9 @@ adder(2, 6);
  
  <entry>
    <title>Demo : Picasa DataProvider for Vertigo Slide Show 2.1</title>
-   <link href="localhost:4000/json/demo-picasa-dataprovider-for-vertigo-slide-show-2-1"/>
+   <link href="http://pbdesk.io/json/demo-picasa-dataprovider-for-vertigo-slide-show-2-1"/>
    <updated>2009-07-20T09:03:00-04:00</updated>
-   <id>localhost:4000/json/demo-picasa-dataprovider-for-vertigo-slide-show-2-1</id>
+   <id>http://pbdesk.io/json/demo-picasa-dataprovider-for-vertigo-slide-show-2-1</id>
    <content type="html">&lt;p&gt;Picasa DataProvider for Vertigo Slide.Show 2 is an open source extension to the original Slide.Show 2 by Vertigo. (Based on release 2.1 dated 13-Jul-2009). Slide.Show 2 is an open source Silverlight 2 control for publishing highly-customizable photo and video slideshows on the Web.&lt;/p&gt;
 &lt;h2&gt;Live Demo&lt;/h2&gt;
 &lt;p&gt;&lt;b&gt;Basic Demo:&lt;/b&gt;This sample is a simple slideshow in LightTheme. It uses the PicasaDataProvider for data.&lt;/p&gt;
@@ -2313,9 +2175,9 @@ adder(2, 6);
  
  <entry>
    <title>FireFox : Add-ons & Plug-ins for Web Developers</title>
-   <link href="localhost:4000/programming/firefox-add-ons-plug-ins-for-web-developers"/>
+   <link href="http://pbdesk.io/programming/firefox-add-ons-plug-ins-for-web-developers"/>
    <updated>2009-07-08T12:15:00-04:00</updated>
-   <id>localhost:4000/programming/firefox-add-ons-plug-ins-for-web-developers</id>
+   <id>http://pbdesk.io/programming/firefox-add-ons-plug-ins-for-web-developers</id>
    <content type="html">&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
 &lt;p&gt;&lt;b&gt;Mozilla Firefox&lt;/b&gt; - I love this browser. Though I don&#39;t use most! Yes I am a .Net guy so mostly I am on IE and IE8 is much better now. Any way here in this post I want to tell about FireFox and mainly about the Add-ons / plugins / extensions available for FireFox. There are thousands of add-ons available for FF(you can find them &lt;a href=&quot;https://addons.mozilla.org/en-US/firefox&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;), but here I am listing only few of them which I mostly use as a web developer.&lt;/p&gt;
 &lt;p&gt;Latest stable version of Fire Fox : 3.5 (release date: 30-June-2009).     &lt;br /&gt;To read more about version histroy visit &lt;a href=&quot;http://en.wikipedia.org/wiki/History_of_Mozilla_Firefox&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.      &lt;br /&gt;Official website for firefox is &lt;a href=&quot;http://www.mozilla.com/&quot; target=&quot;_blank&quot;&gt;http://www.mozilla.com&lt;/a&gt;. You can find more about &lt;a href=&quot;http://en.wikipedia.org/wiki/Mozilla_Firefox&quot; target=&quot;_blank&quot;&gt;FireFox at Wikipedia&lt;/a&gt;. &lt;/p&gt;
@@ -2347,9 +2209,9 @@ adder(2, 6);
  
  <entry>
    <title>jQuery UI Demo : Theme - Slate</title>
-   <link href="localhost:4000/programming/jquery-ui-demo-theme-slate"/>
+   <link href="http://pbdesk.io/programming/jquery-ui-demo-theme-slate"/>
    <updated>2009-07-07T21:52:00-04:00</updated>
-   <id>localhost:4000/programming/jquery-ui-demo-theme-slate</id>
+   <id>http://pbdesk.io/programming/jquery-ui-demo-theme-slate</id>
    <content type="html">&lt;p&gt;
   This page demonstrates the the use of jQuery UI Themes in Blogger/Blogspot.&lt;br /&gt;
   &lt;br /&gt;
@@ -2615,9 +2477,9 @@ adder(2, 6);
  
  <entry>
    <title>jQuery UI Demo : Theme - Blue</title>
-   <link href="localhost:4000/programming/jquery-ui-demo-theme-blue"/>
+   <link href="http://pbdesk.io/programming/jquery-ui-demo-theme-blue"/>
    <updated>2009-07-07T11:57:00-04:00</updated>
-   <id>localhost:4000/programming/jquery-ui-demo-theme-blue</id>
+   <id>http://pbdesk.io/programming/jquery-ui-demo-theme-blue</id>
    <content type="html">&lt;p&gt;
   This page demonstrates the the use of jQuery UI Themes in Blogger/Blogspot.&lt;br /&gt;
   &lt;br /&gt;
@@ -2883,9 +2745,9 @@ adder(2, 6);
  
  <entry>
    <title>jQuery UI Demo : Theme - Simple</title>
-   <link href="localhost:4000/programming/jquery-ui-demo-theme-simple"/>
+   <link href="http://pbdesk.io/programming/jquery-ui-demo-theme-simple"/>
    <updated>2009-07-07T09:27:00-04:00</updated>
-   <id>localhost:4000/programming/jquery-ui-demo-theme-simple</id>
+   <id>http://pbdesk.io/programming/jquery-ui-demo-theme-simple</id>
    <content type="html">&lt;p&gt;
   This page demonstrates the the use of jQuery UI Themes in Blogger/Blogspot.&lt;br /&gt;
   &lt;br /&gt;
@@ -3151,9 +3013,9 @@ adder(2, 6);
  
  <entry>
    <title>My Delicious Bookmarks</title>
-   <link href="localhost:4000/programming/my-delicious-bookmarks"/>
+   <link href="http://pbdesk.io/programming/my-delicious-bookmarks"/>
    <updated>2009-07-01T10:42:00-04:00</updated>
-   <id>localhost:4000/programming/my-delicious-bookmarks</id>
+   <id>http://pbdesk.io/programming/my-delicious-bookmarks</id>
    <content type="html">&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
 &lt;/div&gt;
 </content>
@@ -3161,9 +3023,9 @@ adder(2, 6);
  
  <entry>
    <title>My Social Networks</title>
-   <link href="localhost:4000/programming/my-social-networks"/>
+   <link href="http://pbdesk.io/programming/my-social-networks"/>
    <updated>2009-06-28T16:37:00-04:00</updated>
-   <id>localhost:4000/programming/my-social-networks</id>
+   <id>http://pbdesk.io/programming/my-social-networks</id>
    <content type="html">&lt;p&gt;Welcome to My Social Networks:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.facebook.com/pinal.bhatt&quot; target=&quot;_blank&quot;&gt;&lt;img style=&quot;margin: 0px 40px 0px 0px; display: inline&quot; align=&quot;left&quot; src=&quot;assets/facebook-icon.png&quot; width=&quot;128&quot; height=&quot;138&quot; /&gt;&lt;/a&gt;     &lt;br /&gt;&lt;a title=&quot;Pinal Bhatt&#39;s Facebook Profile&quot; href=&quot;http://www.facebook.com/pinal.bhatt&quot; target=&quot;_TOP&quot;&gt;&lt;img style=&quot;border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px&quot; alt=&quot;Pinal Bhatt&#39;s Facebook Profile&quot; src=&quot;assets/731775365.2992.1101247245-300x34.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://twitter.com/pinalbhatt&quot; target=&quot;_blank&quot;&gt;&lt;img style=&quot;margin: 0px 25px 0px 0px; display: inline&quot; align=&quot;left&quot; src=&quot;assets/twitter_icon2.png&quot; width=&quot;128&quot; height=&quot;128&quot; /&gt;&lt;/a&gt; &lt;img style=&quot;border-bottom: 0px; border-left: 0px; display: inline; margin-left: 0px; border-top: 0px; margin-right: 0px; border-right: 0px&quot; title=&quot;twitter_followme&quot; border=&quot;0&quot; alt=&quot;twitter_followme&quot; align=&quot;left&quot; src=&quot;assets/twitter_followme-5B15-5D.jpg&quot; width=&quot;193&quot; height=&quot;67&quot; /&gt; &lt;/p&gt;
@@ -3180,9 +3042,9 @@ adder(2, 6);
  
  <entry>
    <title>Subscribe RSS Feeds</title>
-   <link href="localhost:4000/programming/subscribe-rss-feeds"/>
+   <link href="http://pbdesk.io/programming/subscribe-rss-feeds"/>
    <updated>2009-06-24T13:51:00-04:00</updated>
-   <id>localhost:4000/programming/subscribe-rss-feeds</id>
+   <id>http://pbdesk.io/programming/subscribe-rss-feeds</id>
    <content type="html">&lt;p&gt;&lt;img style=&quot;border-bottom: 0px; border-left: 0px; margin: 0px 25px 0px 0px; display: inline; border-top: 0px; border-right: 0px&quot; title=&quot;rss-128x128&quot; border=&quot;0&quot; alt=&quot;rss-128x128&quot; align=&quot;left&quot; src=&quot;assets/rss-128x128%5B9%5D.png?imgmax=800&quot; width=&quot;128&quot; height=&quot;128&quot; /&gt; &lt;/p&gt;
 &lt;p&gt;Subscribe to syndications from Pinal Bhatt&#39;s Blog. &lt;/p&gt;
 &lt;p&gt;Click on your choice below to add feeds to reader of your preference.&lt;/p&gt;
@@ -3209,9 +3071,9 @@ adder(2, 6);
  
  <entry>
    <title>Learning F#</title>
-   <link href="localhost:4000/dotnet/learning-f"/>
+   <link href="http://pbdesk.io/dotnet/learning-f"/>
    <updated>2009-06-16T13:51:00-04:00</updated>
-   <id>localhost:4000/dotnet/learning-f</id>
+   <id>http://pbdesk.io/dotnet/learning-f</id>
    <content type="html">&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;b&gt;F#&lt;/b&gt; - a new buzz word in the market. With .Net Framework 4.0 Microsoft is also planning to release F# - a multi-paradigm, strongly typed,&amp;nbsp; functional programming language.     &lt;/p&gt;
 &lt;p&gt;I have been hearing about F# almost since last one year but now planning to enter into this new paradigm. So with this intention I am starting this blog to share my learnings on F#. I will regularly update this post as I proceed with my learning.    &lt;/p&gt;
 &lt;p&gt;My first step will be to know what exactly this buzz word means by answering questions like What is F#? Why F#? History of F#.    &lt;/p&gt;
@@ -3234,35 +3096,35 @@ adder(2, 6);
  
  <entry>
    <title>Pinal Bhatt  @ Linked In</title>
-   <link href="localhost:4000/programming/pinal-bhatt-linked-in"/>
+   <link href="http://pbdesk.io/programming/pinal-bhatt-linked-in"/>
    <updated>2009-06-14T10:52:00-04:00</updated>
-   <id>localhost:4000/programming/pinal-bhatt-linked-in</id>
+   <id>http://pbdesk.io/programming/pinal-bhatt-linked-in</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>My Facebook : Pinal Bhatt</title>
-   <link href="localhost:4000/programming/my-facebook-pinal-bhatt"/>
+   <link href="http://pbdesk.io/programming/my-facebook-pinal-bhatt"/>
    <updated>2009-06-14T10:51:00-04:00</updated>
-   <id>localhost:4000/programming/my-facebook-pinal-bhatt</id>
+   <id>http://pbdesk.io/programming/my-facebook-pinal-bhatt</id>
    <content type="html">&lt;p&gt;&lt;!-- Facebook Badge START --&gt;&lt;a href=&quot;http://www.facebook.com/pinal.bhatt&quot; title=&quot;Pinal Bhatt&#39;s Facebook Profile&quot; target=&quot;_TOP&quot; style=&quot;font-family: &amp;quot;lucida grande&amp;quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;&quot;&gt;Pinal Bhatt&#39;s Profile&lt;/a&gt;&amp;nbsp;|&amp;nbsp;&lt;a href=&quot;http://www.facebook.com/badges.php&quot; title=&quot;Make your own badge!&quot; target=&quot;_TOP&quot; style=&quot;font-family: &amp;quot;lucida grande&amp;quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;&quot;&gt;Create Your Badge&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://www.facebook.com/pinal.bhatt&quot; title=&quot;Pinal Bhatt&#39;s Facebook Profile&quot; target=&quot;_TOP&quot;&gt;&lt;img src=&quot;assets/731775365.2992.1101247245.png&quot; alt=&quot;Pinal Bhatt&#39;s Facebook Profile&quot; style=&quot;border: 0px;&quot; /&gt;&lt;/a&gt;&lt;!-- Facebook Badge END --&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Facebook - My Friends Carousel</title>
-   <link href="localhost:4000/programming/facebook-my-friends-carousel"/>
+   <link href="http://pbdesk.io/programming/facebook-my-friends-carousel"/>
    <updated>2009-06-09T15:44:00-04:00</updated>
-   <id>localhost:4000/programming/facebook-my-friends-carousel</id>
+   <id>http://pbdesk.io/programming/facebook-my-friends-carousel</id>
    <content type="html">&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;iframe allowtransparency=&quot;true&quot; frameborder=&quot;no&quot; src=&quot;http://www.popfly.com/users/378837/Facebook%20-%20My%20Friends%20Carousel.small&quot; style=&quot;width:525px; height:500px;&quot; scrolling=&quot;no&quot; /&gt;&lt;/div&gt;
 </content>
  </entry>
  
  <entry>
    <title>Twitter Tweets by Pinal Bhatt</title>
-   <link href="localhost:4000/programming/twitter-tweets-by-pinal-bhatt"/>
+   <link href="http://pbdesk.io/programming/twitter-tweets-by-pinal-bhatt"/>
    <updated>2009-06-05T12:26:00-04:00</updated>
-   <id>localhost:4000/programming/twitter-tweets-by-pinal-bhatt</id>
+   <id>http://pbdesk.io/programming/twitter-tweets-by-pinal-bhatt</id>
    <content type="html">&lt;div&gt;
 &lt;h2 style=&quot;display: none;&quot;&gt;Twitter Updates&lt;/h2&gt;
 &lt;ul&gt;&lt;/ul&gt;
@@ -3272,9 +3134,9 @@ adder(2, 6);
  
  <entry>
    <title>Assessment Center (Ver1.0) Scope</title>
-   <link href="localhost:4000/programming/assessment-center-ver1-0-scope"/>
+   <link href="http://pbdesk.io/programming/assessment-center-ver1-0-scope"/>
    <updated>2009-05-22T09:15:00-04:00</updated>
-   <id>localhost:4000/programming/assessment-center-ver1-0-scope</id>
+   <id>http://pbdesk.io/programming/assessment-center-ver1-0-scope</id>
    <content type="html">&lt;h2 style=&quot;text-align: center;&quot;&gt;Learning-Leisure : Assessment Center (Ver 1.0)&lt;/h2&gt;
 &lt;div&gt;
 &lt;table border=&quot;0&quot; bordercolor=&quot;#000000&quot; cellpadding=&quot;3&quot; cellspacing=&quot;0&quot; width=&quot;648&quot; height=&quot;112&quot;&gt;
@@ -3355,9 +3217,9 @@ Initial Draft &lt;/td&gt;
  
  <entry>
    <title>Uploading files to FTP server using ASP.Net</title>
-   <link href="localhost:4000/asp.net/uploading-files-to-ftp-server-using-asp-net"/>
+   <link href="http://pbdesk.io/asp.net/uploading-files-to-ftp-server-using-asp-net"/>
    <updated>2009-03-28T15:45:00-04:00</updated>
-   <id>localhost:4000/asp.net/uploading-files-to-ftp-server-using-asp-net</id>
+   <id>http://pbdesk.io/asp.net/uploading-files-to-ftp-server-using-asp-net</id>
    <content type="html">&lt;p&gt;Uploading files using &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.fileupload.aspx&quot; target=&quot;_blank&quot;&gt;FileUpload&lt;/a&gt; server control is very common and easy with ASP.Net. But normally in this method files are uploaded to the hard disk of the web server. Here are few articles on this:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;ASP.NET Technical Articles : &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/aa479405.aspx&quot; target=&quot;_blank&quot;&gt;Uploading Files in ASP.NET 2.0&lt;/a&gt; &lt;/li&gt;
@@ -3406,9 +3268,9 @@ Initial Draft &lt;/td&gt;
  
  <entry>
    <title>Pinal Bhatt’s Blog - Learning endeavor for ever…</title>
-   <link href="localhost:4000/programming/pinal-bhatts-blog-learning-endeavor-for-ever"/>
+   <link href="http://pbdesk.io/programming/pinal-bhatts-blog-learning-endeavor-for-ever"/>
    <updated>2009-03-18T07:01:00-04:00</updated>
-   <id>localhost:4000/programming/pinal-bhatts-blog-learning-endeavor-for-ever</id>
+   <id>http://pbdesk.io/programming/pinal-bhatts-blog-learning-endeavor-for-ever</id>
    <content type="html">&lt;p&gt;&lt;span style=&quot;font-size: 85%&quot;&gt;Welcome to my own Blog! &lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot;margin-top: -20px&quot; align=&quot;justify&quot;&gt;&lt;span style=&quot;font-size: 85%&quot;&gt;On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.NET, C#, VB.Net, Silverlight, JavaScript, Design Patterns and other random thoughts and opinions. &lt;/span&gt;&lt;/p&gt;
 &lt;table style=&quot;margin: 0px&quot; border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;100%&quot;&gt;
@@ -3443,9 +3305,9 @@ Initial Draft &lt;/td&gt;
  
  <entry>
    <title>C# Tutorial</title>
-   <link href="localhost:4000/dotnet/c-tutorial"/>
+   <link href="http://pbdesk.io/dotnet/c-tutorial"/>
    <updated>2009-03-17T06:24:00-04:00</updated>
-   <id>localhost:4000/dotnet/c-tutorial</id>
+   <id>http://pbdesk.io/dotnet/c-tutorial</id>
    <content type="html">&lt;p&gt;Welcome to C# Tutorials. &lt;br /&gt;This is an attempt to provide the systematic &amp; strategic learning track/guide for the candidates looking forward to learn and master C#.&lt;/p&gt;
 &lt;p style=&quot;text-align:center&quot;&gt;&lt;b&gt;Table of contents&lt;/b&gt;&lt;br /&gt;(C# 3.0 Covered)&lt;/p&gt;
 &lt;ul&gt;
@@ -3542,9 +3404,9 @@ Initial Draft &lt;/td&gt;
  
  <entry>
    <title>Learning Pathway for .Net</title>
-   <link href="localhost:4000/dotnet/learning-pathway-for-net"/>
+   <link href="http://pbdesk.io/dotnet/learning-pathway-for-net"/>
    <updated>2009-03-17T06:13:00-04:00</updated>
-   <id>localhost:4000/dotnet/learning-pathway-for-net</id>
+   <id>http://pbdesk.io/dotnet/learning-pathway-for-net</id>
    <content type="html">&lt;p&gt;Just as in life, you need to know at least one language of communication for your survival, to swim the ocean of .Net you need to know at least one .Net programming language. Of the many .Net programming languages you need to learn and master at least one of them. And on the whole your major choice is going to be between &lt;span style=&quot;font-weight: bold&quot;&gt;C#&lt;/span&gt; or &lt;span style=&quot;font-weight: bold&quot;&gt;Visual Basic&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;
 &lt;p&gt;So taking first step towards learning .Net, you need to decide for the core programming language: C# or VB or some other……, but we are going to focus on VB &amp;amp; C# only, for other .Net languages you may ‘Google’ &lt;span&gt;&lt;/span&gt;further……&lt;/p&gt;
@@ -3561,9 +3423,9 @@ Initial Draft &lt;/td&gt;
  
  <entry>
    <title>Pinal Bhatt’s Blog - Learning endeavor for ever…</title>
-   <link href="localhost:4000/programming/pinal-bhatts-blog-learning-endeavor-for-ever-2"/>
+   <link href="http://pbdesk.io/programming/pinal-bhatts-blog-learning-endeavor-for-ever-2"/>
    <updated>2009-02-26T20:47:00-05:00</updated>
-   <id>localhost:4000/programming/pinal-bhatts-blog-learning-endeavor-for-ever-2</id>
+   <id>http://pbdesk.io/programming/pinal-bhatts-blog-learning-endeavor-for-ever-2</id>
    <content type="html">&lt;p&gt;Welcome to my own Blog! &lt;/p&gt;
 &lt;p style=&quot;margin-top: -20px&quot; align=&quot;justify&quot;&gt;On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.NET, C#, VB.Net, Silverlight, JavaScript, Design Patterns and other random thoughts and opinions.&lt;/p&gt;
 &lt;p&gt;To know more about myself, visit &lt;a href=&quot;http://pinal-bhatt.blogspot.com/2009/01/about-author.html&quot;&gt;My Profile&lt;/a&gt;. And for any feedbacks, suggestions and compliments write to me at &lt;a href=&quot;mailto:self@p-bhatt.com&quot;&gt;self@p-bhatt.com&lt;/a&gt; or &lt;a href=&quot;http://pinal-bhatt.blogspot.com/2009/01/your-comments.html&quot;&gt;put in here&lt;/a&gt;. Or you can use &lt;a href=&quot;http://www.p-bhatt.com/2009/01/contact-me.html&quot;&gt;contact the Author&lt;/a&gt; link.&lt;/p&gt;
@@ -3588,9 +3450,9 @@ Initial Draft &lt;/td&gt;
  
  <entry>
    <title>My Picture Gallery</title>
-   <link href="localhost:4000/programming/my-picture-gallery"/>
+   <link href="http://pbdesk.io/programming/my-picture-gallery"/>
    <updated>2009-02-25T17:07:00-05:00</updated>
-   <id>localhost:4000/programming/my-picture-gallery</id>
+   <id>http://pbdesk.io/programming/my-picture-gallery</id>
    <content type="html">&lt;p&gt;Welcome to my Picture Gallary.&lt;/p&gt;
 &lt;div&gt;
 &lt;ul&gt;
@@ -3698,9 +3560,9 @@ Initial Draft &lt;/td&gt;
  
  <entry>
    <title>What is minified JavaScript?</title>
-   <link href="localhost:4000/javascript/what-is-minified-javascript"/>
+   <link href="http://pbdesk.io/javascript/what-is-minified-javascript"/>
    <updated>2009-02-24T22:59:00-05:00</updated>
-   <id>localhost:4000/javascript/what-is-minified-javascript</id>
+   <id>http://pbdesk.io/javascript/what-is-minified-javascript</id>
    <content type="html">&lt;p align=&quot;justify&quot;&gt;&lt;b&gt;Minification&lt;/b&gt; (very often just &lt;b&gt;minify&lt;/b&gt;, and sometimes also &lt;b&gt;minimisation&lt;/b&gt; or &lt;b&gt;minimization&lt;/b&gt;), is the practice of removing unnecessary characters from code to reduce its size thereby improving load times. When code is minified all comments are removed, as well as unneeded white space characters (space, newline, and tab). In the case of JavaScript, this improves response time performance because the size of the downloaded file is reduced.&lt;/p&gt;
 &lt;p align=&quot;justify&quot;&gt;In computer programming languages and especially JavaScript, it is the process of removing all unnecessary characters from source code, without changing its functionality. These unnecessary characters usually include white space characters, new line characters, comments and sometimes block delimiters; which are used to add readability to the code, but are not required for it to execute.&lt;/p&gt;
 &lt;p align=&quot;justify&quot;&gt;Minified source code is specially useful for interpreted languages deployed and transmitted on the Internet (such as JavaScript), because it reduces the amount of data that needs to be transferred. Minified source code may also be used as a kind of obfuscation. &lt;/p&gt;
@@ -3742,9 +3604,9 @@ Initial Draft &lt;/td&gt;
  
  <entry>
    <title>Using jQuery UI Theme in Blogger.com</title>
-   <link href="localhost:4000/programming/using-jquery-ui-theme-in-blogger-com"/>
+   <link href="http://pbdesk.io/programming/using-jquery-ui-theme-in-blogger-com"/>
    <updated>2009-02-23T23:12:00-05:00</updated>
-   <id>localhost:4000/programming/using-jquery-ui-theme-in-blogger-com</id>
+   <id>http://pbdesk.io/programming/using-jquery-ui-theme-in-blogger-com</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;jQuery UI&lt;/strong&gt; provides abstractions for low-level interaction and animation, advanced effects and high-level, themeable widgets, built on top of the jQuery JavaScript Library, that you can use to build highly interactive web applications.&lt;/p&gt;
 &lt;h1&gt;Welcome to jQuery UI!&lt;/h1&gt;
 &lt;p style=&quot;line-height: 1.5; margin: 1em 0px; width: 100%; font-size: 1.3em&quot;&gt;This page demonstrates the widgets you downloaded using the theme you selected in the download builder. &lt;/p&gt;
@@ -4007,18 +3869,18 @@ Initial Draft &lt;/td&gt;
  
  <entry>
    <title>Pics of Winter Dec’2008</title>
-   <link href="localhost:4000/programming/pics-of-winter-dec2008"/>
+   <link href="http://pbdesk.io/programming/pics-of-winter-dec2008"/>
    <updated>2009-02-19T23:58:00-05:00</updated>
-   <id>localhost:4000/programming/pics-of-winter-dec2008</id>
+   <id>http://pbdesk.io/programming/pics-of-winter-dec2008</id>
    <content type="html">&lt;p&gt;&lt;embed type=&quot;application/x-shockwave-flash&quot; src=&quot;http://picasaweb.google.com/s/c/bin/slideshow.swf&quot; width=&quot;800&quot; height=&quot;533&quot; flashvars=&quot;host=picasaweb.google.com&amp;RGB=0x000000&amp;feed=http%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2Fpinalbhatt%2Falbumid%2F5304720298402407121%3Fkind%3Dphoto%26alt%3Drss&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot;&gt;&lt;/embed&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Downloading Videos from YouTube & Other sources</title>
-   <link href="localhost:4000/video/youtube/downloading-videos-from-youtube-other-sources"/>
+   <link href="http://pbdesk.io/video/youtube/downloading-videos-from-youtube-other-sources"/>
    <updated>2009-02-16T05:52:00-05:00</updated>
-   <id>localhost:4000/video/youtube/downloading-videos-from-youtube-other-sources</id>
+   <id>http://pbdesk.io/video/youtube/downloading-videos-from-youtube-other-sources</id>
    <content type="html">&lt;p&gt;Since long I was looking for proper method to download videos from YouTube and other websites showing streaming videos. At last, I found one easy way to download videos from sites like YouTube, Google videos, Bebo, MySpace, SpikedHumor, Apple videos, or any other site:&lt;/p&gt;
 &lt;p align=&quot;justify&quot;&gt;Required Software : Real Player. (Current version is v11 as on date). You can download &lt;a href=&quot;http://lh6.ggpht.com/__Au1zuguDlE/SZvYobnl20I/AAAAAAAAAvc/wu0k6JpO1mU/s1600-h/logo_real%5B3%5D.gif&quot;&gt;&lt;img style=&quot;border-right-width: 0px; margin: 0px 5px 0px 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px&quot; title=&quot;logo_real&quot; border=&quot;0&quot; alt=&quot;logo_real&quot; align=&quot;left&quot; src=&quot;assets/logo_real_thumb%5B1%5D.gif?imgmax=800&quot; width=&quot;120&quot; height=&quot;63&quot; /&gt;&lt;/a&gt; latest version of Real Player at &lt;a title=&quot;http://www.realplayer.com/&quot; href=&quot;http://www.realplayer.com/&quot;&gt;http://www.realplayer.com/&lt;/a&gt;. It is available in two editions : one RealPlayer Free, the basic edition and second RealPlayer Plus. The Basic free edition is good enough for our need to download videos from web.&lt;/p&gt;
 &lt;p&gt;Download RealPlayer and install it.&amp;#160; Once installed, this program adds a plug-in for your browsers (Internet Explorer or Firefox) and whenever you are watching a video, just hover over it with you mouse and a &amp;quot;Download This Video&amp;quot; &lt;a href=&quot;http://lh6.ggpht.com/__Au1zuguDlE/SZvYo-8bJjI/AAAAAAAAAvk/elTrmgAqg6M/s1600-h/image%5B8%5D.png&quot;&gt;&lt;img style=&quot;border-right-width: 0px; display: inline; border-top-width: 0px; border-bottom-width: 0px; margin-left: 0px; border-left-width: 0px; margin-right: 0px&quot; title=&quot;image&quot; border=&quot;0&quot; alt=&quot;image&quot; align=&quot;right&quot; src=&quot;assets/image_thumb%5B6%5D.png?imgmax=800&quot; width=&quot;192&quot; height=&quot;32&quot; /&gt;&lt;/a&gt;&amp;#160; button will appear on top of the video (like in the image below) . Click on it and select “Save This Video As…” option. &lt;/p&gt;
@@ -4033,17 +3895,17 @@ Initial Draft &lt;/td&gt;
  
  <entry>
    <title>Changing Formats of Audio & Video files</title>
-   <link href="localhost:4000/video/changing-formats-of-audio-video-files"/>
+   <link href="http://pbdesk.io/video/changing-formats-of-audio-video-files"/>
    <updated>2009-02-16T05:52:00-05:00</updated>
-   <id>localhost:4000/video/changing-formats-of-audio-video-files</id>
+   <id>http://pbdesk.io/video/changing-formats-of-audio-video-files</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>Resource Center : C#</title>
-   <link href="localhost:4000/dotnet/resource-center-c"/>
+   <link href="http://pbdesk.io/dotnet/resource-center-c"/>
    <updated>2009-02-06T15:43:00-05:00</updated>
-   <id>localhost:4000/dotnet/resource-center-c</id>
+   <id>http://pbdesk.io/dotnet/resource-center-c</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://lh3.ggpht.com/-cWiMr70l8kM/T9-CsA0zjQI/AAAAAAAAFC8/gboDmqP-NBQ/s1600-h/c-sharp-green%25255B7%25255D.png&quot;&gt;&lt;img style=&quot;background-image: none; border-right-width: 0px; margin: 0px 22px 0px 0px; padding-left: 0px; padding-right: 0px; display: inline; float: left; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px; padding-top: 0px&quot; title=&quot;c-sharp-green&quot; border=&quot;0&quot; alt=&quot;c-sharp-green&quot; align=&quot;left&quot; src=&quot;assets/c-sharp-green_thumb%25255B5%25255D.png?imgmax=800&quot; width=&quot;240&quot; height=&quot;240&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;h2&gt;Important Links:&lt;/h2&gt;
 &lt;ul&gt;
@@ -4076,35 +3938,35 @@ Initial Draft &lt;/td&gt;
  
  <entry>
    <title>Resource Center  : Visual Basic</title>
-   <link href="localhost:4000/programming/resource-center-visual-basic"/>
+   <link href="http://pbdesk.io/programming/resource-center-visual-basic"/>
    <updated>2009-02-06T15:42:00-05:00</updated>
-   <id>localhost:4000/programming/resource-center-visual-basic</id>
+   <id>http://pbdesk.io/programming/resource-center-visual-basic</id>
    <content type="html">&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Hello : VB&lt;/div&gt;
 </content>
  </entry>
  
  <entry>
    <title>Resource Center  : Silverlight</title>
-   <link href="localhost:4000/programming/resource-center-silverlight"/>
+   <link href="http://pbdesk.io/programming/resource-center-silverlight"/>
    <updated>2009-02-06T15:42:00-05:00</updated>
-   <id>localhost:4000/programming/resource-center-silverlight</id>
+   <id>http://pbdesk.io/programming/resource-center-silverlight</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>Resource Center : .Net 4.0</title>
-   <link href="localhost:4000/programming/resource-center-net-4-0"/>
+   <link href="http://pbdesk.io/programming/resource-center-net-4-0"/>
    <updated>2009-02-06T15:42:00-05:00</updated>
-   <id>localhost:4000/programming/resource-center-net-4-0</id>
+   <id>http://pbdesk.io/programming/resource-center-net-4-0</id>
    <content type="html">&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;Hello : .Net 4.0&lt;/div&gt;
 </content>
  </entry>
  
  <entry>
    <title>Hello, World!</title>
-   <link href="localhost:4000/programming/hello-world-2"/>
+   <link href="http://pbdesk.io/programming/hello-world-2"/>
    <updated>2009-02-06T15:42:00-05:00</updated>
-   <id>localhost:4000/programming/hello-world-2</id>
+   <id>http://pbdesk.io/programming/hello-world-2</id>
    <content type="html">&lt;p&gt;Welcome to my Picture Gallary.&lt;/p&gt;
 &lt;div&gt;
 &lt;ul&gt;
@@ -4212,17 +4074,17 @@ Initial Draft &lt;/td&gt;
  
  <entry>
    <title>Resource Center : Visual Studio 2010</title>
-   <link href="localhost:4000/programming/resource-center-visual-studio-2010"/>
+   <link href="http://pbdesk.io/programming/resource-center-visual-studio-2010"/>
    <updated>2009-02-05T17:12:00-05:00</updated>
-   <id>localhost:4000/programming/resource-center-visual-studio-2010</id>
+   <id>http://pbdesk.io/programming/resource-center-visual-studio-2010</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>Tools & Utilities for developers</title>
-   <link href="localhost:4000/programming/tools-utilities-for-developers"/>
+   <link href="http://pbdesk.io/programming/tools-utilities-for-developers"/>
    <updated>2009-01-30T11:36:00-05:00</updated>
-   <id>localhost:4000/programming/tools-utilities-for-developers</id>
+   <id>http://pbdesk.io/programming/tools-utilities-for-developers</id>
    <content type="html">&lt;p&gt;Here is the list of utility softwares that I commonly use&amp;#160; to assist and enhance my development productivity: &lt;/p&gt;
 &lt;div&gt;
 &lt;div&gt;My Favorite Utility Softwares &lt;/div&gt;
@@ -4242,34 +4104,34 @@ Initial Draft &lt;/td&gt;
  
  <entry>
    <title>Fun & Games</title>
-   <link href="localhost:4000/programming/fun-games"/>
+   <link href="http://pbdesk.io/programming/fun-games"/>
    <updated>2009-01-30T11:36:00-05:00</updated>
-   <id>localhost:4000/programming/fun-games</id>
+   <id>http://pbdesk.io/programming/fun-games</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>Silverlight Slide show</title>
-   <link href="localhost:4000/programming/silverlight-slide-show"/>
+   <link href="http://pbdesk.io/programming/silverlight-slide-show"/>
    <updated>2009-01-29T00:15:00-05:00</updated>
-   <id>localhost:4000/programming/silverlight-slide-show</id>
+   <id>http://pbdesk.io/programming/silverlight-slide-show</id>
    <content type="html">&lt;p&gt;&lt;object type=&quot;application/x-silverlight-2&quot; data=&quot;data:application/x-silverlight-2,&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;param name=&quot;background&quot; value=&quot;#fff&quot; /&gt;&lt;param name=&quot;source&quot; value=&quot;http://www.Learning-Leisure.com/ClientBin/Vertigo.SlideShow.xap&quot; /&gt;&lt;param name=&quot;enableHtmlAccess&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;initParams&quot; value=&quot;ConfigurationProvider=DarkTheme,DataProvider=PicasaDataProvider;PicasaId=pb.blog.dummy;Albums=Vertigo Collection^^Mix and Match&quot; /&gt;&lt;a href=&quot;http://go.microsoft.com/fwlink/?LinkID=124807&quot; style=&quot;text-decoration: none;&quot;&gt;&lt;img src=&quot;assets/?LinkId=108181&quot; alt=&quot;Get Microsoft Silverlight&quot; style=&quot;border-style: none&quot; /&gt;&lt;/a&gt; 		&lt;/object&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Extension Methods in C#</title>
-   <link href="localhost:4000/programming/extension-methods-in-c"/>
+   <link href="http://pbdesk.io/programming/extension-methods-in-c"/>
    <updated>2009-01-22T07:38:00-05:00</updated>
-   <id>localhost:4000/programming/extension-methods-in-c</id>
+   <id>http://pbdesk.io/programming/extension-methods-in-c</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>Regular Expressions in JavaScript</title>
-   <link href="localhost:4000/programming/regular-expressions-in-javascript"/>
+   <link href="http://pbdesk.io/programming/regular-expressions-in-javascript"/>
    <updated>2009-01-22T07:37:00-05:00</updated>
-   <id>localhost:4000/programming/regular-expressions-in-javascript</id>
+   <id>http://pbdesk.io/programming/regular-expressions-in-javascript</id>
    <content type="html">&lt;p&gt;&amp;#160;&lt;/p&gt;
 &lt;p&gt;&amp;#160;&lt;/p&gt;
 &lt;p&gt;&amp;#160;&lt;/p&gt;
@@ -4283,9 +4145,9 @@ Initial Draft &lt;/td&gt;
  
  <entry>
    <title>Code for Strip Html Tags</title>
-   <link href="localhost:4000/programming/code-for-strip-html-tags"/>
+   <link href="http://pbdesk.io/programming/code-for-strip-html-tags"/>
    <updated>2009-01-22T07:37:00-05:00</updated>
-   <id>localhost:4000/programming/code-for-strip-html-tags</id>
+   <id>http://pbdesk.io/programming/code-for-strip-html-tags</id>
    <content type="html">&lt;h2&gt;Javascript Code to Strip HTML tags from string&lt;/h2&gt;
 &lt;div&gt;
 &lt;div&gt;
@@ -4315,42 +4177,42 @@ Initial Draft &lt;/td&gt;
  
  <entry>
    <title>Useful sites for Kids</title>
-   <link href="localhost:4000/programming/useful-sites-for-kids"/>
+   <link href="http://pbdesk.io/programming/useful-sites-for-kids"/>
    <updated>2009-01-17T15:23:00-05:00</updated>
-   <id>localhost:4000/programming/useful-sites-for-kids</id>
+   <id>http://pbdesk.io/programming/useful-sites-for-kids</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>www.P-Bhatt.com : 2nd Release</title>
-   <link href="localhost:4000/programming/www-p-bhatt-com-2nd-release"/>
+   <link href="http://pbdesk.io/programming/www-p-bhatt-com-2nd-release"/>
    <updated>2009-01-17T15:20:00-05:00</updated>
-   <id>localhost:4000/programming/www-p-bhatt-com-2nd-release</id>
+   <id>http://pbdesk.io/programming/www-p-bhatt-com-2nd-release</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>Cool Gadgets/Widgets for Web Pages</title>
-   <link href="localhost:4000/programming/cool-gadgetswidgets-for-web-pages"/>
+   <link href="http://pbdesk.io/programming/cool-gadgetswidgets-for-web-pages"/>
    <updated>2009-01-17T15:19:00-05:00</updated>
-   <id>localhost:4000/programming/cool-gadgetswidgets-for-web-pages</id>
+   <id>http://pbdesk.io/programming/cool-gadgetswidgets-for-web-pages</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>Gadgets</title>
-   <link href="localhost:4000/programming/gadgets"/>
+   <link href="http://pbdesk.io/programming/gadgets"/>
    <updated>2009-01-14T16:49:00-05:00</updated>
-   <id>localhost:4000/programming/gadgets</id>
+   <id>http://pbdesk.io/programming/gadgets</id>
    <content type="html">&lt;p&gt;&lt;iframe src=&quot;http://pinalbhatt.googlepages.com/Gadgets.htm&quot; frameborder=&quot;0&quot; width=&quot;100%&quot; height=&quot;600px&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Contact Author (Pinal Bhatt)</title>
-   <link href="localhost:4000/programming/contact-author-pinal-bhatt"/>
+   <link href="http://pbdesk.io/programming/contact-author-pinal-bhatt"/>
    <updated>2009-01-10T19:03:00-05:00</updated>
-   <id>localhost:4000/programming/contact-author-pinal-bhatt</id>
+   <id>http://pbdesk.io/programming/contact-author-pinal-bhatt</id>
    <content type="html">&lt;h2&gt;About Me&lt;/h2&gt;
 &lt;p&gt;To know more about myself, visit &lt;a href=&quot;http://pinal-bhatt.blogspot.com/2009/01/about-author.html&quot;&gt;My Profile&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Email To Me&lt;/h2&gt;
@@ -4362,17 +4224,17 @@ Initial Draft &lt;/td&gt;
  
  <entry>
    <title>Your Comments</title>
-   <link href="localhost:4000/programming/your-comments"/>
+   <link href="http://pbdesk.io/programming/your-comments"/>
    <updated>2009-01-10T18:42:00-05:00</updated>
-   <id>localhost:4000/programming/your-comments</id>
+   <id>http://pbdesk.io/programming/your-comments</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>Recent Posts</title>
-   <link href="localhost:4000/programming/recent-posts"/>
+   <link href="http://pbdesk.io/programming/recent-posts"/>
    <updated>2009-01-10T13:23:00-05:00</updated>
-   <id>localhost:4000/programming/recent-posts</id>
+   <id>http://pbdesk.io/programming/recent-posts</id>
    <content type="html">&lt;p&gt;something here&lt;/p&gt;
 &lt;div&gt;
 &lt;h2&gt;ezCool Jiglu&lt;/h2&gt;
@@ -4394,9 +4256,9 @@ Initial Draft &lt;/td&gt;
  
  <entry>
    <title>Featured Posts</title>
-   <link href="localhost:4000/programming/featured-posts"/>
+   <link href="http://pbdesk.io/programming/featured-posts"/>
    <updated>2009-01-10T09:31:00-05:00</updated>
-   <id>localhost:4000/programming/featured-posts</id>
+   <id>http://pbdesk.io/programming/featured-posts</id>
    <content type="html">&lt;p&gt;&amp;#160;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.p-bhatt.com/2009/03/uploading-files-to-ftp-server-using.html&quot;&gt;Uploading files to FTP server using ASP.Net&lt;/a&gt;. (using FileUpload Server Control)       &lt;/p&gt;
@@ -4422,9 +4284,9 @@ Initial Draft &lt;/td&gt;
  
  <entry>
    <title>Tech-News</title>
-   <link href="localhost:4000/programming/tech-news"/>
+   <link href="http://pbdesk.io/programming/tech-news"/>
    <updated>2009-01-09T16:17:00-05:00</updated>
-   <id>localhost:4000/programming/tech-news</id>
+   <id>http://pbdesk.io/programming/tech-news</id>
    <content type="html">&lt;p&gt;Welcome to Tech-News. Click on the topic to access the latest news feeds :&lt;/p&gt;
 &lt;p&gt;Microsoft.Net&lt;/p&gt;
 &lt;p&gt;ASP.Net&lt;/p&gt;
@@ -4436,9 +4298,9 @@ Initial Draft &lt;/td&gt;
  
  <entry>
    <title>Disclaimer</title>
-   <link href="localhost:4000/programming/disclaimer"/>
+   <link href="http://pbdesk.io/programming/disclaimer"/>
    <updated>2009-01-09T16:17:00-05:00</updated>
-   <id>localhost:4000/programming/disclaimer</id>
+   <id>http://pbdesk.io/programming/disclaimer</id>
    <content type="html">&lt;p&gt;Following is the Disclaimer/Terms of Use for all of the following websites and contents there in: &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Learning-Leisure.net (&lt;a href=&quot;http://www.learning-leisure.net/&quot;&gt;http://www.Learning-Leisure.net&lt;/a&gt;) &lt;/li&gt;
@@ -4474,50 +4336,50 @@ Initial Draft &lt;/td&gt;
  
  <entry>
    <title>Umbraco Downloads</title>
-   <link href="localhost:4000/programming/umbraco-downloads"/>
+   <link href="http://pbdesk.io/programming/umbraco-downloads"/>
    <updated>2009-01-09T16:16:00-05:00</updated>
-   <id>localhost:4000/programming/umbraco-downloads</id>
+   <id>http://pbdesk.io/programming/umbraco-downloads</id>
    <content type="html">&lt;p&gt;Below are few important downloads for the utilities that i have developed for Umbraco for my site &lt;a href=&quot;http://www.pbddeskl.com/&quot;&gt;www.PBdDeskl.com&lt;/a&gt;. &lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Project Center</title>
-   <link href="localhost:4000/programming/project-center"/>
+   <link href="http://pbdesk.io/programming/project-center"/>
    <updated>2009-01-09T16:16:00-05:00</updated>
-   <id>localhost:4000/programming/project-center</id>
+   <id>http://pbdesk.io/programming/project-center</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>Learning Center</title>
-   <link href="localhost:4000/programming/learning-center"/>
+   <link href="http://pbdesk.io/programming/learning-center"/>
    <updated>2009-01-09T16:16:00-05:00</updated>
-   <id>localhost:4000/programming/learning-center</id>
+   <id>http://pbdesk.io/programming/learning-center</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>Assessment Center</title>
-   <link href="localhost:4000/programming/assessment-center"/>
+   <link href="http://pbdesk.io/programming/assessment-center"/>
    <updated>2009-01-09T16:16:00-05:00</updated>
-   <id>localhost:4000/programming/assessment-center</id>
+   <id>http://pbdesk.io/programming/assessment-center</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>SiteMap</title>
-   <link href="localhost:4000/programming/sitemap"/>
+   <link href="http://pbdesk.io/programming/sitemap"/>
    <updated>2009-01-09T15:14:00-05:00</updated>
-   <id>localhost:4000/programming/sitemap</id>
+   <id>http://pbdesk.io/programming/sitemap</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>Pinal Bhatt</title>
-   <link href="localhost:4000/programming/pinal-bhatt"/>
+   <link href="http://pbdesk.io/programming/pinal-bhatt"/>
    <updated>2009-01-09T15:14:00-05:00</updated>
-   <id>localhost:4000/programming/pinal-bhatt</id>
+   <id>http://pbdesk.io/programming/pinal-bhatt</id>
    <content type="html">&lt;table style=&quot;margin-top: 0px&quot; border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;100%&quot;&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
@@ -4577,9 +4439,9 @@ Initial Draft &lt;/td&gt;
  
  <entry>
    <title>Search</title>
-   <link href="localhost:4000/programming/search"/>
+   <link href="http://pbdesk.io/programming/search"/>
    <updated>2009-01-09T15:13:00-05:00</updated>
-   <id>localhost:4000/programming/search</id>
+   <id>http://pbdesk.io/programming/search</id>
    <content type="html">&lt;p&gt;&lt;!-- SiteSearch Google Start --&gt;&lt;/p&gt;
 &lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; bgcolor=&quot;#ffffff&quot; border=&quot;0&quot;&gt;
 &lt;tbody&gt;
@@ -4611,9 +4473,9 @@ Initial Draft &lt;/td&gt;
  
  <entry>
    <title>Pinal Bhatt’s Blog</title>
-   <link href="localhost:4000/programming/pinal-bhatts-blog"/>
+   <link href="http://pbdesk.io/programming/pinal-bhatts-blog"/>
    <updated>2009-01-07T20:43:00-05:00</updated>
-   <id>localhost:4000/programming/pinal-bhatts-blog</id>
+   <id>http://pbdesk.io/programming/pinal-bhatts-blog</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;Learning endeavour for ever.............&lt;/strong&gt;.&lt;/p&gt;
 &lt;table cellspacing=&quot;10&quot; cellpadding=&quot;5&quot; width=&quot;100%&quot; border=&quot;0&quot;&gt;
 &lt;tbody&gt;
@@ -4639,9 +4501,9 @@ On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.N
  
  <entry>
    <title></title>
-   <link href="localhost:4000/programming/101"/>
+   <link href="http://pbdesk.io/programming/101"/>
    <updated>2009-01-01T16:40:00-05:00</updated>
-   <id>localhost:4000/programming/101</id>
+   <id>http://pbdesk.io/programming/101</id>
    <content type="html">&lt;p&gt;&lt;img style=&quot;width: 599px; height: 62px;&quot; src=&quot;assets/File?id=dg9zzwp6_277hf35gj&quot; /&gt;
 &lt;div style=&quot;text-align: center;&quot;&gt;An learning endeavour from Pinal Bhatt (&lt;a title=&quot;Email Me&quot; href=&quot;mailto:pinal-bhatt@live.com&quot;&gt;pinal-bhatt@live.com&lt;/a&gt;).&lt;/div&gt;
 &lt;div&gt;
@@ -4682,9 +4544,9 @@ On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.N
  
  <entry>
    <title>Abstract Class vs Interface</title>
-   <link href="localhost:4000/programming/abstract-class-vs-interface"/>
+   <link href="http://pbdesk.io/programming/abstract-class-vs-interface"/>
    <updated>2008-11-16T18:16:00-05:00</updated>
-   <id>localhost:4000/programming/abstract-class-vs-interface</id>
+   <id>http://pbdesk.io/programming/abstract-class-vs-interface</id>
    <content type="html">&lt;p&gt;Introduction&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;In this article I am going to compare &amp;amp; contrast Abstract Class and Interface in radiance of .Net programming languages - VB and C#.  In OOPS, these concepts are often confusing but are very important from system architecture point of view. And ofcourse, from &quot;Interviews&quot; point of view.&lt;/p&gt;
 &lt;p&gt;Here I am trying to discuss the theoretical aspects of these terms and the practical usage of the same.&lt;/p&gt;
@@ -4803,36 +4665,36 @@ On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.N
  
  <entry>
    <title>RSS Feeds & LINQ to XML</title>
-   <link href="localhost:4000/dotnet/rss-feeds-linq-to-xml"/>
+   <link href="http://pbdesk.io/dotnet/rss-feeds-linq-to-xml"/>
    <updated>2008-11-16T18:14:00-05:00</updated>
-   <id>localhost:4000/dotnet/rss-feeds-linq-to-xml</id>
+   <id>http://pbdesk.io/dotnet/rss-feeds-linq-to-xml</id>
    <content type="html">&lt;p&gt;Linq to xml for reading rss feeds&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Coding Standards & Practices for .Net</title>
-   <link href="localhost:4000/programming/coding-standards-practices-for-net"/>
+   <link href="http://pbdesk.io/programming/coding-standards-practices-for-net"/>
    <updated>2008-11-16T18:14:00-05:00</updated>
-   <id>localhost:4000/programming/coding-standards-practices-for-net</id>
+   <id>http://pbdesk.io/programming/coding-standards-practices-for-net</id>
    <content type="html">&lt;p&gt;Coding Standards &amp;amp; Practices for .Net &lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>C# vs VB</title>
-   <link href="localhost:4000/dotnet/c-vs-vb"/>
+   <link href="http://pbdesk.io/dotnet/c-vs-vb"/>
    <updated>2008-11-16T18:14:00-05:00</updated>
-   <id>localhost:4000/dotnet/c-vs-vb</id>
+   <id>http://pbdesk.io/dotnet/c-vs-vb</id>
    <content type="html">&lt;p&gt;Here is an article for comparing and contrasting the two most powerful and most popular .Net languages C# and Visual Basic &lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Abstract Factory Design Pattern</title>
-   <link href="localhost:4000/design%20patterns/abstract-factory-design-pattern"/>
+   <link href="http://pbdesk.io/design%20patterns/abstract-factory-design-pattern"/>
    <updated>2008-11-16T18:12:00-05:00</updated>
-   <id>localhost:4000/design%20patterns/abstract-factory-design-pattern</id>
+   <id>http://pbdesk.io/design%20patterns/abstract-factory-design-pattern</id>
    <content type="html">&lt;p&gt;Abstract Factory    &lt;br /&gt;&amp;#160; Creates an instance of several families of classes&lt;/p&gt;
 &lt;p&gt;&lt;a name=&quot;INTRO&quot;&gt;&lt;u&gt;Introduction&lt;/u&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;something goes heresfsdfsdf&lt;/p&gt;
@@ -4887,54 +4749,54 @@ On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.N
  
  <entry>
    <title>Prototype Design Pattern</title>
-   <link href="localhost:4000/design%20patterns/prototype-design-pattern"/>
+   <link href="http://pbdesk.io/design%20patterns/prototype-design-pattern"/>
    <updated>2008-11-16T18:10:00-05:00</updated>
-   <id>localhost:4000/design%20patterns/prototype-design-pattern</id>
+   <id>http://pbdesk.io/design%20patterns/prototype-design-pattern</id>
    <content type="html">&lt;p&gt;Prototype    &lt;br /&gt;&amp;#160; A fully initialized instance to be copied or cloned&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Factory Method Design Pattern</title>
-   <link href="localhost:4000/design%20patterns/factory-method-design-pattern"/>
+   <link href="http://pbdesk.io/design%20patterns/factory-method-design-pattern"/>
    <updated>2008-11-16T18:10:00-05:00</updated>
-   <id>localhost:4000/design%20patterns/factory-method-design-pattern</id>
+   <id>http://pbdesk.io/design%20patterns/factory-method-design-pattern</id>
    <content type="html">&lt;p&gt;Factory Method    &lt;br /&gt;&amp;#160; Creates an instance of several derived classes&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Builder Design Pattern</title>
-   <link href="localhost:4000/design%20patterns/builder-design-pattern"/>
+   <link href="http://pbdesk.io/design%20patterns/builder-design-pattern"/>
    <updated>2008-11-16T18:10:00-05:00</updated>
-   <id>localhost:4000/design%20patterns/builder-design-pattern</id>
+   <id>http://pbdesk.io/design%20patterns/builder-design-pattern</id>
    <content type="html">&lt;p&gt;Builder    &lt;br /&gt;&amp;#160; Separates object construction from its representation&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Singleton Design Pattern</title>
-   <link href="localhost:4000/design%20patterns/singleton-design-pattern"/>
+   <link href="http://pbdesk.io/design%20patterns/singleton-design-pattern"/>
    <updated>2008-11-16T18:09:00-05:00</updated>
-   <id>localhost:4000/design%20patterns/singleton-design-pattern</id>
+   <id>http://pbdesk.io/design%20patterns/singleton-design-pattern</id>
    <content type="html">&lt;p&gt;Singleton    &lt;br /&gt;&amp;#160; A class of which only a single instance can exist&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Adapter Design Pattern</title>
-   <link href="localhost:4000/design%20patterns/adapter-design-pattern"/>
+   <link href="http://pbdesk.io/design%20patterns/adapter-design-pattern"/>
    <updated>2008-11-16T18:08:00-05:00</updated>
-   <id>localhost:4000/design%20patterns/adapter-design-pattern</id>
+   <id>http://pbdesk.io/design%20patterns/adapter-design-pattern</id>
    <content type="html">&lt;p&gt;Adapter    &lt;br /&gt;&amp;#160; Match interfaces of different classes&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Krishna Songs for my little sweet heart Tanaya</title>
-   <link href="localhost:4000/personal/krishna-songs-for-my-little-sweet-heart-tanaya"/>
+   <link href="http://pbdesk.io/personal/krishna-songs-for-my-little-sweet-heart-tanaya"/>
    <updated>2008-11-15T12:55:00-05:00</updated>
-   <id>localhost:4000/personal/krishna-songs-for-my-little-sweet-heart-tanaya</id>
+   <id>http://pbdesk.io/personal/krishna-songs-for-my-little-sweet-heart-tanaya</id>
    <content type="html">&lt;h4 align=&quot;left&quot;&gt;Chhoti Chhoti Gaiya&lt;/h4&gt;
 &lt;p align=&quot;center&quot;&gt;
 &lt;p&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160; &lt;/p&gt;&lt;/p&gt;
@@ -4961,9 +4823,9 @@ On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.N
  
  <entry>
    <title>Krishna Songs for my little sweet heart Tanaya</title>
-   <link href="localhost:4000/programming/krishna-songs-for-my-little-sweet-heart-tanaya-2"/>
+   <link href="http://pbdesk.io/programming/krishna-songs-for-my-little-sweet-heart-tanaya-2"/>
    <updated>2008-11-15T12:37:00-05:00</updated>
-   <id>localhost:4000/programming/krishna-songs-for-my-little-sweet-heart-tanaya-2</id>
+   <id>http://pbdesk.io/programming/krishna-songs-for-my-little-sweet-heart-tanaya-2</id>
    <content type="html">&lt;p&gt;&amp;#160;&lt;/p&gt;&lt;/p&gt;
 &lt;div style=&quot;padding-right: 0px; display: inline; padding-left: 0px; padding-bottom: 0px; margin: 0px; padding-top: 0px&quot;&gt;
 &lt;div&gt;&lt;object width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/1jMm76N3EO4&quot; /&gt;&lt;param name=&quot;wmode&quot; value=&quot;transparent&quot; /&gt;&lt;embed src=&quot;http://www.youtube.com/v/1jMm76N3EO4&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/div&gt;
@@ -4973,9 +4835,9 @@ On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.N
  
  <entry>
    <title>Abstract Class vs Interface</title>
-   <link href="localhost:4000/programming/abstract-class-vs-interface-2"/>
+   <link href="http://pbdesk.io/programming/abstract-class-vs-interface-2"/>
    <updated>2008-11-15T00:00:00-05:00</updated>
-   <id>localhost:4000/programming/abstract-class-vs-interface-2</id>
+   <id>http://pbdesk.io/programming/abstract-class-vs-interface-2</id>
    <content type="html">&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;In this article I am going to compare &amp;amp; contrast Abstract Class and Interface in radiance of .Net programming languages - VB and C#.&amp;#160; In OOPS, these concepts are often confusing but are very important from system architecture point of view. And ofcourse, from &amp;quot;Interviews&amp;quot; point of view.&lt;/p&gt;
 &lt;p&gt;Here I am trying to discuss the theoretical aspects of these terms and the practical usage of the same.&lt;/p&gt;
@@ -5094,17 +4956,17 @@ On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.N
  
  <entry>
    <title>Resource Center : FireFox</title>
-   <link href="localhost:4000/programming/resource-center-firefox"/>
+   <link href="http://pbdesk.io/programming/resource-center-firefox"/>
    <updated>2008-11-02T09:16:00-05:00</updated>
-   <id>localhost:4000/programming/resource-center-firefox</id>
+   <id>http://pbdesk.io/programming/resource-center-firefox</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>My Links</title>
-   <link href="localhost:4000/programming/my-links"/>
+   <link href="http://pbdesk.io/programming/my-links"/>
    <updated>2008-10-25T11:30:00-04:00</updated>
-   <id>localhost:4000/programming/my-links</id>
+   <id>http://pbdesk.io/programming/my-links</id>
    <content type="html">&lt;p&gt;My Site : &lt;a href=&quot;http://www.pinal-bhatt.com/&quot;&gt;www.pinal-bhatt.com&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Learning-Leisure : &lt;a href=&quot;http://www.learning-leisure.com/&quot;&gt;www.Learning-Leisure.com&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;My Blogs:&lt;/p&gt;
@@ -5115,33 +4977,33 @@ On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.N
  
  <entry>
    <title>.Net Framework : News Update</title>
-   <link href="localhost:4000/programming/net-framework-news-update"/>
+   <link href="http://pbdesk.io/programming/net-framework-news-update"/>
    <updated>2008-10-25T11:16:00-04:00</updated>
-   <id>localhost:4000/programming/net-framework-news-update</id>
+   <id>http://pbdesk.io/programming/net-framework-news-update</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>World Clock</title>
-   <link href="localhost:4000/programming/world-clock"/>
+   <link href="http://pbdesk.io/programming/world-clock"/>
    <updated>2008-06-06T15:50:00-04:00</updated>
-   <id>localhost:4000/programming/world-clock</id>
+   <id>http://pbdesk.io/programming/world-clock</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>Design Patterns</title>
-   <link href="localhost:4000/programming/design-patterns"/>
+   <link href="http://pbdesk.io/programming/design-patterns"/>
    <updated>2008-03-17T08:27:00-04:00</updated>
-   <id>localhost:4000/programming/design-patterns</id>
+   <id>http://pbdesk.io/programming/design-patterns</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>C# : String utility code snippets</title>
-   <link href="localhost:4000/dotnet/c-string-utility-code-snippets"/>
+   <link href="http://pbdesk.io/dotnet/c-string-utility-code-snippets"/>
    <updated>2008-03-09T07:51:00-04:00</updated>
-   <id>localhost:4000/dotnet/c-string-utility-code-snippets</id>
+   <id>http://pbdesk.io/dotnet/c-string-utility-code-snippets</id>
    <content type="html">&lt;p&gt;Below are the common utilities / code snippets often required while working with strings. I have written them as static functions.&amp;#160; [C# 3.0]&lt;/p&gt;
 &lt;h2&gt;StripHtml&lt;/h2&gt;
 &lt;p align=&quot;justify&quot;&gt;C# function to strip Html tags / markups from input string. Rather, it not only strips Html tags but any sort of markups written in &amp;lt;xxx&amp;gt; format. Reference to &lt;strong&gt;System.Text.RegularExpressions&lt;/strong&gt; namespace needed.&lt;/p&gt;
@@ -5229,9 +5091,9 @@ On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.N
  
  <entry>
    <title>Generic methods to read value from DataReader</title>
-   <link href="localhost:4000/dotnet/generic-methods-to-read-value-from-datareader"/>
+   <link href="http://pbdesk.io/dotnet/generic-methods-to-read-value-from-datareader"/>
    <updated>2008-03-07T12:43:00-05:00</updated>
-   <id>localhost:4000/dotnet/generic-methods-to-read-value-from-datareader</id>
+   <id>http://pbdesk.io/dotnet/generic-methods-to-read-value-from-datareader</id>
    <content type="html">&lt;p&gt;Reading a value from DataReader is one of the most often and repetitive task for programmers working on database project. Here are the generic methods to make this work easy:&lt;/p&gt;
 &lt;p&gt;Method &lt;em&gt;&lt;strong&gt;static T GetData&amp;lt;T&amp;gt;&lt;/strong&gt;&lt;/em&gt; gets value from the specified DataReader for the specified Column name with the option to return default value or throw exception in case of DBNull.&lt;/p&gt;
 &lt;div style=&quot;border-bottom: silver 1px solid; text-align: left; border-left: silver 1px solid; padding-bottom: 4px; line-height: 12pt; background-color: #f4f4f4; margin: 20px 0px 10px; padding-left: 4px; width: 97.5%; padding-right: 4px; font-family: &amp;#39;Courier New&amp;#39;, courier, monospace; direction: ltr; max-height: 600px; font-size: 8pt; overflow: auto; border-top: silver 1px solid; cursor: text; border-right: silver 1px solid; padding-top: 4px&quot;&gt;
@@ -5374,9 +5236,9 @@ On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.N
  
  <entry>
    <title>ABC's Of C#</title>
-   <link href="localhost:4000/programming/abcs-of-c"/>
+   <link href="http://pbdesk.io/programming/abcs-of-c"/>
    <updated>2008-03-07T07:51:00-05:00</updated>
-   <id>localhost:4000/programming/abcs-of-c</id>
+   <id>http://pbdesk.io/programming/abcs-of-c</id>
    <content type="html">&lt;div&gt;&lt;a name=&quot;Top&quot;&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;table bordercolor=&quot;#33ccff&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;100%&quot; border=&quot;1&quot;&gt;
 &lt;tbody&gt;
@@ -5453,9 +5315,9 @@ On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.N
  
  <entry>
    <title>Introduction to the C# Programming Language</title>
-   <link href="localhost:4000/programming/introduction-to-the-c-programming-language"/>
+   <link href="http://pbdesk.io/programming/introduction-to-the-c-programming-language"/>
    <updated>2008-02-29T13:05:00-05:00</updated>
-   <id>localhost:4000/programming/introduction-to-the-c-programming-language</id>
+   <id>http://pbdesk.io/programming/introduction-to-the-c-programming-language</id>
    <content type="html">&lt;div&gt;&lt;a name=&quot;Top&quot;&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;table border=&quot;1&quot; cellspacing=&quot;0&quot; bordercolor=&quot;#33ccff&quot; cellpadding=&quot;0&quot; width=&quot;100%&quot;&gt;
 &lt;tbody&gt;
@@ -5573,17 +5435,17 @@ On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.N
  
  <entry>
    <title>My Projects</title>
-   <link href="localhost:4000/dotnet/asp.net/my-projects"/>
+   <link href="http://pbdesk.io/dotnet/asp.net/my-projects"/>
    <updated>2008-02-20T16:47:00-05:00</updated>
-   <id>localhost:4000/dotnet/asp.net/my-projects</id>
+   <id>http://pbdesk.io/dotnet/asp.net/my-projects</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>C# : Enum – Tricks & Tips</title>
-   <link href="localhost:4000/dotnet/c-enum-tricks-tips"/>
+   <link href="http://pbdesk.io/dotnet/c-enum-tricks-tips"/>
    <updated>2008-02-20T12:23:00-05:00</updated>
-   <id>localhost:4000/dotnet/c-enum-tricks-tips</id>
+   <id>http://pbdesk.io/dotnet/c-enum-tricks-tips</id>
    <content type="html">&lt;p align=&quot;justify&quot;&gt;This is not a beginners tutorial for concept of Enum. Its is assumed that you are aware of the basic concepts of enum. Here I am presenting few advance level tricks and tips which programmers often need while working with enums. For basic tutorial on enum you can visit &lt;a href=&quot;http://www.csharp-station.com/Tutorials/Lesson17.aspx&quot; target=&quot;_blank&quot;&gt;The C# Station Tutorial (Lesson 17: Enums)&lt;/a&gt; or msdn at &lt;a title=&quot;http://msdn.microsoft.com/en-us/library/sbbt4032(VS.80).aspx&quot; href=&quot;http://msdn.microsoft.com/en-us/library/sbbt4032(VS.80).aspx&quot;&gt;http://msdn.microsoft.com/en-us/library/sbbt4032(VS.80).aspx&lt;/a&gt;&lt;/p&gt;
 &lt;p align=&quot;justify&quot;&gt;All enum instances in .net implicitly inherit the System.Enum type in the Base Class Library and hence we can use members of System.Enum with the instances of enums. There are few good functionalities available in System.Enum which are often required while working with enums and for manipulating&amp;#160; them. So lets have look on them one by one.&lt;/p&gt;
 &lt;p align=&quot;justify&quot;&gt;One of the common requirement is to cast the enum object to and fro between its integer and string values. Consider following sample code:&lt;/p&gt;
@@ -5662,43 +5524,43 @@ On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.N
  
  <entry>
    <title>VB : News Updates</title>
-   <link href="localhost:4000/programming/vb-news-updates"/>
+   <link href="http://pbdesk.io/programming/vb-news-updates"/>
    <updated>2008-02-12T06:28:00-05:00</updated>
-   <id>localhost:4000/programming/vb-news-updates</id>
+   <id>http://pbdesk.io/programming/vb-news-updates</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>Comparing & Contrasting : Abstract Class Vs Interface</title>
-   <link href="localhost:4000/programming/comparing-contrasting-abstract-class-vs-interface"/>
+   <link href="http://pbdesk.io/programming/comparing-contrasting-abstract-class-vs-interface"/>
    <updated>2008-02-08T07:18:00-05:00</updated>
-   <id>localhost:4000/programming/comparing-contrasting-abstract-class-vs-interface</id>
+   <id>http://pbdesk.io/programming/comparing-contrasting-abstract-class-vs-interface</id>
    <content type="html">&lt;p&gt;Abstract Class Vs Interface&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Comparing & Contrasting : C# Vs VB</title>
-   <link href="localhost:4000/programming/comparing-contrasting-c-vs-vb"/>
+   <link href="http://pbdesk.io/programming/comparing-contrasting-c-vs-vb"/>
    <updated>2008-02-08T07:11:00-05:00</updated>
-   <id>localhost:4000/programming/comparing-contrasting-c-vs-vb</id>
+   <id>http://pbdesk.io/programming/comparing-contrasting-c-vs-vb</id>
    <content type="html">&lt;p&gt;Comparing and contrasting C# Vs VB in radiance of .Net :&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Silverlight : News Update</title>
-   <link href="localhost:4000/programming/silverlight-news-update"/>
+   <link href="http://pbdesk.io/programming/silverlight-news-update"/>
    <updated>2008-01-01T08:52:00-05:00</updated>
-   <id>localhost:4000/programming/silverlight-news-update</id>
+   <id>http://pbdesk.io/programming/silverlight-news-update</id>
    <content type="html"></content>
  </entry>
  
  <entry>
    <title>Search</title>
-   <link href="localhost:4000/programming/search-2"/>
+   <link href="http://pbdesk.io/programming/search-2"/>
    <updated>2007-12-27T07:52:00-05:00</updated>
-   <id>localhost:4000/programming/search-2</id>
+   <id>http://pbdesk.io/programming/search-2</id>
    <content type="html">&lt;p&gt;&lt;!-- Google Search Result Snippet Begins --&gt;
 &lt;div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;!-- Google Search Result Snippet Ends --&gt;
@@ -5708,18 +5570,18 @@ On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.N
  
  <entry>
    <title>Common JavaScript Utilities</title>
-   <link href="localhost:4000/programming/common-javascript-utilities"/>
+   <link href="http://pbdesk.io/programming/common-javascript-utilities"/>
    <updated>2007-12-19T17:51:00-05:00</updated>
-   <id>localhost:4000/programming/common-javascript-utilities</id>
+   <id>http://pbdesk.io/programming/common-javascript-utilities</id>
    <content type="html">&lt;p style=&quot;padding-left: 20px&quot;&gt;Common JavaScript utilities/functions/code:&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>.Net Learning Curve</title>
-   <link href="localhost:4000/programming/net-learning-curve"/>
+   <link href="http://pbdesk.io/programming/net-learning-curve"/>
    <updated>2007-12-14T17:31:00-05:00</updated>
-   <id>localhost:4000/programming/net-learning-curve</id>
+   <id>http://pbdesk.io/programming/net-learning-curve</id>
    <content type="html">&lt;p style=&quot;margin-left: 0.5in;&quot;&gt;&lt;o:p&gt; &lt;/o:p&gt;&lt;/p&gt;
 &lt;table style=&quot;border: medium none ; width: 6.75in; margin-left: 0pt; border-collapse: collapse;&quot; border=&quot;1&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;648&quot;&gt;
 &lt;tbody&gt;
@@ -5903,9 +5765,9 @@ On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.N
  
  <entry>
    <title>Standards & Practices for Software Development (.Net)</title>
-   <link href="localhost:4000/programming/standards-practices-for-software-development-net"/>
+   <link href="http://pbdesk.io/programming/standards-practices-for-software-development-net"/>
    <updated>2007-12-14T16:15:00-05:00</updated>
-   <id>localhost:4000/programming/standards-practices-for-software-development-net</id>
+   <id>http://pbdesk.io/programming/standards-practices-for-software-development-net</id>
    <content type="html">&lt;p&gt;The objective of this blog is to provide software engineers(developers and architectures) with standards and practices for software development. It includes code naming conventions, best prectices for coding,general requirements and guidelines to be followed that insure that the code(software) is well designed, well written, testable and maintainable.&lt;/p&gt;
 &lt;p&gt;Every guideline give here in, is presented in terms of Use Cases Scenarios along with necessay description, examples, code snippets and does &amp;amp; don&#39;ts to help developer code the proper way. All use cases are classified in following categories:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://arnav-services.blogspot.com/2007/05/general-coding-guidelines.html&quot;&gt;&lt;strong&gt;General Coding Guidelines&lt;/strong&gt;&lt;/a&gt; : Naming conventions and best practices while coding in C# &amp;amp; VB.Net&lt;/p&gt;
@@ -5915,9 +5777,9 @@ On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.N
  
  <entry>
    <title>My Delicious Bookmarks</title>
-   <link href="localhost:4000/archive/my-delicious-bookmarks-2"/>
+   <link href="http://pbdesk.io/archive/my-delicious-bookmarks-2"/>
    <updated>2007-12-13T15:08:00-05:00</updated>
-   <id>localhost:4000/archive/my-delicious-bookmarks-2</id>
+   <id>http://pbdesk.io/archive/my-delicious-bookmarks-2</id>
    <content type="html">&lt;blockquote&gt;
     &lt;p&gt;Once upon a time I was using Delicio.us for saving my bookmarks but I no longer use it so this page is empty now. &lt;/p&gt;
     &lt;small&gt;Updated by Webmaster on 13th Dec, 2012&lt;/small&gt;
@@ -5927,9 +5789,9 @@ On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.N
  
  <entry>
    <title>JavaScript Utilities</title>
-   <link href="localhost:4000/javascript/javascript-utilities"/>
+   <link href="http://pbdesk.io/javascript/javascript-utilities"/>
    <updated>2007-12-13T15:08:00-05:00</updated>
-   <id>localhost:4000/javascript/javascript-utilities</id>
+   <id>http://pbdesk.io/javascript/javascript-utilities</id>
    <content type="html">&lt;div&gt;
 &lt;div&gt;Latest Download&lt;/div&gt;
 &lt;div&gt;Project: JavaScript Utils&lt;/div&gt;
@@ -5981,9 +5843,9 @@ On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.N
  
  <entry>
    <title>Blank Post</title>
-   <link href="localhost:4000/archive/blank-post"/>
+   <link href="http://pbdesk.io/archive/blank-post"/>
    <updated>2007-12-13T12:54:00-05:00</updated>
-   <id>localhost:4000/archive/blank-post</id>
+   <id>http://pbdesk.io/archive/blank-post</id>
    <content type="html"></content>
  </entry>
  
