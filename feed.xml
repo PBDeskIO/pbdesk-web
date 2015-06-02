@@ -3,18 +3,18 @@
   <channel>
     <title>Pinal Bhatt&#39;s Blog</title>
     <description>Learning endeavor for ever...from the desk of Pinal Bhatt | blog.PBDesk.io</description>
-    <link>http://pbdesk.io/</link>
-    <atom:link href="http://pbdesk.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 02 Jun 2015 10:31:28 -0400</pubDate>
-    <lastBuildDate>Tue, 02 Jun 2015 10:31:28 -0400</lastBuildDate>
+    <link>localhost:4000/</link>
+    <atom:link href="localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 02 Jun 2015 12:00:53 -0400</pubDate>
+    <lastBuildDate>Tue, 02 Jun 2015 12:00:53 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Jade Video Tutorial</title>
         <description>Jade - Template Engine for NodeJS. Jade is a cool, elegant, high-performance (and probably the most used) templating language for Node focused on enabling quick HTML coding. It has been...</description>
         <pubDate>Wed, 22 Apr 2015 17:30:08 -0400</pubDate>
-        <link>http://pbdesk.io/tutorial/jade-video-tuotrial</link>
-        <guid isPermaLink="true">http://pbdesk.io/tutorial/jade-video-tuotrial</guid>
+        <link>localhost:4000/tutorial/jade-video-tuotrial</link>
+        <guid isPermaLink="true">localhost:4000/tutorial/jade-video-tuotrial</guid>
         
         <category>Jade</category>
         
@@ -31,8 +31,8 @@
         <title>Template for creating post</title>
         <description>Fusce imperdiet, risus eget viverra faucibus, diam mi vestibulum libero, ut vestibulum tellus magna nec enim. Nunc dapibus varius interdum. Phasellus at lorem ut lectus fermentum convallis. Sed diam nisi,...</description>
         <pubDate>Tue, 21 Apr 2015 12:16:08 -0400</pubDate>
-        <link>http://pbdesk.io/archives/post-template</link>
-        <guid isPermaLink="true">http://pbdesk.io/archives/post-template</guid>
+        <link>localhost:4000/archives/post-template</link>
+        <guid isPermaLink="true">localhost:4000/archives/post-template</guid>
         
         <category>MyProject</category>
         
@@ -49,8 +49,8 @@
         <title>Moving my blog to Jekyll!</title>
         <description>Yes I am moving my blog(blog.PBDesk.com) from WordPress to Jekyll and host it at Github pages at http://blog.pbdesk.io http://blog.pbdesk.io Preview is almost ready One more jump for my blog. I...</description>
         <pubDate>Mon, 20 Apr 2015 04:21:46 -0400</pubDate>
-        <link>http://pbdesk.io/jekyll/Moving-My-Blog-To-Jekyll</link>
-        <guid isPermaLink="true">http://pbdesk.io/jekyll/Moving-My-Blog-To-Jekyll</guid>
+        <link>localhost:4000/jekyll/Moving-My-Blog-To-Jekyll</link>
+        <guid isPermaLink="true">localhost:4000/jekyll/Moving-My-Blog-To-Jekyll</guid>
         
         <category>Jekyll</category>
         
@@ -63,8 +63,8 @@
         <title>Welcome to Jekyll!</title>
         <description>This was the default post created when I created Jekyll project. Keeping this post as is to show my liking for Jekyll. You’ll find this post in your _posts directory....</description>
         <pubDate>Sat, 18 Apr 2015 04:21:46 -0400</pubDate>
-        <link>http://pbdesk.io/jekyll/welcome-to-jekyll</link>
-        <guid isPermaLink="true">http://pbdesk.io/jekyll/welcome-to-jekyll</guid>
+        <link>localhost:4000/jekyll/welcome-to-jekyll</link>
+        <guid isPermaLink="true">localhost:4000/jekyll/welcome-to-jekyll</guid>
         
         <category>Jekyll</category>
         
@@ -77,8 +77,8 @@
         <title>ASP.Net vNext MVC 6 Videos</title>
         <description>Recently, in Summer 2014, Microsoft announced the preview availability of its new ASP.Net vNext, that is MVC 6. ASP.NET vNext is a lean and composable framework for building web and...</description>
         <pubDate>Tue, 11 Nov 2014 11:16:08 -0500</pubDate>
-        <link>http://pbdesk.io/mvc6/asp-net-vnext-mvc-6-videos</link>
-        <guid isPermaLink="true">http://pbdesk.io/mvc6/asp-net-vnext-mvc-6-videos</guid>
+        <link>localhost:4000/mvc6/asp-net-vnext-mvc-6-videos</link>
+        <guid isPermaLink="true">localhost:4000/mvc6/asp-net-vnext-mvc-6-videos</guid>
         
         <category>ASP.Net</category>
         
@@ -97,8 +97,8 @@
         <title>ASP.Net MVC 6 - Whats New?</title>
         <description>Asp.Net vNext (http://asp.net/vNext) is the official place where we learn about next generation of Microsoft&#39;s ASP.Net framework. As of 2014 vNext is MVC 6! Yes MVC 6 is the new...</description>
         <pubDate>Wed, 05 Nov 2014 10:35:50 -0500</pubDate>
-        <link>http://pbdesk.io/programming/asp-net-mvc-6-whats-new</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/asp-net-mvc-6-whats-new</guid>
+        <link>localhost:4000/programming/asp-net-mvc-6-whats-new</link>
+        <guid isPermaLink="true">localhost:4000/programming/asp-net-mvc-6-whats-new</guid>
         
         <category>ASP.Net</category>
         
@@ -119,8 +119,8 @@
         <title>C# Code Snippet to Send Email</title>
         <description>Microsoft.Net framework provides System.Net.Mail Namespace for handling SMTP and email related utilities. SmtpClient class allows applications to send e-mail by using the Simple Mail Transfer Protocol (SMTP) where as MailMessage...</description>
         <pubDate>Sat, 20 Sep 2014 10:46:58 -0400</pubDate>
-        <link>http://pbdesk.io/programming/c-code-snippet-send-email</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/c-code-snippet-send-email</guid>
+        <link>localhost:4000/programming/c-code-snippet-send-email</link>
+        <guid isPermaLink="true">localhost:4000/programming/c-code-snippet-send-email</guid>
         
         <category>CSharp</category>
         
@@ -135,8 +135,8 @@
         <title>Unit Testing Node.JS With Mocha</title>
         <description>My google research for &quot;node js mocha tutorial&quot; 1. Official web site for Mocha simple, flexible, fun. Mocha is a feature-rich JavaScript test framework running on node.js and the browser, makingasynchronous testing simple...</description>
         <pubDate>Sun, 24 Aug 2014 21:53:52 -0400</pubDate>
-        <link>http://pbdesk.io/nodejs/unit-testing-node-js-with-mocha</link>
-        <guid isPermaLink="true">http://pbdesk.io/nodejs/unit-testing-node-js-with-mocha</guid>
+        <link>localhost:4000/nodejs/unit-testing-node-js-with-mocha</link>
+        <guid isPermaLink="true">localhost:4000/nodejs/unit-testing-node-js-with-mocha</guid>
         
         <category>JavaScript</category>
         
@@ -155,8 +155,8 @@
 
 </description>
         <pubDate>Fri, 15 Aug 2014 15:43:56 -0400</pubDate>
-        <link>http://pbdesk.io/programming/realm-package-managers</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/realm-package-managers</guid>
+        <link>localhost:4000/programming/realm-package-managers</link>
+        <guid isPermaLink="true">localhost:4000/programming/realm-package-managers</guid>
         
         <category>Programming</category>
         
@@ -169,8 +169,8 @@
         <title>Getting started: Website in Node.JS With Express, Jade &amp; Stylus using Node.js Tools for Visual Studio</title>
         <description>Since last few days I am trying my hands with NodeJS. I came across very nice article &quot;A SIMPLE WEBSITE IN NODE.JS WITH EXPRESS, JADE AND STYLUS&quot; by Ben Gourley....</description>
         <pubDate>Fri, 08 Aug 2014 10:00:37 -0400</pubDate>
-        <link>http://pbdesk.io/nodejs/getting-started-website-node-js-express-jade-stylus-using-node-js-tools-visual-studio</link>
-        <guid isPermaLink="true">http://pbdesk.io/nodejs/getting-started-website-node-js-express-jade-stylus-using-node-js-tools-visual-studio</guid>
+        <link>localhost:4000/nodejs/getting-started-website-node-js-express-jade-stylus-using-node-js-tools-visual-studio</link>
+        <guid isPermaLink="true">localhost:4000/nodejs/getting-started-website-node-js-express-jade-stylus-using-node-js-tools-visual-studio</guid>
         
         <category>Express</category>
         
@@ -191,8 +191,8 @@
         <title>Adieu PBDesk.com V2</title>
         <description>Long back posted that i want to rewrite my site with all new ASP.Net MVC, WebAPI, Umbaco7, AngularJS &amp;amp; Twitter Bootstrap.  It took lot of time for me to rewrite...</description>
         <pubDate>Wed, 06 Aug 2014 15:07:20 -0400</pubDate>
-        <link>http://pbdesk.io/featured/myprojects/adieu-pbdesk-com-v2</link>
-        <guid isPermaLink="true">http://pbdesk.io/featured/myprojects/adieu-pbdesk-com-v2</guid>
+        <link>localhost:4000/featured/myprojects/adieu-pbdesk-com-v2</link>
+        <guid isPermaLink="true">localhost:4000/featured/myprojects/adieu-pbdesk-com-v2</guid>
         
         <category>PBDesk</category>
         
@@ -210,8 +210,8 @@ Here are my recent tweets regarding NodeJS.
 Tweets about #NodeJS from:PBDesk
 </description>
         <pubDate>Sat, 05 Jul 2014 08:11:00 -0400</pubDate>
-        <link>http://pbdesk.io/nodejs/nodejs-news-update</link>
-        <guid isPermaLink="true">http://pbdesk.io/nodejs/nodejs-news-update</guid>
+        <link>localhost:4000/nodejs/nodejs-news-update</link>
+        <guid isPermaLink="true">localhost:4000/nodejs/nodejs-news-update</guid>
         
         <category>NodeJS</category>
         
@@ -224,8 +224,8 @@ Tweets about #NodeJS from:PBDesk
         <title>Objective-C Succinctly</title>
         <description>test</description>
         <pubDate>Mon, 03 Mar 2014 00:00:00 -0500</pubDate>
-        <link>http://pbdesk.io/ebooks/programming/Succinctly-Objective-C</link>
-        <guid isPermaLink="true">http://pbdesk.io/ebooks/programming/Succinctly-Objective-C</guid>
+        <link>localhost:4000/ebooks/programming/Succinctly-Objective-C</link>
+        <guid isPermaLink="true">localhost:4000/ebooks/programming/Succinctly-Objective-C</guid>
         
         <category>Objective-c</category>
         
@@ -245,8 +245,8 @@ Tweets about #NodeJS from:PBDesk
 Pinal Bhatt
 </description>
         <pubDate>Mon, 03 Mar 2014 00:00:00 -0500</pubDate>
-        <link>http://pbdesk.io/people/Pinal-Bhatt</link>
-        <guid isPermaLink="true">http://pbdesk.io/people/Pinal-Bhatt</guid>
+        <link>localhost:4000/people/Pinal-Bhatt</link>
+        <guid isPermaLink="true">localhost:4000/people/Pinal-Bhatt</guid>
         
         <category>people</category>
         
@@ -263,8 +263,8 @@ Pinal Bhatt
 
 </description>
         <pubDate>Mon, 03 Mar 2014 00:00:00 -0500</pubDate>
-        <link>http://pbdesk.io/people/John-Papa</link>
-        <guid isPermaLink="true">http://pbdesk.io/people/John-Papa</guid>
+        <link>localhost:4000/people/John-Papa</link>
+        <guid isPermaLink="true">localhost:4000/people/John-Papa</guid>
         
         <category>Objective-c</category>
         
@@ -279,8 +279,8 @@ Pinal Bhatt
         <title>Test Book</title>
         <description>Test Book</description>
         <pubDate>Sun, 02 Mar 2014 00:00:00 -0500</pubDate>
-        <link>http://pbdesk.io/ebooks/test-book</link>
-        <guid isPermaLink="true">http://pbdesk.io/ebooks/test-book</guid>
+        <link>localhost:4000/ebooks/test-book</link>
+        <guid isPermaLink="true">localhost:4000/ebooks/test-book</guid>
         
         
         <category>ebooks</category>
@@ -291,8 +291,8 @@ Pinal Bhatt
         <title>Introducing Poole</title>
         <description>The Strange Case of Dr. Jeykll and Mr. Hyde tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among...</description>
         <pubDate>Sun, 02 Mar 2014 00:00:00 -0500</pubDate>
-        <link>http://pbdesk.io/ebooks/jekyll/poole/introducing-poole</link>
-        <guid isPermaLink="true">http://pbdesk.io/ebooks/jekyll/poole/introducing-poole</guid>
+        <link>localhost:4000/ebooks/jekyll/poole/introducing-poole</link>
+        <guid isPermaLink="true">localhost:4000/ebooks/jekyll/poole/introducing-poole</guid>
         
         
         <category>ebooks</category>
@@ -304,11 +304,25 @@ Pinal Bhatt
       </item>
     
       <item>
+        <title>Example content</title>
+        <description>Howdy! This is an example blog post that shows several types of HTML content supported in this theme. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus....</description>
+        <pubDate>Sat, 01 Mar 2014 00:00:00 -0500</pubDate>
+        <link>localhost:4000/jekyll/example/2014-03-01-example-content</link>
+        <guid isPermaLink="true">localhost:4000/jekyll/example/2014-03-01-example-content</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>example</category>
+        
+      </item>
+    
+      <item>
         <title>ReWriting PBDesk.com</title>
         <description>[caption id=&quot;attachment_242&quot; align=&quot;alignright&quot; width=&quot;300&quot;] 2013.PBDesk.com[/caption] [caption id=&quot;attachment_243&quot; align=&quot;alignleft&quot; width=&quot;300&quot;] 2014.PBDesk.com[/caption] PBDesk.com - My Site, My Desk! Its now more then an year with same look, not sure of others ;)...</description>
         <pubDate>Tue, 24 Dec 2013 04:12:02 -0500</pubDate>
-        <link>http://pbdesk.io/myprojects/rewriting-pbdesk-com</link>
-        <guid isPermaLink="true">http://pbdesk.io/myprojects/rewriting-pbdesk-com</guid>
+        <link>localhost:4000/myprojects/rewriting-pbdesk-com</link>
+        <guid isPermaLink="true">localhost:4000/myprojects/rewriting-pbdesk-com</guid>
         
         <category>AngularJS</category>
         
@@ -329,8 +343,8 @@ Pinal Bhatt
         <title>AngularJS – Really SuperHeroic JavaScipt</title>
         <description>Updated on 30th Aug, 2014 - AngularJS 1.3.0-rc.0 is Out. The day Apple said it will not support plugins like Flash Player, Silverlight for its iOS based devices, new revolution [caption...</description>
         <pubDate>Fri, 10 May 2013 10:15:00 -0400</pubDate>
-        <link>http://pbdesk.io/angularjs/angularjs-really-superheroic-javascipt</link>
-        <guid isPermaLink="true">http://pbdesk.io/angularjs/angularjs-really-superheroic-javascipt</guid>
+        <link>localhost:4000/angularjs/angularjs-really-superheroic-javascipt</link>
+        <guid isPermaLink="true">localhost:4000/angularjs/angularjs-really-superheroic-javascipt</guid>
         
         <category>AngularJS</category>
         
@@ -345,8 +359,8 @@ Pinal Bhatt
         <title>Javascript: Random Number between two integers</title>
         <description>Javascript does has built-in function Math.random() to generate a random number, however the so generated random number is always a floating value between 0 and 1. This may be fine...</description>
         <pubDate>Mon, 07 Jan 2013 18:11:00 -0500</pubDate>
-        <link>http://pbdesk.io/javascript/javascript-random-number-between-two-integers</link>
-        <guid isPermaLink="true">http://pbdesk.io/javascript/javascript-random-number-between-two-integers</guid>
+        <link>localhost:4000/javascript/javascript-random-number-between-two-integers</link>
+        <guid isPermaLink="true">localhost:4000/javascript/javascript-random-number-between-two-integers</guid>
         
         <category>code snippet</category>
         
@@ -363,8 +377,8 @@ Pinal Bhatt
         <title>.Net 4.5, VS2012 &amp; Windows 8 Released</title>
         <description>WOW….. Looks like a release season a Microsoft. Many new products and technologies getting released in this month and and in near future. Visual Studio 2012 .Net Framework 4.5 ASP.Net...</description>
         <pubDate>Thu, 23 Aug 2012 09:10:00 -0400</pubDate>
-        <link>http://pbdesk.io/microsoft/net-4-5-vs2012-windows-8-released</link>
-        <guid isPermaLink="true">http://pbdesk.io/microsoft/net-4-5-vs2012-windows-8-released</guid>
+        <link>localhost:4000/microsoft/net-4-5-vs2012-windows-8-released</link>
+        <guid isPermaLink="true">localhost:4000/microsoft/net-4-5-vs2012-windows-8-released</guid>
         
         <category>DotNet</category>
         
@@ -393,8 +407,8 @@ Pinal Bhatt
         <title>SQLite Browsers, Explorers, Admin GUI Tools</title>
         <description>SQLite is a software library that implements a self-contained, server less, zero-configuration, transactional SQL database engine. SQLite is the most widely deployed SQL database engine in the world. The source...</description>
         <pubDate>Fri, 10 Aug 2012 16:56:00 -0400</pubDate>
-        <link>http://pbdesk.io/featured/sqlite-browsers-explorers-admin-gui-tools</link>
-        <guid isPermaLink="true">http://pbdesk.io/featured/sqlite-browsers-explorers-admin-gui-tools</guid>
+        <link>localhost:4000/featured/sqlite-browsers-explorers-admin-gui-tools</link>
+        <guid isPermaLink="true">localhost:4000/featured/sqlite-browsers-explorers-admin-gui-tools</guid>
         
         <category>SQLite</category>
         
@@ -407,8 +421,8 @@ Pinal Bhatt
         <title>Using SQLite With  WinRT, Metro, Windows 8 Mobile</title>
         <description>As pre recent news at http://www.sqlite.org/news.html on 2012-June-11 - Release 3.7.13 “SQLite version 3.7.13 adds support for WinRT and metro style applications for Microsoft Windows 8. The 3.7.13 release is...</description>
         <pubDate>Fri, 10 Aug 2012 10:50:00 -0400</pubDate>
-        <link>http://pbdesk.io/windows8/using-sqlite-with-winrt-metro-windows-8-mobile</link>
-        <guid isPermaLink="true">http://pbdesk.io/windows8/using-sqlite-with-winrt-metro-windows-8-mobile</guid>
+        <link>localhost:4000/windows8/using-sqlite-with-winrt-metro-windows-8-mobile</link>
+        <guid isPermaLink="true">localhost:4000/windows8/using-sqlite-with-winrt-metro-windows-8-mobile</guid>
         
         
         <category>windows8</category>
@@ -419,8 +433,8 @@ Pinal Bhatt
         <title>INotifyPropertyChanged - The .NET 4.5 Way. CallerMemberName</title>
         <description>&amp;nbsp; Here are few links describing how to use INotifyPropertyChanged interface in .Net Framework 4.5 using new “Caller Information” Attributes: CallerFilePathAttribute, CallerLineNumberAttribute, and CallerMemberNameAttribute MSDN: Caller Information (C# and Visual...</description>
         <pubDate>Tue, 07 Aug 2012 09:43:00 -0400</pubDate>
-        <link>http://pbdesk.io/dotnet/inotifypropertychanged-the-net-4-5-way-callermembername</link>
-        <guid isPermaLink="true">http://pbdesk.io/dotnet/inotifypropertychanged-the-net-4-5-way-callermembername</guid>
+        <link>localhost:4000/dotnet/inotifypropertychanged-the-net-4-5-way-callermembername</link>
+        <guid isPermaLink="true">localhost:4000/dotnet/inotifypropertychanged-the-net-4-5-way-callermembername</guid>
         
         <category>DotNet45</category>
         
@@ -435,8 +449,8 @@ Pinal Bhatt
         <title>Route Constraints With ASP.Net MVC &amp; WebAPI</title>
         <description>ASP.Net MVC has a powerful Routing Engine that allows mapping between URL Routes and Controller Actions. Below are few links regarding how you can control how browser requests match routes...</description>
         <pubDate>Tue, 17 Jul 2012 09:08:00 -0400</pubDate>
-        <link>http://pbdesk.io/asp.net/route-constraints-with-asp-net-mvc-webapi</link>
-        <guid isPermaLink="true">http://pbdesk.io/asp.net/route-constraints-with-asp-net-mvc-webapi</guid>
+        <link>localhost:4000/asp.net/route-constraints-with-asp-net-mvc-webapi</link>
+        <guid isPermaLink="true">localhost:4000/asp.net/route-constraints-with-asp-net-mvc-webapi</guid>
         
         
         <category>asp.net</category>
@@ -447,8 +461,8 @@ Pinal Bhatt
         <title>Free eBooks: jQuery &amp; Metro Apps</title>
         <description>jQuery Succinctly By Cody Lindley At&amp;#160; Syncfusion jQuery Succinctly was written to express, in short-order, the concepts essential to intermediate and advanced jQuery development. Its purpose is to instill in...</description>
         <pubDate>Fri, 15 Jun 2012 16:17:00 -0400</pubDate>
-        <link>http://pbdesk.io/ebook/free-ebooks-jquery-metro-apps</link>
-        <guid isPermaLink="true">http://pbdesk.io/ebook/free-ebooks-jquery-metro-apps</guid>
+        <link>localhost:4000/ebook/free-ebooks-jquery-metro-apps</link>
+        <guid isPermaLink="true">localhost:4000/ebook/free-ebooks-jquery-metro-apps</guid>
         
         <category>eBook</category>
         
@@ -465,8 +479,8 @@ Pinal Bhatt
         <title>C# Extension Methods – I Love Them!!!!</title>
         <description>Extension Methods - Yet another cool feature brought into .Net realm with C# 3 and VB.Net 9. Extension methods allow you to &amp;quot;add&amp;quot; methods to existing types without creating a...</description>
         <pubDate>Fri, 10 Feb 2012 12:08:00 -0500</pubDate>
-        <link>http://pbdesk.io/dotnet/c-extension-methods-i-love-them</link>
-        <guid isPermaLink="true">http://pbdesk.io/dotnet/c-extension-methods-i-love-them</guid>
+        <link>localhost:4000/dotnet/c-extension-methods-i-love-them</link>
+        <guid isPermaLink="true">localhost:4000/dotnet/c-extension-methods-i-love-them</guid>
         
         
         <category>dotnet</category>
@@ -477,8 +491,8 @@ Pinal Bhatt
         <title>C# Generic String Parser Extension Method</title>
         <description>Here is an extension method for strings in C# for parsing stings to other types. Code at Gist [gist id = &quot;af652fbca4e543bc3c23&quot; file = &quot;GenericStringParserExtensionMethod.cs&quot; ] [emc2alert type=&quot;success&quot; style=&quot;normal&quot; position=&quot;top&quot;...</description>
         <pubDate>Wed, 01 Feb 2012 21:50:00 -0500</pubDate>
-        <link>http://pbdesk.io/dotnet/programming/c-generic-string-parser-extension-method</link>
-        <guid isPermaLink="true">http://pbdesk.io/dotnet/programming/c-generic-string-parser-extension-method</guid>
+        <link>localhost:4000/dotnet/programming/c-generic-string-parser-extension-method</link>
+        <guid isPermaLink="true">localhost:4000/dotnet/programming/c-generic-string-parser-extension-method</guid>
         
         <category>DotNet</category>
         
@@ -495,8 +509,8 @@ Pinal Bhatt
         <title>Whats coming up new with .Net 4.5 ?</title>
         <description>Microsoft has already announced developer preview for .Net Framework 4.5 which is expected to come with ASP.Net 4.5, ASP.Net MVC 4, ASP.NET Web Pages 2,Visual Studio 11 and lot more...</description>
         <pubDate>Tue, 29 Nov 2011 11:30:00 -0500</pubDate>
-        <link>http://pbdesk.io/dotnet/microsoft/whats-coming-up-new-with-net-4-5</link>
-        <guid isPermaLink="true">http://pbdesk.io/dotnet/microsoft/whats-coming-up-new-with-net-4-5</guid>
+        <link>localhost:4000/dotnet/microsoft/whats-coming-up-new-with-net-4-5</link>
+        <guid isPermaLink="true">localhost:4000/dotnet/microsoft/whats-coming-up-new-with-net-4-5</guid>
         
         
         <category>dotnet</category>
@@ -514,8 +528,8 @@ Strongly Typed Data Controls
 
 </description>
         <pubDate>Thu, 01 Sep 2011 08:55:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/scottgus-asp-net-vnext-series</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/scottgus-asp-net-vnext-series</guid>
+        <link>localhost:4000/programming/scottgus-asp-net-vnext-series</link>
+        <guid isPermaLink="true">localhost:4000/programming/scottgus-asp-net-vnext-series</guid>
         
         
         <category>programming</category>
@@ -530,8 +544,8 @@ Strongly Typed Data Controls
 http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
 </description>
         <pubDate>Thu, 01 Sep 2011 08:52:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/googles-blogger-gets-a-refresh-new-look</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/googles-blogger-gets-a-refresh-new-look</guid>
+        <link>localhost:4000/programming/googles-blogger-gets-a-refresh-new-look</link>
+        <guid isPermaLink="true">localhost:4000/programming/googles-blogger-gets-a-refresh-new-look</guid>
         
         
         <category>programming</category>
@@ -542,8 +556,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>Razor support in Umbraco 4.7</title>
         <description>With Umbraco 4.6.1 in Jan,2011, they brought in one of the great feature to Umbraco CMS - Razor. And with Umbraco 4.7 in March, 2011 they have matured the made...</description>
         <pubDate>Mon, 07 Mar 2011 11:49:00 -0500</pubDate>
-        <link>http://pbdesk.io/asp.net/cms/razor-support-in-umbraco-4-7</link>
-        <guid isPermaLink="true">http://pbdesk.io/asp.net/cms/razor-support-in-umbraco-4-7</guid>
+        <link>localhost:4000/asp.net/cms/razor-support-in-umbraco-4-7</link>
+        <guid isPermaLink="true">localhost:4000/asp.net/cms/razor-support-in-umbraco-4-7</guid>
         
         
         <category>asp.net</category>
@@ -556,8 +570,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>Re-Usable jQuery Accordion for Umbraco</title>
         <description>As a part of my umbraco based website www.PBDesk.com, I was developing learning interactions components which can be re-used in the eLearning section of the website. Accordion &amp;amp; Tabs are...</description>
         <pubDate>Thu, 03 Feb 2011 14:05:00 -0500</pubDate>
-        <link>http://pbdesk.io/elearning/re-usable-jquery-accordion-for-umbraco</link>
-        <guid isPermaLink="true">http://pbdesk.io/elearning/re-usable-jquery-accordion-for-umbraco</guid>
+        <link>localhost:4000/elearning/re-usable-jquery-accordion-for-umbraco</link>
+        <guid isPermaLink="true">localhost:4000/elearning/re-usable-jquery-accordion-for-umbraco</guid>
         
         
         <category>elearning</category>
@@ -568,8 +582,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>Razor support in Umbraco</title>
         <description>Important Note!!! This post was written for Umbraco 4.6.1. Now new version 4.7 is available and there are certain notable changes in terms of Razor in Umbraco 4.7. Please refer...</description>
         <pubDate>Tue, 25 Jan 2011 12:51:00 -0500</pubDate>
-        <link>http://pbdesk.io/cms/razor-support-in-umbraco</link>
-        <guid isPermaLink="true">http://pbdesk.io/cms/razor-support-in-umbraco</guid>
+        <link>localhost:4000/cms/razor-support-in-umbraco</link>
+        <guid isPermaLink="true">localhost:4000/cms/razor-support-in-umbraco</guid>
         
         
         <category>cms</category>
@@ -580,8 +594,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>Umbraco Razor Syntax for Breadcrumb</title>
         <description>Recently Umbraco team released new version 4.6.1 for Umbraco CMS engine and one of the great feature they added was the support for Razor syntax.&amp;#160; Yes, Umbraco now supports Razor...</description>
         <pubDate>Fri, 21 Jan 2011 14:58:00 -0500</pubDate>
-        <link>http://pbdesk.io/cms/umbraco-razor-syntax-for-breadcrumb</link>
-        <guid isPermaLink="true">http://pbdesk.io/cms/umbraco-razor-syntax-for-breadcrumb</guid>
+        <link>localhost:4000/cms/umbraco-razor-syntax-for-breadcrumb</link>
+        <guid isPermaLink="true">localhost:4000/cms/umbraco-razor-syntax-for-breadcrumb</guid>
         
         
         <category>cms</category>
@@ -592,8 +606,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>Canonical Url For Umbraco Using Razor Syntax</title>
         <description>Sometime back I wrote post about Canonical Urls. Indeed Canonical URLs is one of the important chapter of SEO and a way to avoid getting page rank getting distributed among...</description>
         <pubDate>Wed, 19 Jan 2011 14:48:00 -0500</pubDate>
-        <link>http://pbdesk.io/seo/canonical-url-for-umbraco-using-razor-syntax</link>
-        <guid isPermaLink="true">http://pbdesk.io/seo/canonical-url-for-umbraco-using-razor-syntax</guid>
+        <link>localhost:4000/seo/canonical-url-for-umbraco-using-razor-syntax</link>
+        <guid isPermaLink="true">localhost:4000/seo/canonical-url-for-umbraco-using-razor-syntax</guid>
         
         
         <category>seo</category>
@@ -604,8 +618,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>ASP.Net Open Source CMS</title>
         <description>Umbraco Rocks!!! Since long I was thinking of writhing this post. I have been blogging since 2007 at blog.PBDesk.com powered by Google Blogger. But blogs have there own limitations, I...</description>
         <pubDate>Tue, 18 Jan 2011 14:27:00 -0500</pubDate>
-        <link>http://pbdesk.io/dotnet/asp.net/cms/asp-net-open-source-cms</link>
-        <guid isPermaLink="true">http://pbdesk.io/dotnet/asp.net/cms/asp-net-open-source-cms</guid>
+        <link>localhost:4000/dotnet/asp.net/cms/asp-net-open-source-cms</link>
+        <guid isPermaLink="true">localhost:4000/dotnet/asp.net/cms/asp-net-open-source-cms</guid>
         
         
         <category>dotnet</category>
@@ -620,8 +634,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>Canonical URLs for Umbraco</title>
         <description>In my previous post, i have discussed about Canonical URLs and its importance in SEO. In this post we will see how to implement Canonical Urls in an Umbraco based...</description>
         <pubDate>Mon, 03 Jan 2011 17:50:00 -0500</pubDate>
-        <link>http://pbdesk.io/seo/canonical-urls-for-umbraco</link>
-        <guid isPermaLink="true">http://pbdesk.io/seo/canonical-urls-for-umbraco</guid>
+        <link>localhost:4000/seo/canonical-urls-for-umbraco</link>
+        <guid isPermaLink="true">localhost:4000/seo/canonical-urls-for-umbraco</guid>
         
         
         <category>seo</category>
@@ -632,8 +646,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>Canonical URL</title>
         <description>URL Canonicalization (also refered as URL Normalization) is the process of picking the best url when there are several choices.&amp;#160; It is a process to determine if two syntactically different...</description>
         <pubDate>Mon, 03 Jan 2011 17:29:00 -0500</pubDate>
-        <link>http://pbdesk.io/seo/canonical-url</link>
-        <guid isPermaLink="true">http://pbdesk.io/seo/canonical-url</guid>
+        <link>localhost:4000/seo/canonical-url</link>
+        <guid isPermaLink="true">localhost:4000/seo/canonical-url</guid>
         
         
         <category>seo</category>
@@ -644,8 +658,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>Free CDN Service – That too from Google!</title>
         <description>CDN - Content Delivery Network or Content Distribution Network What is CDN? As defined at wikipedia: A content delivery network or content distribution network (CDN) is a system of computers...</description>
         <pubDate>Wed, 22 Dec 2010 18:22:00 -0500</pubDate>
-        <link>http://pbdesk.io/google/free-cdn-service-that-too-from-google</link>
-        <guid isPermaLink="true">http://pbdesk.io/google/free-cdn-service-that-too-from-google</guid>
+        <link>localhost:4000/google/free-cdn-service-that-too-from-google</link>
+        <guid isPermaLink="true">localhost:4000/google/free-cdn-service-that-too-from-google</guid>
         
         
         <category>google</category>
@@ -656,8 +670,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>Using CDN hosted jQuery Library</title>
         <description>Very often, to use jQuery, jQueryUI and Themes we need to add reference(&amp;lt;script&amp;gt; tag) to these javascript libraries in our HTML and normally we host these .js files along with...</description>
         <pubDate>Tue, 07 Dec 2010 15:00:00 -0500</pubDate>
-        <link>http://pbdesk.io/google/javascript/microsoft/using-cdn-hosted-jquery-library</link>
-        <guid isPermaLink="true">http://pbdesk.io/google/javascript/microsoft/using-cdn-hosted-jquery-library</guid>
+        <link>localhost:4000/google/javascript/microsoft/using-cdn-hosted-jquery-library</link>
+        <guid isPermaLink="true">localhost:4000/google/javascript/microsoft/using-cdn-hosted-jquery-library</guid>
         
         
         <category>google</category>
@@ -672,8 +686,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>Using jQuery Scripts hosted @ Google</title>
         <description>As mentioned in my previous post, rather then hosting jQuery libraries on our sever we can directly use them from CDN services available from Microsoft &amp;amp; Google. And there are...</description>
         <pubDate>Tue, 07 Dec 2010 14:54:00 -0500</pubDate>
-        <link>http://pbdesk.io/google/javascript/using-jquery-scripts-hosted-google</link>
-        <guid isPermaLink="true">http://pbdesk.io/google/javascript/using-jquery-scripts-hosted-google</guid>
+        <link>localhost:4000/google/javascript/using-jquery-scripts-hosted-google</link>
+        <guid isPermaLink="true">localhost:4000/google/javascript/using-jquery-scripts-hosted-google</guid>
         
         
         <category>google</category>
@@ -686,8 +700,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>Using jQuery Scripts hosted @ Microsoft</title>
         <description>As mentioned in my previous post, rather then hosting jQuery libraries on our sever we can directly use them from CDN services available from Microsoft &amp;amp; Google. And there are...</description>
         <pubDate>Tue, 07 Dec 2010 14:53:00 -0500</pubDate>
-        <link>http://pbdesk.io/javascript/microsoft/using-jquery-scripts-hosted-microsoft</link>
-        <guid isPermaLink="true">http://pbdesk.io/javascript/microsoft/using-jquery-scripts-hosted-microsoft</guid>
+        <link>localhost:4000/javascript/microsoft/using-jquery-scripts-hosted-microsoft</link>
+        <guid isPermaLink="true">localhost:4000/javascript/microsoft/using-jquery-scripts-hosted-microsoft</guid>
         
         
         <category>javascript</category>
@@ -700,8 +714,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>Trim() functionality in JavaScript</title>
         <description>Below is are the trim(), ltrim() and rtrim() functionality for strings in Javascript: /********** String Trim Utilites *********************/ String.prototype.trim = function () { return this.replace(/^s+|s+$/g, &amp;quot;&amp;quot;); } String.prototype.ltrim = function...</description>
         <pubDate>Tue, 30 Nov 2010 11:38:00 -0500</pubDate>
-        <link>http://pbdesk.io/javascript/trim-functionality-in-javascript</link>
-        <guid isPermaLink="true">http://pbdesk.io/javascript/trim-functionality-in-javascript</guid>
+        <link>localhost:4000/javascript/trim-functionality-in-javascript</link>
+        <guid isPermaLink="true">localhost:4000/javascript/trim-functionality-in-javascript</guid>
         
         
         <category>javascript</category>
@@ -712,8 +726,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>String.Format() for JavaScript</title>
         <description>.Net&#39;s String.Format is a very powerful method for working with strings and is one of my favorite utility which I have been using in C# &amp;amp; VB.net since long. And...</description>
         <pubDate>Tue, 30 Nov 2010 11:33:00 -0500</pubDate>
-        <link>http://pbdesk.io/javascript/string-format-for-javascript</link>
-        <guid isPermaLink="true">http://pbdesk.io/javascript/string-format-for-javascript</guid>
+        <link>localhost:4000/javascript/string-format-for-javascript</link>
+        <guid isPermaLink="true">localhost:4000/javascript/string-format-for-javascript</guid>
         
         
         <category>javascript</category>
@@ -724,8 +738,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>Mind Reader : This program probes your mind. Try it.</title>
         <description>Think of a number with 2 digits (ex: 54) Subtract from this number its 2 digits (ex: 54 - 5 - 4 = 45) Find the symbol that corresponds to...</description>
         <pubDate>Fri, 07 May 2010 16:41:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/mind-reader-this-program-probes-your-mind-try-it</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/mind-reader-this-program-probes-your-mind-try-it</guid>
+        <link>localhost:4000/programming/mind-reader-this-program-probes-your-mind-try-it</link>
+        <guid isPermaLink="true">localhost:4000/programming/mind-reader-this-program-probes-your-mind-try-it</guid>
         
         
         <category>programming</category>
@@ -736,8 +750,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>Drop All Objects in SQL Server</title>
         <description>Below is the T-SQL script for dropping all the objects from a database in SQL Server. This script in particular drops Procedures, Functions, Tables, Views and Types. For other database...</description>
         <pubDate>Thu, 01 Apr 2010 16:58:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/drop-all-objects-in-sql-server</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/drop-all-objects-in-sql-server</guid>
+        <link>localhost:4000/programming/drop-all-objects-in-sql-server</link>
+        <guid isPermaLink="true">localhost:4000/programming/drop-all-objects-in-sql-server</guid>
         
         
         <category>programming</category>
@@ -748,8 +762,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>Visual Studio 2010 RC is now available</title>
         <description>Finally, long awaited Microsoft Visual Studio 2010 Release Candidate with .Net Framework 4.0 and ASP.Net 4.0 was made publically available on 10th Feb, 2010. I downloaded and installed it successfully,...</description>
         <pubDate>Thu, 11 Feb 2010 23:45:00 -0500</pubDate>
-        <link>http://pbdesk.io/dotnet/asp.net/visual-studio-2010-rc-is-now-available</link>
-        <guid isPermaLink="true">http://pbdesk.io/dotnet/asp.net/visual-studio-2010-rc-is-now-available</guid>
+        <link>localhost:4000/dotnet/asp.net/visual-studio-2010-rc-is-now-available</link>
+        <guid isPermaLink="true">localhost:4000/dotnet/asp.net/visual-studio-2010-rc-is-now-available</guid>
         
         
         <category>dotnet</category>
@@ -762,8 +776,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>Null Object Design Pattern</title>
         <description>Null Object design pattern – alternatively returning null object instead of ‘Null’ to avoid repeatedly checking for null values within code. In the object oriented programming realm it&#39;s very common...</description>
         <pubDate>Wed, 03 Feb 2010 14:35:00 -0500</pubDate>
-        <link>http://pbdesk.io/dotnet/design%20patterns/null-object-design-pattern</link>
-        <guid isPermaLink="true">http://pbdesk.io/dotnet/design%20patterns/null-object-design-pattern</guid>
+        <link>localhost:4000/dotnet/design%20patterns/null-object-design-pattern</link>
+        <guid isPermaLink="true">localhost:4000/dotnet/design%20patterns/null-object-design-pattern</guid>
         
         
         <category>dotnet</category>
@@ -777,8 +791,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <description>[wp_rss_multi_importer category=&quot;5&quot;]
 </description>
         <pubDate>Fri, 13 Nov 2009 17:39:00 -0500</pubDate>
-        <link>http://pbdesk.io/dotnet/csharp/c-news-updates</link>
-        <guid isPermaLink="true">http://pbdesk.io/dotnet/csharp/c-news-updates</guid>
+        <link>localhost:4000/dotnet/csharp/c-news-updates</link>
+        <guid isPermaLink="true">localhost:4000/dotnet/csharp/c-news-updates</guid>
         
         <category>CSharp</category>
         
@@ -795,8 +809,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>Facebook Membership Provider</title>
         <description>Introduction One of the great new features introduced in ASP.NET 2.0 was the use of the &amp;quot;Provider Model&amp;quot; which provides flexibility and extensibility to your Web applications. Using the provider...</description>
         <pubDate>Fri, 13 Nov 2009 12:27:00 -0500</pubDate>
-        <link>http://pbdesk.io/dotnet/asp.net/facebook/facebook-membership-provider</link>
-        <guid isPermaLink="true">http://pbdesk.io/dotnet/asp.net/facebook/facebook-membership-provider</guid>
+        <link>localhost:4000/dotnet/asp.net/facebook/facebook-membership-provider</link>
+        <guid isPermaLink="true">localhost:4000/dotnet/asp.net/facebook/facebook-membership-provider</guid>
         
         
         <category>dotnet</category>
@@ -811,8 +825,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>At last I am on the Google Wave :)</title>
         <description>Yes at last i am on the wave with sandbox access account pinal.bhatt@wavesandbox.com. Below is my first wave embedded&amp;#160; into my blog using&amp;#160; Google Wave Embed APIs. Those with wave...</description>
         <pubDate>Tue, 13 Oct 2009 15:07:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/at-last-i-am-on-the-google-wave</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/at-last-i-am-on-the-google-wave</guid>
+        <link>localhost:4000/programming/at-last-i-am-on-the-google-wave</link>
+        <guid isPermaLink="true">localhost:4000/programming/at-last-i-am-on-the-google-wave</guid>
         
         
         <category>programming</category>
@@ -823,8 +837,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>Reading Query String with JavaScript</title>
         <description>When you google on this topic you will find many ways to get Query String parameters &amp;amp; its values using JavaScript. Below is one of the smallest, easiest and a...</description>
         <pubDate>Wed, 07 Oct 2009 11:40:00 -0400</pubDate>
-        <link>http://pbdesk.io/javascript/reading-query-string-with-javascript</link>
-        <guid isPermaLink="true">http://pbdesk.io/javascript/reading-query-string-with-javascript</guid>
+        <link>localhost:4000/javascript/reading-query-string-with-javascript</link>
+        <guid isPermaLink="true">localhost:4000/javascript/reading-query-string-with-javascript</guid>
         
         
         <category>javascript</category>
@@ -835,8 +849,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>Google - I am falling in love</title>
         <description>Google is simply getting awesome day by day. Though I am a Microsoft guy and still a Microsoft lover, slowly i have started developing fondness for Google. Google - synonym...</description>
         <pubDate>Wed, 23 Sep 2009 16:49:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/google-i-am-falling-in-love</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/google-i-am-falling-in-love</guid>
+        <link>localhost:4000/programming/google-i-am-falling-in-love</link>
+        <guid isPermaLink="true">localhost:4000/programming/google-i-am-falling-in-love</guid>
         
         
         <category>programming</category>
@@ -848,8 +862,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <description>
 </description>
         <pubDate>Tue, 22 Sep 2009 12:31:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/pinal-bhatt-online-my-aggregated-web-activities</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/pinal-bhatt-online-my-aggregated-web-activities</guid>
+        <link>localhost:4000/programming/pinal-bhatt-online-my-aggregated-web-activities</link>
+        <guid isPermaLink="true">localhost:4000/programming/pinal-bhatt-online-my-aggregated-web-activities</guid>
         
         
         <category>programming</category>
@@ -860,8 +874,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>Chat with Author(Pinal Bhatt)</title>
         <description>Welcome, you can have private chat with me here. Alternatively you can also use this link to have a chat with me. Chat with Pinal Bhatt Thanks for visiting www.P-Bhatt.com....</description>
         <pubDate>Mon, 14 Sep 2009 13:41:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/chat-with-authorpinal-bhatt</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/chat-with-authorpinal-bhatt</guid>
+        <link>localhost:4000/programming/chat-with-authorpinal-bhatt</link>
+        <guid isPermaLink="true">localhost:4000/programming/chat-with-authorpinal-bhatt</guid>
         
         
         <category>programming</category>
@@ -872,8 +886,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>Social Bookmarking : Links/Urls</title>
         <description>“Social Bookmarking” - An another buzz word parallel to “Social Networking”. Lets see what it is and how to provide links on your WebPages/Websites for social bookmarking. What is Social...</description>
         <pubDate>Wed, 29 Jul 2009 11:10:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/social-bookmarking-linksurls</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/social-bookmarking-linksurls</guid>
+        <link>localhost:4000/programming/social-bookmarking-linksurls</link>
+        <guid isPermaLink="true">localhost:4000/programming/social-bookmarking-linksurls</guid>
         
         
         <category>programming</category>
@@ -884,8 +898,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>Demo : Picasa DataProvider for Vertigo Slide Show 2.1</title>
         <description>Picasa DataProvider for Vertigo Slide.Show 2 is an open source extension to the original Slide.Show 2 by Vertigo. (Based on release 2.1 dated 13-Jul-2009). Slide.Show 2 is an open source...</description>
         <pubDate>Mon, 20 Jul 2009 09:03:00 -0400</pubDate>
-        <link>http://pbdesk.io/json/demo-picasa-dataprovider-for-vertigo-slide-show-2-1</link>
-        <guid isPermaLink="true">http://pbdesk.io/json/demo-picasa-dataprovider-for-vertigo-slide-show-2-1</guid>
+        <link>localhost:4000/json/demo-picasa-dataprovider-for-vertigo-slide-show-2-1</link>
+        <guid isPermaLink="true">localhost:4000/json/demo-picasa-dataprovider-for-vertigo-slide-show-2-1</guid>
         
         
         <category>json</category>
@@ -896,8 +910,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>FireFox : Add-ons &amp; Plug-ins for Web Developers</title>
         <description>Mozilla Firefox - I love this browser. Though I don&#39;t use most! Yes I am a .Net guy so mostly I am on IE and IE8 is much better now....</description>
         <pubDate>Wed, 08 Jul 2009 12:15:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/firefox-add-ons-plug-ins-for-web-developers</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/firefox-add-ons-plug-ins-for-web-developers</guid>
+        <link>localhost:4000/programming/firefox-add-ons-plug-ins-for-web-developers</link>
+        <guid isPermaLink="true">localhost:4000/programming/firefox-add-ons-plug-ins-for-web-developers</guid>
         
         
         <category>programming</category>
@@ -908,8 +922,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>jQuery UI Demo : Theme - Slate</title>
         <description>This page demonstrates the the use of jQuery UI Themes in Blogger/Blogspot. To know how I achieved this, view my post : Using jQuery UI Themes in Blogger/Blogspot jQuery UI...</description>
         <pubDate>Tue, 07 Jul 2009 21:52:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/jquery-ui-demo-theme-slate</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/jquery-ui-demo-theme-slate</guid>
+        <link>localhost:4000/programming/jquery-ui-demo-theme-slate</link>
+        <guid isPermaLink="true">localhost:4000/programming/jquery-ui-demo-theme-slate</guid>
         
         
         <category>programming</category>
@@ -920,8 +934,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>jQuery UI Demo : Theme - Blue</title>
         <description>This page demonstrates the the use of jQuery UI Themes in Blogger/Blogspot. To know how I achieved this, view my post : Using jQuery UI Themes in Blogger/Blogspot jQuery UI...</description>
         <pubDate>Tue, 07 Jul 2009 11:57:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/jquery-ui-demo-theme-blue</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/jquery-ui-demo-theme-blue</guid>
+        <link>localhost:4000/programming/jquery-ui-demo-theme-blue</link>
+        <guid isPermaLink="true">localhost:4000/programming/jquery-ui-demo-theme-blue</guid>
         
         
         <category>programming</category>
@@ -932,8 +946,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
         <title>jQuery UI Demo : Theme - Simple</title>
         <description>This page demonstrates the the use of jQuery UI Themes in Blogger/Blogspot. To know how I achieved this, view my post : Using jQuery UI Themes in Blogger/Blogspot jQuery UI...</description>
         <pubDate>Tue, 07 Jul 2009 09:27:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/jquery-ui-demo-theme-simple</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/jquery-ui-demo-theme-simple</guid>
+        <link>localhost:4000/programming/jquery-ui-demo-theme-simple</link>
+        <guid isPermaLink="true">localhost:4000/programming/jquery-ui-demo-theme-simple</guid>
         
         
         <category>programming</category>
@@ -946,8 +960,8 @@ http://buzz.blogger.com/2011/08/bloggers-fresh-new-look.html
 
 </description>
         <pubDate>Wed, 01 Jul 2009 10:42:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/my-delicious-bookmarks</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/my-delicious-bookmarks</guid>
+        <link>localhost:4000/programming/my-delicious-bookmarks</link>
+        <guid isPermaLink="true">localhost:4000/programming/my-delicious-bookmarks</guid>
         
         
         <category>programming</category>
@@ -969,8 +983,8 @@ View    &amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;
 
 </description>
         <pubDate>Sun, 28 Jun 2009 16:37:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/my-social-networks</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/my-social-networks</guid>
+        <link>localhost:4000/programming/my-social-networks</link>
+        <guid isPermaLink="true">localhost:4000/programming/my-social-networks</guid>
         
         
         <category>programming</category>
@@ -1000,8 +1014,8 @@ XML                                                                             
  
 </description>
         <pubDate>Wed, 24 Jun 2009 13:51:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/subscribe-rss-feeds</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/subscribe-rss-feeds</guid>
+        <link>localhost:4000/programming/subscribe-rss-feeds</link>
+        <guid isPermaLink="true">localhost:4000/programming/subscribe-rss-feeds</guid>
         
         
         <category>programming</category>
@@ -1012,8 +1026,8 @@ XML                                                                             
         <title>Learning F#</title>
         <description>F# - a new buzz word in the market. With .Net Framework 4.0 Microsoft is also planning to release F# - a multi-paradigm, strongly typed,&amp;nbsp; functional programming language. I have...</description>
         <pubDate>Tue, 16 Jun 2009 13:51:00 -0400</pubDate>
-        <link>http://pbdesk.io/dotnet/learning-f</link>
-        <guid isPermaLink="true">http://pbdesk.io/dotnet/learning-f</guid>
+        <link>localhost:4000/dotnet/learning-f</link>
+        <guid isPermaLink="true">localhost:4000/dotnet/learning-f</guid>
         
         
         <category>dotnet</category>
@@ -1024,8 +1038,8 @@ XML                                                                             
         <title>Pinal Bhatt  @ Linked In</title>
         <description></description>
         <pubDate>Sun, 14 Jun 2009 10:52:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/pinal-bhatt-linked-in</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/pinal-bhatt-linked-in</guid>
+        <link>localhost:4000/programming/pinal-bhatt-linked-in</link>
+        <guid isPermaLink="true">localhost:4000/programming/pinal-bhatt-linked-in</guid>
         
         
         <category>programming</category>
@@ -1037,8 +1051,8 @@ XML                                                                             
         <description>Pinal Bhatt&#39;s Profile&amp;nbsp;|&amp;nbsp;Create Your Badge
 </description>
         <pubDate>Sun, 14 Jun 2009 10:51:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/my-facebook-pinal-bhatt</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/my-facebook-pinal-bhatt</guid>
+        <link>localhost:4000/programming/my-facebook-pinal-bhatt</link>
+        <guid isPermaLink="true">localhost:4000/programming/my-facebook-pinal-bhatt</guid>
         
         
         <category>programming</category>
@@ -1050,8 +1064,8 @@ XML                                                                             
         <description>
 </description>
         <pubDate>Tue, 09 Jun 2009 15:44:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/facebook-my-friends-carousel</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/facebook-my-friends-carousel</guid>
+        <link>localhost:4000/programming/facebook-my-friends-carousel</link>
+        <guid isPermaLink="true">localhost:4000/programming/facebook-my-friends-carousel</guid>
         
         
         <category>programming</category>
@@ -1066,8 +1080,8 @@ Twitter Updates
  follow me on Twitter 
 </description>
         <pubDate>Fri, 05 Jun 2009 12:26:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/twitter-tweets-by-pinal-bhatt</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/twitter-tweets-by-pinal-bhatt</guid>
+        <link>localhost:4000/programming/twitter-tweets-by-pinal-bhatt</link>
+        <guid isPermaLink="true">localhost:4000/programming/twitter-tweets-by-pinal-bhatt</guid>
         
         
         <category>programming</category>
@@ -1078,8 +1092,8 @@ Twitter Updates
         <title>Assessment Center (Ver1.0) Scope</title>
         <description>Learning-Leisure : Assessment Center (Ver 1.0) Project : Assessment Center (Ver 1.0) Base Project : www.Learning-Leisure.com Document Purpose : Defining scope for Version 1.0 of Assessment Center Current Document Version...</description>
         <pubDate>Fri, 22 May 2009 09:15:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/assessment-center-ver1-0-scope</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/assessment-center-ver1-0-scope</guid>
+        <link>localhost:4000/programming/assessment-center-ver1-0-scope</link>
+        <guid isPermaLink="true">localhost:4000/programming/assessment-center-ver1-0-scope</guid>
         
         
         <category>programming</category>
@@ -1090,8 +1104,8 @@ Twitter Updates
         <title>Uploading files to FTP server using ASP.Net</title>
         <description>Uploading files using FileUpload server control is very common and easy with ASP.Net. But normally in this method files are uploaded to the hard disk of the web server. Here...</description>
         <pubDate>Sat, 28 Mar 2009 15:45:00 -0400</pubDate>
-        <link>http://pbdesk.io/asp.net/uploading-files-to-ftp-server-using-asp-net</link>
-        <guid isPermaLink="true">http://pbdesk.io/asp.net/uploading-files-to-ftp-server-using-asp-net</guid>
+        <link>localhost:4000/asp.net/uploading-files-to-ftp-server-using-asp-net</link>
+        <guid isPermaLink="true">localhost:4000/asp.net/uploading-files-to-ftp-server-using-asp-net</guid>
         
         
         <category>asp.net</category>
@@ -1102,8 +1116,8 @@ Twitter Updates
         <title>Pinal Bhatt’s Blog - Learning endeavor for ever…</title>
         <description>Welcome to my own Blog! On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.NET, C#, VB.Net, Silverlight, JavaScript, Design Patterns and other random thoughts and opinions. Articles...</description>
         <pubDate>Wed, 18 Mar 2009 07:01:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/pinal-bhatts-blog-learning-endeavor-for-ever</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/pinal-bhatts-blog-learning-endeavor-for-ever</guid>
+        <link>localhost:4000/programming/pinal-bhatts-blog-learning-endeavor-for-ever</link>
+        <guid isPermaLink="true">localhost:4000/programming/pinal-bhatts-blog-learning-endeavor-for-ever</guid>
         
         
         <category>programming</category>
@@ -1114,8 +1128,8 @@ Twitter Updates
         <title>C# Tutorial</title>
         <description>Welcome to C# Tutorials. This is an attempt to provide the systematic &amp; strategic learning track/guide for the candidates looking forward to learn and master C#. Table of contents(C# 3.0...</description>
         <pubDate>Tue, 17 Mar 2009 06:24:00 -0400</pubDate>
-        <link>http://pbdesk.io/dotnet/c-tutorial</link>
-        <guid isPermaLink="true">http://pbdesk.io/dotnet/c-tutorial</guid>
+        <link>localhost:4000/dotnet/c-tutorial</link>
+        <guid isPermaLink="true">localhost:4000/dotnet/c-tutorial</guid>
         
         
         <category>dotnet</category>
@@ -1126,8 +1140,8 @@ Twitter Updates
         <title>Learning Pathway for .Net</title>
         <description>Just as in life, you need to know at least one language of communication for your survival, to swim the ocean of .Net you need to know at least one...</description>
         <pubDate>Tue, 17 Mar 2009 06:13:00 -0400</pubDate>
-        <link>http://pbdesk.io/dotnet/learning-pathway-for-net</link>
-        <guid isPermaLink="true">http://pbdesk.io/dotnet/learning-pathway-for-net</guid>
+        <link>localhost:4000/dotnet/learning-pathway-for-net</link>
+        <guid isPermaLink="true">localhost:4000/dotnet/learning-pathway-for-net</guid>
         
         
         <category>dotnet</category>
@@ -1138,8 +1152,8 @@ Twitter Updates
         <title>Pinal Bhatt’s Blog - Learning endeavor for ever…</title>
         <description>Welcome to my own Blog! On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.NET, C#, VB.Net, Silverlight, JavaScript, Design Patterns and other random thoughts and opinions. To...</description>
         <pubDate>Thu, 26 Feb 2009 20:47:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/pinal-bhatts-blog-learning-endeavor-for-ever-2</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/pinal-bhatts-blog-learning-endeavor-for-ever-2</guid>
+        <link>localhost:4000/programming/pinal-bhatts-blog-learning-endeavor-for-ever-2</link>
+        <guid isPermaLink="true">localhost:4000/programming/pinal-bhatts-blog-learning-endeavor-for-ever-2</guid>
         
         
         <category>programming</category>
@@ -1150,8 +1164,8 @@ Twitter Updates
         <title>My Picture Gallery</title>
         <description>Welcome to my Picture Gallary. Tanaya 2007 2008 Others Tanaya&#39;s Birthday Parties 1st Birthday : March 1st, 2006, Baroda, India View 2nd Birthday : March 1st, 2007, Pune, India View...</description>
         <pubDate>Wed, 25 Feb 2009 17:07:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/my-picture-gallery</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/my-picture-gallery</guid>
+        <link>localhost:4000/programming/my-picture-gallery</link>
+        <guid isPermaLink="true">localhost:4000/programming/my-picture-gallery</guid>
         
         
         <category>programming</category>
@@ -1162,8 +1176,8 @@ Twitter Updates
         <title>What is minified JavaScript?</title>
         <description>Minification (very often just minify, and sometimes also minimisation or minimization), is the practice of removing unnecessary characters from code to reduce its size thereby improving load times. When code...</description>
         <pubDate>Tue, 24 Feb 2009 22:59:00 -0500</pubDate>
-        <link>http://pbdesk.io/javascript/what-is-minified-javascript</link>
-        <guid isPermaLink="true">http://pbdesk.io/javascript/what-is-minified-javascript</guid>
+        <link>localhost:4000/javascript/what-is-minified-javascript</link>
+        <guid isPermaLink="true">localhost:4000/javascript/what-is-minified-javascript</guid>
         
         
         <category>javascript</category>
@@ -1174,8 +1188,8 @@ Twitter Updates
         <title>Using jQuery UI Theme in Blogger.com</title>
         <description>jQuery UI provides abstractions for low-level interaction and animation, advanced effects and high-level, themeable widgets, built on top of the jQuery JavaScript Library, that you can use to build highly...</description>
         <pubDate>Mon, 23 Feb 2009 23:12:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/using-jquery-ui-theme-in-blogger-com</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/using-jquery-ui-theme-in-blogger-com</guid>
+        <link>localhost:4000/programming/using-jquery-ui-theme-in-blogger-com</link>
+        <guid isPermaLink="true">localhost:4000/programming/using-jquery-ui-theme-in-blogger-com</guid>
         
         
         <category>programming</category>
@@ -1187,8 +1201,8 @@ Twitter Updates
         <description>
 </description>
         <pubDate>Thu, 19 Feb 2009 23:58:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/pics-of-winter-dec2008</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/pics-of-winter-dec2008</guid>
+        <link>localhost:4000/programming/pics-of-winter-dec2008</link>
+        <guid isPermaLink="true">localhost:4000/programming/pics-of-winter-dec2008</guid>
         
         
         <category>programming</category>
@@ -1199,8 +1213,8 @@ Twitter Updates
         <title>Downloading Videos from YouTube &amp; Other sources</title>
         <description>Since long I was looking for proper method to download videos from YouTube and other websites showing streaming videos. At last, I found one easy way to download videos from...</description>
         <pubDate>Mon, 16 Feb 2009 05:52:00 -0500</pubDate>
-        <link>http://pbdesk.io/video/youtube/downloading-videos-from-youtube-other-sources</link>
-        <guid isPermaLink="true">http://pbdesk.io/video/youtube/downloading-videos-from-youtube-other-sources</guid>
+        <link>localhost:4000/video/youtube/downloading-videos-from-youtube-other-sources</link>
+        <guid isPermaLink="true">localhost:4000/video/youtube/downloading-videos-from-youtube-other-sources</guid>
         
         
         <category>video</category>
@@ -1213,8 +1227,8 @@ Twitter Updates
         <title>Changing Formats of Audio &amp; Video files</title>
         <description></description>
         <pubDate>Mon, 16 Feb 2009 05:52:00 -0500</pubDate>
-        <link>http://pbdesk.io/video/changing-formats-of-audio-video-files</link>
-        <guid isPermaLink="true">http://pbdesk.io/video/changing-formats-of-audio-video-files</guid>
+        <link>localhost:4000/video/changing-formats-of-audio-video-files</link>
+        <guid isPermaLink="true">localhost:4000/video/changing-formats-of-audio-video-files</guid>
         
         
         <category>video</category>
@@ -1225,8 +1239,8 @@ Twitter Updates
         <title>Resource Center : C#</title>
         <description>Important Links: Official Homepage Wikipedia Link-1 Wikipedia Link-2 C# Community Articles&amp;#160; C# @ MSDN Magazine C# @ Channel 9 C# Forums C#: How Do I? Videos &amp;#160; C# News Updates...</description>
         <pubDate>Fri, 06 Feb 2009 15:43:00 -0500</pubDate>
-        <link>http://pbdesk.io/dotnet/resource-center-c</link>
-        <guid isPermaLink="true">http://pbdesk.io/dotnet/resource-center-c</guid>
+        <link>localhost:4000/dotnet/resource-center-c</link>
+        <guid isPermaLink="true">localhost:4000/dotnet/resource-center-c</guid>
         
         
         <category>dotnet</category>
@@ -1238,8 +1252,8 @@ Twitter Updates
         <description>Hello : VB
 </description>
         <pubDate>Fri, 06 Feb 2009 15:42:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/resource-center-visual-basic</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/resource-center-visual-basic</guid>
+        <link>localhost:4000/programming/resource-center-visual-basic</link>
+        <guid isPermaLink="true">localhost:4000/programming/resource-center-visual-basic</guid>
         
         
         <category>programming</category>
@@ -1250,8 +1264,8 @@ Twitter Updates
         <title>Resource Center  : Silverlight</title>
         <description></description>
         <pubDate>Fri, 06 Feb 2009 15:42:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/resource-center-silverlight</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/resource-center-silverlight</guid>
+        <link>localhost:4000/programming/resource-center-silverlight</link>
+        <guid isPermaLink="true">localhost:4000/programming/resource-center-silverlight</guid>
         
         
         <category>programming</category>
@@ -1263,8 +1277,8 @@ Twitter Updates
         <description>Hello : .Net 4.0
 </description>
         <pubDate>Fri, 06 Feb 2009 15:42:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/resource-center-net-4-0</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/resource-center-net-4-0</guid>
+        <link>localhost:4000/programming/resource-center-net-4-0</link>
+        <guid isPermaLink="true">localhost:4000/programming/resource-center-net-4-0</guid>
         
         
         <category>programming</category>
@@ -1275,8 +1289,8 @@ Twitter Updates
         <title>Hello, World!</title>
         <description>Welcome to my Picture Gallary. Tanaya 2007 2008 Others Tanaya&#39;s Birthday Parties 1st Birthday : March 1st, 2006, Baroda, India View 2nd Birthday : March 1st, 2007, Pune, India View...</description>
         <pubDate>Fri, 06 Feb 2009 15:42:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/hello-world-2</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/hello-world-2</guid>
+        <link>localhost:4000/programming/hello-world-2</link>
+        <guid isPermaLink="true">localhost:4000/programming/hello-world-2</guid>
         
         
         <category>programming</category>
@@ -1287,8 +1301,8 @@ Twitter Updates
         <title>Resource Center : Visual Studio 2010</title>
         <description></description>
         <pubDate>Thu, 05 Feb 2009 17:12:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/resource-center-visual-studio-2010</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/resource-center-visual-studio-2010</guid>
+        <link>localhost:4000/programming/resource-center-visual-studio-2010</link>
+        <guid isPermaLink="true">localhost:4000/programming/resource-center-visual-studio-2010</guid>
         
         
         <category>programming</category>
@@ -1299,8 +1313,8 @@ Twitter Updates
         <title>Tools &amp; Utilities for developers</title>
         <description>Here is the list of utility softwares that I commonly use&amp;#160; to assist and enhance my development productivity: My Favorite Utility Softwares Notepad++ Agent Ransack WinMerge Fiddler Firebug .Net Reflector...</description>
         <pubDate>Fri, 30 Jan 2009 11:36:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/tools-utilities-for-developers</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/tools-utilities-for-developers</guid>
+        <link>localhost:4000/programming/tools-utilities-for-developers</link>
+        <guid isPermaLink="true">localhost:4000/programming/tools-utilities-for-developers</guid>
         
         
         <category>programming</category>
@@ -1311,8 +1325,8 @@ Twitter Updates
         <title>Fun &amp; Games</title>
         <description></description>
         <pubDate>Fri, 30 Jan 2009 11:36:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/fun-games</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/fun-games</guid>
+        <link>localhost:4000/programming/fun-games</link>
+        <guid isPermaLink="true">localhost:4000/programming/fun-games</guid>
         
         
         <category>programming</category>
@@ -1324,8 +1338,8 @@ Twitter Updates
         <description> 		
 </description>
         <pubDate>Thu, 29 Jan 2009 00:15:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/silverlight-slide-show</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/silverlight-slide-show</guid>
+        <link>localhost:4000/programming/silverlight-slide-show</link>
+        <guid isPermaLink="true">localhost:4000/programming/silverlight-slide-show</guid>
         
         
         <category>programming</category>
@@ -1336,8 +1350,8 @@ Twitter Updates
         <title>Extension Methods in C#</title>
         <description></description>
         <pubDate>Thu, 22 Jan 2009 07:38:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/extension-methods-in-c</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/extension-methods-in-c</guid>
+        <link>localhost:4000/programming/extension-methods-in-c</link>
+        <guid isPermaLink="true">localhost:4000/programming/extension-methods-in-c</guid>
         
         
         <category>programming</category>
@@ -1356,8 +1370,8 @@ http://www.evolt.org/article/Regular_Expressions_in_JavaScript/17/36435/
 http://www.javascriptkit.com/javatutors/re4.shtml
 </description>
         <pubDate>Thu, 22 Jan 2009 07:37:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/regular-expressions-in-javascript</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/regular-expressions-in-javascript</guid>
+        <link>localhost:4000/programming/regular-expressions-in-javascript</link>
+        <guid isPermaLink="true">localhost:4000/programming/regular-expressions-in-javascript</guid>
         
         
         <category>programming</category>
@@ -1368,8 +1382,8 @@ http://www.javascriptkit.com/javatutors/re4.shtml
         <title>Code for Strip Html Tags</title>
         <description>Javascript Code to Strip HTML tags from string 1: function StripHTMLAndTrim(text) 2: { 3: var htmlStriper = /&amp;lt;(?:.|s)*?&amp;gt;/g; 4: text = text.replace(htmlStriper, &amp;quot; &amp;quot;); 5: while (text.indexOf(&amp;quot; &amp;quot;) &amp;gt;= 0)...</description>
         <pubDate>Thu, 22 Jan 2009 07:37:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/code-for-strip-html-tags</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/code-for-strip-html-tags</guid>
+        <link>localhost:4000/programming/code-for-strip-html-tags</link>
+        <guid isPermaLink="true">localhost:4000/programming/code-for-strip-html-tags</guid>
         
         
         <category>programming</category>
@@ -1380,8 +1394,8 @@ http://www.javascriptkit.com/javatutors/re4.shtml
         <title>Useful sites for Kids</title>
         <description></description>
         <pubDate>Sat, 17 Jan 2009 15:23:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/useful-sites-for-kids</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/useful-sites-for-kids</guid>
+        <link>localhost:4000/programming/useful-sites-for-kids</link>
+        <guid isPermaLink="true">localhost:4000/programming/useful-sites-for-kids</guid>
         
         
         <category>programming</category>
@@ -1392,8 +1406,8 @@ http://www.javascriptkit.com/javatutors/re4.shtml
         <title>www.P-Bhatt.com : 2nd Release</title>
         <description></description>
         <pubDate>Sat, 17 Jan 2009 15:20:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/www-p-bhatt-com-2nd-release</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/www-p-bhatt-com-2nd-release</guid>
+        <link>localhost:4000/programming/www-p-bhatt-com-2nd-release</link>
+        <guid isPermaLink="true">localhost:4000/programming/www-p-bhatt-com-2nd-release</guid>
         
         
         <category>programming</category>
@@ -1404,8 +1418,8 @@ http://www.javascriptkit.com/javatutors/re4.shtml
         <title>Cool Gadgets/Widgets for Web Pages</title>
         <description></description>
         <pubDate>Sat, 17 Jan 2009 15:19:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/cool-gadgetswidgets-for-web-pages</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/cool-gadgetswidgets-for-web-pages</guid>
+        <link>localhost:4000/programming/cool-gadgetswidgets-for-web-pages</link>
+        <guid isPermaLink="true">localhost:4000/programming/cool-gadgetswidgets-for-web-pages</guid>
         
         
         <category>programming</category>
@@ -1417,8 +1431,8 @@ http://www.javascriptkit.com/javatutors/re4.shtml
         <description>
 </description>
         <pubDate>Wed, 14 Jan 2009 16:49:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/gadgets</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/gadgets</guid>
+        <link>localhost:4000/programming/gadgets</link>
+        <guid isPermaLink="true">localhost:4000/programming/gadgets</guid>
         
         
         <category>programming</category>
@@ -1429,8 +1443,8 @@ http://www.javascriptkit.com/javatutors/re4.shtml
         <title>Contact Author (Pinal Bhatt)</title>
         <description>About Me To know more about myself, visit My Profile. Email To Me You can email me at self@p-bhatt.com Chat With Me If I am available online you can chat...</description>
         <pubDate>Sat, 10 Jan 2009 19:03:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/contact-author-pinal-bhatt</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/contact-author-pinal-bhatt</guid>
+        <link>localhost:4000/programming/contact-author-pinal-bhatt</link>
+        <guid isPermaLink="true">localhost:4000/programming/contact-author-pinal-bhatt</guid>
         
         
         <category>programming</category>
@@ -1441,8 +1455,8 @@ http://www.javascriptkit.com/javatutors/re4.shtml
         <title>Your Comments</title>
         <description></description>
         <pubDate>Sat, 10 Jan 2009 18:42:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/your-comments</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/your-comments</guid>
+        <link>localhost:4000/programming/your-comments</link>
+        <guid isPermaLink="true">localhost:4000/programming/your-comments</guid>
         
         
         <category>programming</category>
@@ -1469,8 +1483,8 @@ ezCool Jiglu
 The End
 </description>
         <pubDate>Sat, 10 Jan 2009 13:23:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/recent-posts</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/recent-posts</guid>
+        <link>localhost:4000/programming/recent-posts</link>
+        <guid isPermaLink="true">localhost:4000/programming/recent-posts</guid>
         
         
         <category>programming</category>
@@ -1481,8 +1495,8 @@ The End
         <title>Featured Posts</title>
         <description>&amp;#160; Uploading files to FTP server using ASP.Net. (using FileUpload Server Control) What is minified JavaScript? Using jQuery UI Theme in Blogger/Blogspot. Tools &amp;amp; Utilities for developers. Common JavaScript Utilities....</description>
         <pubDate>Sat, 10 Jan 2009 09:31:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/featured-posts</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/featured-posts</guid>
+        <link>localhost:4000/programming/featured-posts</link>
+        <guid isPermaLink="true">localhost:4000/programming/featured-posts</guid>
         
         
         <category>programming</category>
@@ -1499,8 +1513,8 @@ Visual Basic
 SilverLight
 </description>
         <pubDate>Fri, 09 Jan 2009 16:17:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/tech-news</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/tech-news</guid>
+        <link>localhost:4000/programming/tech-news</link>
+        <guid isPermaLink="true">localhost:4000/programming/tech-news</guid>
         
         
         <category>programming</category>
@@ -1511,8 +1525,8 @@ SilverLight
         <title>Disclaimer</title>
         <description>Following is the Disclaimer/Terms of Use for all of the following websites and contents there in: Learning-Leisure.net (http://www.Learning-Leisure.net) Learning-Leisrue || LMS || (http://www.Learning-Leisure.net/moodle) Learning-Leisrue.com (http://www.Learning-Leisure.com) Pinal Bhatt&#39;s Blog (http://www.P-Bhatt.com) Please...</description>
         <pubDate>Fri, 09 Jan 2009 16:17:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/disclaimer</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/disclaimer</guid>
+        <link>localhost:4000/programming/disclaimer</link>
+        <guid isPermaLink="true">localhost:4000/programming/disclaimer</guid>
         
         
         <category>programming</category>
@@ -1524,8 +1538,8 @@ SilverLight
         <description>Below are few important downloads for the utilities that i have developed for Umbraco for my site www.PBdDeskl.com. 
 </description>
         <pubDate>Fri, 09 Jan 2009 16:16:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/umbraco-downloads</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/umbraco-downloads</guid>
+        <link>localhost:4000/programming/umbraco-downloads</link>
+        <guid isPermaLink="true">localhost:4000/programming/umbraco-downloads</guid>
         
         
         <category>programming</category>
@@ -1536,8 +1550,8 @@ SilverLight
         <title>Project Center</title>
         <description></description>
         <pubDate>Fri, 09 Jan 2009 16:16:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/project-center</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/project-center</guid>
+        <link>localhost:4000/programming/project-center</link>
+        <guid isPermaLink="true">localhost:4000/programming/project-center</guid>
         
         
         <category>programming</category>
@@ -1548,8 +1562,8 @@ SilverLight
         <title>Learning Center</title>
         <description></description>
         <pubDate>Fri, 09 Jan 2009 16:16:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/learning-center</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/learning-center</guid>
+        <link>localhost:4000/programming/learning-center</link>
+        <guid isPermaLink="true">localhost:4000/programming/learning-center</guid>
         
         
         <category>programming</category>
@@ -1560,8 +1574,8 @@ SilverLight
         <title>Assessment Center</title>
         <description></description>
         <pubDate>Fri, 09 Jan 2009 16:16:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/assessment-center</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/assessment-center</guid>
+        <link>localhost:4000/programming/assessment-center</link>
+        <guid isPermaLink="true">localhost:4000/programming/assessment-center</guid>
         
         
         <category>programming</category>
@@ -1572,8 +1586,8 @@ SilverLight
         <title>SiteMap</title>
         <description></description>
         <pubDate>Fri, 09 Jan 2009 15:14:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/sitemap</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/sitemap</guid>
+        <link>localhost:4000/programming/sitemap</link>
+        <guid isPermaLink="true">localhost:4000/programming/sitemap</guid>
         
         
         <category>programming</category>
@@ -1584,8 +1598,8 @@ SilverLight
         <title>Pinal Bhatt</title>
         <description>Male / 34 Years / Married Software Engineer (Microsoft.Net) New York, USA Url : www.P-Bhatt.com Email : self@P-Bhatt.com pinalbhatt@gmail.com pinal-bhatt@live.com IMs : pinalbhatt(google) pinalbhatt(skype) pinalbhatt(yahoo) My Favorites: Movies Music Books...</description>
         <pubDate>Fri, 09 Jan 2009 15:14:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/pinal-bhatt</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/pinal-bhatt</guid>
+        <link>localhost:4000/programming/pinal-bhatt</link>
+        <guid isPermaLink="true">localhost:4000/programming/pinal-bhatt</guid>
         
         
         <category>programming</category>
@@ -1622,8 +1636,8 @@ pinal-bhatt.blogspot.com
          
 </description>
         <pubDate>Fri, 09 Jan 2009 15:13:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/search</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/search</guid>
+        <link>localhost:4000/programming/search</link>
+        <guid isPermaLink="true">localhost:4000/programming/search</guid>
         
         
         <category>programming</category>
@@ -1634,8 +1648,8 @@ pinal-bhatt.blogspot.com
         <title>Pinal Bhatt’s Blog</title>
         <description>Learning endeavour for ever.............. Welcome to my own Blog! On this site you&#39;ll find interesting posts and links on Microsoft.Net, ASP.NET, C#, VB.Net, Silverlight, Design Patterns and other random thoughts...</description>
         <pubDate>Wed, 07 Jan 2009 20:43:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/pinal-bhatts-blog</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/pinal-bhatts-blog</guid>
+        <link>localhost:4000/programming/pinal-bhatts-blog</link>
+        <guid isPermaLink="true">localhost:4000/programming/pinal-bhatts-blog</guid>
         
         
         <category>programming</category>
@@ -1646,8 +1660,8 @@ pinal-bhatt.blogspot.com
         <title></title>
         <description>An learning endeavour from Pinal Bhatt (pinal-bhatt@live.com). ARNAV Presentswww.Learning-Leisure.com C# 3.0 BootCamp C# 3.0 Advanced LINQ with C# 3.0 &amp;lt;Articles /&amp;gt; Coding Standards &amp;amp; Practices for .Net C# vs VB...</description>
         <pubDate>Thu, 01 Jan 2009 16:40:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/101</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/101</guid>
+        <link>localhost:4000/programming/101</link>
+        <guid isPermaLink="true">localhost:4000/programming/101</guid>
         
         
         <category>programming</category>
@@ -1658,8 +1672,8 @@ pinal-bhatt.blogspot.com
         <title>Abstract Class vs Interface</title>
         <description>Introduction In this article I am going to compare &amp;amp; contrast Abstract Class and Interface in radiance of .Net programming languages - VB and C#.  In OOPS, these concepts are...</description>
         <pubDate>Sun, 16 Nov 2008 18:16:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/abstract-class-vs-interface</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/abstract-class-vs-interface</guid>
+        <link>localhost:4000/programming/abstract-class-vs-interface</link>
+        <guid isPermaLink="true">localhost:4000/programming/abstract-class-vs-interface</guid>
         
         
         <category>programming</category>
@@ -1671,8 +1685,8 @@ pinal-bhatt.blogspot.com
         <description>Linq to xml for reading rss feeds
 </description>
         <pubDate>Sun, 16 Nov 2008 18:14:00 -0500</pubDate>
-        <link>http://pbdesk.io/dotnet/rss-feeds-linq-to-xml</link>
-        <guid isPermaLink="true">http://pbdesk.io/dotnet/rss-feeds-linq-to-xml</guid>
+        <link>localhost:4000/dotnet/rss-feeds-linq-to-xml</link>
+        <guid isPermaLink="true">localhost:4000/dotnet/rss-feeds-linq-to-xml</guid>
         
         
         <category>dotnet</category>
@@ -1684,8 +1698,8 @@ pinal-bhatt.blogspot.com
         <description>Coding Standards &amp;amp; Practices for .Net 
 </description>
         <pubDate>Sun, 16 Nov 2008 18:14:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/coding-standards-practices-for-net</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/coding-standards-practices-for-net</guid>
+        <link>localhost:4000/programming/coding-standards-practices-for-net</link>
+        <guid isPermaLink="true">localhost:4000/programming/coding-standards-practices-for-net</guid>
         
         
         <category>programming</category>
@@ -1697,8 +1711,8 @@ pinal-bhatt.blogspot.com
         <description>Here is an article for comparing and contrasting the two most powerful and most popular .Net languages C# and Visual Basic 
 </description>
         <pubDate>Sun, 16 Nov 2008 18:14:00 -0500</pubDate>
-        <link>http://pbdesk.io/dotnet/c-vs-vb</link>
-        <guid isPermaLink="true">http://pbdesk.io/dotnet/c-vs-vb</guid>
+        <link>localhost:4000/dotnet/c-vs-vb</link>
+        <guid isPermaLink="true">localhost:4000/dotnet/c-vs-vb</guid>
         
         
         <category>dotnet</category>
@@ -1709,8 +1723,8 @@ pinal-bhatt.blogspot.com
         <title>Abstract Factory Design Pattern</title>
         <description>Abstract Factory &amp;#160; Creates an instance of several families of classes Introduction something goes heresfsdfsdf ds f sdf ds fsd Definition something goes here asdf sd fd sf Class Diagram...</description>
         <pubDate>Sun, 16 Nov 2008 18:12:00 -0500</pubDate>
-        <link>http://pbdesk.io/design%20patterns/abstract-factory-design-pattern</link>
-        <guid isPermaLink="true">http://pbdesk.io/design%20patterns/abstract-factory-design-pattern</guid>
+        <link>localhost:4000/design%20patterns/abstract-factory-design-pattern</link>
+        <guid isPermaLink="true">localhost:4000/design%20patterns/abstract-factory-design-pattern</guid>
         
         
         <category>design patterns</category>
@@ -1722,8 +1736,8 @@ pinal-bhatt.blogspot.com
         <description>Prototype    &amp;#160; A fully initialized instance to be copied or cloned
 </description>
         <pubDate>Sun, 16 Nov 2008 18:10:00 -0500</pubDate>
-        <link>http://pbdesk.io/design%20patterns/prototype-design-pattern</link>
-        <guid isPermaLink="true">http://pbdesk.io/design%20patterns/prototype-design-pattern</guid>
+        <link>localhost:4000/design%20patterns/prototype-design-pattern</link>
+        <guid isPermaLink="true">localhost:4000/design%20patterns/prototype-design-pattern</guid>
         
         
         <category>design patterns</category>
@@ -1735,8 +1749,8 @@ pinal-bhatt.blogspot.com
         <description>Factory Method    &amp;#160; Creates an instance of several derived classes
 </description>
         <pubDate>Sun, 16 Nov 2008 18:10:00 -0500</pubDate>
-        <link>http://pbdesk.io/design%20patterns/factory-method-design-pattern</link>
-        <guid isPermaLink="true">http://pbdesk.io/design%20patterns/factory-method-design-pattern</guid>
+        <link>localhost:4000/design%20patterns/factory-method-design-pattern</link>
+        <guid isPermaLink="true">localhost:4000/design%20patterns/factory-method-design-pattern</guid>
         
         
         <category>design patterns</category>
@@ -1748,8 +1762,8 @@ pinal-bhatt.blogspot.com
         <description>Builder    &amp;#160; Separates object construction from its representation
 </description>
         <pubDate>Sun, 16 Nov 2008 18:10:00 -0500</pubDate>
-        <link>http://pbdesk.io/design%20patterns/builder-design-pattern</link>
-        <guid isPermaLink="true">http://pbdesk.io/design%20patterns/builder-design-pattern</guid>
+        <link>localhost:4000/design%20patterns/builder-design-pattern</link>
+        <guid isPermaLink="true">localhost:4000/design%20patterns/builder-design-pattern</guid>
         
         
         <category>design patterns</category>
@@ -1761,8 +1775,8 @@ pinal-bhatt.blogspot.com
         <description>Singleton    &amp;#160; A class of which only a single instance can exist
 </description>
         <pubDate>Sun, 16 Nov 2008 18:09:00 -0500</pubDate>
-        <link>http://pbdesk.io/design%20patterns/singleton-design-pattern</link>
-        <guid isPermaLink="true">http://pbdesk.io/design%20patterns/singleton-design-pattern</guid>
+        <link>localhost:4000/design%20patterns/singleton-design-pattern</link>
+        <guid isPermaLink="true">localhost:4000/design%20patterns/singleton-design-pattern</guid>
         
         
         <category>design patterns</category>
@@ -1774,8 +1788,8 @@ pinal-bhatt.blogspot.com
         <description>Adapter    &amp;#160; Match interfaces of different classes
 </description>
         <pubDate>Sun, 16 Nov 2008 18:08:00 -0500</pubDate>
-        <link>http://pbdesk.io/design%20patterns/adapter-design-pattern</link>
-        <guid isPermaLink="true">http://pbdesk.io/design%20patterns/adapter-design-pattern</guid>
+        <link>localhost:4000/design%20patterns/adapter-design-pattern</link>
+        <guid isPermaLink="true">localhost:4000/design%20patterns/adapter-design-pattern</guid>
         
         
         <category>design patterns</category>
@@ -1807,8 +1821,8 @@ JAY SHREE KRISHNA KEVA NI MANE TEV PADI
 new
 </description>
         <pubDate>Sat, 15 Nov 2008 12:55:00 -0500</pubDate>
-        <link>http://pbdesk.io/personal/krishna-songs-for-my-little-sweet-heart-tanaya</link>
-        <guid isPermaLink="true">http://pbdesk.io/personal/krishna-songs-for-my-little-sweet-heart-tanaya</guid>
+        <link>localhost:4000/personal/krishna-songs-for-my-little-sweet-heart-tanaya</link>
+        <guid isPermaLink="true">localhost:4000/personal/krishna-songs-for-my-little-sweet-heart-tanaya</guid>
         
         
         <category>personal</category>
@@ -1823,8 +1837,8 @@ new
 
 </description>
         <pubDate>Sat, 15 Nov 2008 12:37:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/krishna-songs-for-my-little-sweet-heart-tanaya-2</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/krishna-songs-for-my-little-sweet-heart-tanaya-2</guid>
+        <link>localhost:4000/programming/krishna-songs-for-my-little-sweet-heart-tanaya-2</link>
+        <guid isPermaLink="true">localhost:4000/programming/krishna-songs-for-my-little-sweet-heart-tanaya-2</guid>
         
         
         <category>programming</category>
@@ -1835,8 +1849,8 @@ new
         <title>Abstract Class vs Interface</title>
         <description>Introduction In this article I am going to compare &amp;amp; contrast Abstract Class and Interface in radiance of .Net programming languages - VB and C#.&amp;#160; In OOPS, these concepts are...</description>
         <pubDate>Sat, 15 Nov 2008 00:00:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/abstract-class-vs-interface-2</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/abstract-class-vs-interface-2</guid>
+        <link>localhost:4000/programming/abstract-class-vs-interface-2</link>
+        <guid isPermaLink="true">localhost:4000/programming/abstract-class-vs-interface-2</guid>
         
         
         <category>programming</category>
@@ -1847,8 +1861,8 @@ new
         <title>Resource Center : FireFox</title>
         <description></description>
         <pubDate>Sun, 02 Nov 2008 09:16:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/resource-center-firefox</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/resource-center-firefox</guid>
+        <link>localhost:4000/programming/resource-center-firefox</link>
+        <guid isPermaLink="true">localhost:4000/programming/resource-center-firefox</guid>
         
         
         <category>programming</category>
@@ -1864,8 +1878,8 @@ My Blogs:
 @BlogSpot : http://pinal-bhatt.blogspot.com
 </description>
         <pubDate>Sat, 25 Oct 2008 11:30:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/my-links</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/my-links</guid>
+        <link>localhost:4000/programming/my-links</link>
+        <guid isPermaLink="true">localhost:4000/programming/my-links</guid>
         
         
         <category>programming</category>
@@ -1876,8 +1890,8 @@ My Blogs:
         <title>.Net Framework : News Update</title>
         <description></description>
         <pubDate>Sat, 25 Oct 2008 11:16:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/net-framework-news-update</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/net-framework-news-update</guid>
+        <link>localhost:4000/programming/net-framework-news-update</link>
+        <guid isPermaLink="true">localhost:4000/programming/net-framework-news-update</guid>
         
         
         <category>programming</category>
@@ -1888,8 +1902,8 @@ My Blogs:
         <title>World Clock</title>
         <description></description>
         <pubDate>Fri, 06 Jun 2008 15:50:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/world-clock</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/world-clock</guid>
+        <link>localhost:4000/programming/world-clock</link>
+        <guid isPermaLink="true">localhost:4000/programming/world-clock</guid>
         
         
         <category>programming</category>
@@ -1900,8 +1914,8 @@ My Blogs:
         <title>Design Patterns</title>
         <description></description>
         <pubDate>Mon, 17 Mar 2008 08:27:00 -0400</pubDate>
-        <link>http://pbdesk.io/programming/design-patterns</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/design-patterns</guid>
+        <link>localhost:4000/programming/design-patterns</link>
+        <guid isPermaLink="true">localhost:4000/programming/design-patterns</guid>
         
         
         <category>programming</category>
@@ -1912,8 +1926,8 @@ My Blogs:
         <title>C# : String utility code snippets</title>
         <description>Below are the common utilities / code snippets often required while working with strings. I have written them as static functions.&amp;#160; [C# 3.0] StripHtml C# function to strip Html tags...</description>
         <pubDate>Sun, 09 Mar 2008 07:51:00 -0400</pubDate>
-        <link>http://pbdesk.io/dotnet/c-string-utility-code-snippets</link>
-        <guid isPermaLink="true">http://pbdesk.io/dotnet/c-string-utility-code-snippets</guid>
+        <link>localhost:4000/dotnet/c-string-utility-code-snippets</link>
+        <guid isPermaLink="true">localhost:4000/dotnet/c-string-utility-code-snippets</guid>
         
         
         <category>dotnet</category>
@@ -1924,8 +1938,8 @@ My Blogs:
         <title>Generic methods to read value from DataReader</title>
         <description>Reading a value from DataReader is one of the most often and repetitive task for programmers working on database project. Here are the generic methods to make this work easy:...</description>
         <pubDate>Fri, 07 Mar 2008 12:43:00 -0500</pubDate>
-        <link>http://pbdesk.io/dotnet/generic-methods-to-read-value-from-datareader</link>
-        <guid isPermaLink="true">http://pbdesk.io/dotnet/generic-methods-to-read-value-from-datareader</guid>
+        <link>localhost:4000/dotnet/generic-methods-to-read-value-from-datareader</link>
+        <guid isPermaLink="true">localhost:4000/dotnet/generic-methods-to-read-value-from-datareader</guid>
         
         
         <category>dotnet</category>
@@ -1936,8 +1950,8 @@ My Blogs:
         <title>ABC&#39;s Of C#</title>
         <description>ABC&#39;s Of C# Objectives: Understanding Variables, Constants, Operators and Expressions in C# Basic Data Types in C# This session of iWorkshop covers: Lesson 1 : Your first handshape with C#...</description>
         <pubDate>Fri, 07 Mar 2008 07:51:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/abcs-of-c</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/abcs-of-c</guid>
+        <link>localhost:4000/programming/abcs-of-c</link>
+        <guid isPermaLink="true">localhost:4000/programming/abcs-of-c</guid>
         
         
         <category>programming</category>
@@ -1948,8 +1962,8 @@ My Blogs:
         <title>Introduction to the C# Programming Language</title>
         <description>PCSI Training 2009 Week#1&amp;#160; Week#2 Start Date : 21st March 2009. 21-23 Mat/2009 Week#1 C# Practical Learning 01 : Introduction to C# 02 : Introduction to Variables 03 : Using...</description>
         <pubDate>Fri, 29 Feb 2008 13:05:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/introduction-to-the-c-programming-language</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/introduction-to-the-c-programming-language</guid>
+        <link>localhost:4000/programming/introduction-to-the-c-programming-language</link>
+        <guid isPermaLink="true">localhost:4000/programming/introduction-to-the-c-programming-language</guid>
         
         
         <category>programming</category>
@@ -1960,8 +1974,8 @@ My Blogs:
         <title>My Projects</title>
         <description></description>
         <pubDate>Wed, 20 Feb 2008 16:47:00 -0500</pubDate>
-        <link>http://pbdesk.io/dotnet/asp.net/my-projects</link>
-        <guid isPermaLink="true">http://pbdesk.io/dotnet/asp.net/my-projects</guid>
+        <link>localhost:4000/dotnet/asp.net/my-projects</link>
+        <guid isPermaLink="true">localhost:4000/dotnet/asp.net/my-projects</guid>
         
         
         <category>dotnet</category>
@@ -1974,8 +1988,8 @@ My Blogs:
         <title>C# : Enum – Tricks &amp; Tips</title>
         <description>This is not a beginners tutorial for concept of Enum. Its is assumed that you are aware of the basic concepts of enum. Here I am presenting few advance level...</description>
         <pubDate>Wed, 20 Feb 2008 12:23:00 -0500</pubDate>
-        <link>http://pbdesk.io/dotnet/c-enum-tricks-tips</link>
-        <guid isPermaLink="true">http://pbdesk.io/dotnet/c-enum-tricks-tips</guid>
+        <link>localhost:4000/dotnet/c-enum-tricks-tips</link>
+        <guid isPermaLink="true">localhost:4000/dotnet/c-enum-tricks-tips</guid>
         
         
         <category>dotnet</category>
@@ -1986,8 +2000,8 @@ My Blogs:
         <title>VB : News Updates</title>
         <description></description>
         <pubDate>Tue, 12 Feb 2008 06:28:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/vb-news-updates</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/vb-news-updates</guid>
+        <link>localhost:4000/programming/vb-news-updates</link>
+        <guid isPermaLink="true">localhost:4000/programming/vb-news-updates</guid>
         
         
         <category>programming</category>
@@ -1999,8 +2013,8 @@ My Blogs:
         <description>Abstract Class Vs Interface
 </description>
         <pubDate>Fri, 08 Feb 2008 07:18:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/comparing-contrasting-abstract-class-vs-interface</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/comparing-contrasting-abstract-class-vs-interface</guid>
+        <link>localhost:4000/programming/comparing-contrasting-abstract-class-vs-interface</link>
+        <guid isPermaLink="true">localhost:4000/programming/comparing-contrasting-abstract-class-vs-interface</guid>
         
         
         <category>programming</category>
@@ -2012,8 +2026,8 @@ My Blogs:
         <description>Comparing and contrasting C# Vs VB in radiance of .Net :
 </description>
         <pubDate>Fri, 08 Feb 2008 07:11:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/comparing-contrasting-c-vs-vb</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/comparing-contrasting-c-vs-vb</guid>
+        <link>localhost:4000/programming/comparing-contrasting-c-vs-vb</link>
+        <guid isPermaLink="true">localhost:4000/programming/comparing-contrasting-c-vs-vb</guid>
         
         
         <category>programming</category>
@@ -2024,8 +2038,8 @@ My Blogs:
         <title>Silverlight : News Update</title>
         <description></description>
         <pubDate>Tue, 01 Jan 2008 08:52:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/silverlight-news-update</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/silverlight-news-update</guid>
+        <link>localhost:4000/programming/silverlight-news-update</link>
+        <guid isPermaLink="true">localhost:4000/programming/silverlight-news-update</guid>
         
         
         <category>programming</category>
@@ -2040,8 +2054,8 @@ My Blogs:
 test
 </description>
         <pubDate>Thu, 27 Dec 2007 07:52:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/search-2</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/search-2</guid>
+        <link>localhost:4000/programming/search-2</link>
+        <guid isPermaLink="true">localhost:4000/programming/search-2</guid>
         
         
         <category>programming</category>
@@ -2053,8 +2067,8 @@ test
         <description>Common JavaScript utilities/functions/code:
 </description>
         <pubDate>Wed, 19 Dec 2007 17:51:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/common-javascript-utilities</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/common-javascript-utilities</guid>
+        <link>localhost:4000/programming/common-javascript-utilities</link>
+        <guid isPermaLink="true">localhost:4000/programming/common-javascript-utilities</guid>
         
         
         <category>programming</category>
@@ -2065,8 +2079,8 @@ test
         <title>.Net Learning Curve</title>
         <description>Beginner Level Foundation Language C# 3.0 VB 9.0 - Variables, Constants, Expressions &amp;amp; Programming Constructs - DataTypes, Structures, Enums, - Arrays &amp;amp; Collections - OOP – Classes : Fields, Methods,...</description>
         <pubDate>Fri, 14 Dec 2007 17:31:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/net-learning-curve</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/net-learning-curve</guid>
+        <link>localhost:4000/programming/net-learning-curve</link>
+        <guid isPermaLink="true">localhost:4000/programming/net-learning-curve</guid>
         
         
         <category>programming</category>
@@ -2077,8 +2091,8 @@ test
         <title>Standards &amp; Practices for Software Development (.Net)</title>
         <description>The objective of this blog is to provide software engineers(developers and architectures) with standards and practices for software development. It includes code naming conventions, best prectices for coding,general requirements and...</description>
         <pubDate>Fri, 14 Dec 2007 16:15:00 -0500</pubDate>
-        <link>http://pbdesk.io/programming/standards-practices-for-software-development-net</link>
-        <guid isPermaLink="true">http://pbdesk.io/programming/standards-practices-for-software-development-net</guid>
+        <link>localhost:4000/programming/standards-practices-for-software-development-net</link>
+        <guid isPermaLink="true">localhost:4000/programming/standards-practices-for-software-development-net</guid>
         
         
         <category>programming</category>
@@ -2089,8 +2103,8 @@ test
         <title>My Delicious Bookmarks</title>
         <description>Once upon a time I was using Delicio.us for saving my bookmarks but I no longer use it so this page is empty now. Updated by Webmaster on 13th Dec,...</description>
         <pubDate>Thu, 13 Dec 2007 15:08:00 -0500</pubDate>
-        <link>http://pbdesk.io/archive/my-delicious-bookmarks-2</link>
-        <guid isPermaLink="true">http://pbdesk.io/archive/my-delicious-bookmarks-2</guid>
+        <link>localhost:4000/archive/my-delicious-bookmarks-2</link>
+        <guid isPermaLink="true">localhost:4000/archive/my-delicious-bookmarks-2</guid>
         
         
         <category>archive</category>
@@ -2101,8 +2115,8 @@ test
         <title>JavaScript Utilities</title>
         <description>Latest Download Project: JavaScript Utils Version : 1.0 Date: 14/Dec/2010 URL:&amp;#160; //http://pbjsutils.codeplex.com/ Download:&amp;#160; http://pbjsutils.codeplex.com/releases/view/56719 &amp;#160; Version 1.0 String Utilites&amp;#160;&amp;#160; stripHTML(originalStr) stripHTML(originalStr, replacerStr) isValidEmail(sText) isValidUrl(originalStr) isEmpty(text) stripHTMLAndTrim(text) trim() ltrim() rtrim() format()...</description>
         <pubDate>Thu, 13 Dec 2007 15:08:00 -0500</pubDate>
-        <link>http://pbdesk.io/javascript/javascript-utilities</link>
-        <guid isPermaLink="true">http://pbdesk.io/javascript/javascript-utilities</guid>
+        <link>localhost:4000/javascript/javascript-utilities</link>
+        <guid isPermaLink="true">localhost:4000/javascript/javascript-utilities</guid>
         
         
         <category>javascript</category>
@@ -2113,8 +2127,8 @@ test
         <title>Blank Post</title>
         <description></description>
         <pubDate>Thu, 13 Dec 2007 12:54:00 -0500</pubDate>
-        <link>http://pbdesk.io/archive/blank-post</link>
-        <guid isPermaLink="true">http://pbdesk.io/archive/blank-post</guid>
+        <link>localhost:4000/archive/blank-post</link>
+        <guid isPermaLink="true">localhost:4000/archive/blank-post</guid>
         
         
         <category>archive</category>
