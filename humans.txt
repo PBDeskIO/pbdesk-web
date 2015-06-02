@@ -2,15 +2,23 @@
 # The humans responsible & technology colophon
 
 # TEAM
+/* TEAM */
 
-    Pinal Bhatt -- <role> -- @http://twitter.com/PBDesk
+    Web Master: Pinal Bhatt
+    Site: self@PBDesk.io
+    Twitter: @PBDesk
+    Location: New York
+
 
 # THANKS
+/* THANKS */
 
-    <name>
 
 # TECHNOLOGY COLOPHON
+/* SITE */
 
-    HTML5, CSS3, JavaScript
-    Jekyll, Lanyon/Poole, HTML5 Boilerplate
-    Yeoman, Jekyllized
+    Last update: 2014/05/27
+    Standards: HTML5, CSS3, JavaScript
+    Components: Jekyll, jQuery, Bootstrap, FontAwesome
+    Software: Jekyll, Jekyllized, Yeoman, NPM, NodeJS, Gulp
+
