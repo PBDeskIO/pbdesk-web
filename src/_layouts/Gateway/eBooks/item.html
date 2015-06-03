@@ -1,0 +1,109 @@
+---
+layout: default
+---
+
+<div class="padd whity content blog">
+    <!-- Main Content Starts Here -->
+    <!-- Content should be encloased inside div with the class "posts" -->
+    <div class="posts">
+        <!-- Breadcrumbs -->
+        <ul class="breadcrumb">
+
+            {% for cat in page.categories %}
+            {% if cat != 'featured' %}
+            <li><a href="/{{cat}}" class="catNameStyle">{{ cat }}</a></li>
+            {% endif %}
+            {% endfor %}
+
+        </ul>
+        <!-- Each entry should be enclosed inside div with the class "entry" -->
+        <div class="entry">
+            <!-- Entry title -->
+            <h2><a href="#">{{ page.title }}</a></h2>
+            <!-- Entry meta information. Calender, User, Category, Tags. Font awesome icons used -->
+            <p class="meta">
+                <i class="fa fa-tags"></i>&nbsp;
+                {% for tag in page.tags %}<span><a href="/tag/{{tag}}">{{tag}}</a></span>{% endfor %}
+            </p>
+            <!-- Thumbnail here -->
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+
+                    <div class="staff">
+
+                        <div class="author"><img src="{{page.image}}" alt="{{page.title}}" /></div>
+
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <!-- Staff #1 -->
+                    <div class="staff">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item disabled">
+                                <p class="name">Download <i class="fa fa-download"></i></p>
+                            </a>
+                            {% if page.downloadLink %}
+                            <a href="{{ page.downloadLink }}" target="_blank" class="list-group-item"><i class=""></i> Official Website</a>
+                            {% endif %}
+                            {% if page.blog %}
+                            <a href="{{ page.blog }}" target="_blank" class="list-group-item"><i class="fa fa-bold"></i> Website</a>
+                            {% endif %}
+                            {% if page.aboutUs %}
+                            <a href="{{ page.aboutUs }}" target="_blank" class="list-group-item"><i class="fa"></i> Website</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <!-- Staff #1 -->
+                    <div class="staff">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item disabled">
+                                <p class="name">Author/s <i class="fa fa-user-plus"></i></p>
+                            </a>
+                            {% for post1 in site.categories.people %}
+                            {% for author in page.authors %}
+                            {% if author == post1.pageLink %}
+
+                                    <a href="{{ post1.url}}" class="list-group-item">{{ post1.title }} </a>
+
+                            {% endif %}
+                            {% endfor %}
+                            {% endfor %}
+                        </div>
+
+
+                        <!-- Small para about staff -->
+
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Entry para -->
+            <div class="jtxt">
+                {{ content }}
+            </div>
+
+
+
+
+        </div>
+        {% include social_share.html %}
+        {% include disqus.html %}
+        {% include responsiveAd.html %}
+        <!-- Navigation links -->
+        <ul class="pager">
+            <li class="previous">
+                <a href="#">&larr; Previous Post</a>
+            </li>
+            <li class="next">
+                <a href="#">New Post &rarr;</a>
+            </li>
+        </ul>
+        {% include relatedPosts.html %}
+    </div>
+    <!-- Main Content Ends Here -->
+</div>
+
