@@ -1,72 +1,147 @@
 #!/bin/bash
 
-# cp ../people_template.html  2015-06-02-xxx.html
 
-cd Z
-cd ..
+peopleNames=(
+'Andrea Boschin'
+'Adam Freeman'
+'Andrew Church'
+'Andrew Clear'
+'Agus Kurniawan'
+'Alessandro Del Sole'
+'Bart De Smet'
+'Bill Wagner'
+'Brian Keller'
+'Bob Tabor'
+'Buddy James'
+'Clint Rutkas'
+'Cody Lindley'
+'Cheryl Hammond'
+'Chris Rose'
+'Damian Edwards'
+'Daren May'
+'Dan Fernandez'
+'Eric Ligman'
+'Emanuele DelBono'
+'Edward Charbeneau'
+'Filip Wojcieszyn'
+'Frederik Dietz'
+'Gregor Suttie'
+'Golnaz'
+'John Papa'
+'JeffKoch'
+'Jon Galloway'
+'Jerry Nixon'
+'Jess Chadwick'
+'John V Petersen'
+'Jan Van der Haegen'
+'Jesse Liberty'
+'Jose M Aguilar'
+'John Garland'
+'James Tupper'
+'Joe Booth'
+'Kedar Kulkarni'
+'Kraig Brockschmidt'
+'Katherine Murray'
+'Ken Haines'
+'Lyle Luppes'
+'Linda McCarthy'
+'Matteo Pagani'
+'Mike Taulty'
+'Michael McLaughlin'
+'Marc Clifton'
+'Nandip Makwana'
+'Pablo M Cibraro'
+'Patrick Steele'
+'Peter Bromberg'
+'Patrice Pelland'
+'Pascal Paré'
+'Peter Shaw'
+'Rachel Appel'
+'Ryan Hodson'
+'Robert Pickering'
+'Robert Horvick'
+'Scott Hanselman'
+'Scott Guthrie'
+'Steve Sanderson'
+'Scott Allen'
+'Steve Fenton'
+'Stacia Misner'
+'Steven Borg'
+'Tim Heuer'
+'Tim Elhajj'
+'Pinal Bhatt'
+)
 
-cd Y
-cd ..
+if false
+then
+peopleNames=(
 
-cd X
-cd ..
+)
+fi
 
-cd W
-cd ..
 
-cd V
-cd ..
 
-cd U
-cd ..
+for (( i = 0; i < ${#peopleNames[@]}; i++ ))
+do
+	person=${peopleNames[$i]}
+    fileName=$(echo `date +%Y-%m-%d-`$person|sed 's/ /-/g')
+    folderName=${person:0:1}
 
-cd T
-cd ..
+    if [ ! -d $folderName ]
+    then
+		mkdir -p -- "$folderName"
+	fi
 
-cd S
-cd ..
+	cd $folderName
+	cp ../people_template.html  ${fileName}.html
+	sed -i '' "s/authorName/$person/g" ${fileName}.html
+	sed -i '' "s/fileName/$fileName/g" ${fileName}.html
+	sed -i '' "s/dateItem/`date +%Y-%m-%d`/g" ${fileName}.html
 
-cd R
-cd ..
+	cd ..
 
-cd Q
-cd ..
 
-cd P
-cd ..
+done
 
-cd O
-cd ..
+#for item in "${peopleNames[@]}"
+#do
+	#echo Name: ${peopleNames[$index]}
+	#echo $item
+	#personName=$item
+	#p=`date +%Y-%m-%d-`
+	#fileName=$(echo $p$personName|sed 's/ /-/g')
+	#folderName=${personName:0:1}
+	#folderName=$folderName | tr '[:lower:]' '[:upper:]'
 
-cd M
-cd ..
+	#echo $personName  $fileName  $folderName
+#
+	##echo `date +%Y-%m-%d-`
+	##echo $p
+#
+#
+	#if [ -d $folderName ]
+	#then
+	#	echo $folderName Exists
+	#else
+	#	mkdir -p -- "$folderName"
+	#fi
+	#cd $folderName
+	##echo $(PWD)/2015-06-02-${fileName}.html
+	#cp ../people_template.html  ${fileName}.html
+	#sed -i '' 's/authorName/${personName}/g' ${fileName}.html
+	#cd ..
 
-cd M
-cd ..
+	#index=$index+1
 
-cd L
-cd ..
 
-cd K
-cd ..
+#done
 
-cd J
-cd ..
 
-cd I
-cd ..
-
-cd H
-cd ..
-
-cd G
-cd ..
-
-cd F
-cd ..
 
 #cd E
 #cp ../people_template.html  2015-06-02-Edward-Charbeneau.html
+
+#sed -i '' 's/authorName/Edward Charbeneau/g' 2015-06-02-Edward-Charbeneau.html
 #cp ../people_template.html  2015-06-02-Eric-Ligman.html
 #cp ../people_template.html  2015-06-02-Emanuele-DelBono.html
 #cd ..
