@@ -84,6 +84,8 @@ fi
 for (( i = 0; i < ${#peopleNames[@]}; i++ ))
 do
 	person=${peopleNames[$i]}
+	fileLink=$(echo $person|sed 's/ /-/g')
+	echo $fileLink
     fileName=$(echo `date +%Y-%m-%d-`$person|sed 's/ /-/g')
     folderName=${person:0:1}
 
@@ -95,7 +97,7 @@ do
 	cd $folderName
 	cp ../people_template.html  ${fileName}.html
 	sed -i '' "s/authorName/$person/g" ${fileName}.html
-	sed -i '' "s/fileName/$fileName/g" ${fileName}.html
+	sed -i '' "s/fileName/$fileLink/g" ${fileName}.html
 	sed -i '' "s/dateItem/`date +%Y-%m-%d`/g" ${fileName}.html
 
 	cd ..
