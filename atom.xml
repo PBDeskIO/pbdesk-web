@@ -4,13 +4,761 @@
  <title>Pinal Bhatt's Blog</title>
  <link href="http://pbdesk.io/atom.xml" rel="self"/>
  <link href="http://pbdesk.io/"/>
- <updated>2015-06-02T14:10:14-04:00</updated>
+ <updated>2015-06-03T16:11:11-04:00</updated>
  <id>http://pbdesk.io</id>
  <author>
    <name>Pinal Bhatt</name>
    <email>self@PBDesk.io</email>
  </author>
 
+ 
+ <entry>
+   <title>Tim Heuer</title>
+   <link href="http://pbdesk.io/people/Tim-Heuer"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Tim-Heuer</id>
+   <content type="html">&lt;div&gt;Tim Heuer&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Tim Elhajj</title>
+   <link href="http://pbdesk.io/people/Tim-Elhajj"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Tim-Elhajj</id>
+   <content type="html">&lt;div&gt;Tim Elhajj&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Steven Borg</title>
+   <link href="http://pbdesk.io/people/Steven-Borg"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Steven-Borg</id>
+   <content type="html">&lt;div&gt;Steven Borg&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Steve Sanderson</title>
+   <link href="http://pbdesk.io/people/Steve-Sanderson"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Steve-Sanderson</id>
+   <content type="html">&lt;div&gt;Steve Sanderson&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Steve Fenton</title>
+   <link href="http://pbdesk.io/people/Steve-Fenton"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Steve-Fenton</id>
+   <content type="html">&lt;div&gt;Steve Fenton&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Stacia Misner</title>
+   <link href="http://pbdesk.io/people/Stacia-Misner"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Stacia-Misner</id>
+   <content type="html">&lt;div&gt;Stacia Misner&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Scott Hanselman</title>
+   <link href="http://pbdesk.io/people/Scott-Hanselman"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Scott-Hanselman</id>
+   <content type="html">&lt;div&gt;Scott Hanselman&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Scott Guthrie</title>
+   <link href="http://pbdesk.io/people/Scott-Guthrie"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Scott-Guthrie</id>
+   <content type="html">&lt;div&gt;Scott Guthrie&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Scott Allen</title>
+   <link href="http://pbdesk.io/people/Scott-Allen"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Scott-Allen</id>
+   <content type="html">&lt;div&gt;Scott Allen&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Ryan Hodson</title>
+   <link href="http://pbdesk.io/people/Ryan-Hodson"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Ryan-Hodson</id>
+   <content type="html">&lt;div&gt;Ryan Hodson&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Robert Pickering</title>
+   <link href="http://pbdesk.io/people/Robert-Pickering"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Robert-Pickering</id>
+   <content type="html">&lt;div&gt;Robert Pickering&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Robert Horvick</title>
+   <link href="http://pbdesk.io/people/Robert-Horvick"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Robert-Horvick</id>
+   <content type="html">&lt;div&gt;Robert Horvick&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Rachel Appel</title>
+   <link href="http://pbdesk.io/people/Rachel-Appel"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Rachel-Appel</id>
+   <content type="html">&lt;div&gt;Rachel Appel&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Pinal Bhatt</title>
+   <link href="http://pbdesk.io/people/Pinal-Bhatt"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Pinal-Bhatt</id>
+   <content type="html">&lt;div&gt;Pinal Bhatt&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Peter Shaw</title>
+   <link href="http://pbdesk.io/people/Peter-Shaw"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Peter-Shaw</id>
+   <content type="html">&lt;div&gt;Peter Shaw&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Peter Bromberg</title>
+   <link href="http://pbdesk.io/people/Peter-Bromberg"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Peter-Bromberg</id>
+   <content type="html">&lt;div&gt;Peter Bromberg&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Patrick Steele</title>
+   <link href="http://pbdesk.io/people/Patrick-Steele"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Patrick-Steele</id>
+   <content type="html">&lt;div&gt;Patrick Steele&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Patrice Pelland</title>
+   <link href="http://pbdesk.io/people/Patrice-Pelland"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Patrice-Pelland</id>
+   <content type="html">&lt;div&gt;Patrice Pelland&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Pascal Paré</title>
+   <link href="http://pbdesk.io/people/Pascal-Pare%CC%81"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Pascal-Paré</id>
+   <content type="html">&lt;div&gt;Pascal Paré&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Pablo M Cibraro</title>
+   <link href="http://pbdesk.io/people/Pablo-M-Cibraro"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Pablo-M-Cibraro</id>
+   <content type="html">&lt;div&gt;Pablo M Cibraro&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Nandip Makwana</title>
+   <link href="http://pbdesk.io/people/Nandip-Makwana"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Nandip-Makwana</id>
+   <content type="html">&lt;div&gt;Nandip Makwana&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Mike Taulty</title>
+   <link href="http://pbdesk.io/people/Mike-Taulty"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Mike-Taulty</id>
+   <content type="html">&lt;div&gt;Mike Taulty&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Michael McLaughlin</title>
+   <link href="http://pbdesk.io/people/Michael-McLaughlin"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Michael-McLaughlin</id>
+   <content type="html">&lt;div&gt;Michael McLaughlin&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Matteo Pagani</title>
+   <link href="http://pbdesk.io/people/Matteo-Pagani"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Matteo-Pagani</id>
+   <content type="html">&lt;div&gt;Matteo Pagani&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Marc Clifton</title>
+   <link href="http://pbdesk.io/people/Marc-Clifton"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Marc-Clifton</id>
+   <content type="html">&lt;div&gt;Marc Clifton&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Lyle Luppes</title>
+   <link href="http://pbdesk.io/people/Lyle-Luppes"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Lyle-Luppes</id>
+   <content type="html">&lt;div&gt;Lyle Luppes&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Linda McCarthy</title>
+   <link href="http://pbdesk.io/people/Linda-McCarthy"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Linda-McCarthy</id>
+   <content type="html">&lt;div&gt;Linda McCarthy&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Kraig Brockschmidt</title>
+   <link href="http://pbdesk.io/people/Kraig-Brockschmidt"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Kraig-Brockschmidt</id>
+   <content type="html">&lt;div&gt;Kraig Brockschmidt&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Ken Haines</title>
+   <link href="http://pbdesk.io/people/Ken-Haines"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Ken-Haines</id>
+   <content type="html">&lt;div&gt;Ken Haines&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Kedar Kulkarni</title>
+   <link href="http://pbdesk.io/people/Kedar-Kulkarni"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Kedar-Kulkarni</id>
+   <content type="html">&lt;div&gt;Kedar Kulkarni&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Katherine Murray</title>
+   <link href="http://pbdesk.io/people/Katherine-Murray"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Katherine-Murray</id>
+   <content type="html">&lt;div&gt;Katherine Murray&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Jose M Aguilar</title>
+   <link href="http://pbdesk.io/people/Jose-M-Aguilar"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Jose-M-Aguilar</id>
+   <content type="html">&lt;div&gt;Jose M Aguilar&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Jon Galloway</title>
+   <link href="http://pbdesk.io/people/Jon-Galloway"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Jon-Galloway</id>
+   <content type="html">&lt;div&gt;Jon Galloway&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>John V Petersen</title>
+   <link href="http://pbdesk.io/people/John-V-Petersen"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/John-V-Petersen</id>
+   <content type="html">&lt;div&gt;John V Petersen&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>John Papa</title>
+   <link href="http://pbdesk.io/people/John-Papa"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/John-Papa</id>
+   <content type="html">&lt;div&gt;John Papa&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>John Garland</title>
+   <link href="http://pbdesk.io/people/John-Garland"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/John-Garland</id>
+   <content type="html">&lt;div&gt;John Garland&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Joe Booth</title>
+   <link href="http://pbdesk.io/people/Joe-Booth"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Joe-Booth</id>
+   <content type="html">&lt;div&gt;Joe Booth&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Jesse Liberty</title>
+   <link href="http://pbdesk.io/people/Jesse-Liberty"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Jesse-Liberty</id>
+   <content type="html">&lt;div&gt;Jesse Liberty&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Jess Chadwick</title>
+   <link href="http://pbdesk.io/people/Jess-Chadwick"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Jess-Chadwick</id>
+   <content type="html">&lt;div&gt;Jess Chadwick&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Jerry Nixon</title>
+   <link href="http://pbdesk.io/people/Jerry-Nixon"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Jerry-Nixon</id>
+   <content type="html">&lt;div&gt;Jerry Nixon&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>JeffKoch</title>
+   <link href="http://pbdesk.io/people/JeffKoch"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/JeffKoch</id>
+   <content type="html">&lt;div&gt;JeffKoch&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Jan Van der Haegen</title>
+   <link href="http://pbdesk.io/people/Jan-Van-der-Haegen"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Jan-Van-der-Haegen</id>
+   <content type="html">&lt;div&gt;Jan Van der Haegen&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>James Tupper</title>
+   <link href="http://pbdesk.io/people/James-Tupper"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/James-Tupper</id>
+   <content type="html">&lt;div&gt;James Tupper&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Gregor Suttie</title>
+   <link href="http://pbdesk.io/people/Gregor-Suttie"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Gregor-Suttie</id>
+   <content type="html">&lt;div&gt;Gregor Suttie&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Golnaz</title>
+   <link href="http://pbdesk.io/people/Golnaz"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Golnaz</id>
+   <content type="html">&lt;div&gt;Golnaz&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Frederik Dietz</title>
+   <link href="http://pbdesk.io/people/Frederik-Dietz"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Frederik-Dietz</id>
+   <content type="html">&lt;div&gt;Frederik Dietz&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Filip Wojcieszyn</title>
+   <link href="http://pbdesk.io/people/Filip-Wojcieszyn"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Filip-Wojcieszyn</id>
+   <content type="html">&lt;div&gt;Filip Wojcieszyn&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Eric Ligman</title>
+   <link href="http://pbdesk.io/people/Eric-Ligman"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Eric-Ligman</id>
+   <content type="html">&lt;div&gt;Eric Ligman&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Emanuele DelBono</title>
+   <link href="http://pbdesk.io/people/Emanuele-DelBono"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Emanuele-DelBono</id>
+   <content type="html">&lt;div&gt;Emanuele DelBono&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Edward Charbeneau</title>
+   <link href="http://pbdesk.io/people/Edward-Charbeneau"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Edward-Charbeneau</id>
+   <content type="html">&lt;div&gt;Edward Charbeneau&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Daren May</title>
+   <link href="http://pbdesk.io/people/Daren-May"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Daren-May</id>
+   <content type="html">&lt;div&gt;Daren May&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Dan Fernandez</title>
+   <link href="http://pbdesk.io/people/Dan-Fernandez"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Dan-Fernandez</id>
+   <content type="html">&lt;div&gt;Dan Fernandez&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Damian Edwards</title>
+   <link href="http://pbdesk.io/people/Damian-Edwards"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Damian-Edwards</id>
+   <content type="html">&lt;div&gt;Damian Edwards&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Cody Lindley</title>
+   <link href="http://pbdesk.io/people/Cody-Lindley"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Cody-Lindley</id>
+   <content type="html">&lt;div&gt;Cody Lindley&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Clint Rutkas</title>
+   <link href="http://pbdesk.io/people/Clint-Rutkas"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Clint-Rutkas</id>
+   <content type="html">&lt;div&gt;Clint Rutkas&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Chris Rose</title>
+   <link href="http://pbdesk.io/people/Chris-Rose"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Chris-Rose</id>
+   <content type="html">&lt;div&gt;Chris Rose&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Cheryl Hammond</title>
+   <link href="http://pbdesk.io/people/Cheryl-Hammond"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Cheryl-Hammond</id>
+   <content type="html">&lt;div&gt;Cheryl Hammond&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Buddy James</title>
+   <link href="http://pbdesk.io/people/Buddy-James"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Buddy-James</id>
+   <content type="html">&lt;div&gt;Buddy James&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Brian Keller</title>
+   <link href="http://pbdesk.io/people/Brian-Keller"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Brian-Keller</id>
+   <content type="html">&lt;div&gt;Brian Keller&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Bob Tabor</title>
+   <link href="http://pbdesk.io/people/Bob-Tabor"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Bob-Tabor</id>
+   <content type="html">&lt;div&gt;Bob Tabor&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Bill Wagner</title>
+   <link href="http://pbdesk.io/people/Bill-Wagner"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Bill-Wagner</id>
+   <content type="html">&lt;div&gt;Bill Wagner&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Bart De Smet</title>
+   <link href="http://pbdesk.io/people/Bart-De-Smet"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Bart-De-Smet</id>
+   <content type="html">&lt;div&gt;Bart De Smet&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Andrew Clear</title>
+   <link href="http://pbdesk.io/people/Andrew-Clear"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Andrew-Clear</id>
+   <content type="html">&lt;div&gt;Andrew Clear&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Andrew Church</title>
+   <link href="http://pbdesk.io/people/Andrew-Church"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Andrew-Church</id>
+   <content type="html">&lt;div&gt;Andrew Church&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Andrea Boschin</title>
+   <link href="http://pbdesk.io/people/Andrea-Boschin"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Andrea-Boschin</id>
+   <content type="html">&lt;div&gt;Andrea Boschin&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Alessandro Del Sole</title>
+   <link href="http://pbdesk.io/people/Alessandro-Del-Sole"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Alessandro-Del-Sole</id>
+   <content type="html">&lt;div&gt;Alessandro Del Sole&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Agus Kurniawan</title>
+   <link href="http://pbdesk.io/people/Agus-Kurniawan"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Agus-Kurniawan</id>
+   <content type="html">&lt;div&gt;Agus Kurniawan&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Adam Freeman</title>
+   <link href="http://pbdesk.io/people/Adam-Freeman"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Adam-Freeman</id>
+   <content type="html">&lt;div&gt;Adam Freeman&lt;/div&gt;
+
+
+</content>
+ </entry>
  
  <entry>
    <title>Jade Video Tutorial</title>
@@ -445,26 +1193,20 @@ print_hi(&amp;#39;Tom&amp;#39;)
    <link href="http://pbdesk.io/ebooks/programming/Succinctly-Objective-C"/>
    <updated>2014-03-03T00:00:00-05:00</updated>
    <id>http://pbdesk.io/ebooks/programming/Succinctly-Objective-C</id>
-   <content type="html">&lt;div&gt;test&lt;/div&gt;</content>
- </entry>
- 
- <entry>
-   <title>Pinal Bhatt</title>
-   <link href="http://pbdesk.io/people/Pinal-Bhatt"/>
-   <updated>2014-03-03T00:00:00-05:00</updated>
-   <id>http://pbdesk.io/people/Pinal-Bhatt</id>
-   <content type="html">&lt;div&gt;People page test&lt;/div&gt;
+   <content type="html">&lt;p&gt;&lt;em&gt;Objective-C Succinctly&lt;/em&gt; is the only book you need for getting started with Objective-C—the primary language beneath all Mac, iPad, and iPhone apps. Written by Ryan Hodson, the author behind our popular Knockout.js Succinctly and PDF Succinctly titles, this e-book guides you from downloading Xcode, Apple&#39;s Objective-C IDE, to utilizing advanced features like blocks (similar to C#&#39;s lambdas) and protocols. Along the way, you&#39;ll learn how the familiar aspects of object-oriented programming, such as interfaces, classes, methods, etc., are used in Objective-C, giving you the ability to leverage your existing knowledge with the tools presented in the book.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Table of Contents&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Hello, Objective-C&lt;/li&gt;
+  &lt;li&gt;Data Types&lt;/li&gt;
+  &lt;li&gt;Properties&lt;/li&gt;
+  &lt;li&gt;Memory Management
+  &lt;li&gt;Methods&lt;/li&gt;
+  &lt;li&gt;Categories and Extensions&lt;/li&gt;
+  &lt;li&gt;Protocols&lt;/li&gt;
+  &lt;li&gt;Exceptions and Errors&lt;/li&gt;
+  &lt;li&gt;Blocks&lt;/li&gt;
+&lt;/ul&gt;
 
-Pinal Bhatt
-</content>
- </entry>
- 
- <entry>
-   <title>John Papa</title>
-   <link href="http://pbdesk.io/people/John-Papa"/>
-   <updated>2014-03-03T00:00:00-05:00</updated>
-   <id>http://pbdesk.io/people/John-Papa</id>
-   <content type="html">&lt;div&gt;People page test&lt;/div&gt;
 
 </content>
  </entry>
