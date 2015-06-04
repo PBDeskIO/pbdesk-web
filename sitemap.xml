@@ -2,10 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://pbdesk.io/</loc>
-    <lastmod>2015-06-03T16:11:11-04:00</lastmod>
+    <lastmod>2015-06-03T22:41:56-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+  
+    <url>
+      <loc>http://pbdesk.io/ebooks/jQuery-Succinctly</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://pbdesk.io/people/Zoran-Maksimovic</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://pbdesk.io/people/Xavier-Morera</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://pbdesk.io/people/Ugo-Lattanzi</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
   
     <url>
       <loc>http://pbdesk.io/people/Tim-Heuer</loc>
@@ -19,6 +47,13 @@
       <lastmod>2015-04-22T02:00:01-04:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://pbdesk.io/ebooks/Succinctly-Objective-C</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
     </url>
   
     <url>
@@ -43,7 +78,21 @@
     </url>
   
     <url>
+      <loc>http://pbdesk.io/people/Stephen-Haunts</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
       <loc>http://pbdesk.io/people/Stacia-Misner</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://pbdesk.io/people/Simone-Chiaretta</loc>
       <lastmod>2015-04-22T02:00:01-04:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.7</priority>
@@ -78,6 +127,13 @@
     </url>
   
     <url>
+      <loc>http://pbdesk.io/people/Rui-Machado</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
       <loc>http://pbdesk.io/people/Robert-Pickering</loc>
       <lastmod>2015-04-22T02:00:01-04:00</lastmod>
       <changefreq>daily</changefreq>
@@ -86,6 +142,13 @@
   
     <url>
       <loc>http://pbdesk.io/people/Robert-Horvick</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://pbdesk.io/people/Ricardo-Peres</loc>
       <lastmod>2015-04-22T02:00:01-04:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.7</priority>
@@ -141,7 +204,21 @@
     </url>
   
     <url>
+      <loc>http://pbdesk.io/people/Parikshit-Savjani</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
       <loc>http://pbdesk.io/people/Pablo-M-Cibraro</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://pbdesk.io/people/Nick-Harrison</loc>
       <lastmod>2015-04-22T02:00:01-04:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.7</priority>
@@ -176,6 +253,13 @@
     </url>
   
     <url>
+      <loc>http://pbdesk.io/people/Marko-S%CC%8Cvaljek</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
       <loc>http://pbdesk.io/people/Marc-Clifton</loc>
       <lastmod>2015-04-22T02:00:01-04:00</lastmod>
       <changefreq>daily</changefreq>
@@ -191,6 +275,20 @@
   
     <url>
       <loc>http://pbdesk.io/people/Linda-McCarthy</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://pbdesk.io/ebooks/LINQ-Succinctly</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://pbdesk.io/people/Kyle-Burns</loc>
       <lastmod>2015-04-22T02:00:01-04:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.7</priority>
@@ -226,6 +324,13 @@
   
     <url>
       <loc>http://pbdesk.io/people/Jose-M-Aguilar</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://pbdesk.io/people/Jonas-Gauffin</loc>
       <lastmod>2015-04-22T02:00:01-04:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.7</priority>
@@ -295,6 +400,13 @@
     </url>
   
     <url>
+      <loc>http://pbdesk.io/people/Jason-Roberts</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
       <loc>http://pbdesk.io/people/Jan-Van-der-Haegen</loc>
       <lastmod>2015-04-22T02:00:01-04:00</lastmod>
       <changefreq>daily</changefreq>
@@ -303,6 +415,20 @@
   
     <url>
       <loc>http://pbdesk.io/people/James-Tupper</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://pbdesk.io/people/James-McCaffrey</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://pbdesk.io/people/James-Beresford</loc>
       <lastmod>2015-04-22T02:00:01-04:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.7</priority>
@@ -323,6 +449,20 @@
     </url>
   
     <url>
+      <loc>http://pbdesk.io/ebooks/Git-Succinctly</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://pbdesk.io/people/Giancarlo-Lelli</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
       <loc>http://pbdesk.io/people/Frederik-Dietz</loc>
       <lastmod>2015-04-22T02:00:01-04:00</lastmod>
       <changefreq>daily</changefreq>
@@ -331,6 +471,20 @@
   
     <url>
       <loc>http://pbdesk.io/people/Filip-Wojcieszyn</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://pbdesk.io/people/Fabio-Franzini</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://pbdesk.io/people/Eric-Stitt</loc>
       <lastmod>2015-04-22T02:00:01-04:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.7</priority>
@@ -352,6 +506,20 @@
   
     <url>
       <loc>http://pbdesk.io/people/Edward-Charbeneau</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://pbdesk.io/people/Dmitri-Nesteruk</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://pbdesk.io/people/Derek-Jensen</loc>
       <lastmod>2015-04-22T02:00:01-04:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.7</priority>
@@ -407,6 +575,20 @@
     </url>
   
     <url>
+      <loc>http://pbdesk.io/people/Charles-Zaiontz</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://pbdesk.io/ebooks/CSS3-Succinctly</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
       <loc>http://pbdesk.io/people/Buddy-James</loc>
       <lastmod>2015-04-22T02:00:01-04:00</lastmod>
       <changefreq>daily</changefreq>
@@ -435,10 +617,24 @@
     </url>
   
     <url>
+      <loc>http://pbdesk.io/people/Barton-Poulson</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
       <loc>http://pbdesk.io/people/Bart-De-Smet</loc>
       <lastmod>2015-04-22T02:00:01-04:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://pbdesk.io/ebooks/Apache-Solr-Succinctly</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
     </url>
   
     <url>
@@ -481,6 +677,13 @@
       <lastmod>2015-04-22T02:00:01-04:00</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://pbdesk.io/ebooks/Accounting-Succinctly</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
     </url>
   
     <url>
@@ -562,27 +765,6 @@
   
     <url>
       <loc>http://pbdesk.io/nodejs/nodejs-news-update</loc>
-      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.6</priority>
-    </url>
-  
-    <url>
-      <loc>http://pbdesk.io/ebooks/programming/Succinctly-Objective-C</loc>
-      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.6</priority>
-    </url>
-  
-    <url>
-      <loc>http://pbdesk.io/ebooks/test-book</loc>
-      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.6</priority>
-    </url>
-  
-    <url>
-      <loc>http://pbdesk.io/ebooks/jekyll/poole/introducing-poole</loc>
       <lastmod>2015-04-22T02:00:01-04:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
@@ -1738,27 +1920,6 @@
   </url>
   
   <url>
-    <loc>http://pbdesk.io/ebooks/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/jekyll/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/poole/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://pbdesk.io/nodejs/index.html</loc>
     <lastmod>2015-04-22T02:00:01-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1767,6 +1928,13 @@
   
   <url>
     <loc>http://pbdesk.io/mvc6/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/jekyll/index.html</loc>
     <lastmod>2015-04-22T02:00:01-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1787,91 +1955,14 @@
   </url>
   
   <url>
+    <loc>http://pbdesk.io/ebooks/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://pbdesk.io/people/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/TechNews/Google-Sci-Tech-News/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/TechNews/Yahoo-Science-News/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/TechNews/Yahoo-Technology-News/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/TechNews/CNET-News/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/TechNews/ASPNet/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/TechNews/C-News/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/TechNews/VBNet-News/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/TechNews/F-News/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/TechNews/VC-Updates/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/TechNews/Channel-9/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/TechNews/ASPNet-Community-Events/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/TechNews/ASPNet-Community-News/index.html</loc>
     <lastmod>2015-04-22T02:00:01-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2018,13 +2109,6 @@
   </url>
   
   <url>
-    <loc>http://pbdesk.io/tag/Objective-c/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://pbdesk.io/tag/NodeJS/index.html</loc>
     <lastmod>2015-04-22T02:00:01-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -2109,7 +2193,126 @@
   </url>
   
   <url>
+    <loc>http://pbdesk.io/tag/Succinctly/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://pbdesk.io/tag/people/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/CSS3/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/WebDesigning/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/git/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/Objective-c/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/TechNews/Google-Sci-Tech-News/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/TechNews/Yahoo-Science-News/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/TechNews/Yahoo-Technology-News/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/TechNews/CNET-News/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/TechNews/ASPNet/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/TechNews/C-News/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/TechNews/VBNet-News/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/TechNews/F-News/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/TechNews/VC-Updates/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/TechNews/Channel-9/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/TechNews/ASPNet-Community-Events/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/TechNews/ASPNet-Community-News/index.html</loc>
     <lastmod>2015-04-22T02:00:01-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

@@ -4,13 +4,104 @@
  <title>Pinal Bhatt's Blog</title>
  <link href="http://pbdesk.io/atom.xml" rel="self"/>
  <link href="http://pbdesk.io/"/>
- <updated>2015-06-03T16:11:11-04:00</updated>
+ <updated>2015-06-03T22:41:56-04:00</updated>
  <id>http://pbdesk.io</id>
  <author>
    <name>Pinal Bhatt</name>
    <email>self@PBDesk.io</email>
  </author>
 
+ 
+ <entry>
+   <title>jQuery Succinctly</title>
+   <link href="http://pbdesk.io/ebooks/jQuery-Succinctly"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/ebooks/jQuery-Succinctly</id>
+   <content type="html">&lt;div class=&quot;download-info&quot;&gt;
+
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;h3 class=&quot;heading&quot;&gt;jQuery Succinctly&lt;/h3&gt;
+    &lt;div class=&quot;content-small description&quot;&gt;
+      &lt;p&gt;&lt;i&gt;jQuery Succinctly&lt;/i&gt; was written to express, in short-order, the concepts essential to intermediate
+        and advanced jQuery development. Its purpose is to instill in you, the reader, practices that
+        jQuery developers take as common knowledge. Each chapter contains concepts essential to
+        becoming a seasoned jQuery developer.
+      &lt;/p&gt;&lt;p&gt;
+      This book is intended for two types of readers. The first is someone who has read introductory
+      material on jQuery and is looking for the next logical step. The second type of reader is a
+      JavaScript developer, already versed in another library, now trying to quickly learn jQuery. I crafted this book to be used as my own personal reference point
+      for jQuery concepts. This is exactly the type of book I wish every JavaScript library had available.
+    &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;h3 class=&quot;heading&quot;&gt;Table of Contents &lt;/h3&gt;
+    &lt;ol class=&quot;table-content&quot;&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Core jQuery&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Selecting&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Traversing&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Manipulation&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;HTML Forms&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Events&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;jQuery and the Web Browser&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Plugins&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Effects&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;AJAX&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;div class=&quot;video-section&quot;&gt;
+      &lt;h3 class=&quot;heading&quot;&gt;Watch Video Demo&lt;/h3&gt;
+      &lt;div class=&quot;description&quot;&gt;
+        &lt;div style=&quot;display: none;&quot;&gt;
+          &lt;div id=&quot;popup_video&quot;&gt;
+            &lt;iframe width=&quot;675px&quot; height=&quot;370px&quot; src=&quot;&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;video-container&quot;&gt;
+          &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/IkrhzcqilNE&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;p class=&quot;content-small&quot;&gt;
+        Cody Lindley talks about his first e-book published in Syncfusion&#39;s &lt;i&gt;Succinctly&lt;/i&gt; series—&lt;i&gt;jQuery Succinctly&lt;/i&gt;. Cody explains how the book originated as a personal reference, but soon became a valued resource for developers using jQuery or wanting to become more familiar with it.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+&lt;/div&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Zoran Maksimovic</title>
+   <link href="http://pbdesk.io/people/Zoran-Maksimovic"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Zoran-Maksimovic</id>
+   <content type="html">&lt;div&gt;Zoran Maksimovic&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Xavier Morera</title>
+   <link href="http://pbdesk.io/people/Xavier-Morera"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Xavier-Morera</id>
+   <content type="html">&lt;div&gt;Xavier Morera&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Ugo Lattanzi</title>
+   <link href="http://pbdesk.io/people/Ugo-Lattanzi"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Ugo-Lattanzi</id>
+   <content type="html">&lt;div&gt;Ugo Lattanzi&lt;/div&gt;
+
+
+</content>
+ </entry>
  
  <entry>
    <title>Tim Heuer</title>
@@ -30,6 +121,43 @@
    <id>http://pbdesk.io/people/Tim-Elhajj</id>
    <content type="html">&lt;div&gt;Tim Elhajj&lt;/div&gt;
 
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Objective-C Succinctly</title>
+   <link href="http://pbdesk.io/ebooks/Succinctly-Objective-C"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/ebooks/Succinctly-Objective-C</id>
+   <content type="html">&lt;div class=&quot;download-info&quot;&gt;
+
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;h3 class=&quot;heading&quot;&gt;
+      Objective-C Succinctly
+    &lt;/h3&gt;
+    &lt;div class=&quot;content-small description&quot;&gt;
+      &lt;p&gt;&lt;i&gt;Objective-C Succinctly&lt;/i&gt; is the only book you need for getting started with Objective-C—the primary language beneath all Mac, iPad, and iPhone apps. Written by Ryan Hodson, the author behind our popular &lt;i&gt;Knockout.js Succinctly&lt;/i&gt; and &lt;i&gt;PDF Succinctly&lt;/i&gt; titles, this e-book guides you from downloading Xcode, Apple&#39;s Objective-C IDE, to utilizing advanced features like blocks (similar to C#&#39;s lambdas) and protocols. Along the way, you&#39;ll learn how the familiar aspects of object-oriented programming, such as interfaces, classes, methods, etc., are used in Objective-C, giving you the ability to leverage your existing knowledge with the tools presented in the book.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;h3 class=&quot;heading&quot;&gt;Table of Contents &lt;/h3&gt;
+    &lt;ol class=&quot;table-content&quot;&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Hello, Objective-C&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Data Types&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Properties&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Memory Management&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Methods&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Categories and Extensions&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Protocols&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Exceptions and Errors&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Blocks&lt;/li&gt;
+    &lt;/ol&gt;
+
+
+  &lt;/div&gt;
+
+&lt;/div&gt;
 
 </content>
  </entry>
@@ -68,11 +196,33 @@
  </entry>
  
  <entry>
+   <title>Stephen Haunts</title>
+   <link href="http://pbdesk.io/people/Stephen-Haunts"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Stephen-Haunts</id>
+   <content type="html">&lt;div&gt;Stephen Haunts&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
    <title>Stacia Misner</title>
    <link href="http://pbdesk.io/people/Stacia-Misner"/>
    <updated>2015-06-03T00:00:00-04:00</updated>
    <id>http://pbdesk.io/people/Stacia-Misner</id>
    <content type="html">&lt;div&gt;Stacia Misner&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Simone Chiaretta</title>
+   <link href="http://pbdesk.io/people/Simone-Chiaretta"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Simone-Chiaretta</id>
+   <content type="html">&lt;div&gt;Simone Chiaretta&lt;/div&gt;
 
 
 </content>
@@ -123,6 +273,17 @@
  </entry>
  
  <entry>
+   <title>Rui Machado</title>
+   <link href="http://pbdesk.io/people/Rui-Machado"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Rui-Machado</id>
+   <content type="html">&lt;div&gt;Rui Machado&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
    <title>Robert Pickering</title>
    <link href="http://pbdesk.io/people/Robert-Pickering"/>
    <updated>2015-06-03T00:00:00-04:00</updated>
@@ -139,6 +300,17 @@
    <updated>2015-06-03T00:00:00-04:00</updated>
    <id>http://pbdesk.io/people/Robert-Horvick</id>
    <content type="html">&lt;div&gt;Robert Horvick&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Ricardo Peres</title>
+   <link href="http://pbdesk.io/people/Ricardo-Peres"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Ricardo-Peres</id>
+   <content type="html">&lt;div&gt;Ricardo Peres&lt;/div&gt;
 
 
 </content>
@@ -222,11 +394,33 @@
  </entry>
  
  <entry>
+   <title>Parikshit Savjani</title>
+   <link href="http://pbdesk.io/people/Parikshit-Savjani"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Parikshit-Savjani</id>
+   <content type="html">&lt;div&gt;Parikshit Savjani&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
    <title>Pablo M Cibraro</title>
    <link href="http://pbdesk.io/people/Pablo-M-Cibraro"/>
    <updated>2015-06-03T00:00:00-04:00</updated>
    <id>http://pbdesk.io/people/Pablo-M-Cibraro</id>
    <content type="html">&lt;div&gt;Pablo M Cibraro&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Nick Harrison</title>
+   <link href="http://pbdesk.io/people/Nick-Harrison"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Nick-Harrison</id>
+   <content type="html">&lt;div&gt;Nick Harrison&lt;/div&gt;
 
 
 </content>
@@ -277,6 +471,17 @@
  </entry>
  
  <entry>
+   <title>Marko Švaljek</title>
+   <link href="http://pbdesk.io/people/Marko-S%CC%8Cvaljek"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Marko-Švaljek</id>
+   <content type="html">&lt;div&gt;Marko Švaljek&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
    <title>Marc Clifton</title>
    <link href="http://pbdesk.io/people/Marc-Clifton"/>
    <updated>2015-06-03T00:00:00-04:00</updated>
@@ -304,6 +509,51 @@
    <updated>2015-06-03T00:00:00-04:00</updated>
    <id>http://pbdesk.io/people/Linda-McCarthy</id>
    <content type="html">&lt;div&gt;Linda McCarthy&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>LINQ Succinctly</title>
+   <link href="http://pbdesk.io/ebooks/LINQ-Succinctly"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/ebooks/LINQ-Succinctly</id>
+   <content type="html">&lt;div class=&quot;download-info&quot;&gt;
+
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;h3 class=&quot;heading&quot;&gt;
+      LINQ Succinctly
+    &lt;/h3&gt;
+    &lt;div class=&quot;content-small description&quot;&gt;
+      &lt;p&gt;
+        Learn to use LINQ to simplify the process of coding and querying in C#. &lt;i&gt;LINQ Succinctly&lt;/i&gt; will guide you through the process, from conceptual understanding to practical implementation. With the help of author Jason Roberts, you will be streamlining your coding and querying practices in no time.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;h3 class=&quot;heading&quot;&gt;Table of Contents &lt;/h3&gt;
+    &lt;ol class=&quot;table-content&quot;&gt;
+      &lt;li class=&quot;content-small&quot;&gt;LINQ Fundamentals&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Fluent and Query Expression Styles&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;LINQ Query Operators&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;LINQ to XML&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Interpreted Queries&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Parallel LINQ&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;LINQ Tools and Resources&lt;/li&gt;
+    &lt;/ol&gt;
+
+
+  &lt;/div&gt;
+
+&lt;/div&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Kyle Burns</title>
+   <link href="http://pbdesk.io/people/Kyle-Burns"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Kyle-Burns</id>
+   <content type="html">&lt;div&gt;Kyle Burns&lt;/div&gt;
 
 
 </content>
@@ -359,6 +609,17 @@
    <updated>2015-06-03T00:00:00-04:00</updated>
    <id>http://pbdesk.io/people/Jose-M-Aguilar</id>
    <content type="html">&lt;div&gt;Jose M Aguilar&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Jonas Gauffin</title>
+   <link href="http://pbdesk.io/people/Jonas-Gauffin"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Jonas-Gauffin</id>
+   <content type="html">&lt;div&gt;Jonas Gauffin&lt;/div&gt;
 
 
 </content>
@@ -464,6 +725,17 @@
  </entry>
  
  <entry>
+   <title>Jason Roberts</title>
+   <link href="http://pbdesk.io/people/Jason-Roberts"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Jason-Roberts</id>
+   <content type="html">&lt;div&gt;Jason Roberts&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
    <title>Jan Van der Haegen</title>
    <link href="http://pbdesk.io/people/Jan-Van-der-Haegen"/>
    <updated>2015-06-03T00:00:00-04:00</updated>
@@ -480,6 +752,28 @@
    <updated>2015-06-03T00:00:00-04:00</updated>
    <id>http://pbdesk.io/people/James-Tupper</id>
    <content type="html">&lt;div&gt;James Tupper&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>James McCaffrey</title>
+   <link href="http://pbdesk.io/people/James-McCaffrey"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/James-McCaffrey</id>
+   <content type="html">&lt;div&gt;James McCaffrey&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>James Beresford</title>
+   <link href="http://pbdesk.io/people/James-Beresford"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/James-Beresford</id>
+   <content type="html">&lt;div&gt;James Beresford&lt;/div&gt;
 
 
 </content>
@@ -508,6 +802,53 @@
  </entry>
  
  <entry>
+   <title>Git Succinctly</title>
+   <link href="http://pbdesk.io/ebooks/Git-Succinctly"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/ebooks/Git-Succinctly</id>
+   <content type="html">&lt;div class=&quot;download-info&quot;&gt;
+
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;h3 class=&quot;heading&quot;&gt;
+      Accounting Succinctly
+    &lt;/h3&gt;
+    &lt;div class=&quot;content-small description&quot;&gt;
+      &lt;p&gt;&lt;i&gt;Accounting Succinctly&lt;/i&gt; by Joe Booth is a developer’s guide to basic accounting. Written with business app development in mind, Booth discusses some of the most common accounting processes, including assets, multiple accounts, journaling, posting, inventory, and payroll. An appendix includes SQL code examples to get you started with several basic accounting transactions.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;h3 class=&quot;heading&quot;&gt;Table of Contents &lt;/h3&gt;
+    &lt;ol class=&quot;table-content&quot;&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Accounting Succinctly&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Revenues and Expenses&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Revenue Recognition&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Organizing the Accounts&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Accounting Principles&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Accounting System Reporting&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Fixed Assets&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Accounts Receivable&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Accounts Payable&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Inventory&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Payroll&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Summary&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Appendix&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Giancarlo Lelli</title>
+   <link href="http://pbdesk.io/people/Giancarlo-Lelli"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Giancarlo-Lelli</id>
+   <content type="html">&lt;div&gt;Giancarlo Lelli&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
    <title>Frederik Dietz</title>
    <link href="http://pbdesk.io/people/Frederik-Dietz"/>
    <updated>2015-06-03T00:00:00-04:00</updated>
@@ -524,6 +865,28 @@
    <updated>2015-06-03T00:00:00-04:00</updated>
    <id>http://pbdesk.io/people/Filip-Wojcieszyn</id>
    <content type="html">&lt;div&gt;Filip Wojcieszyn&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Fabio Franzini</title>
+   <link href="http://pbdesk.io/people/Fabio-Franzini"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Fabio-Franzini</id>
+   <content type="html">&lt;div&gt;Fabio Franzini&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Eric Stitt</title>
+   <link href="http://pbdesk.io/people/Eric-Stitt"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Eric-Stitt</id>
+   <content type="html">&lt;div&gt;Eric Stitt&lt;/div&gt;
 
 
 </content>
@@ -557,6 +920,28 @@
    <updated>2015-06-03T00:00:00-04:00</updated>
    <id>http://pbdesk.io/people/Edward-Charbeneau</id>
    <content type="html">&lt;div&gt;Edward Charbeneau&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Dmitri Nesteruk</title>
+   <link href="http://pbdesk.io/people/Dmitri-Nesteruk"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Dmitri-Nesteruk</id>
+   <content type="html">&lt;div&gt;Dmitri Nesteruk&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Derek Jensen</title>
+   <link href="http://pbdesk.io/people/Derek-Jensen"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Derek-Jensen</id>
+   <content type="html">&lt;div&gt;Derek Jensen&lt;/div&gt;
 
 
 </content>
@@ -640,6 +1025,56 @@
  </entry>
  
  <entry>
+   <title>Charles Zaiontz</title>
+   <link href="http://pbdesk.io/people/Charles-Zaiontz"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Charles-Zaiontz</id>
+   <content type="html">&lt;div&gt;Charles Zaiontz&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CSS3 Succinctly</title>
+   <link href="http://pbdesk.io/ebooks/CSS3-Succinctly"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/ebooks/CSS3-Succinctly</id>
+   <content type="html">&lt;div class=&quot;download-info&quot;&gt;
+
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;h3 class=&quot;heading&quot;&gt;
+      CSS3 Succinctly
+    &lt;/h3&gt;
+    &lt;div class=&quot;content-small description&quot;&gt;
+      &lt;p&gt;
+        In &lt;i&gt;CSS3 Succinctly&lt;/i&gt;, author Peter Shaw provides an overview of the latest features available for custom cascading style sheets. You’ll learn to style several components of an HTML document, including color, size, layout, font, position, and more. Basic content generation, gradients, and calculations are also covered.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;h3 class=&quot;heading&quot;&gt;Table of Contents &lt;/h3&gt;
+    &lt;ol class=&quot;table-content&quot;&gt;
+      &lt;li class=&quot;content-small&quot;&gt;What is CSS3?&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Basic CSS Refresher&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;New Selectors&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;New Pseudo Selectors&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Eye Candy&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Color&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Web Fonts&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Generated Content and Calculations&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;The Mixed Bag of Tricks&lt;/li&gt;
+    &lt;/ol&gt;
+
+
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
    <title>Buddy James</title>
    <link href="http://pbdesk.io/people/Buddy-James"/>
    <updated>2015-06-03T00:00:00-04:00</updated>
@@ -684,6 +1119,17 @@
  </entry>
  
  <entry>
+   <title>Barton Poulson</title>
+   <link href="http://pbdesk.io/people/Barton-Poulson"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Barton-Poulson</id>
+   <content type="html">&lt;div&gt;Barton Poulson&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
    <title>Bart De Smet</title>
    <link href="http://pbdesk.io/people/Bart-De-Smet"/>
    <updated>2015-06-03T00:00:00-04:00</updated>
@@ -692,6 +1138,43 @@
 
 
 </content>
+ </entry>
+ 
+ <entry>
+   <title>Apache Solr Succinctly</title>
+   <link href="http://pbdesk.io/ebooks/Apache-Solr-Succinctly"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/ebooks/Apache-Solr-Succinctly</id>
+   <content type="html">&lt;div class=&quot;download-info&quot;&gt;
+
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;h3 class=&quot;heading&quot;&gt;
+      Apache Solr Succinctly
+    &lt;/h3&gt;
+    &lt;div class=&quot;content-small description&quot;&gt;
+      &lt;p&gt;
+        Search is everywhere, yet it is one of the most misunderstood functionalities of the IT industry. In &lt;i&gt;Apache Solr Succinctly&lt;/i&gt;, author Xavier Morera guides you through the basics of this highly popular enterprise search tool. You’ll learn how to set up an index and how to make it searchable, then query it with a simple enterprise search. Explanations for precision and recall are also included to help you ensure that relevant, accurate results have been returned. Custom UIs using Solritas and SolrNet are also covered.
+
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;h3 class=&quot;heading&quot;&gt;Table of Contents &lt;/h3&gt;
+    &lt;ol class=&quot;table-content&quot;&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Why Solr and Enterprise Search?&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Architecture of an Enterprise Search Application&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Solr Configuration&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Your First Index&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Schema.xml: The Content&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Indexing&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;SolrConfig.xml &lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Searching and Relevance&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Add a UI&lt;/li&gt;
+    &lt;/ol&gt;
+
+
+  &lt;/div&gt;
+
+&lt;/div&gt;</content>
  </entry>
  
  <entry>
@@ -758,6 +1241,45 @@
 
 
 </content>
+ </entry>
+ 
+ <entry>
+   <title>Accounting Succinctly</title>
+   <link href="http://pbdesk.io/ebooks/Accounting-Succinctly"/>
+   <updated>2015-06-03T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/ebooks/Accounting-Succinctly</id>
+   <content type="html">&lt;div class=&quot;download-info&quot;&gt;
+
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;h3 class=&quot;heading&quot;&gt;
+      Accounting Succinctly
+    &lt;/h3&gt;
+    &lt;div class=&quot;content-small description&quot;&gt;
+      &lt;p&gt;&lt;i&gt;Accounting Succinctly&lt;/i&gt; by Joe Booth is a developer’s guide to basic accounting. Written with business app development in mind, Booth discusses some of the most common accounting processes, including assets, multiple accounts, journaling, posting, inventory, and payroll. An appendix includes SQL code examples to get you started with several basic accounting transactions.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;h3 class=&quot;heading&quot;&gt;Table of Contents &lt;/h3&gt;
+    &lt;ol class=&quot;table-content&quot;&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Accounting Succinctly&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Revenues and Expenses&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Revenue Recognition&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Organizing the Accounts&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Accounting Principles&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Accounting System Reporting&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Fixed Assets&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Accounts Receivable&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Accounts Payable&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Inventory&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Payroll&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Summary&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Appendix&lt;/li&gt;
+    &lt;/ol&gt;
+
+
+  &lt;/div&gt;
+
+&lt;/div&gt;</content>
  </entry>
  
  <entry>
@@ -1185,99 +1707,6 @@ print_hi(&amp;#39;Tom&amp;#39;)
    <content type="html">&lt;p&gt;Node.JS is getting very popular now a days and i have also started enjoying this new breeze.&lt;/p&gt;
 &lt;p&gt;Here are my recent tweets regarding NodeJS.&lt;/p&gt;
 &lt;a class=&quot;twitter-timeline&quot; href=&quot;https://twitter.com/search?q=%23NodeJS%20from%3APBDesk&quot; data-widget-id=&quot;594221529363263488&quot;&gt;Tweets about #NodeJS from:PBDesk&lt;/a&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Objective-C Succinctly</title>
-   <link href="http://pbdesk.io/ebooks/programming/Succinctly-Objective-C"/>
-   <updated>2014-03-03T00:00:00-05:00</updated>
-   <id>http://pbdesk.io/ebooks/programming/Succinctly-Objective-C</id>
-   <content type="html">&lt;p&gt;&lt;em&gt;Objective-C Succinctly&lt;/em&gt; is the only book you need for getting started with Objective-C—the primary language beneath all Mac, iPad, and iPhone apps. Written by Ryan Hodson, the author behind our popular Knockout.js Succinctly and PDF Succinctly titles, this e-book guides you from downloading Xcode, Apple&#39;s Objective-C IDE, to utilizing advanced features like blocks (similar to C#&#39;s lambdas) and protocols. Along the way, you&#39;ll learn how the familiar aspects of object-oriented programming, such as interfaces, classes, methods, etc., are used in Objective-C, giving you the ability to leverage your existing knowledge with the tools presented in the book.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;Table of Contents&lt;/b&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Hello, Objective-C&lt;/li&gt;
-  &lt;li&gt;Data Types&lt;/li&gt;
-  &lt;li&gt;Properties&lt;/li&gt;
-  &lt;li&gt;Memory Management
-  &lt;li&gt;Methods&lt;/li&gt;
-  &lt;li&gt;Categories and Extensions&lt;/li&gt;
-  &lt;li&gt;Protocols&lt;/li&gt;
-  &lt;li&gt;Exceptions and Errors&lt;/li&gt;
-  &lt;li&gt;Blocks&lt;/li&gt;
-&lt;/ul&gt;
-
-
-</content>
- </entry>
- 
- <entry>
-   <title>Test Book</title>
-   <link href="http://pbdesk.io/ebooks/test-book"/>
-   <updated>2014-03-02T00:00:00-05:00</updated>
-   <id>http://pbdesk.io/ebooks/test-book</id>
-   <content type="html">&lt;div&gt;Test Book&lt;/div&gt;</content>
- </entry>
- 
- <entry>
-   <title>Introducing Poole</title>
-   <link href="http://pbdesk.io/ebooks/jekyll/poole/introducing-poole"/>
-   <updated>2014-03-02T00:00:00-05:00</updated>
-   <id>http://pbdesk.io/ebooks/jekyll/poole/introducing-poole</id>
-   <content type="html">&lt;p&gt;&lt;em&gt;The Strange Case of Dr. Jeykll and Mr. Hyde&lt;/em&gt; tells the story of a lawyer
-investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward
-Hyde. Chief among the novel&amp;rsquo;s supporting cast is a man by the name of Mr. Poole,
-Dr. Jekyll&amp;rsquo;s loyal butler.&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;Poole is the butler for &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, the static site
-generator. It&amp;rsquo;s designed and developed by &lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt; to
-provide a clear and concise foundational setup for any Jekyll site. It does so
-by furnishing a full vanilla Jekyll install with example templates, pages,
-posts, and styles.&lt;/p&gt;
-
-&lt;p&gt;There are currently two themes built on Poole:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://hyde.getpoole.com&quot;&gt;Hyde&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://lanyon.getpoole.com&quot;&gt;Lanyon&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Learn more and contribute on &lt;a href=&quot;https://github.com/poole&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;What&amp;rsquo;s included&lt;/h3&gt;
-
-&lt;p&gt;Poole is a streamlined Jekyll site designed and built as a foundation for
-building more meaningful themes. Poole, and every theme built on it, includes
-the following:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Complete Jekyll setup included (layouts, config, &lt;a href=&quot;/404&quot;&gt;404&lt;/a&gt;, &lt;a href=&quot;/atom.xml&quot;&gt;RSS
-feed&lt;/a&gt;, posts, and &lt;a href=&quot;/about&quot;&gt;example page&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Mobile friendly design and development&lt;/li&gt;
-&lt;li&gt;Easily scalable text and component sizing with &lt;code&gt;rem&lt;/code&gt; units in the CSS&lt;/li&gt;
-&lt;li&gt;Support for a wide gamut of HTML elements&lt;/li&gt;
-&lt;li&gt;Related posts (time-based, because Jekyll) below each post&lt;/li&gt;
-&lt;li&gt;Syntax highlighting, courtesy Pygments (the Python-based code snippet
-highlighter)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Additional features are available in individual themes.&lt;/p&gt;
-
-&lt;h3&gt;Browser support&lt;/h3&gt;
-
-&lt;p&gt;Poole and it&amp;rsquo;s themes are by preference a forward-thinking project. In addition
-to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it
-is only compatible with Internet Explorer 9 and above.&lt;/p&gt;
-
-&lt;h3&gt;Download&lt;/h3&gt;
-
-&lt;p&gt;Poole is developed on and hosted with GitHub. Head to the &lt;a
-href=&quot;https://github.com/poole/poole&quot;&gt;GitHub repository&lt;/a&gt; for downloads, bug
-reports, and features requests.&lt;/p&gt;
-
-&lt;p&gt;Thanks!&lt;/p&gt;
 </content>
  </entry>
  

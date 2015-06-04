@@ -5,9 +5,78 @@
     <description>Learning endeavor for ever...from the desk of Pinal Bhatt | blog.PBDesk.io</description>
     <link>http://pbdesk.io/</link>
     <atom:link href="http://pbdesk.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 03 Jun 2015 16:11:11 -0400</pubDate>
-    <lastBuildDate>Wed, 03 Jun 2015 16:11:11 -0400</lastBuildDate>
+    <pubDate>Wed, 03 Jun 2015 22:41:56 -0400</pubDate>
+    <lastBuildDate>Wed, 03 Jun 2015 22:41:56 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>jQuery Succinctly</title>
+        <description>jQuery Succinctly jQuery Succinctly was written to express, in short-order, the concepts essential to intermediate and advanced jQuery development. Its purpose is to instill in you, the reader, practices that...</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/ebooks/jQuery-Succinctly</link>
+        <guid isPermaLink="true">http://pbdesk.io/ebooks/jQuery-Succinctly</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>eBook</category>
+        
+        <category>Succinctly</category>
+        
+        
+        <category>ebooks</category>
+        
+      </item>
+    
+      <item>
+        <title>Zoran Maksimovic</title>
+        <description>Zoran Maksimovic
+
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/Zoran-Maksimovic</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/Zoran-Maksimovic</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
+        <title>Xavier Morera</title>
+        <description>Xavier Morera
+
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/Xavier-Morera</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/Xavier-Morera</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
+        <title>Ugo Lattanzi</title>
+        <description>Ugo Lattanzi
+
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/Ugo-Lattanzi</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/Ugo-Lattanzi</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
     
       <item>
         <title>Tim Heuer</title>
@@ -40,6 +109,26 @@
         
         
         <category>people</category>
+        
+      </item>
+    
+      <item>
+        <title>Objective-C Succinctly</title>
+        <description>Objective-C Succinctly Objective-C Succinctly is the only book you need for getting started with Objective-C—the primary language beneath all Mac, iPad, and iPhone apps. Written by Ryan Hodson, the author...</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/ebooks/Succinctly-Objective-C</link>
+        <guid isPermaLink="true">http://pbdesk.io/ebooks/Succinctly-Objective-C</guid>
+        
+        <category>eBook</category>
+        
+        <category>Succinctly</category>
+        
+        <category>Objective-c</category>
+        
+        <category>Programming</category>
+        
+        
+        <category>ebooks</category>
         
       </item>
     
@@ -95,6 +184,23 @@
       </item>
     
       <item>
+        <title>Stephen Haunts</title>
+        <description>Stephen Haunts
+
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/Stephen-Haunts</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/Stephen-Haunts</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
         <title>Stacia Misner</title>
         <description>Stacia Misner
 
@@ -103,6 +209,23 @@
         <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
         <link>http://pbdesk.io/people/Stacia-Misner</link>
         <guid isPermaLink="true">http://pbdesk.io/people/Stacia-Misner</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
+        <title>Simone Chiaretta</title>
+        <description>Simone Chiaretta
+
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/Simone-Chiaretta</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/Simone-Chiaretta</guid>
         
         <category>people</category>
         
@@ -180,6 +303,23 @@
       </item>
     
       <item>
+        <title>Rui Machado</title>
+        <description>Rui Machado
+
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/Rui-Machado</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/Rui-Machado</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
         <title>Robert Pickering</title>
         <description>Robert Pickering
 
@@ -205,6 +345,23 @@
         <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
         <link>http://pbdesk.io/people/Robert-Horvick</link>
         <guid isPermaLink="true">http://pbdesk.io/people/Robert-Horvick</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
+        <title>Ricardo Peres</title>
+        <description>Ricardo Peres
+
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/Ricardo-Peres</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/Ricardo-Peres</guid>
         
         <category>people</category>
         
@@ -333,6 +490,23 @@
       </item>
     
       <item>
+        <title>Parikshit Savjani</title>
+        <description>Parikshit Savjani
+
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/Parikshit-Savjani</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/Parikshit-Savjani</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
         <title>Pablo M Cibraro</title>
         <description>Pablo M Cibraro
 
@@ -341,6 +515,23 @@
         <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
         <link>http://pbdesk.io/people/Pablo-M-Cibraro</link>
         <guid isPermaLink="true">http://pbdesk.io/people/Pablo-M-Cibraro</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
+        <title>Nick Harrison</title>
+        <description>Nick Harrison
+
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/Nick-Harrison</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/Nick-Harrison</guid>
         
         <category>people</category>
         
@@ -418,6 +609,23 @@
       </item>
     
       <item>
+        <title>Marko Švaljek</title>
+        <description>Marko Švaljek
+
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/Marko-S%CC%8Cvaljek</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/Marko-S%CC%8Cvaljek</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
         <title>Marc Clifton</title>
         <description>Marc Clifton
 
@@ -460,6 +668,43 @@
         <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
         <link>http://pbdesk.io/people/Linda-McCarthy</link>
         <guid isPermaLink="true">http://pbdesk.io/people/Linda-McCarthy</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
+        <title>LINQ Succinctly</title>
+        <description>LINQ Succinctly Learn to use LINQ to simplify the process of coding and querying in C#. LINQ Succinctly will guide you through the process, from conceptual understanding to practical implementation....</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/ebooks/LINQ-Succinctly</link>
+        <guid isPermaLink="true">http://pbdesk.io/ebooks/LINQ-Succinctly</guid>
+        
+        <category>eBook</category>
+        
+        <category>Succinctly</category>
+        
+        <category>Programming</category>
+        
+        <category>CSharp</category>
+        
+        
+        <category>ebooks</category>
+        
+      </item>
+    
+      <item>
+        <title>Kyle Burns</title>
+        <description>Kyle Burns
+
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/Kyle-Burns</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/Kyle-Burns</guid>
         
         <category>people</category>
         
@@ -545,6 +790,23 @@
         <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
         <link>http://pbdesk.io/people/Jose-M-Aguilar</link>
         <guid isPermaLink="true">http://pbdesk.io/people/Jose-M-Aguilar</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
+        <title>Jonas Gauffin</title>
+        <description>Jonas Gauffin
+
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/Jonas-Gauffin</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/Jonas-Gauffin</guid>
         
         <category>people</category>
         
@@ -707,6 +969,23 @@
       </item>
     
       <item>
+        <title>Jason Roberts</title>
+        <description>Jason Roberts
+
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/Jason-Roberts</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/Jason-Roberts</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
         <title>Jan Van der Haegen</title>
         <description>Jan Van der Haegen
 
@@ -732,6 +1011,40 @@
         <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
         <link>http://pbdesk.io/people/James-Tupper</link>
         <guid isPermaLink="true">http://pbdesk.io/people/James-Tupper</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
+        <title>James McCaffrey</title>
+        <description>James McCaffrey
+
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/James-McCaffrey</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/James-McCaffrey</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
+        <title>James Beresford</title>
+        <description>James Beresford
+
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/James-Beresford</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/James-Beresford</guid>
         
         <category>people</category>
         
@@ -775,6 +1088,41 @@
       </item>
     
       <item>
+        <title>Git Succinctly</title>
+        <description>Accounting Succinctly Accounting Succinctly by Joe Booth is a developer’s guide to basic accounting. Written with business app development in mind, Booth discusses some of the most common accounting processes,...</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/ebooks/Git-Succinctly</link>
+        <guid isPermaLink="true">http://pbdesk.io/ebooks/Git-Succinctly</guid>
+        
+        <category>eBook</category>
+        
+        <category>Succinctly</category>
+        
+        <category>git</category>
+        
+        
+        <category>ebooks</category>
+        
+      </item>
+    
+      <item>
+        <title>Giancarlo Lelli</title>
+        <description>Giancarlo Lelli
+
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/Giancarlo-Lelli</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/Giancarlo-Lelli</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
         <title>Frederik Dietz</title>
         <description>Frederik Dietz
 
@@ -800,6 +1148,40 @@
         <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
         <link>http://pbdesk.io/people/Filip-Wojcieszyn</link>
         <guid isPermaLink="true">http://pbdesk.io/people/Filip-Wojcieszyn</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
+        <title>Fabio Franzini</title>
+        <description>Fabio Franzini
+
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/Fabio-Franzini</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/Fabio-Franzini</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
+        <title>Eric Stitt</title>
+        <description>Eric Stitt
+
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/Eric-Stitt</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/Eric-Stitt</guid>
         
         <category>people</category>
         
@@ -851,6 +1233,40 @@
         <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
         <link>http://pbdesk.io/people/Edward-Charbeneau</link>
         <guid isPermaLink="true">http://pbdesk.io/people/Edward-Charbeneau</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
+        <title>Dmitri Nesteruk</title>
+        <description>Dmitri Nesteruk
+
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/Dmitri-Nesteruk</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/Dmitri-Nesteruk</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
+        <title>Derek Jensen</title>
+        <description>Derek Jensen
+
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/Derek-Jensen</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/Derek-Jensen</guid>
         
         <category>people</category>
         
@@ -979,6 +1395,43 @@
       </item>
     
       <item>
+        <title>Charles Zaiontz</title>
+        <description>Charles Zaiontz
+
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/Charles-Zaiontz</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/Charles-Zaiontz</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
+        <title>CSS3 Succinctly</title>
+        <description>CSS3 Succinctly In CSS3 Succinctly, author Peter Shaw provides an overview of the latest features available for custom cascading style sheets. You’ll learn to style several components of an HTML...</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/ebooks/CSS3-Succinctly</link>
+        <guid isPermaLink="true">http://pbdesk.io/ebooks/CSS3-Succinctly</guid>
+        
+        <category>CSS3</category>
+        
+        <category>eBook</category>
+        
+        <category>WebDesigning</category>
+        
+        <category>Succinctly</category>
+        
+        
+        <category>ebooks</category>
+        
+      </item>
+    
+      <item>
         <title>Buddy James</title>
         <description>Buddy James
 
@@ -1047,6 +1500,23 @@
       </item>
     
       <item>
+        <title>Barton Poulson</title>
+        <description>Barton Poulson
+
+
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/Barton-Poulson</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/Barton-Poulson</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
         <title>Bart De Smet</title>
         <description>Bart De Smet
 
@@ -1060,6 +1530,22 @@
         
         
         <category>people</category>
+        
+      </item>
+    
+      <item>
+        <title>Apache Solr Succinctly</title>
+        <description>Apache Solr Succinctly Search is everywhere, yet it is one of the most misunderstood functionalities of the IT industry. In Apache Solr Succinctly, author Xavier Morera guides you through the...</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/ebooks/Apache-Solr-Succinctly</link>
+        <guid isPermaLink="true">http://pbdesk.io/ebooks/Apache-Solr-Succinctly</guid>
+        
+        <category>eBook</category>
+        
+        <category>Succinctly</category>
+        
+        
+        <category>ebooks</category>
         
       </item>
     
@@ -1162,6 +1648,22 @@
         
         
         <category>people</category>
+        
+      </item>
+    
+      <item>
+        <title>Accounting Succinctly</title>
+        <description>Accounting Succinctly Accounting Succinctly by Joe Booth is a developer’s guide to basic accounting. Written with business app development in mind, Booth discusses some of the most common accounting processes,...</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/ebooks/Accounting-Succinctly</link>
+        <guid isPermaLink="true">http://pbdesk.io/ebooks/Accounting-Succinctly</guid>
+        
+        <category>eBook</category>
+        
+        <category>Succinctly</category>
+        
+        
+        <category>ebooks</category>
         
       </item>
     
@@ -1373,52 +1875,6 @@ Tweets about #NodeJS from:PBDesk
         
         
         <category>nodejs</category>
-        
-      </item>
-    
-      <item>
-        <title>Objective-C Succinctly</title>
-        <description>Objective-C Succinctly is the only book you need for getting started with Objective-C—the primary language beneath all Mac, iPad, and iPhone apps. Written by Ryan Hodson, the author behind our...</description>
-        <pubDate>Mon, 03 Mar 2014 00:00:00 -0500</pubDate>
-        <link>http://pbdesk.io/ebooks/programming/Succinctly-Objective-C</link>
-        <guid isPermaLink="true">http://pbdesk.io/ebooks/programming/Succinctly-Objective-C</guid>
-        
-        <category>Objective-c</category>
-        
-        <category>eBook</category>
-        
-        
-        <category>ebooks</category>
-        
-        <category>programming</category>
-        
-      </item>
-    
-      <item>
-        <title>Test Book</title>
-        <description>Test Book</description>
-        <pubDate>Sun, 02 Mar 2014 00:00:00 -0500</pubDate>
-        <link>http://pbdesk.io/ebooks/test-book</link>
-        <guid isPermaLink="true">http://pbdesk.io/ebooks/test-book</guid>
-        
-        
-        <category>ebooks</category>
-        
-      </item>
-    
-      <item>
-        <title>Introducing Poole</title>
-        <description>The Strange Case of Dr. Jeykll and Mr. Hyde tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among...</description>
-        <pubDate>Sun, 02 Mar 2014 00:00:00 -0500</pubDate>
-        <link>http://pbdesk.io/ebooks/jekyll/poole/introducing-poole</link>
-        <guid isPermaLink="true">http://pbdesk.io/ebooks/jekyll/poole/introducing-poole</guid>
-        
-        
-        <category>ebooks</category>
-        
-        <category>jekyll</category>
-        
-        <category>poole</category>
         
       </item>
     
