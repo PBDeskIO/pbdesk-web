@@ -31,7 +31,7 @@ layout: default
 
                     <div class="staff">
 
-                        <div class="author"><img src="{{page.image}}" alt="{{page.title}}" /></div>
+                        <div class="author"><img src="{{page.image}}" alt="{{page.title}}" class="img-responsive" /></div>
 
 
                     </div>
@@ -76,7 +76,6 @@ layout: default
 
                         <!-- Small para about staff -->
 
-
                     </div>
                 </div>
             </div>
@@ -93,16 +92,9 @@ layout: default
         {% include social_share.html %}
         {% include disqus.html %}
         {% include responsiveAd.html %}
-        <!-- Navigation links -->
-        <ul class="pager">
-            <li class="previous">
-                <a href="#">&larr; Previous Post</a>
-            </li>
-            <li class="next">
-                <a href="#">New Post &rarr;</a>
-            </li>
-        </ul>
-        {% include relatedPosts.html %}
+
+        {% include relatedEbooks.html %}
+
     </div>
     <!-- Main Content Ends Here -->
 </div>

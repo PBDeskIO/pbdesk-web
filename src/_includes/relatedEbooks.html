@@ -1,18 +1,19 @@
+{% if page.ebooks %}
 <div class="features">
     <div class="default-header">
-        <h2>eBooks</h2>
+        <h2>Related eBooks</h2>
         <hr /><!-- Small border -->
     </div>
     <div class="row">
-        {% for post1 in site.categories.ebooks %}
-            {% for author in post1.authors %}
-                {% if author == page.pageLink %}
+        {% for ebook in site.categories.ebooks %}
+            {% for rEbook in page.ebooks %}
+                {% if rEbook == ebook.pageLink %}
                     <div class="col-md-4 col-sm-4" >
                         <div class="features-item">
-                            <h4><a href="{{post1.url}}">{{post1.title}}</a></h4>
-                            <a href="{{post1.url}}"><img src="{{ post1.image }}" title="{{ post1.title}}" class="img-responsive img-rounded" /></a>
+                            <h4><a href="{{ebook.url}}">{{ebook.title}}</a></h4>
+                            <a href="{{ebook.url}}"><img src="{{ ebook.image }}" title="{{ ebook.title}}" class="img-responsive img-rounded" /></a>
                             <p><i class="fa fa-tags"></i>
-                                {% for tag in post1.tags %}
+                                {% for tag in ebook.tags %}
                                 <span class="label"> <a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a> </span>
                                 {% endfor %}
                             </p>
@@ -23,3 +24,4 @@
         {% endfor %}
     </div>
 </div>
+{% endif %}
