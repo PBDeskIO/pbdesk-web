@@ -10,7 +10,7 @@
                 {% endfor %}
             </span>
         </p>
-        {%if post.image %}
+        {%if post.type == 'eBookPage' %}
         <div class="row">
             <div class="col-md-6 col-sm-6" >
                 <a href="{{post.url}}"><img src="{{ post.image }}" title="{{ post.title}}" class="img-responsive img-rounded" /></a>
