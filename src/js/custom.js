@@ -104,5 +104,8 @@ $(document).ready(function() {
 });
 /* *************************************** */
 $(document).ready(function(){
-
+	var listjsOptions = {
+		valueNames: [ 'listjsTitle' ]
+	};
+	var hackerList = new List('listjs-items', listjsOptions);
 });
