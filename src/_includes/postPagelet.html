@@ -10,7 +10,18 @@
                 {% endfor %}
             </span>
         </p>
-        <p>{{ post.content | strip_html | truncatewords:30}}<a href="{{post.url}}">more</a></p>
+        {%if post.image %}
+        <div class="row">
+            <div class="col-md-6 col-sm-6" >
+                <a href="{{post.url}}"><img src="{{ post.image }}" title="{{ post.title}}" class="img-responsive img-rounded" /></a>
+            </div>
+            <div class="col-md-6 col-sm-6" >
+                <p class="jtxt">{{ post.content | strip_html | truncatewords:30}}<a href="{{post.url}}">more</a></p>
+            </div>
+        </div>
+        {% else %}
+        <p class="jtxt">{{ post.content | strip_html | truncatewords:30}}<a href="{{post.url}}">more</a></p>
+        {% endif %}
         <p><i class="fa fa-tags"></i>
             {% for tag in post.tags %}
             <span class="label"> <a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a> </span>
