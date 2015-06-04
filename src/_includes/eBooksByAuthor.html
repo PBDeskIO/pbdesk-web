@@ -1,0 +1,25 @@
+<div class="features">
+    <div class="default-header">
+        <h2>eBooks</h2>
+        <hr /><!-- Small border -->
+    </div>
+    <div class="row">
+        {% for post1 in site.categories.ebooks %}
+            {% for author in post1.authors %}
+                {% if author == page.pageLink %}
+                    <div class="col-md-6 col-sm-6" >
+                        <div class="features-item">
+                            <h4><a href="{{post1.url}}">{{post1.title}}</a></h4>
+                            <a href="{{post1.url}}"><img src="{{ post1.image }}" title="{{ post1.title}}" /></a>
+                            <p><i class="fa fa-tags"></i>
+                                {% for tag in post1.tags %}
+                                <span class="label"> <a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a> </span>
+                                {% endfor %}
+                            </p>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </div>
+</div>
