@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pinal Bhatt&#39;s Blog</title>
-    <description>Learning endeavor for ever...from the desk of Pinal Bhatt | blog.PBDesk.io</description>
+    <description>Learning endeavor for ever...from the desk of Pinal Bhatt | PBDesk.io</description>
     <link>http://pbdesk.io/</link>
     <atom:link href="http://pbdesk.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Jun 2015 17:10:44 -0400</pubDate>
-    <lastBuildDate>Thu, 04 Jun 2015 17:10:44 -0400</lastBuildDate>
+    <pubDate>Thu, 04 Jun 2015 20:44:44 -0400</pubDate>
+    <lastBuildDate>Thu, 04 Jun 2015 20:44:44 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -1875,6 +1875,20 @@ Tweets about #NodeJS from:PBDesk
         
         
         <category>nodejs</category>
+        
+      </item>
+    
+      <item>
+        <title>Example content</title>
+        <description>Howdy! This is an example blog post that shows several types of HTML content supported in this theme. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus....</description>
+        <pubDate>Sat, 01 Mar 2014 00:00:00 -0500</pubDate>
+        <link>http://pbdesk.io/jekyll/example/2014-03-01-example-content</link>
+        <guid isPermaLink="true">http://pbdesk.io/jekyll/example/2014-03-01-example-content</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>example</category>
         
       </item>
     
