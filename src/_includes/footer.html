@@ -26,8 +26,16 @@
           <div class="widget">
             <h3>Recent Posts</h3>
             <ul>
-                {% for post in site.posts limit:5 %}
-                <li><a href="{{post.url}}">{{ post.title }}</a></li>
+                {% assign loopCounter = 0 %}
+                {% for post in site.posts  %}
+                  {% if loopCounter < 5 %}
+                    {% if post.type == 'post' %}
+                      <li><a href="{{post.url}}">{{ post.title }}</a></li>
+                      {% assign loopCounter = loopCounter | plus: 1 %}
+                    {% endif %}
+                  {% else %}
+                    {% break %}
+                  {% endif %}
                 {% endfor %}
             </ul>
           </div>
@@ -37,11 +45,11 @@
         <div class="padd">
           <div class="widget">
             <h3>My Sites</h3>
-            <ul>
-              <li><a href="/">Blog Home</a></li>
-              <li><a href="/feed.xml">Subscribe RSS</a></li>
-              <li><a href="http://www.pbdesk.io" target="_blank">PBDesk.IO</a></li>
-              <li><a href="/Disclaimer">Disclaimer</a></li>
+            <ul style="list-style: none;">
+              <li><a href="/"><i class="fa fa-home"></i>  Home</a></li>
+              <li><a href="/feed.xml"><i class="fa fa-rss"></i> RSS</a></li>
+              <li><a href="/SiteMap" target="_blank"><i class="fa fa-sitemap"></i> SiteMap</a></li>
+              <li><a href="/Disclaimer"><i class="fa fa-warning"></i> Disclaimer</a></li>
             </ul>
           </div>
         </div>
