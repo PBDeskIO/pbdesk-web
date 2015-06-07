@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://pbdesk.io/</loc>
-    <lastmod>2015-06-04T20:47:39-04:00</lastmod>
+    <lastmod>2015-06-07T11:17:51-04:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -1710,14 +1710,21 @@
   </url>
   
   <url>
-    <loc>http://pbdesk.io/categories/index.html</loc>
+    <loc>http://pbdesk.io/Articles/index.html</loc>
     <lastmod>2015-04-22T02:00:01-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://pbdesk.io/Articles/index.html</loc>
+    <loc>http://pbdesk.io/Disclaimer/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/categories/index.html</loc>
     <lastmod>2015-04-22T02:00:01-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1752,6 +1759,13 @@
   </url>
   
   <url>
+    <loc>http://pbdesk.io/SiteMap/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://pbdesk.io/index.html</loc>
     <lastmod>2015-04-22T02:00:01-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1760,272 +1774,6 @@
   
   <url>
     <loc>http://pbdesk.io/sitemap.xml</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/CSharp/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/TechNews/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/DotNet/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/eBook/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/Windows8/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/jQuery/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/DotNet45/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/SQLite/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/ASP.Net/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/EntityFramework/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/Microsoft/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/MVC/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/VisualStudio/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/WebAPI/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/code%20snippet/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/gist/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/JavaScript/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/AngularJS/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/PBDesk/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/Umbraco/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/NodeJS/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/Express/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/Jade/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/NTVS/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/VS2013/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/Programming/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/CodeSnippet/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/MVC6/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/Jekyll/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/MyProject/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/HTML5/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/Tutorial/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/Succinctly/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/people/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/CSS3/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/WebDesigning/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/git/index.html</loc>
-    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://pbdesk.io/tag/Objective-c/index.html</loc>
     <lastmod>2015-04-22T02:00:01-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -2313,6 +2061,272 @@
   
   <url>
     <loc>http://pbdesk.io/people/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/CSharp/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/TechNews/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/DotNet/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/eBook/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/Windows8/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/jQuery/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/DotNet45/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/SQLite/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/ASP.Net/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/EntityFramework/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/Microsoft/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/MVC/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/VisualStudio/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/WebAPI/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/code%20snippet/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/gist/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/JavaScript/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/AngularJS/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/PBDesk/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/Umbraco/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/NodeJS/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/Express/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/Jade/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/NTVS/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/VS2013/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/Programming/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/CodeSnippet/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/MVC6/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/Jekyll/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/MyProject/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/HTML5/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/Tutorial/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/Succinctly/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/people/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/CSS3/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/WebDesigning/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/git/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://pbdesk.io/tag/Objective-c/index.html</loc>
     <lastmod>2015-04-22T02:00:01-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
