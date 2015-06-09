@@ -5,7 +5,7 @@ description: Learning endeavor for ever...from the desk of Pinal Bhatt | PBDesk.
 tagline: Learning endeavor for ever...
 url: http://pbdesk.io
 pgTitleSufix: Pinal Bhatt's Blog
-metaKeywords: Pinal Bhatt, PBDesk, PBDesk.io,PBDesk.com
+metaKeywords: Pinal Bhatt, PBDesk, PBDesk.io, PBDesk.com
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: src
 destination: serve
