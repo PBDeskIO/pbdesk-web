@@ -6,9 +6,34 @@ pageHeader: "TechNews"
 pageSubHeader: "Science & Technology News Updates"
 activeNav: "sideNavTechNews"
 ---
-<div>Technews/index</div>
-<ul>
-    {% for item in site.data.technews %}
-    <li> <a href="/TechNews/{{item.sanitizedName}}">{{ item.pageHeader }}</a></li>
-    {% endfor %}
-</ul>
+<div class="padd whity content blog">
+    <!-- Main Content Starts Here -->
+    <!-- Content should be encloased inside div with the class "posts" -->
+    <div class="posts">
+        <!-- Breadcrumbs -->
+        <ul class="breadcrumb">
+            <li><a href="/" >Home</a></li>
+        </ul>
+        <!-- Each entry should be enclosed inside div with the class "entry" -->
+        <div class="entry">
+
+            <h2><a href="#">TechNews</a></h2>
+
+            <div class="features">
+                <div class="row">
+                    {% for item in site.data.technews %}
+                    <div class="col-md-6 col-sm-6" >
+                        <div class="features-item">
+                            <h4 class="listjsTitle"><a href="/TechNews/{{item.sanitizedName}}">{{item.pageHeader}}</a></h4>
+                            <p class="jtxt">{{ item.pageSubHeader }}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+
+        </div>
+        {% include social_share.html %}
+</div>
+</div>

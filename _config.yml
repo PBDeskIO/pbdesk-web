@@ -47,7 +47,7 @@ highlighter: true
 
 page_gen:
   - data: 'technews'
-    template: 'page'
+    template: 'technews'
     name: 'pageHeader'
     dir: 'TechNews'
 

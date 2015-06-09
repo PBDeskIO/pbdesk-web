@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<div class="padd whity content blog">
+  <!-- Main Content Starts Here -->
+  <!-- Content should be encloased inside div with the class "posts" -->
+  <div class="posts">
+    <!-- Breadcrumbs -->
+    <ul class="breadcrumb">
+      <li><a href="/" >Home</a></li>
+      <li><a href="/TechNews" >TechNews</a></li>
+    </ul>
+    <!-- Each entry should be enclosed inside div with the class "entry" -->
+    <div class="entry">
+
+      <h2><a href="#">{{page.title}}</a></h2>
+
+      <div class="features">
+        <div class="row">
+          {% for item in site.data.technews %}
+          <div class="col-md-6 col-sm-6" >
+            <div class="features-item">
+              <h4 class="listjsTitle"><a href="/TechNews/{{item.sanitizedName}}">{{item.pageHeader}}</a></h4>
+              <p class="jtxt">{{ item.pageSubHeader }}</p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+
+
+    </div>
+    {% include social_share.html %}
+  </div>
+</div>
