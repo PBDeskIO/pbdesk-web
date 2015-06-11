@@ -1,6 +1,28 @@
 ---
 layout: default
+sections:
+  additionalJS:
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-sanitize.min.js"></script>
+    <script src="/ng/GoogleFeeds/GoogleFeedFetcher.js"></script>
+    <script src="/ng/TechNews/TechNewsApp.js"></script>
+    <script type="text/javascript">
+      google.load("feeds", "1");
+      google.setOnLoadCallback(function () {
+        angular.bootstrap(document.body, ['TechNewsApp']);
+      });
+    </script>
 ---
+<script type="text/javascript">
+  window.TechNewsData = {
+    RssLink: "{{page.RssLink}}",
+    FeedType: "{{page.FeedType}}",
+    ItemCount: "{{page.ItemCount}}"
+  }
+
+</script>
+
 <div class="padd whity content blog">
   <!-- Main Content Starts Here -->
   <!-- Content should be encloased inside div with the class "posts" -->
@@ -15,16 +37,20 @@ layout: default
 
       <h2><a href="#">{{page.title}}</a></h2>
 
-      <div class="features">
+      <div class="features"  ng-controller="TechNewsController as vm">
+        <input type="hidden" ng-model="vm.RssLink" value="{{page.RssLink}}" ng-init="vm.RssLink='{{page.RssLink}}'"/>
         <div class="row">
-          {% for item in site.data.technews %}
-          <div class="col-md-6 col-sm-6" >
+          a= [[ vm.Data.title ]]
+
+
+
+          <div class="col-md-6 col-sm-6" ng-repeat="item in vm.Data.entries" >
             <div class="features-item">
-              <h4 class="listjsTitle"><a href="/TechNews/{{item.sanitizedName}}">{{item.pageHeader}}</a></h4>
-              <p class="jtxt">{{ item.pageSubHeader }}</p>
+              <h4 class="listjsTitle"><a href="/TechNews/{{item.sanitizedName}}">[[item.title]]</a></h4>
+              <p class="jtxt">[[ item.matter ]]</p>
             </div>
           </div>
-          {% endfor %}
+
         </div>
       </div>
 
