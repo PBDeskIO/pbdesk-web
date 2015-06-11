@@ -37,19 +37,36 @@ sections:
 
       <h2><a href="#">{{page.title}}</a></h2>
 
-      <div class="features"  ng-controller="TechNewsController as vm">
-        <input type="hidden" ng-model="vm.RssLink" value="{{page.RssLink}}" ng-init="vm.RssLink='{{page.RssLink}}'"/>
+      <div class="features"  ng-controller="TechNewsController as vm" class="ng-cloak">
+
         <div class="row">
-          a= [[ vm.Data.title ]]
-
-
-
-          <div class="col-md-6 col-sm-6" ng-repeat="item in vm.Data.entries" >
-            <div class="features-item">
-              <h4 class="listjsTitle"><a href="/TechNews/{{item.sanitizedName}}">[[item.title]]</a></h4>
-              <p class="jtxt">[[ item.matter ]]</p>
+          <div class="col-md-8 col-sm-8">
+            <div class="row" ng-repeat="item in vm.Data.entries" >
+              <div class="features-item">
+                <h4 class="listjsTitle"><a href="/TechNews/{{item.sanitizedName}}">[[item.title]]</a></h4>
+                <p class="jtxt">[[ item.matter ]]</p>
+              </div>
             </div>
           </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="features">
+              <div class="row">
+                {% for item in site.data.technews %}
+                <div class="row" >
+                  <div class="features-item">
+                    <h5 class="listjsTitle"><a href="/TechNews/{{item.sanitizedName}}">{{item.pageHeader}}</a></h5>
+
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+
+          </div>
+
+
+
+
 
         </div>
       </div>
