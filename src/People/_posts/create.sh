@@ -1,5 +1,16 @@
 #!/bin/bash
 
+peopleNames=(
+'David Turnbull'
+'David Walsh'
+)
+
+
+if false
+then
+peopleNames=(
+
+)
 
 peopleNames=(
 'Andrea Boschin'
@@ -95,12 +106,6 @@ peopleNames=(
 'Parikshit Savjani'
 'Stacia Misner'
 'Emanuele DelBono'
-)
-
-if false
-then
-peopleNames=(
-
 )
 fi
 
