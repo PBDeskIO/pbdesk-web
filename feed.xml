@@ -5,9 +5,59 @@
     <description>Learning endeavor for ever...from the desk of Pinal Bhatt | PBDesk.io</description>
     <link>http://pbdesk.io/</link>
     <atom:link href="http://pbdesk.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 09 Jun 2015 15:12:40 -0400</pubDate>
-    <lastBuildDate>Tue, 09 Jun 2015 15:12:40 -0400</lastBuildDate>
+    <pubDate>Sun, 14 Jun 2015 14:51:23 -0400</pubDate>
+    <lastBuildDate>Sun, 14 Jun 2015 14:51:23 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Your First Meteor Application</title>
+        <description>Your First Meteor Application A free, online book about the Meteor JavaScript framework that helps beginning web developers build their first real-time web application with Meteor in a matter of...</description>
+        <pubDate>Sun, 14 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/ebooks/Your-First-Meteor-Application</link>
+        <guid isPermaLink="true">http://pbdesk.io/ebooks/Your-First-Meteor-Application</guid>
+        
+        <category>eBook</category>
+        
+        <category>MeteorJS</category>
+        
+        
+        <category>ebooks</category>
+        
+      </item>
+    
+      <item>
+        <title>David Walsh</title>
+        <description>David Walsh
+
+
+</description>
+        <pubDate>Sun, 14 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/David-Walsh</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/David-Walsh</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
+    
+      <item>
+        <title>David Turnbull</title>
+        <description>David Turnbull
+
+
+</description>
+        <pubDate>Sun, 14 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/David-Turnbull</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/David-Turnbull</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
     
       <item>
         <title>Build Your First NodeJS App</title>

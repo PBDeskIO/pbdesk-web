@@ -4,13 +4,70 @@
  <title>Pinal Bhatt's Blog</title>
  <link href="http://pbdesk.io/atom.xml" rel="self"/>
  <link href="http://pbdesk.io/"/>
- <updated>2015-06-09T15:12:40-04:00</updated>
+ <updated>2015-06-14T14:51:23-04:00</updated>
  <id>http://pbdesk.io</id>
  <author>
    <name>Pinal Bhatt</name>
    <email>self@PBDesk.io</email>
  </author>
 
+ 
+ <entry>
+   <title>Your First Meteor Application</title>
+   <link href="http://pbdesk.io/ebooks/Your-First-Meteor-Application"/>
+   <updated>2015-06-14T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/ebooks/Your-First-Meteor-Application</id>
+   <content type="html">&lt;div class=&quot;download-info&quot;&gt;
+
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;h3 class=&quot;heading&quot;&gt;
+      Your First Meteor Application
+    &lt;/h3&gt;
+    &lt;div class=&quot;content-small description&quot;&gt;
+      &lt;p&gt;
+        A free, online book about the Meteor JavaScript framework that helps beginning web developers build their first real-time web application with Meteor in a matter of hours.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+
+
+
+
+    &lt;h3 class=&quot;heading&quot;&gt;Inside, you&#39;ll find: &lt;/h3&gt;
+    &lt;ol class=&quot;table-content&quot;&gt;
+      &lt;li class=&quot;content-small&quot;&gt;24,000+ words, minus the bloat that plagues most technical books.&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Training that&#39;s precisely written for beginning web developers.&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Regular updates as the Meteor framework continues to evolve.&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Practical examples, real-world code samples, and helpful exercises&lt;/li&gt;
+    &lt;/ol&gt;
+
+
+  &lt;/div&gt;
+
+&lt;/div&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>David Walsh</title>
+   <link href="http://pbdesk.io/people/David-Walsh"/>
+   <updated>2015-06-14T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/David-Walsh</id>
+   <content type="html">&lt;div&gt;David Walsh&lt;/div&gt;
+
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>David Turnbull</title>
+   <link href="http://pbdesk.io/people/David-Turnbull"/>
+   <updated>2015-06-14T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/David-Turnbull</id>
+   <content type="html">&lt;div&gt;David Turnbull&lt;/div&gt;
+
+
+</content>
+ </entry>
  
  <entry>
    <title>Build Your First NodeJS App</title>
