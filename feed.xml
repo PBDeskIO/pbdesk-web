@@ -5,9 +5,65 @@
     <description>Learning endeavor for ever...from the desk of Pinal Bhatt | PBDesk.io</description>
     <link>http://pbdesk.io/</link>
     <atom:link href="http://pbdesk.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 14 Jun 2015 14:51:23 -0400</pubDate>
-    <lastBuildDate>Sun, 14 Jun 2015 14:51:23 -0400</lastBuildDate>
+    <pubDate>Fri, 19 Jun 2015 10:00:11 -0400</pubDate>
+    <lastBuildDate>Fri, 19 Jun 2015 10:00:11 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>OWIN Succinctly</title>
+        <description>OWIN Succinctly The Open Web Server Interface for .NET specification, or OWIN, defines a standard interface for web servers and .NET client applications to interact that frees your code from...</description>
+        <pubDate>Fri, 19 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/ebooks/OWIN-Succinctly</link>
+        <guid isPermaLink="true">http://pbdesk.io/ebooks/OWIN-Succinctly</guid>
+        
+        <category>OWIN</category>
+        
+        <category>eBook</category>
+        
+        <category>DOTNET</category>
+        
+        <category>Succinctly</category>
+        
+        
+        <category>ebooks</category>
+        
+      </item>
+    
+      <item>
+        <title>Message Queuing with RabbitMQ Succinctly</title>
+        <description>Message Queuing with RabbitMQ Succinctly An introduction to the RabbitMQ integration platform with an emphasis on C# and .NET development. Author Stephen Haunts introduces the powerful message broker and queuing...</description>
+        <pubDate>Fri, 19 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/ebooks/Message-Queuing-with-RabbitMQ-Succinctly</link>
+        <guid isPermaLink="true">http://pbdesk.io/ebooks/Message-Queuing-with-RabbitMQ-Succinctly</guid>
+        
+        <category>eBook</category>
+        
+        <category>Succinctly</category>
+        
+        
+        <category>ebooks</category>
+        
+      </item>
+    
+      <item>
+        <title>ASP.NET MVC Succinctly</title>
+        <description>ASP.NET MVC Succinctly ASP.NET MVC is a framework from Microsoft for building web apps. It follows the Model View Controller design pattern to keep the data, views, and logic clearly...</description>
+        <pubDate>Fri, 19 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/ebooks/ASPNET-MVC-Succinctly</link>
+        <guid isPermaLink="true">http://pbdesk.io/ebooks/ASPNET-MVC-Succinctly</guid>
+        
+        <category>AspNet</category>
+        
+        <category>eBook</category>
+        
+        <category>MVC</category>
+        
+        <category>Succinctly</category>
+        
+        
+        <category>ebooks</category>
+        
+      </item>
     
       <item>
         <title>Your First Meteor Application</title>

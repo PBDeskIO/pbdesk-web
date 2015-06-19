@@ -4,13 +4,117 @@
  <title>Pinal Bhatt's Blog</title>
  <link href="http://pbdesk.io/atom.xml" rel="self"/>
  <link href="http://pbdesk.io/"/>
- <updated>2015-06-14T14:51:23-04:00</updated>
+ <updated>2015-06-19T10:00:11-04:00</updated>
  <id>http://pbdesk.io</id>
  <author>
    <name>Pinal Bhatt</name>
    <email>self@PBDesk.io</email>
  </author>
 
+ 
+ <entry>
+   <title>OWIN Succinctly</title>
+   <link href="http://pbdesk.io/ebooks/OWIN-Succinctly"/>
+   <updated>2015-06-19T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/ebooks/OWIN-Succinctly</id>
+   <content type="html">&lt;div class=&quot;download-info&quot;&gt;
+
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;h3 class=&quot;heading&quot;&gt;
+      OWIN Succinctly
+    &lt;/h3&gt;
+    &lt;div class=&quot;content-small description&quot;&gt;
+      &lt;p&gt;
+        The Open Web Server Interface for .NET specification, or OWIN, defines a standard interface for web servers and .NET client applications to interact that frees your code from IIS and System.Web. With &lt;i&gt;OWIN Succinctly&lt;/i&gt;, you will learn how to use Microsoft’s implementation of OWIN with different frameworks, how to write custom middleware to manage requests in the OWIN pipeline, and how to provide different forms of authentication to your web app. Now is the time to see what OWIN is all about—it has been a major influence on the development of ASP.NET v5, and will also be supported in it.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;h3 class=&quot;heading&quot;&gt;Table of Contents &lt;/h3&gt;
+    &lt;ol class=&quot;table-content&quot;&gt;
+      &lt;li class=&quot;content-small&quot;&gt;OWIN&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Katana&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Using Katana with Other Web Frameworks&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Building Custom Middleware&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Authentication with Katana&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Appendix&lt;/li&gt;
+    &lt;/ol&gt;
+
+
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Message Queuing with RabbitMQ Succinctly</title>
+   <link href="http://pbdesk.io/ebooks/Message-Queuing-with-RabbitMQ-Succinctly"/>
+   <updated>2015-06-19T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/ebooks/Message-Queuing-with-RabbitMQ-Succinctly</id>
+   <content type="html">&lt;div class=&quot;download-info&quot;&gt;
+
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;h3 class=&quot;heading&quot;&gt;
+      Message Queuing with RabbitMQ Succinctly
+    &lt;/h3&gt;
+    &lt;div class=&quot;content-small description&quot;&gt;
+      &lt;p&gt;
+        An introduction to the RabbitMQ integration platform with an emphasis on C# and .NET development. Author Stephen Haunts introduces the powerful message broker and queuing system, and guides novices from installation to practical coding. With &lt;i&gt;Message Queuing with RabbitMQ Succinctly&lt;/i&gt;, developers of all levels will be able to integrate multiple systems with ease.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;h3 class=&quot;heading&quot;&gt;Table of Contents &lt;/h3&gt;
+    &lt;ol class=&quot;table-content&quot;&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Message Queuing Overview&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;RabbitMQ Overview&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;AMQP Messaging Standard&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Installing and Configuring RabbitMQ&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Overview of the Management Plug-in&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Administration via the Command Line&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Basic Queue and Message Example&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Working Examples&lt;/li&gt;
+    &lt;/ol&gt;
+
+  &lt;/div&gt;
+
+&lt;/div&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>ASP.NET MVC Succinctly</title>
+   <link href="http://pbdesk.io/ebooks/ASPNET-MVC-Succinctly"/>
+   <updated>2015-06-19T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/ebooks/ASPNET-MVC-Succinctly</id>
+   <content type="html">&lt;div class=&quot;download-info&quot;&gt;
+
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;h3 class=&quot;heading&quot;&gt;
+      ASP.NET MVC Succinctly
+    &lt;/h3&gt;
+    &lt;div class=&quot;content-small description&quot;&gt;
+      &lt;p&gt;
+        ASP.NET MVC is a framework from Microsoft for building web apps. It follows the Model View Controller design pattern to keep the data, views, and logic clearly separated in apps, and encourages developers to follow good coding practices. The framework provides the Razor view engine for creating a consistent look and feel in your apps, and HTML helpers to provide an easy way to design your app without having to write all of the markup on your own. With &lt;i&gt;ASP.NET MVC Succinctly&lt;/i&gt; by Nick Harrison, you will learn how to use these features and more, including how to integrate your app with jQuery, and how to use MVC scaffolding to automatically generate the more tedious portions of your code.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;h3 class=&quot;heading&quot;&gt;Table of Contents &lt;/h3&gt;
+    &lt;ol class=&quot;table-content&quot;&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Conceptual Overview&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;MVC Says Hello World&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;The World Says Hello Back&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Don’t Trust Everything the World Says&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;MVC Meets jQuery&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;MVC Scaffolding&lt;/li&gt;
+    &lt;/ol&gt;
+
+
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Your First Meteor Application</title>
