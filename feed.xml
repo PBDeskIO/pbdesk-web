@@ -5,9 +5,45 @@
     <description>Learning endeavor for ever...from the desk of Pinal Bhatt | PBDesk.io</description>
     <link>http://pbdesk.io/</link>
     <atom:link href="http://pbdesk.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Jun 2015 10:00:11 -0400</pubDate>
-    <lastBuildDate>Fri, 19 Jun 2015 10:00:11 -0400</lastBuildDate>
+    <pubDate>Mon, 22 Jun 2015 09:54:18 -0400</pubDate>
+    <lastBuildDate>Mon, 22 Jun 2015 09:54:18 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Windows 8.1 Succinctly</title>
+        <description>Windows 8.1 Succinctly Harness the power of Windows 8.1 to develop apps across Microsoft platforms. Author Matteo Pagani will guide you from a conceptual understanding of Windows 8.1 to developing...</description>
+        <pubDate>Mon, 22 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/ebooks/Windows-8-1-Succinctly</link>
+        <guid isPermaLink="true">http://pbdesk.io/ebooks/Windows-8-1-Succinctly</guid>
+        
+        <category>Win8</category>
+        
+        <category>eBook</category>
+        
+        <category>Succinctly</category>
+        
+        
+        <category>ebooks</category>
+        
+      </item>
+    
+      <item>
+        <title>More Windows 8.1 Succinctly</title>
+        <description>More Windows 8.1 Succinctly Move beyond the development stage and present your apps to the world. In this final volume, author Matteo Pagani guides you through the process of readying...</description>
+        <pubDate>Mon, 22 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/ebooks/More-Windows-8-1-Succinctly</link>
+        <guid isPermaLink="true">http://pbdesk.io/ebooks/More-Windows-8-1-Succinctly</guid>
+        
+        <category>Win8</category>
+        
+        <category>eBook</category>
+        
+        <category>Succinctly</category>
+        
+        
+        <category>ebooks</category>
+        
+      </item>
     
       <item>
         <title>OWIN Succinctly</title>
