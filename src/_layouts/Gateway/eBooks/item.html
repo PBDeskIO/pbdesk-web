@@ -52,6 +52,13 @@ layout: default
                             {% if page.aboutUs %}
                             <a href="{{ page.aboutUs }}" target="_blank" class="list-group-item"><i class="fa"></i> Website</a>
                             {% endif %}
+                            {% if page.ebookFormats %}
+                            <div class="list-group-item">Available Formats
+                            {% for fmt in page.ebookFormats %}
+                                <div>{{fmt}}</div>
+                            {% endfor %}
+                            </div>
+                            {% endif %}
                         </div>
                     </div>
                 </div>

@@ -10,13 +10,14 @@
                 {% if rEbook == ebook.pageLink %}
                     <div class="col-md-4 col-sm-4" >
                         <div class="features-item">
-                            <h4><a href="{{ebook.url}}">{{ebook.title}}</a></h4>
-                            <a href="{{ebook.url}}"><img src="{{ ebook.image }}" title="{{ ebook.title}}" class="img-responsive img-rounded" /></a>
+                            <h4><a href="{{ebook.url}}">{{ebook.title | truncate: 20}}</a></h4>
                             <p><i class="fa fa-tags"></i>
                                 {% for tag in ebook.tags %}
                                 <span class="label"> <a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a> </span>
                                 {% endfor %}
                             </p>
+                            <a href="{{ebook.url}}"><img src="{{ ebook.image }}" title="{{ ebook.title}}" class="img-responsive img-rounded" /></a>
+
                         </div>
                     </div>
                 {% endif %}
