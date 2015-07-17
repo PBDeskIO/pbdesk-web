@@ -4,13 +4,50 @@
  <title>Pinal Bhatt's Blog</title>
  <link href="http://pbdesk.io/atom.xml" rel="self"/>
  <link href="http://pbdesk.io/"/>
- <updated>2015-06-22T10:26:03-04:00</updated>
+ <updated>2015-07-17T08:03:15-04:00</updated>
  <id>http://pbdesk.io</id>
  <author>
    <name>Pinal Bhatt</name>
    <email>self@PBDesk.io</email>
  </author>
 
+ 
+ <entry>
+   <title>Introducing Windows 10 for IT Professionals</title>
+   <link href="http://pbdesk.io/ebooks/Introducing-Windows-10-for-IT-Professionals"/>
+   <updated>2015-07-17T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/ebooks/Introducing-Windows-10-for-IT-Professionals</id>
+   <content type="html">&lt;div class=&quot;download-info&quot;&gt;
+
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;h3 class=&quot;heading&quot;&gt;
+      Introducing Windows 10 for IT Professionals, Preview Edition
+    &lt;/h3&gt;
+    &lt;div class=&quot;content-small description&quot;&gt;
+      &lt;p&gt;
+        Free ebook: Introducing Windows 10 for IT Professionals, Preview Edition(ISBN 9780735696969), by Ed Bott.
+      &lt;/p&gt;
+      &lt;p&gt;More details &amp; download information available at: &lt;a href=&quot;http://goo.gl/ozp6Vg&quot; target=&quot;_blank&quot;&gt;http://goo.gl/ozp6Vg&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Ed Bott</title>
+   <link href="http://pbdesk.io/people/Ed-Bott"/>
+   <updated>2015-07-17T00:00:00-04:00</updated>
+   <id>http://pbdesk.io/people/Ed-Bott</id>
+   <content type="html">&lt;div&gt;Ed Bott&lt;/div&gt;
+
+
+</content>
+ </entry>
  
  <entry>
    <title>Windows 8.1 Succinctly</title>

@@ -5,9 +5,42 @@
     <description>Learning endeavor for ever...from the desk of Pinal Bhatt | PBDesk.io</description>
     <link>http://pbdesk.io/</link>
     <atom:link href="http://pbdesk.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Jun 2015 10:26:03 -0400</pubDate>
-    <lastBuildDate>Mon, 22 Jun 2015 10:26:03 -0400</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2015 08:03:15 -0400</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2015 08:03:15 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Introducing Windows 10 for IT Professionals</title>
+        <description>Introducing Windows 10 for IT Professionals, Preview Edition Free ebook: Introducing Windows 10 for IT Professionals, Preview Edition(ISBN 9780735696969), by Ed Bott. More details &amp; download information available at: http://goo.gl/ozp6Vg...</description>
+        <pubDate>Fri, 17 Jul 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/ebooks/Introducing-Windows-10-for-IT-Professionals</link>
+        <guid isPermaLink="true">http://pbdesk.io/ebooks/Introducing-Windows-10-for-IT-Professionals</guid>
+        
+        <category>Windows10</category>
+        
+        <category>eBook</category>
+        
+        
+        <category>ebooks</category>
+        
+      </item>
+    
+      <item>
+        <title>Ed Bott</title>
+        <description>Ed Bott
+
+
+</description>
+        <pubDate>Fri, 17 Jul 2015 00:00:00 -0400</pubDate>
+        <link>http://pbdesk.io/people/Ed-Bott</link>
+        <guid isPermaLink="true">http://pbdesk.io/people/Ed-Bott</guid>
+        
+        <category>people</category>
+        
+        
+        <category>people</category>
+        
+      </item>
     
       <item>
         <title>Windows 8.1 Succinctly</title>
@@ -56,7 +89,7 @@
         
         <category>eBook</category>
         
-        <category>DOTNET</category>
+        <category>DotNet</category>
         
         <category>Succinctly</category>
         
