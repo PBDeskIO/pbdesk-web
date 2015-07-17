@@ -27,10 +27,11 @@ layout: default
                     <div id="portfolio-big" class="row" >
                         <!-- Add the above used filter names inside div tag. You can add more than one filter names. For image lightbox you need to include "a" tag pointing to image link, along with the class "prettyphoto". -->
                         {% for post in site.posts %}
+                        {% if post.categories[0] != 'people' %}
                         <div class="col-md-6 col-sm-6 element cus{{ post.categories[0] }}">
 
                             <div class="features-item">
-                                <h4><a href="{{post.url}}">{{post.title}}</a></h4>
+                                <h4><a href="{{post.url}}">{{post.title}} {{post.categories[0]}}</a></h4>
                                 <p>
                                     <i class="fa fa-calendar"></i>&nbsp; {{ post.date | date: "%b %-d, %Y" }} &nbsp;&nbsp;&nbsp;
                                     <span>
@@ -48,6 +49,7 @@ layout: default
                                 </p>
                             </div>
                         </div>
+                        {% endif %}
                         {% endfor %}
 
                     </div>

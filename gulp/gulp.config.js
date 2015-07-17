@@ -4,7 +4,7 @@
     var appFolder = './src/';
     var buildFolder = './serve/';
     var releaseFolder = "./site/";
-    var currentTheme = 'red'; // red blue green
+    var currentTheme = 'blue'; // red blue green
 
 
     module.exports =  {
